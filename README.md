@@ -8,3 +8,5 @@ The application will also have map features which will show where their classes 
 
 # Architecture
 Uses postgresql as the database. The cu class api will be used for getting class information. The backend server should be written in nodejs and hosted on heroku. The frontend will be written using html, javascript, and css.
+
+![Architecture Diagram](./architecture.png)
