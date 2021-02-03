@@ -1,0 +1,22 @@
+{
+  "name": "the-cu-app",
+  "version": "1.0.0",
+  "description": "This application will have many features that students at CU can use to improve their lives",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7.git",
+  "keywords": [
+    "planner",
+    "map",
+    "schedule",
+    "webapp"
+  ],
+  "author": "The Underscores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/issues"
+  },
+  "homepage": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7#readme"
+}
