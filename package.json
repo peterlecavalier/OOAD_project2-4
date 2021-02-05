@@ -22,5 +22,10 @@
   "homepage": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
