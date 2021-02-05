@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/issues"
   },
-  "homepage": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7#readme"
+  "homepage": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
