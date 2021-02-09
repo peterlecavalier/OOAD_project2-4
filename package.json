@@ -1,0 +1,41 @@
+{
+  "name": "the-cu-app",
+  "version": "1.0.0",
+  "description": "This application will have many features that students at CU can use to improve their lives",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "start": "webpack serve --open",
+    "server": "node server.js",
+    "build": "webpack"
+  },
+  "repository": "git+https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7.git",
+  "keywords": [
+    "planner",
+    "map",
+    "schedule",
+    "webapp"
+  ],
+  "author": "The Underscores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/issues"
+  },
+  "homepage": "https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.0.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
