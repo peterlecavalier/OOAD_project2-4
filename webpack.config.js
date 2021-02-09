@@ -11,15 +11,14 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    /*
     new HtmlWebpackPlugin({
       title: 'CS App',
+      template: './templates/index.html',
     }),
-    */
   ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/dist',
+    publicPath: '/',
   },
 }
