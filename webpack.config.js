@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: 'development',
@@ -14,6 +15,11 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new CopyPlugin({
+      patterns: [
+        { from: 'assets', to: 'assets' },
+      ],
+    }),
     new HtmlWebpackPlugin({
       title: 'Home',
       filename: 'index.html',
@@ -52,10 +58,10 @@ module.exports = {
       },
       {
         test: /\.hbs$/i,
-        loader: 'handlebars-loader',
+        use: 'handlebars-loader',
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)/i,
         type: 'asset/resource',
       },
     ],
