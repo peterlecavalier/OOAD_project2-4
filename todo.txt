@@ -1,0 +1,8 @@
+1. style guide, eslint file and formatting
+2. formatting for html
+3. add github action for checking formatting
+4. a template engine
+5. js compiler (webpack, babel)
+6. github action for deploying to heroku or some heroku integration
+7. framework for node router (express?)
+8. test framework

@@ -13,7 +13,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'CS App',
-      template: './templates/index.html',
+      template: './templates/index.hbs',
     }),
   ],
   output: {
@@ -30,6 +30,10 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.hbs$/i,
+        use: ['handlebars-loader'],
       },
     ],
   }
