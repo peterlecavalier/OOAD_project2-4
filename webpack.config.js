@@ -4,7 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: {
+    main: './src/main.js',
+    index: './src/index.js',
+  },
   devtool: 'inline-source-map',
   devServer: {
     contentBase: '/dist',
@@ -12,8 +15,28 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'CS App',
-      template: './templates/index.hbs',
+      title: 'Home',
+      filename: 'index.html',
+      template: 'templates/home.hbs',
+      chunks: ['main', 'index'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'About',
+      filename: 'about.html',
+      template: 'templates/about.hbs',
+      chunks: ['main'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Login',
+      filename: 'login.html',
+      template: 'templates/login.hbs',
+      chunks: ['main'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Register',
+      filename: 'register.html',
+      template: 'templates/register.hbs',
+      chunks: ['main'],
     }),
   ],
   output: {
@@ -28,12 +51,12 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.hbs$/i,
+        loader: 'handlebars-loader',
       },
       {
-        test: /\.hbs$/i,
-        use: ['handlebars-loader'],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   }
