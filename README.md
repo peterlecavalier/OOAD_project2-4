@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+"# 3308SP21_section014_7" 
+"# ElizabethShan_section014_Labs" 
+=======
 # Description
 This application will have many features that students at CU can use to improve their lives. The main feature will be a schedule planner which will allow students to add their classes, clubs, tests, homework, and other activities to their personal schedule. They can also link their calendar to their phone so they can get updates about important events coming up. 
 
@@ -40,3 +44,6 @@ The `home.hbs` file acts as the body of `index.html`.
 Postgresql will be used as the database. The cu class api will be used for getting class information. The backend server will use nodejs and be hosted on heroku. The frontend will be written in html, javascript, and css.
 
 ![Architecture Diagram](./assets/architecture.png)
+>>>>>>> 91ae1bcc9bd4575bb96e4e1a13bd0ff82da4fe5b
+# ElizabethShan_section014_Labs
+# ElizabethShan_section014_Labs
