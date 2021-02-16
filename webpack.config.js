@@ -8,6 +8,7 @@ module.exports = {
   entry: {
     main: './src/main.js',
     index: './src/index.js',
+    signup: './src/signupscripts.js'
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -42,7 +43,7 @@ module.exports = {
       title: 'Register',
       filename: 'register.html',
       template: 'views/register.hbs',
-      chunks: ['main'],
+      chunks: ['main', 'signup'],
     }),
   ],
   output: {

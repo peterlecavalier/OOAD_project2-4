@@ -38,7 +38,11 @@ const port = process.env.PORT || 8000;
 // const publicDirectory = path.join(__dirname, "./styles");
 // app.use(express.static(publicDirectory));
 //
-// app.set('view engine', 'hbs');
+
+app.set('view engine', 'hbs');
+
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
 
 app.use(
   webpackDevMiddleware(compiler, {
@@ -48,11 +52,8 @@ app.use(
 
 app.use(express.static('public'));
 
+app.use("/auth", require("./routes/auth"));
+
 app.listen(port, () => {
   console.log(`CU app listening at http://localhost:${port}`);
 });
-
-// app.get("/", (req, res) => {
-//     res.render("home");
-//     console.log("?");
-// })
