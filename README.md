@@ -27,6 +27,8 @@ Which views correspond to which file is viewable in `webpack.config.js`.
 
 The `home.hbs` file acts as the body of `index.html`.
 
+The contents of `.hbs` files should correspond to the body of a normal `.html` file. Make sure `{{#> layout}}` is at the start and `{{/layout}}` is at the end of the file.
+
 ## yarn
 `yarn start` will start a development server for frontend code.
 
