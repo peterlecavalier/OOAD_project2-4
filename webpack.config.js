@@ -45,6 +45,12 @@ module.exports = {
       template: 'views/register.hbs',
       chunks: ['main', 'signup'],
     }),
+    new HtmlWebpackPlugin({
+      title: 'Add Event',
+      filename: 'addEvent.html',
+      template: 'views/addEvent.hbs',
+      chunks: ['main'],
+    }),
   ],
   output: {
     filename: '[name].bundle.js',
