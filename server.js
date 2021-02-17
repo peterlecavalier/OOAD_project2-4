@@ -54,6 +54,11 @@ app.use(express.static('public'));
 
 app.use('/auth', require('./routes/auth'));
 
+// The 404 Route (ALWAYS Keep this as the last route)
+app.get('*', (req, res) => {
+  res.redirect('assets/404-page.html');
+});
+
 app.listen(port, () => {
   console.log(`CU app listening at http://localhost:${port}`);
 });
