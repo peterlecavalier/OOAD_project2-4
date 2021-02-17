@@ -1,3 +1,7 @@
+[![Lint Code Base](https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+![tests](https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/workflows/Node.js%20CI/badge.svg)
+
+
 # Description
 This application will have many features that students at CU can use to improve their lives. The main feature will be a schedule planner which will allow students to add their classes, clubs, tests, homework, and other activities to their personal schedule. They can also link their calendar to their phone so they can get updates about important events coming up. 
 

@@ -1,6 +1,6 @@
 const mysql = require('mysql');
-const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+// const jwt = require('jsonwebtoken');
 
 const db = mysql.createConnection({
   host: process.env.DATABASE_HOST,
@@ -14,36 +14,33 @@ exports.register = (req, res) => {
     username, email, password, passwordConfirm,
   } = req.body;
 
-  db.query('SELECT email FROM users WHERE email = ?', [email], async (error, results) => {
+  db.query('SELECT email FROM users WHERE email = ?', [email], (error, users) => {
     if (error) {
       console.log(error);
+      res.redirect('assets/404-page.html');
+      return;
     }
 
-    if (results.length > 0) {
-      return res.render('register', {
-        message: 'That email is already in use.',
-      });
-    } if (password !== passwordConfirm) {
-      return res.redirect('register.html');
-      // return res.render("register", {
-      //     message: "The passwords do not match."
-      // });
+    if (users.length > 0) {
+      // the user already exists
+      // TODO: proper error returns
+      res.redirect('back');
     }
 
-    const hashedPassword = await bcrypt.hash(password, 8);
+    if (password !== passwordConfirm) {
+      res.redirect('register.html');
+      // TODO: passwords do not match
+    }
 
-    db.query('INSERT INTO users SET ?', { username, email, password: hashedPassword }, (error, results) => {
-      if (error) {
-        console.log(error);
+    const hashedPassword = bcrypt.hash(password, 8);
+
+    db.query('INSERT INTO users SET ?', { username, email, password: hashedPassword }, (err) => {
+      if (err) {
+        console.log(err);
       } else {
-        return res.redirect('/');
-
-        // return res.render("register", {
-        //     message: "User registred!"
-        // });
+        // TODO: user registered
+        res.redirect('/');
       }
     });
   });
-
-  // res.send("Form submitted");
 };
