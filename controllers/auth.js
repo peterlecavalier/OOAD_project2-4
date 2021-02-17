@@ -24,7 +24,7 @@ exports.register = (req, res) => {
         message: 'That email is already in use.',
       });
     } if (password !== passwordConfirm) {
-      return res.send('<script>window.location.href="../register.html";</script>');
+      return res.redirect('register.html');
       // return res.render("register", {
       //     message: "The passwords do not match."
       // });
@@ -36,7 +36,7 @@ exports.register = (req, res) => {
       if (error) {
         console.log(error);
       } else {
-        return res.send('<script>window.location.href="../index.html";</script>');
+        return res.redirect('/');
 
         // return res.render("register", {
         //     message: "User registred!"
