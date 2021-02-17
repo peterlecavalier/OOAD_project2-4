@@ -1,1 +1,1 @@
-import "../styles/signupstyles.css";
+import '../styles/signupstyles.css';

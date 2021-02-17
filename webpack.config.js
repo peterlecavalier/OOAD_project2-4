@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     main: './src/main.js',
     index: './src/index.js',
-    signup: './src/signupscripts.js'
+    signup: './src/signupscripts.js',
   },
   devtool: 'inline-source-map',
   devServer: {
