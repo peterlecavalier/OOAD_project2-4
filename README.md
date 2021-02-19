@@ -2,13 +2,28 @@
 [![Lint Code Base](https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 ![tests](https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7/workflows/Node.js%20CI/badge.svg)
 
-
 ## Description
 This application will have many features that students at CU can use to improve their lives. The main feature will be a schedule planner which will allow students to add their classes, clubs, tests, homework, and other activities to their personal schedule. They can also link their calendar to their phone so they can get updates about important events coming up.
 
 The application’s schedule feature will include reminders of to-do’s, ability to add tasks to the calendar, and campus event updates. The application will also allow users to create accounts so they access their personal schedule.
 
 The application will also have map features which will show where their classes are and detailed maps of the buildings around campus.
+
+## Dependencies
+- `node`
+- `yarn`
+- `postgres`
+
+## Running the application
+```bash
+yarn server
+```
+Start a node server for api and webpages.
+
+```bash
+yarn start
+```
+Start a development server front end code, this server features automatic reloading of the page on changes.
 
 ## Development
 ### Including frontend javascript
