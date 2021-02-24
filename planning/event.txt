@@ -1,0 +1,7 @@
+fields
+
+name
+author (not in frontend)
+description
+date
+tags
