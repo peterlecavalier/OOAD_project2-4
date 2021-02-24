@@ -34,7 +34,7 @@ async function createUser(req, res, next) {
                       VALUES ($1, $2, $3)
                       RETURNING id`, [username, email, hashedPassword]);
     console.log(insertQuery.rows);
-    res.redirect('login.html');
+    res.redirect('/');
   } catch (err) {
     next(err);
   }
