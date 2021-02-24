@@ -1,46 +1,54 @@
 const mysql = require('mysql');
 const bcrypt = require('bcryptjs');
-// const jwt = require('jsonwebtoken');
+const {pool} = require("../dbconfig");
 
-const db = mysql.createConnection({
-  host: process.env.DATABASE_HOST,
-  user: process.env.DATABASE_USER,
-  password: process.env.DATABASE_PASSWORD,
-  database: process.env.DATABASE,
-});
+exports.register = async (req, res) => {
+  const {username, email, password, passwordConfirm} = req.body;
 
-exports.register = (req, res) => {
-  const {
-    username, email, password, passwordConfirm,
-  } = req.body;
+  let errors = [];
 
-  db.query('SELECT email FROM users WHERE email = ?', [email], (error, users) => {
-    if (error) {
-      console.log(error);
-      res.redirect('assets/404-page.html');
-      return;
-    }
+  if(!username || !email || !password || !passwordConfirm) {
+      errors.push({message: "Please complete all fields."});
+  }
 
-    if (users.length > 0) {
-      // the user already exists
-      // TODO: proper error returns
-      res.redirect('back');
-    }
+  if(password.length < 6) {
+      errors.push({message: "The password should be at least 6 characters."});
+  }
 
-    if (password !== passwordConfirm) {
-      res.redirect('register.html');
-      // TODO: passwords do not match
-    }
+  if(password != passwordConfirm) {
+      errors.push({message: "The passwords do not match."});
+  }
 
-    const hashedPassword = bcrypt.hash(password, 8);
+  if(errors.length > 0) {
+      res.redirect("assets/404-page.html");
+  } else {
+      // Form validation has passed
+      let hashedPassword = await bcrypt.hash(password, 10);
 
-    db.query('INSERT INTO users SET ?', { username, email, password: hashedPassword }, (err) => {
-      if (err) {
-        console.log(err);
-      } else {
-        // TODO: user registered
-        res.redirect('/');
-      }
-    });
-  });
+      pool.query(
+          `SELECT * FROM users WHERE email = $1`, [email], (err, results) => {
+              if(err) {
+                  throw err;
+              }
+
+              if(results.rows.length > 0) {
+                  errors.push({message: "Email already registered"});
+                  res.redirect("assets/404-page.html");
+              } else {
+                  pool.query(
+                      `INSERT INTO users (username, email, password)
+                      VALUES ($1, $2, $3)
+                      RETURNING id, password`, [username, email, hashedPassword], (err, results) => {
+                          if(err) {
+                              throw err;
+                          }
+
+                          console.log(results.rows);
+                          res.redirect('login.html');
+                      }
+                  );
+              }
+          }
+      );
+  }
 };
