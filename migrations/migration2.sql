@@ -1,4 +1,4 @@
-CREATE TABLE events (
+CREATE TABLE IF NOT EXISTS events (
   event_id SERIAL PRIMARY KEY,
   author_id INT,
   summary VARCHAR(255) NOT NULL,

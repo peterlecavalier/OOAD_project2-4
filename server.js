@@ -64,6 +64,7 @@ app.use(
 app.use(express.static('public'));
 
 app.use('/auth', require('./routes/auth'));
+app.use('/api/event', require('./routes/event'));
 
 // The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (req, res) => {
