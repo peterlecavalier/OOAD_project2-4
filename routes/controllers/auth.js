@@ -17,19 +17,16 @@ exports.register = (req, res) => {
   db.query('SELECT email FROM users WHERE email = ?', [email], (error, users) => {
     if (error) {
       console.log(error);
-      res.redirect('assets/404-page.html');
+      res.render('register', {message: error});
       return;
     }
 
     if (users.length > 0) {
-      // the user already exists
-      // TODO: proper error returns
-      res.redirect('back');
+      res.render('register', {message: 'User already exists'});
     }
 
     if (password !== passwordConfirm) {
-      res.redirect('register.html');
-      // TODO: passwords do not match
+      res.render('register', {message: 'Passwords do no match'});
     }
 
     const hashedPassword = bcrypt.hash(password, 8);
@@ -38,7 +35,6 @@ exports.register = (req, res) => {
       if (err) {
         console.log(err);
       } else {
-        // TODO: user registered
         res.redirect('/');
       }
     });
