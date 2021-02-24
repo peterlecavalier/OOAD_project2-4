@@ -4,11 +4,11 @@ const authController = require('./controllers/auth');
 const router = express.Router();
 
 router.get('/register', (req, res) => {
-  res.render('register');
+  res.render('user/register');
 });
 
 router.get('/login', (req, res) => {
-  res.render('login');
+  res.render('user/login');
 });
 
 router.post('/register', authController.register);

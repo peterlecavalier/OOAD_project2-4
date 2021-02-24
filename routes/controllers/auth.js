@@ -17,16 +17,16 @@ exports.register = (req, res) => {
   db.query('SELECT email FROM users WHERE email = ?', [email], (error, users) => {
     if (error) {
       console.log(error);
-      res.render('register', {message: error});
+      res.render('user/register', { message: error });
       return;
     }
 
     if (users.length > 0) {
-      res.render('register', {message: 'User already exists'});
+      res.render('user/register', { message: 'User already exists' });
     }
 
     if (password !== passwordConfirm) {
-      res.render('register', {message: 'Passwords do no match'});
+      res.render('user/register', { message: 'Passwords do no match' });
     }
 
     const hashedPassword = bcrypt.hash(password, 8);

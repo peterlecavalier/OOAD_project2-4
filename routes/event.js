@@ -5,7 +5,11 @@ const client = new Client();
 const router = express.Router();
 
 router.get('/create', (req, res) => {
-  res.render('addEvent');
+  res.render('event/create');
+});
+
+router.get('/list', (req, res) => {
+  res.render('event/list');
 });
 
 router.post('/create', async (req, res) => {
