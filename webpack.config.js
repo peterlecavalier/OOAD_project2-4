@@ -18,14 +18,15 @@ module.exports = {
     new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: 'assets', to: 'assets' },
+        { from: 'public/images', to: 'images' },
       ],
     }),
+    /*
     new HtmlWebpackPlugin({
       title: 'Home',
       filename: 'index.html',
       template: 'views/home.hbs',
-      chunks: ['main', 'index'],
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       title: 'About',
@@ -51,9 +52,10 @@ module.exports = {
       template: 'views/addEvent.hbs',
       chunks: ['main'],
     }),
+    */
   ],
   output: {
-    filename: '[name].bundle.js',
+    filename: 'js/[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
   },
@@ -62,14 +64,6 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.hbs$/i,
-        use: 'handlebars-loader',
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)/i,
-        type: 'asset/resource',
       },
     ],
   },
