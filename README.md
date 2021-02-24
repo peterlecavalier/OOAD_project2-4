@@ -20,7 +20,7 @@ Make sure to first build the frontend code. You will need to run this to run thi
 yarn build
 ```
 
-Start a node server for api and webpages.
+Start a node server for api and webpages. The port is 3000 by default.
 ```bash
 yarn start
 ```
@@ -28,6 +28,15 @@ Alternatively, you can use start a development server which will watch for chang
 ```bash
 yarn dev
 ```
+
+### Debugging
+[The](The) environment variable `DEBUG` can be used to print debugging information.
+```bash
+DEBUG=* yarn dev
+```
+This will start the development server and show all debugging information. A more useful option is `DEBUG=cu-app:*` which will just show debugging information related to this project. 
+
+Read more about the debug module at https://www.npmjs.com/package/debug.
 
 ## Development
 ### Including frontend javascript
