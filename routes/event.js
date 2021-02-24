@@ -8,10 +8,6 @@ router.get('/list', (req, res) => {
   res.render('event/list');
 });
 
-router.get('/:eventId', (req, res) => {
-  res.render('event/detail', { id: req.params.eventId });
-});
-
 router.get('/create', (req, res) => {
   res.render('event/create');
 });
@@ -32,6 +28,10 @@ router.post('/create', async (req, res, next) => {
   } catch (err) {
     next(err);
   }
+});
+
+router.get('/:eventId', (req, res) => {
+  res.render('event/detail', { id: req.params.eventId });
 });
 
 module.exports = router;
