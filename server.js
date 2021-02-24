@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require("path");
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
@@ -21,24 +20,24 @@ await client.end()
 
 
 //  --- MySQL Database Code ---
-const mysql = require("mysql");
-const dotenv = require("dotenv");
+const mysql = require('mysql');
+const dotenv = require('dotenv');
 
-dotenv.config({path: "./passwords.env"})
+dotenv.config({ path: './passwords.env' });
 
 const db = mysql.createConnection({
-    host: process.env.DATABASE_HOST,
-    user: process.env.DATABASE_USER,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE
+  host: process.env.DATABASE_HOST,
+  user: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,
+  database: process.env.DATABASE,
 });
 
 db.connect((error) => {
-    if(error) {
-        console.log(error);
-    } else {
-        console.log("MySQL Connected...");
-    }
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('MySQL Connected...');
+  }
 });
 
 // Go to this link: http://localhost/phpmyadmin/
@@ -58,7 +57,7 @@ const port = process.env.PORT || 8000;
 
 app.set('view engine', 'hbs');
 
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(
@@ -69,7 +68,12 @@ app.use(
 
 app.use(express.static('public'));
 
-app.use("/auth", require("./routes/auth"));
+app.use('/auth', require('./routes/auth'));
+
+// The 404 Route (ALWAYS Keep this as the last route)
+app.get('*', (req, res) => {
+  res.redirect('assets/404-page.html');
+});
 
 app.listen(port, () => {
   console.log(`CU app listening at http://localhost:${port}`);

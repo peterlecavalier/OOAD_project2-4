@@ -1,56 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-            <a class="navbar-brand" href="#">CU App</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.html">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-            </ul>
-        </nav>
-        <div id="form-container">
-            <h3>Register Form</h3>
-            <form action="/auth/register" method="POST">
-                <div class="form-group">
-                    <label for="username">Create Username:</label>
-                    <input type="text" class="form-control" id="username" name="username">
-                </div>
-                <div class="form-group">
-                    <label for="email">Enter Email:</label>
-                    <input type="email" class="form-control" id="email" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="password">Create Password:</label>
-                    <input type="password" class="form-control" id="password" name="password">
-                </div>
-                <div class="form-group">
-                    <label for="passwordConfirm">Confirm Password:</label>
-                    <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Register</button>
-            </form>
+{{#> layout}}
+<div id="form-container">
+    <h3>Register Form</h3>
+    <form action="/auth/register" method="POST">
+        <div class="form-group">
+            <label for="username">Create Username:</label>
+            <input type="text" class="form-control" id="username" name="username">
+        </div>
+        <div class="form-group">
+            <label for="email">Enter Email:</label>
+            <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Create Password:</label>
+            <input type="password" class="form-control" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <label for="passwordConfirm">Confirm Password:</label>
+            <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm">
         </div>
 
-        {{#if message}}
-            <h4 class="alert alert-danger">{{message}}</h4>
-        {{/if}}
-    </body>
-</html>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+</div>
+
+{{#if message}}
+    <h4 class="alert alert-danger">{{message}}</h4>
+{{/if}}
+{{/layout}}

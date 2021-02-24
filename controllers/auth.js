@@ -1,47 +1,46 @@
-const mysql = require("mysql");
-const jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
+const mysql = require('mysql');
+const bcrypt = require('bcryptjs');
+// const jwt = require('jsonwebtoken');
 
 const db = mysql.createConnection({
-    host: process.env.DATABASE_HOST,
-    user: process.env.DATABASE_USER,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE
+  host: process.env.DATABASE_HOST,
+  user: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,
+  database: process.env.DATABASE,
 });
 
 exports.register = (req, res) => {
-    const {username, email, password, passwordConfirm} = req.body;
+  const {
+    username, email, password, passwordConfirm,
+  } = req.body;
 
-    db.query("SELECT email FROM users WHERE email = ?", [email], async (error, results) => {
-        if(error) {
-            console.log(error);
-        }
+  db.query('SELECT email FROM users WHERE email = ?', [email], (error, users) => {
+    if (error) {
+      console.log(error);
+      res.redirect('assets/404-page.html');
+      return;
+    }
 
-        if(results.length > 0) {
-            return res.render("register", {
-                message: "That email is already in use."
-            });
-        } else if(password != passwordConfirm) {
-            return res.send('<script>window.location.href="../register.html";</script>');
-            // return res.render("register", {
-            //     message: "The passwords do not match."
-            // });
-        }
+    if (users.length > 0) {
+      // the user already exists
+      // TODO: proper error returns
+      res.redirect('back');
+    }
 
-        let hashedPassword = await bcrypt.hash(password, 8);
+    if (password !== passwordConfirm) {
+      res.redirect('register.html');
+      // TODO: passwords do not match
+    }
 
-        db.query("INSERT INTO users SET ?", {username: username, email: email, password: hashedPassword}, (error, results) => {
-            if(error) {
-                console.log(error);
-            } else {
-                return res.send('<script>window.location.href="../index.html";</script>');
+    const hashedPassword = bcrypt.hash(password, 8);
 
-                // return res.render("register", {
-                //     message: "User registred!"
-                // });
-            }
-        });
+    db.query('INSERT INTO users SET ?', { username, email, password: hashedPassword }, (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        // TODO: user registered
+        res.redirect('/');
+      }
     });
-
-    // res.send("Form submitted");
-}
+  });
+};

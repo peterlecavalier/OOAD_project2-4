@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     main: './src/main.js',
     index: './src/index.js',
-    signup: './src/signupscripts.js'
+    signup: './src/signupscripts.js',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -44,6 +44,12 @@ module.exports = {
       filename: 'register.html',
       template: 'views/register.hbs',
       chunks: ['main', 'signup'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Add Event',
+      filename: 'addEvent.html',
+      template: 'views/addEvent.hbs',
+      chunks: ['main'],
     }),
   ],
   output: {
