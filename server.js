@@ -3,6 +3,23 @@ const path = require("path");
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
+
+// Admin: http://127.0.0.1:50500/browser/
+
+
+
+// --- Postgres Database //
+
+const Client = require("pg").Client;
+const client = new Client();
+await client.connect();
+
+const res = await client.query("SELECT $1::text as message", ["Hello world!"])
+console.log(res.rows[0].message);
+await client.end()
+
+
+
 //  --- MySQL Database Code ---
 const mysql = require("mysql");
 const dotenv = require("dotenv");
