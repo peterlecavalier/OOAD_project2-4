@@ -11,6 +11,6 @@ router.get('/login', (req, res) => {
   res.render('user/login');
 });
 
-router.post('/register', authController.register);
+router.post('/register', authController.createUser);
 
 module.exports = router;

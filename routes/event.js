@@ -13,11 +13,13 @@ router.get('/create', (req, res) => {
 });
 
 router.post('/create', async (req, res, next) => {
-  let summary;
-  let description;
-  let startTime;
-  let allDay;
-  let tags;
+  const {
+    summary,
+    description,
+    startTime,
+    allDay,
+    tags,
+  } = req.body;
 
   try {
     const queryString = 'INSERT INTO events (summary, description, time_start, all_day, tags) VALUES($1, $2, $3, $4, $5) RETURNING event_id';
