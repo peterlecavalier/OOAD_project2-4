@@ -4,15 +4,19 @@ const { Client } = require('pg');
 const client = new Client();
 const router = express.Router();
 
-router.get('/create', (req, res) => {
-  res.render('event/create');
-});
-
 router.get('/list', (req, res) => {
   res.render('event/list');
 });
 
-router.post('/create', async (req, res) => {
+router.get('/:eventId', (req, res) => {
+  res.render('event/detail', { id: req.params.eventId });
+});
+
+router.get('/create', (req, res) => {
+  res.render('event/create');
+});
+
+router.post('/create', async (req, res, next) => {
   let summary;
   let description;
   let startTime;
@@ -26,7 +30,7 @@ router.post('/create', async (req, res) => {
     const { eventId } = result.rows[0];
     res.redirect(`/events/${eventId}`);
   } catch (err) {
-    console.log(err);
+    next(err);
   }
 });
 
