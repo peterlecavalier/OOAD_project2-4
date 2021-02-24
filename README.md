@@ -15,22 +15,26 @@ The application will also have map features which will show where their classes 
 - `postgres`
 
 ## Running the application
+Make sure to first build the frontend code. You will need to run this to run this whenever you change code in `public/js/`.
 ```bash
-yarn server
+yarn build
 ```
-Start a node server for api and webpages.
 
+Start a node server for api and webpages.
 ```bash
 yarn start
 ```
-Start a development server front end code, this server features automatic reloading of the page on changes.
+Alternatively, you can use start a development server which will watch for changes. This means that you do not need to manually restart the server after changing code.
+```bash
+yarn dev
+```
 
 ## Development
 ### Including frontend javascript
 For frontend code, certain files are used as entry points and compiled into chunks.
 Those are listed in `webpack.config.js`.
-To configure what javascript files should be used, edit `webpack.config.js`.
-What chunks are used for which views can be edited in `webpack.config.js`.
+You can then use those chunks in html files. 
+Chunks will be compiled to `/js/[name].bundle.js`. Please include those files to run scripts in your html code.
 
 ### Including css
 If you want to use a style sheet, include them in the relevent javascript file, rather than the view files.
@@ -47,17 +51,12 @@ Which views correspond to which file is viewable in `webpack.config.js`.
 
 The `home.hbs` file acts as the body of `index.html`.
 
-The contents of `.hbs` files should correspond to the body of a normal `.html` file. Make sure `{{#> layout}}` is at the start and `{{/layout}}` is at the end of the file.
-
-A html development server can be run using `yarn start`. This will recompile the html files when they are changed.
-Those changes are also automatically show up in the browser.
-
 ### yarn
-`yarn start` will start a development server for frontend code.
-
-`yarn server` will run server side code.
+`yarn start` will start the node server.
 
 `yarn lint` will check the formatting for javascript code.
+
+`yarn lint-css` will check the formatting for css files.
 
 `yarn test` will run javascript tests.
 
