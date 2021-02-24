@@ -1,7 +1,8 @@
 const express = require('express');
 const { Client } = require('pg');
+
 const client = new Client();
-await client.connect();
+let router = express.Router();
 
 router.post('/create', async (req, res) => {
   let summary;
@@ -20,8 +21,5 @@ router.post('/create', async (req, res) => {
     console.log(err);
   }
 });
-
-
-const router = express.Router();
 
 module.exports = router;
