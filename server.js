@@ -1,7 +1,23 @@
 const express = require('express');
-const path = require('path');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
+
+
+// Admin: http://127.0.0.1:50500/browser/
+
+
+
+// --- Postgres Database //
+
+const Client = require("pg").Client;
+const client = new Client();
+await client.connect();
+
+const res = await client.query("SELECT $1::text as message", ["Hello world!"])
+console.log(res.rows[0].message);
+await client.end()
+
+
 
 //  --- MySQL Database Code ---
 const mysql = require('mysql');
@@ -53,6 +69,11 @@ app.use(
 app.use(express.static('public'));
 
 app.use('/auth', require('./routes/auth'));
+
+// The 404 Route (ALWAYS Keep this as the last route)
+app.get('*', (req, res) => {
+  res.redirect('assets/404-page.html');
+});
 
 app.listen(port, () => {
   console.log(`CU app listening at http://localhost:${port}`);
