@@ -7,6 +7,7 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
 const eventRouter = require('./routes/event');
+const aboutRouter = require('./routes/about');
 
 let app = express();
 
@@ -21,6 +22,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use('/', indexRouter);
+app.use('/about', aboutRouter);
 app.use('/event', eventRouter);
 app.use('/auth', authRouter);
 

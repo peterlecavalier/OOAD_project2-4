@@ -4,6 +4,10 @@ const { Client } = require('pg');
 const client = new Client();
 let router = express.Router();
 
+router.get('/create', function(req, res, next) {
+  res.render('addEvent');
+});
+
 router.post('/create', async (req, res) => {
   let summary;
   let description;
