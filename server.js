@@ -2,11 +2,6 @@ const express = require('express');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
-
-// Admin: http://127.0.0.1:50500/browser/
-
-
-
 // --- Postgres Database //
 
 const Client = require("pg").Client;
