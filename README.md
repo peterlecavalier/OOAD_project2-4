@@ -14,6 +14,18 @@ The application will also have map features which will show where their classes 
 - `yarn`
 - `postgres`
 
+## Setup database
+Make sure to run each file in `migrations/` in your database. They should be run in numerical order.
+
+Create a `.env` file to store your database credentials at the root of the repository. Here is an example.
+```bash
+PGUSER=username
+PGHOST=localhost
+PGPASSWORD=password1
+PGDATABASE=mydb
+PGPORT=5432
+```
+
 ## Running the application
 Make sure to first build the frontend code. You will need to run this to run this whenever you change code in `public/js/`.
 ```bash
