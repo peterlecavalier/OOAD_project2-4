@@ -5,9 +5,9 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/main.js',
-    index: './src/index.js',
-    signup: './src/signupscripts.js',
+    main: './public/js/main.js',
+    index: './public/js/index.js',
+    signup: './public/js/signupscripts.js',
   },
   devtool: 'inline-source-map',
   devServer: {

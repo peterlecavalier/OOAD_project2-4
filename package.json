@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "lint": "eslint . && stylelint **/*.css",
+    "lint": "eslint .",
+    "lint-css": "stylelint **/*.css",
     "start-old": "webpack serve --open",
     "start": "node ./bin/www",
     "server": "node server.js",
