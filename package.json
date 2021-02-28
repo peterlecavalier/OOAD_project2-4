@@ -46,6 +46,8 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "pg": "^8.5.1",
     "webpack": "^5.21.2",
     "webpack-dev-middleware": "^4.1.0"
