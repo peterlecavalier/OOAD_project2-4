@@ -1,0 +1,18 @@
+<div class="d-flex flex-wrap">
+  {{#each eventList}}
+
+  <div class="card ms-3 mb-3" style="width: 20rem;">
+    <div class="card-body">
+      <a href="{{this.event_id}}">
+        <h5 class="card-title">{{this.summary}}</h5>
+      </a>
+      <p class="card-text">
+      {{this.description}}
+      <br>
+      {{this.time_start}}
+      </p>
+    </div>
+  </div>
+
+  {{/each}}
+</div>

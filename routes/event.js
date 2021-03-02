@@ -4,8 +4,14 @@ const { pool } = require('./controllers/dbConfig');
 
 const router = express.Router();
 
-router.get('/list', (req, res) => {
-  res.render('event/list');
+router.get('/list', async (req, res, next) => {
+  try {
+    const queryString = 'SELECT event_id, summary, description, time_start FROM events';
+    const results = await pool.query(queryString);
+    res.render('event/list', {eventList: results.rows});
+  } catch (err) {
+    next(err);
+  }
 });
 
 router.get('/create', (req, res) => {
