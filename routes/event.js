@@ -8,7 +8,7 @@ router.get('/list', async (req, res, next) => {
   try {
     const queryString = 'SELECT event_id, summary, description, time_start FROM events';
     const results = await pool.query(queryString);
-    res.render('event/list', {eventList: results.rows});
+    res.render('event/list', { eventList: results.rows });
   } catch (err) {
     next(err);
   }
@@ -43,22 +43,21 @@ router.post('/create', async (req, res, next) => {
 });
 
 router.get('/:eventId', async (req, res, next) => {
-  let id = req.params.eventId;
-  if (isNaN(id)) {
-    next();
+  const id = req.params.eventId;
+  if (Number.isNaN(id)) {
     return;
   }
 
   try {
     const queryString = 'SELECT summary, description, time_start, all_day, tags FROM events WHERE event_id = $1';
     const results = await pool.query(queryString, [id]);
-    const rows = results.rows;
+    const { rows } = results;
     if (rows.length === 0) {
       next();
       return;
     }
-    let event = rows[0];
-    res.render('event/detail', {event});
+    const event = rows[0];
+    res.render('event/detail', { event });
   } catch (err) {
     next(err);
   }
