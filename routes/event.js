@@ -1,6 +1,7 @@
 const express = require('express');
 
-const {pool} = require('./controllers/dbconfig');
+const { pool } = require('./controllers/dbConfig');
+
 const router = express.Router();
 
 router.get('/list', (req, res) => {
@@ -12,7 +13,6 @@ router.get('/create', (req, res) => {
 });
 
 router.post('/create', async (req, res, next) => {
-  console.log(req.body);
   const {
     summary,
     description,
