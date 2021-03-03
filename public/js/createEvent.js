@@ -1,5 +1,5 @@
 import '../styles/createEvent.css';
-import { Modal } from 'bootstrap';
+import { Modal as _ } from 'bootstrap';
 
 const tags = ['Academic', 'Social', 'Athletics', 'Engineering', 'Arts and Sciences'];
 
@@ -14,7 +14,7 @@ function loadTags() {
   }
 }
 
-window.openModal = function () {
+window.openModal = () => {
   console.log('load');
   loadTags();
   const name = document.getElementById('eventName');
