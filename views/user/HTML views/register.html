@@ -1,11 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-<script>
-  // compile the template
-  var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
-  // execute the compiled template and print the output to the console
-  console.log(template({ doesWhat: "rocks!" }));
-</script>
-
+<!-- HTML file for browser view + testing -->
 <div id="form-container">
     <h3>Register Form</h3>
     <form id="user-form" action="/auth/register" method="POST">
@@ -31,6 +24,9 @@
         <br>
 
         <button id="formSubmit" type="submit" class="btn btn-primary">Register</button>
+        <div class="container signin">
+            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </div>
     </form>
 </div>
 
