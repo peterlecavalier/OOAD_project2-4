@@ -5,3 +5,11 @@ author (not in frontend)
 description
 date
 tags
+
+The handler for creating events is at /event/create
+It expects these values to be included (case-sensitive):
+  summary
+  description
+  startTime
+  allDay
+  tags
