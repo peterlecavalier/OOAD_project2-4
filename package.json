@@ -10,6 +10,7 @@
     "lint-css": "stylelint **/*.css",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
+    "watch": "webpack --watch",
     "build": "webpack"
   },
   "repository": "git+https://github.com/CSCI-3308-CU-Boulder/3308SP21_section014_7.git",

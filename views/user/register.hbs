@@ -1,6 +1,6 @@
 <div id="form-container">
     <h3>Register Form</h3>
-    <form action="/auth/register" method="POST">
+    <form id="user-form" action="/auth/register" method="POST">
         <div class="form-group">
             <label for="username">Create Username:</label>
             <input type="text" class="form-control" id="username" name="username">
@@ -18,10 +18,16 @@
             <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm">
         </div>
 
-        <button type="submit" class="btn btn-primary">Register</button>
+        <br>
+        <h5 class="text-danger" id="form-error-message"></h5>
+        <br>
+
+        <button id="formSubmit" type="submit" class="btn btn-primary">Register</button>
     </form>
 </div>
 
 {{#if message}}
     <h4 class="alert alert-danger">{{message}}</h4>
 {{/if}}
+
+<script src="/js/signup.bundle.js"></script>
