@@ -8,6 +8,7 @@ module.exports = {
     main: './public/js/main.js',
     index: './public/js/index.js',
     signup: './public/js/signupscripts.js',
+    createEvent: './public/js/createEvent',
   },
   devtool: 'inline-source-map',
   devServer: {
