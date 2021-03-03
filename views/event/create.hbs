@@ -27,8 +27,20 @@
           <textarea type="text" id="eventDescription" name="eventDescription" class="form-control" placeholder="Type Here" rows="4" cols="50"></textarea>
         </div>
         <div class="form-group">
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" class="form-control" placeholder="MM/DD/YYYY">
+          <label for="date" id="date">Date:</label>
+          <input type="date" id="date" name="date" class="form-control">
+          <input type="checkbox" id="multiDay" name="multiDay" value="multiDay">
+          <label for="multiDay">Multiday</label>
+        </div>
+        <div class="form-group">
+          <label for="startTime" id="startLabel">Start Time:</label>
+          <input type="time" id="startTime" name="startTime" class="form-control">
+          <input type="checkbox" id="allDay" name="allDay" value="allDay">
+          <label for="allDay">All Day</label>
+        </div>
+        <div class="form-group">
+          <label for="endTime" id="endLabel">End Time:</label>
+          <input type="time" id="endTime" name="endTime" class="form-control">
         </div>
         <div class="form-group">
           <div class="dropdown">
@@ -44,6 +56,9 @@
               <option value="social">Social</option>
             </select>
           </div>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" class="btn btn-primary btn-block" data-bs-dismiss="modal">
         </div>
       </div>
     </div>
