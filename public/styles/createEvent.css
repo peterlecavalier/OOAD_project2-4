@@ -1,0 +1,45 @@
+.modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+  position: relative;
+  justify-content: center;
+}
+
+.modal-header h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
+}
+
+.modal-header .btn {
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+}
+
+.modal-body .form-control:focus {
+  border-color: #70c5c0;
+}
+
+.modal-header .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.modal-dialog {
+  margin-top: 80px;
+}
+
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
