@@ -1,7 +1,24 @@
 import '../styles/createEvent.css';
-import { Modal } from 'bootstrap';
+import { Modal as _ } from 'bootstrap';
 
+<<<<<<< HEAD
 window.openModal = function () {
+=======
+const tags = ['Academic', 'Social', 'Athletics', 'Engineering', 'Arts and Sciences'];
+
+function loadTags() {
+  const menu = document.getElementById('tags');
+  for (let tagIndex = 0; tagIndex < tags.length; tagIndex++) {
+    const tag = document.createElement('a');
+    tag.classList.add('dropdown-item');
+    tag.href = '#';
+    tag.innerHTML = tags[tagIndex].name;
+    menu.appendChild(tag);
+  }
+}
+
+window.openModal = () => {
+>>>>>>> 8e945e27a326e07ea8c1866232bfece998b8e903
   console.log('load');
   const name = document.getElementById('eventName');
   name.value = '';

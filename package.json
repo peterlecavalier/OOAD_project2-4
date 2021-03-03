@@ -8,7 +8,6 @@
     "test": "jest",
     "lint": "eslint .",
     "lint-css": "stylelint **/*.css",
-    "start-old": "webpack serve --open",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "build": "webpack"

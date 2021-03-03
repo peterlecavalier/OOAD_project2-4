@@ -8,6 +8,14 @@ router.get('/list', async (req, res, next) => {
   try {
     const queryString = 'SELECT event_id, summary, description, time_start FROM events';
     const results = await pool.query(queryString);
+    /* [{
+     * summary: thing,
+     * descript: string,
+     * ...
+     * },
+     * ..
+     * ]
+     */
     res.render('event/list', { eventList: results.rows });
   } catch (err) {
     next(err);

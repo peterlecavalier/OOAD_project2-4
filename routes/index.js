@@ -17,4 +17,9 @@ router.get('/sitemap', (req, res) => {
   res.render('sitemap');
 });
 
+/* GET map */
+router.get('/map', (req, res) => {
+  res.render('map');
+});
+
 module.exports = router;

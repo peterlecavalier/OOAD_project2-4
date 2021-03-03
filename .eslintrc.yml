@@ -9,6 +9,11 @@ parserOptions:
   sourceType: module
 rules:
   no-console: off
+  no-plusplus: off
+  no-unused-vars:
+  - 'error'
+  - varsIgnorePattern: ^_
+    argsIgnorePattern: ^_
 overrides:
   - files:
     - '**/*.test.js'
