@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const passport = require("passport");
+const passport = require('passport');
 
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
@@ -11,7 +11,8 @@ const eventRouter = require('./routes/event');
 
 const app = express();
 
-const initializePassport = require("./routes/controllers/passportConfig.js");
+const initializePassport = require('./routes/controllers/passportConfig.js');
+
 initializePassport(passport);
 
 app.use(passport.initialize());
@@ -36,14 +37,17 @@ app.use('/', indexRouter);
 app.use('/event', eventRouter);
 app.use('/auth', authRouter);
 
-
 // catch 404 and forward to error handler
 app.use((_req, _res, next) => {
   next(createError(404));
 });
 
 // error handler
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
+  if (res.headersSent) {
+    next(err);
+    return;
+  }
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

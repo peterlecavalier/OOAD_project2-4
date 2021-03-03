@@ -1,61 +1,65 @@
-const LocalStrategy = require("passport-local").Strategy;
-const { pool } = require("./dbConfig");
-const bcrypt = require("bcryptjs");
+const LocalStrategy = require('passport-local').Strategy;
+const bcrypt = require('bcryptjs');
+const { pool } = require('./dbConfig');
 
 function initialize(passport) {
-    const authenticateUser = (email, password, done) => {
-        pool.query(
-            `SELECT * FROM users WHERE email = $1`, [email], (err, results) => {
-                if(err) {
-                    throw err;
-                }
+  const authenticateUser = (email, password, done) => {
+    pool.query(
+      'SELECT * FROM users WHERE email = $1', [email], (queryErr, results) => {
+        if (queryErr) {
+          done(queryErr);
+          return;
+        }
 
-                console.log(results.rows);
+        console.log(results.rows);
 
-                if(results.rows.length > 0) {
-                    const user = results.rows[0];
+        if (results.rows.length === 0) {
+          done(null, false, { message: 'There is no account with this email!' });
+          return;
+        }
 
-                    bcrypt.compare(password, user.password, (err, isMatch) => {
-                        if(err) {
-                            throw err;
-                        }
+        const user = results.rows[0];
 
-                        if(isMatch) {
-                            return done(null, user);
-                        } else {
-                            return done(null, false, {message: "Password is not correct!"});
-                        }
-                    });
-                } else {
-                    return done(null, false, {message: "There is no account with this email!"});
-                }
-            }
-        )
-    }
+        bcrypt.compare(password, user.password, (validationErr, isMatch) => {
+          if (validationErr) {
+            done(validationErr);
+            return;
+          }
 
-    passport.use(
-        new LocalStrategy(
-            {
-                usernameField: "email",
-                passwordField: "password"
-            },
-            authenticateUser
-        )
+          if (!isMatch) {
+            done(null, false, { message: 'Password is not correct!' });
+            return;
+          }
+
+          done(null, user);
+        });
+      },
     );
+  };
 
-    passport.serializeUser((user, done) => done(null, user.id));
+  passport.use(
+    new LocalStrategy(
+      {
+        usernameField: 'email',
+        passwordField: 'password',
+      },
+      authenticateUser,
+    ),
+  );
 
-    passport.deserializeUser((id, done) => {
-        pool.query(
-            `SELECT * FROM users WHERE id = $1`, [id], (err, results) => {
-                if(err) {
-                    throw err;
-                }
+  passport.serializeUser((user, done) => done(null, user.id));
 
-                return done(null, results.rows[0]);
-            }
-        );
-    });
+  passport.deserializeUser((id, done) => {
+    pool.query(
+      'SELECT * FROM users WHERE id = $1', [id], (err, results) => {
+        if (err) {
+          throw err;
+        }
+
+        return done(null, results.rows[0]);
+      },
+    );
+  });
 }
 
 module.exports = initialize;

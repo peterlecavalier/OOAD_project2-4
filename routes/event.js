@@ -1,10 +1,21 @@
 const express = require('express');
 
-const {pool} = require('./controllers/dbconfig');
+const { pool } = require('./controllers/dbConfig');
+
 const router = express.Router();
 
-router.get('/list', (req, res) => {
-  res.render('event/list');
+router.get('/list', async (req, res, next) => {
+  try {
+    const queryString = 'SELECT event_id, summary, description, time_start FROM events';
+    const results = await pool.query(queryString);
+    res.render('event/list', { eventList: results.rows });
+  } catch (err) {
+    next(err);
+  }
+});
+
+router.get('/', (req, res) => {
+  res.redirect('/event/list');
 });
 
 router.get('/create', (req, res) => {
@@ -12,7 +23,6 @@ router.get('/create', (req, res) => {
 });
 
 router.post('/create', async (req, res, next) => {
-  console.log(req.body);
   const {
     summary,
     description,
@@ -25,7 +35,6 @@ router.post('/create', async (req, res, next) => {
     const queryString = 'INSERT INTO events (summary, description, time_start, all_day, tags) VALUES ($1, $2, $3, $4, $5) RETURNING event_id';
     const values = [summary, description, startTime, allDay, tags];
     const result = await pool.query(queryString, values);
-    console.log(result);
     const eventId = result.rows[0].event_id;
     res.redirect(`/event/${eventId}`);
   } catch (err) {
@@ -33,8 +42,25 @@ router.post('/create', async (req, res, next) => {
   }
 });
 
-router.get('/:eventId', (req, res) => {
-  res.render('event/detail', { id: req.params.eventId });
+router.get('/:eventId', async (req, res, next) => {
+  const id = req.params.eventId;
+  if (Number.isNaN(id)) {
+    return;
+  }
+
+  try {
+    const queryString = 'SELECT summary, description, time_start, all_day, tags FROM events WHERE event_id = $1';
+    const results = await pool.query(queryString, [id]);
+    const { rows } = results;
+    if (rows.length === 0) {
+      next();
+      return;
+    }
+    const event = rows[0];
+    res.render('event/detail', { event });
+  } catch (err) {
+    next(err);
+  }
 });
 
 module.exports = router;
