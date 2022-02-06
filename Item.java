@@ -3,7 +3,7 @@ package FNMS;
 import java.util.Arrays;
 import java.util.List;
 
-public class Item {
+public abstract class Item {
     //instance variables
     private String name;
     private Double purchasePrice;
@@ -15,105 +15,85 @@ public class Item {
     private int daySold;
 
     //Constructor 
-    public Item(String name, Double purchasePrice, Double listPrice,String newOrUsed,String dayArrived,String condition, Double salePrice, int daySold){
-
+    public Item(String n, Double purchaseP, Double listP, String nOrU, int dayArr, String cond){
+        // salePrice and daySold will be set when the item is sold, not initialized here
+        name = n;
+        purchasePrice = purchaseP;
+        listPrice = listP;
+        newOrUsed = nOrU;
+        dayArrived = dayArr;
+        condition = cond;
     }
-}
-
-//Music subclass and the subclasses of music 
-public class Music extends Item{
-        
-}
-public class PaperScore extends Music {
-    private String band;
-    private String album;
-    //constructor 
-    public Music(String band, String album){
-        //Set attributes 
-        setBand(); 
-        setAlbum();
-    }
-}
-//subclasses of music CD and Vinyl
-public class CD extends Music {
-    //Inventory variable to keep count of the number of availible items 
-    private int Inventory; 
-    public CD (){
-        getInventory();
-    }
-}
-public class Vinyl extends Music {
-
 }
 
 //Players sublass and its subclasses
-public class Players extends Item{
+// public class Player extends Item{
 
-}
-public class CD extends Players{
+// }
+// public class CD extends Player{
 
-}
-public class RecordPlayer extends Players{
+// }
+// public class RecordPlayer extends Player{
 
-}
-public class MP3 extends Players{
+// }
+// public class MP3 extends Player{
 
-}
+// }
 
-//Instruments and its subclasses
-public class Instruments extends Item{
+// //Instruments and its subclasses
+// public class Instrument extends Item{
 
-}
-public class Stringed extends Instruments{
+// }
+// public class Stringed extends Instrument{
 
-}
-//subclasses of Stringed instruments below 
-public class Guitar extends Stringed {
+// }
+// //subclasses of Stringed instruments below 
+// public class Guitar extends Stringed{
 
-}
-public class Bass extends Stringed{
+// }
+// public class Bass extends Stringed{
 
-}
-public class Mandolin extends Stringed{
+// }
+// public class Mandolin extends Stringed{
 
-}
-//Subclasses of Stringed instruments END
+// }
+// //Subclasses of Stringed instruments END
 
-//Sunclasses of Wind instruments start
-public class Wind extends Instruments{
+// //Sunclasses of Wind instruments start
+// public class Wind extends Instrument{
 
-}
-public class Flute extends Wind{
+// }
+// public class Flute extends Wind{
 
-}
-public class Harmonica extends Wind{
+// }
+// public class Harmonica extends Wind{
 
-}
+// }
 
-//Clothing subclass and its subclasses
-public class Clothing extends Item{
+// //Clothing subclass and its subclasses
+// public class Clothing extends Item{
 
-}
-public class Hats extends Clothing{
+// }
+// public class Hat extends Clothing{
 
-}
-public class Shirts extends Clothing{
+// }
+// public class Shirt extends Clothing{
 
-}
-public class Bandanas extends Clothing{
+// }
+// public class Bandana extends Clothing{
 
-}
+// }
 
-//Accessories subclass and its subclasses
-public class Accessories extends Item{
+// //Accessories subclass and its subclasses
+// public class Accessory extends Item{
 
-}
-public class PracticeAmps extends Accessories{
+// }
+// public class PracticeAmps extends Accessory{
 
-}
-public class Cables extends Accessories{
+// }
+// public class Cables extends Accessory{
 
-}
-public class Strings extends Accessories{
+// }
+// public class Strings extends Accessory{
 
-}
+// }

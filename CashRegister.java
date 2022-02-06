@@ -1,10 +1,13 @@
+package OOAD_project2;
+
 public class CashRegister {
     private Double moneyAmt;
     private Double moneyFromBank;
 
-    private getMoney(){
-
-    }
-
+    
     // CashRegister constructor
+    public CashRegister(){
+        moneyAmt = 0.0;
+        moneyFromBank = 0.0;
+    }
 }
