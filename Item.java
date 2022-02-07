@@ -26,6 +26,14 @@ public abstract class Item {
     }
 
     //TODO - Maybe add getters/setters for vars??
+    //get purchase price
+    public double getpurchasePrice(){
+        return purchasePrice; 
+    }
+    //Get condition of item
+    public String getCondition (){
+        return condition; 
+    }
 }
 
 //Music subclass and the subclasses of music
