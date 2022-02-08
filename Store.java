@@ -6,7 +6,10 @@ public class Store {
     private ArrayList<Item> soldItems = new ArrayList<>();
     private ArrayList<Clerk> staff = new ArrayList<>();
     private ArrayList<String> schedule = new ArrayList<>();
+    private ArrayList<Item> orderedItems = new ArrayList<>();
+
     private CashRegister register;
+    private Helpers h = new Helpers();
 
     public ArrayList<Item> getInventory(){
         return this.inventory;
@@ -18,106 +21,7 @@ public class Store {
         this.inventory.add(itemToAdd);
     }
 
-    private String nameGen(){
-        // Generates a random string with 10 letters
-        // Ex: GJWOGYPFMP
-
-        // Converting ascii code to string from here:
-        // https://www.delftstack.com/howto/java/java-ascii-to-char/
-
-        String name = "";
-        Random rng = new Random();
-
-        // add ten letters to string
-        for (int i = 0; i < 10; i++){
-            name += Character.toString(rng.nextInt(26) + 65);
-        }
-
-        return name;
-    }
-
-    private double purchasePriceGen(){
-        //Rounding to 2 decimals from here:
-        // https://stackoverflow.com/questions/11701399/round-up-to-2-decimal-places-in-java
-
-        Random rng = new Random();
-        double purchasePrice = (rng.nextDouble() * 49.0) + 1.0;
-
-        purchasePrice = Math.round(purchasePrice * 100.0) / 100.0;
-        return purchasePrice;
-    }
-
-    private String newUsedGen(){
-        // Randomly generates and returns whether the item
-        // is new or used
-        Random rng = new Random();
-        boolean rngResult = rng.nextBoolean();
-
-        if (rngResult){
-            return "new";
-        }
-        else{
-            return "used";
-        }
-    }
-
-    private String condGen(){
-        // Randomly generates and returns the item condition
-        Random rng = new Random();
-        String conditions[] = {"poor", "fair", "good", "very good", "excellent"};
-        int rngResult = rng.nextInt(5);
-
-        return conditions[rngResult];
-    }
-
-    private boolean boolGen(){
-        // Randomly generates a boolean, either true or false
-        Random rng = new Random();
-        return rng.nextBoolean();
-    }
-
-    private String fluteTypeGen(){
-        // Randomly generates and returns the flute type
-        Random rng = new Random();
-        String types[] = {"standard", "piccolo", "harmony"};
-        int rngResult = rng.nextInt(3);
-
-        return types[rngResult];
-    }
-
-    private String harmKeyGen(){
-        // Randomly generates and returns the harmonica key
-        Random rng = new Random();
-        String keys[] = {"C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"};
-        int rngResult = rng.nextInt(12);
-
-        return keys[rngResult];
-    }
-
-    private String sizeGen(){
-        // Randomly generates and returns the hat/shirt size
-        Random rng = new Random();
-        String sizes[] = {"XS", "S", "M", "L", "XL", "XXL", "XXL"};
-        int rngResult = rng.nextInt(7);
-
-        return sizes[rngResult];
-    }
-
-    private int wattLenGen(){
-        // Randomly generates and returns an amp wattage (or cable length)
-        // between 1-200.
-        Random rng = new Random();
-        return (rng.nextInt(200) + 1);
-    }
-
-    private String stringGen(){
-        // Randomly generates and returns the string type
-        Random rng = new Random();
-        String strings[] = {"Steel", "Nickel", "Brass", "Bronze"};
-        int rngResult = rng.nextInt(4);
-
-        return strings[rngResult];
-    }
+    
 
     private void initializeInv(){
         // This is a very long-winded way to do this,
@@ -126,46 +30,46 @@ public class Store {
 
         // Music
         for (int i = 0; i < 3; i++){
-            curItem = new PaperScore(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), nameGen(), nameGen());
+            curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
             addToInventory(curItem);
-            curItem = new CD(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), nameGen(), nameGen());
+            curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
             addToInventory(curItem);
-            curItem = new Vinyl(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), nameGen(), nameGen());
+            curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
             addToInventory(curItem);
-            curItem = new CDPlayer(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen());
+            curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
             addToInventory(curItem);
-            curItem = new RecordPlayer(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen());
+            curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
             addToInventory(curItem);
-            curItem = new MP3Player(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen());
+            curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
             addToInventory(curItem);
-            curItem = new Guitar(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), boolGen());
+            curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
             addToInventory(curItem);
-            curItem = new Bass(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), boolGen());
+            curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
             addToInventory(curItem);
-            curItem = new Mandolin(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), boolGen());
+            curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
             addToInventory(curItem);
-            curItem = new Flute(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), fluteTypeGen());
+            curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
             addToInventory(curItem);
-            curItem = new Flute(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), harmKeyGen());
+            curItem = new Harmonica(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
             addToInventory(curItem);
-            curItem = new Hat(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), sizeGen());
+            curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
             addToInventory(curItem);
-            curItem = new Shirt(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), sizeGen());
+            curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
             addToInventory(curItem);
-            curItem = new Bandana(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen());
+            curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
             addToInventory(curItem);
-            curItem = new PracticeAmp(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), wattLenGen());
+            curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
             addToInventory(curItem);
-            curItem = new Cable(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), wattLenGen());
+            curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
             addToInventory(curItem);
-            curItem = new Strings(nameGen(), purchasePriceGen(), -1.0, newUsedGen(), 0, condGen(), stringGen());
+            curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
             addToInventory(curItem);
         }
     }
 
     private void initializeStaff(){
-        Clerk clerk1 = new Clerk("Shaggy");
-        Clerk clerk2 = new Clerk("Velma");
+        Clerk clerk1 = new Clerk("Shaggy", 20);
+        Clerk clerk2 = new Clerk("Velma", 5);
         this.staff.add(clerk1);
         this.staff.add(clerk2);
     }
@@ -199,14 +103,14 @@ public class Store {
                 break;  
             }
 
-            clerkToday.arriveAtStore(i);
+            clerkToday.arriveAtStore(i, this.orderedItems, this.inventory);
             clerkToday.checkRegister(register);
 
             //all of these below may need parameters passed at some point(?)
-            clerkToday.doInventory();
-            clerkToday.placeAnOrder();
-            clerkToday.openTheStore();
-            clerkToday.cleanTheStore();
+            // Call doInventory, and add any items that may have been ordered to the ordered items
+            this.orderedItems.addAll(clerkToday.doInventory(this.inventory));
+            //clerkToday.openTheStore();
+            clerkToday.cleanTheStore(this.inventory);
             clerkToday.leaveTheStore();
             
             

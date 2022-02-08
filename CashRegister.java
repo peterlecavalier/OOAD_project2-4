@@ -12,10 +12,6 @@ public class CashRegister {
         return this.moneyAmt;
     }
 
-    public double getMoneyFromBank(){
-        return this.moneyFromBank;
-    }
-
     public void addToRegister(double addAmt){
         this.moneyAmt += addAmt;
     }

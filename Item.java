@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.Arrays;
+
 public abstract class Item {
     //instance variables
     private String name;
@@ -8,6 +11,14 @@ public abstract class Item {
     private String condition;
     private double salePrice;
     private int daySold;
+
+    /*
+    Method for getting the subtype of an object
+    modified from Bruce Montgomery's Piazza post
+    https://piazza.com/class/ky3q1sooafc1w3?cid=102
+    */ 
+    enum Items {PAPERSCORE, CD, VINYL, CDPLAYER, RECORDPLAYER, MP3PLAYER, GUITAR, BASS, MANDOLIN, 
+                FLUTE, HARMONICA, HAT, SHIRT, BANDANA, PRACTICEAMP, CABLE, STRINGS};
 
     //Constructor 
     public Item(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -25,14 +36,39 @@ public abstract class Item {
         this.condition = cond;
     }
 
+    // get the type of object
+    public Items getType() {return null;}
+
     //TODO - Maybe add getters/setters for vars??
-    //get purchase price
-    public double getpurchasePrice(){
-        return purchasePrice; 
+    //get name
+    public String getName(){
+        return this.name;
     }
-    //Get condition of item
-    public String getCondition (){
-        return condition; 
+
+    public double getPurchasePrice(){
+        return this.purchasePrice;
+    }
+
+    // Lowers the list price after breaking the item
+    public double lowerListPrice(){
+        this.listPrice = this.listPrice - (this.listPrice * 0.2);
+        return this.listPrice;
+    }
+
+    // Lowers the condition of the item after breaking
+    // Returns the new condition
+    // Returns "broken" if it was poor.
+    public String lowerCondition(){
+        // List implementation from here:
+        // https://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line
+        List<String> conditions = Arrays.asList("poor", "fair", "good", "very good", "excellent");
+        if (this.condition == "poor"){
+            return "broken";
+        }
+        else{
+            this.condition = conditions.get(conditions.indexOf(this.condition));
+            return this.condition;
+        }
     }
 }
 
@@ -61,6 +97,9 @@ class PaperScore extends Music {
     public PaperScore(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){
         super(n, purchaseP, listP, nOrU, dayArr, cond, bandN, albumN);
     }
+
+    // get the type of object
+    public Items getType() {return Items.PAPERSCORE;}
 }
 
 class CD extends Music {
@@ -68,6 +107,9 @@ class CD extends Music {
     public CD(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){
         super(n, purchaseP, listP, nOrU, dayArr, cond, bandN, albumN);
     }
+
+    // get the type of object
+    public Items getType() {return Items.CD;}
 }
 
 class Vinyl extends Music {
@@ -75,6 +117,9 @@ class Vinyl extends Music {
     public Vinyl(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){
         super(n, purchaseP, listP, nOrU, dayArr, cond, bandN, albumN);
     }
+
+    // get the type of object
+    public Items getType() {return Items.VINYL;}
 }
 
 // Players sublass and its subclasses
@@ -87,16 +132,25 @@ class CDPlayer extends Player{
     public CDPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
+
+    // get the type of object
+    public Items getType() {return Items.CDPLAYER;}
 }
 class RecordPlayer extends Player{
     public RecordPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
+
+    // get the type of object
+    public Items getType() {return Items.RECORDPLAYER;}
 }
 class MP3Player extends Player{
     public MP3Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
+
+    // get the type of object
+    public Items getType() {return Items.MP3PLAYER;}
 }
 
 //Instruments and its subclasses
@@ -122,16 +176,25 @@ class Guitar extends Stringed{
     public Guitar(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
         super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
     }
+
+    // get the type of object
+    public Items getType() {return Items.GUITAR;}
 }
 class Bass extends Stringed{
     public Bass(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
         super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
     }
+
+    // get the type of object
+    public Items getType() {return Items.BASS;}
 }
 class Mandolin extends Stringed{
     public Mandolin(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
         super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
     }
+
+    // get the type of object
+    public Items getType() {return Items.MANDOLIN;}
 }
 //Subclasses of Stringed instruments END
 
@@ -149,7 +212,10 @@ class Flute extends Wind{
         this.type = fluteType;
     }
 
-    public String getType(){
+    // get the type of object
+    public Items getType() {return Items.FLUTE;}
+
+    public String getFluteType(){
         return this.type;
     }
 }
@@ -160,6 +226,9 @@ class Harmonica extends Wind{
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.key = harmKey;
     }
+
+    // get the type of object
+    public Items getType() {return Items.HARMONICA;}
 
     public String getKey(){
         return this.key;
@@ -180,6 +249,9 @@ class Hat extends Clothing{
         this.hatSize = size;
     }
 
+    // get the type of object
+    public Items getType() {return Items.HAT;}
+
     public String getSize(){
         return this.hatSize;
     }
@@ -192,6 +264,9 @@ class Shirt extends Clothing{
         this.shirtSize = size;
     }
 
+    // get the type of object
+    public Items getType() {return Items.SHIRT;}
+
     public String getSize(){
         return this.shirtSize;
     }
@@ -200,6 +275,9 @@ class Bandana extends Clothing{
     public Bandana(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
+
+    // get the type of object
+    public Items getType() {return Items.BANDANA;}
 }
 
 //Accessories subclass and its subclasses
@@ -216,6 +294,9 @@ class PracticeAmp extends Accessory{
         this.wattage = watt;
     }
 
+    // get the type of object
+    public Items getType() {return Items.PRACTICEAMP;}
+
     public int getWattage(){
         return this.wattage;
     }
@@ -227,6 +308,9 @@ class Cable extends Accessory{
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.length = len;
     }
+
+    // get the type of object
+    public Items getType() {return Items.CABLE;}
 
     public int getLength(){
         return this.length;
@@ -240,7 +324,10 @@ class Strings extends Accessory{
         this.type = strType;
     }
 
-    public String getType(){
+    // get the type of object
+    public Items getType() {return Items.STRINGS;}
+
+    public String getStringType(){
         return this.type;
     }
 }
