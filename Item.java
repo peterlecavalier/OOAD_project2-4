@@ -72,7 +72,7 @@ public abstract class Item {
     }
 }
 
-//Music subclass and the subclasses of music
+//Music subclass and the subclasses of music. Example of INHERITANCE. 
 abstract class Music extends Item{
     private String band;
     private String album;

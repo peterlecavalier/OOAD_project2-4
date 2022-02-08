@@ -53,12 +53,47 @@ public class Customer {
         }
         return rand_itemList;
     }
+    class BuyingCustomer extends Customer{
 
-    public Item sellItem(Item forSale){
-        //TO DO
+        public Item buyItem(ArrayList<Item> inventory, ArrayList<Item> soldItems, String clerkName, int customerNum){
+            //generate random item and find match
+            a = new ArrayList<>();
+            ItemToBuy = a.MakeRandomList(1); //Generate 1 random item
+            for(int i =0; i< inventory.size(); i++){
+                if (inventory.get(i) == ItemToBuy){
+                    //if the item is available to buy, find chance to pay ListPrice.
+                    Random rand = new Random();
+                    int buyPercent = rand.nextInt(100);
+                    if (buyPercent < 50){ //50% chance of buying for listprice
+                        //move item to soldItems and remove from inventory
+                        soldItems.add(inventory(i));
+                        inventory.remove(inventory(i));
+
+                        //Announce 
+                        String itemName = inventory(i);
+                        System.out.printf("----- %s sold %s to %d for -----\n", clerkName, itemName, customerNum);
+                    }
+                    else{
+                        //TO DO add 10% discount to list price 
+                        Random rand = new Random();
+                        int buyPercent = rand.nextInt(100);
+                        if(buyPercent < 75){
+                            
+                        }
+                    }
+                }
+                else{
+                    System.out.printf("---- Customer %d wanted to buy a %s but none were in inventory, so they left ----\n", customerNum, ItemToBuy);
+                }
+            }
+        }
+
     }
 
-    public Item buyItem(Item itemToBuy){
-        //TO DO 
+    class SellingCustomer extends Customer{
+
+        public Item sellItem(Item forSale){
+            //TO DO
+        }
     }
 }
