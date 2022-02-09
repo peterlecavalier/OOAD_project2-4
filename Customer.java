@@ -54,7 +54,6 @@ public class Customer {
         return rand_itemList;
     }
     class BuyingCustomer extends Customer{
-
         public Item buyItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
             CashRegister cash;  
             Store soldItems = soldItems.getSoldItems();
@@ -99,7 +98,7 @@ public class Customer {
     }
 
     class SellingCustomer extends Customer{
-        public Item sellItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
+        public Item sellItem(String clerkName, int customerNum, int day){
             CashRegister cash;
             a = new Item;
             ItemToSell = a.MakeRandomInstance(); //Generate 1 random item
@@ -107,23 +106,23 @@ public class Customer {
             Helpers quality;
             condition = quality.condGen();
             switch (condition){
-                case 'poor':
+                case "poor":
                     int sellOffer = rand.nextInt(5);
                     break;
-                case 'fair':
+                case "fair":
                     int sellOffer = rand.nextInt(6);
                     break;
-                case 'good':
+                case "good":
                     int sellOffer = rand.nextInt(8);
                     break;
-                case 'very good':
+                case "very good":
                     int sellOffer = rand.nextInt(10);
                     break;
-                case 'excellent':
+                case "excellent":
                     int sellOffer = rand.nextInt(15);
                     break;
             }
-            Random r new Random();
+            Random r = new Random();
             int cust_prob = r.nextInt(100);
             if (cust_prob < 50){
                 ItemToSell.setCondition(condition);

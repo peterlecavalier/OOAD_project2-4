@@ -141,8 +141,34 @@ public class Clerk {
         return itemsInOrder;
     }
 
-    public void openTheStore(){
-        throw new UnsupportedOperationException("TODO");
+    public void openTheStore(ArrayList<Item> inventory){
+        Customer cust; 
+        int custNum=0;
+        while(true){
+            int counter =0;
+            Random r = new Random();
+            buyOrSell = r.nextInt(2);
+            //There will be 4-10 buying customers
+            //Using the counter to generate the right amount of buying and selling customers
+            //CustNum is to track the customer number that will be printed
+            while (buyOrSell == 1 && counter <4){
+                counter ++;
+                custNum ++;
+                cust.buyItem(inventory, this.name, custNum, dayNum);
+                if (counter > 10){
+                    break;
+                }
+            }
+            //1-4 selling customers
+            while(buyOrSell == 2 $$ counter < 0){
+                counter ++;
+                custNum++;
+                cust.sellItem(this.name, custNum, dayNum);
+                if (counter >4){
+                    break
+                }
+            }
+        }
     }
 
     public void cleanTheStore(ArrayList<Item> inventory){
