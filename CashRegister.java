@@ -19,4 +19,8 @@ public class CashRegister {
     public void addMoneyFromBank(double addAmt){
         this.moneyFromBank += addAmt;
     }
+
+    public void payCustomer(double amtPaid){
+        this.moneyFromBank -= amtPaid;
+    }
 }

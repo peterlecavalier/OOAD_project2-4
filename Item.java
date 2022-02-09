@@ -61,6 +61,10 @@ public abstract class Item {
         daySold = day;
     }
 
+    public void setCondition(String Condition){
+        condition = Condition;
+    }
+
     // Lowers the list price after breaking the item
     public double lowerListPrice(){
         this.listPrice = this.listPrice - (this.listPrice * 0.2);

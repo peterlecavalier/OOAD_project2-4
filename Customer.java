@@ -100,9 +100,47 @@ public class Customer {
 
     class SellingCustomer extends Customer{
         public Item sellItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
-            a = new ArrayList<>();
-            ItemToSell = a.MakeRandomList(1); //Generate 1 random item
-            //look at the condition of the item and purchase price
+            CashRegister cash;
+            a = new Item;
+            ItemToSell = a.MakeRandomInstance(); //Generate 1 random item
+            Random rand = new Random();
+            Helpers quality;
+            condition = quality.condGen();
+            switch (condition){
+                case 'poor':
+                    int sellOffer = rand.nextInt(5);
+                    break;
+                case 'fair':
+                    int sellOffer = rand.nextInt(6);
+                    break;
+                case 'good':
+                    int sellOffer = rand.nextInt(8);
+                    break;
+                case 'very good':
+                    int sellOffer = rand.nextInt(10);
+                    break;
+                case 'excellent':
+                    int sellOffer = rand.nextInt(15);
+                    break;
+            }
+            Random r new Random();
+            int cust_prob = r.nextInt(100);
+            if (cust_prob < 50){
+                ItemToSell.setCondition(condition);
+                inventory.add(ItemToSell);
+                cash.payCustomer(sellOffer);
+                System.out.printf("%s bought a %s condition %s from Customer %d for $%d.", clerkName, condition, ItemToSell, customerNum, sellOffer );
+            }
+            else{
+                newOfferPrice = sellOffer +(sellOffer* 0.1);
+                int cust_prob = r.nextInt(100)
+                if (cust_prob < 75){
+                    ItemToSell.setCondition(condition);
+                    inventory.add(ItemToSell);
+                    cash.payCustomer(newOfferPrice);
+                    System.out.printf("%s bought a %s condition %s from Customer %d for $%d.", clerkName, condition, ItemToSell, customerNum, newOfferPrice);
+                }
+            }
         }
     }
 }
