@@ -1,8 +1,9 @@
 import java.util.List;
 import java.util.Arrays;
 
+//// Item class is an example of polymorphism, as the subclasses of items can all inheret from item.
 public abstract class Item {
-    //instance variables
+    //instance variables 
     private String name;
     private double purchasePrice;
     private double listPrice;
@@ -39,8 +40,6 @@ public abstract class Item {
     // get the type of object
     public Items getType() {return null;}
 
-    //TODO - Maybe add getters/setters for vars??
-    //get name
     public String getName(){
         return this.name;
     }
@@ -115,7 +114,7 @@ abstract class Music extends Item{
         return this.album;
     }
 }
-
+// Example of Inheritance, as paperscore inherits traits from superclass music
 class PaperScore extends Music {
     //constructor
     public PaperScore(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){
