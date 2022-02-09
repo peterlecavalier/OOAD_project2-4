@@ -141,8 +141,30 @@ public class Clerk {
         return itemsInOrder;
     }
 
-    public void openTheStore(){
-        throw new UnsupportedOperationException("TODO");
+    public void openTheStore(ArrayList<Item> inventory, int dayNum){
+        Customer cust = new Customer(); //Need to check method on how to call subclass ?
+        int custNum=0;
+        int counter = 0;
+        Random r = new Random();
+        // 4-10 Buying customers
+        // 1-4 selling customers
+        int numBuyingCustomers = r.nextInt(7) + 4;
+        int numSellingCustomers = r.nextInt(4) + 1;
+
+        //There will be 4-10 buying customers
+        //Using the counter to generate the right amount of buying and selling customers
+        //CustNum is to track the customer number that will be printed
+        while (counter < numBuyingCustomers){
+            counter ++;
+            custNum ++;
+            cust.buyItem(inventory, this.name, custNum, dayNum);
+        }
+        //1-4 selling customers
+        while(counter < numSellingCustomers + numBuyingCustomers ){
+            counter ++;
+            custNum++;
+            cust.sellItem(inventory, this.name, custNum, dayNum);
+        }
     }
 
     public void cleanTheStore(ArrayList<Item> inventory){

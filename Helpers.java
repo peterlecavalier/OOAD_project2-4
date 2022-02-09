@@ -7,7 +7,7 @@ public class Helpers {
 
         // Converting ascii code to string from here:
         // https://www.delftstack.com/howto/java/java-ascii-to-char/
-
+        
         String name = "";
         Random rng = new Random();
 

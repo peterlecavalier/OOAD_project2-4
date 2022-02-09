@@ -44,9 +44,33 @@ public abstract class Item {
     public String getName(){
         return this.name;
     }
-
+    public double getSalePrice(){
+        return this.salePrice;
+    }
+    public double getListPrice(){
+        return this.listPrice;
+    }
+    public void setPurchasePrice(double price){
+        purchasePrice = price;
+    }
     public double getPurchasePrice(){
         return this.purchasePrice;
+    }
+
+    public int daySold(){
+        return this.daySold;
+    }
+
+    public void setsalePrice(double priceSold){
+        salePrice = priceSold;
+    }
+
+    public void setDaySold(int day){
+        daySold = day;
+    }
+
+    public void setCondition(String Condition){
+        condition = Condition;
     }
 
     // Lowers the list price after breaking the item
@@ -72,7 +96,7 @@ public abstract class Item {
     }
 }
 
-//Music subclass and the subclasses of music
+//Music subclass and the subclasses of music. Example of INHERITANCE. 
 abstract class Music extends Item{
     private String band;
     private String album;

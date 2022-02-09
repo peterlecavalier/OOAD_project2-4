@@ -21,7 +21,18 @@ public class Store {
         this.inventory.add(itemToAdd);
     }
 
-    
+    //public add to inventory variable to modify current inventory list
+    public void addToCurrInventory(Item addItem){
+        this.inventory.add(addItem);
+    }
+
+    public void addToSold(Item soldItem){
+        this.inventory.add(soldItem);
+    }
+
+    public ArrayList<Item> getSold(){
+        return this.soldItems;
+    }
 
     private void initializeInv(){
         // This is a very long-winded way to do this,
@@ -105,11 +116,10 @@ public class Store {
 
             clerkToday.arriveAtStore(i, this.orderedItems, this.inventory);
             clerkToday.checkRegister(register);
-
             //all of these below may need parameters passed at some point(?)
             // Call doInventory, and add any items that may have been ordered to the ordered items
             this.orderedItems.addAll(clerkToday.doInventory(this.inventory));
-            //clerkToday.openTheStore();
+            clerkToday.openTheStore(this.inventory, days);
             clerkToday.cleanTheStore(this.inventory);
             clerkToday.leaveTheStore();
             
