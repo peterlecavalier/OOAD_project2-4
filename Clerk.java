@@ -141,13 +141,13 @@ public class Clerk {
         return itemsInOrder;
     }
 
-    public void openTheStore(ArrayList<Item> inventory){
-        Customer cust; 
+    public void openTheStore(ArrayList<Item> inventory, int dayNum){
+        Customer cust = new Customer(); //Need to check method on how to call subclass ?
         int custNum=0;
         while(true){
             int counter =0;
             Random r = new Random();
-            buyOrSell = r.nextInt(2);
+            int buyOrSell = r.nextInt(2);
             //There will be 4-10 buying customers
             //Using the counter to generate the right amount of buying and selling customers
             //CustNum is to track the customer number that will be printed
@@ -160,12 +160,12 @@ public class Clerk {
                 }
             }
             //1-4 selling customers
-            while(buyOrSell == 2 $$ counter < 0){
+            while(buyOrSell == 2 && counter < 0){
                 counter ++;
                 custNum++;
-                cust.sellItem(this.name, custNum, dayNum);
-                if (counter >4){
-                    break
+                cust.sellItem(inventory, this.name, custNum, dayNum);
+                if (counter > 4){
+                    break;
                 }
             }
         }

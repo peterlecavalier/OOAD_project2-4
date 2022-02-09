@@ -44,7 +44,12 @@ public abstract class Item {
     public String getName(){
         return this.name;
     }
-
+    public double getSalePrice(){
+        return this.salePrice;
+    }
+    public void setPurchasePrice(double price){
+        purchasePrice = price;
+    }
     public double getPurchasePrice(){
         return this.purchasePrice;
     }

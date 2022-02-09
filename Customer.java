@@ -1,144 +1,216 @@
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Arrays;
+import java.util.List;
 public class Customer {
-    private ArrayList<Item> allItems;
-    //create list of subclass items that will later be used to generate random item.
-    //This pseudocode/general idea of making random instance is sourced from the class Piazza post:
-    // https://piazza.com/class/ky3q1sooafc1w3?cid=105
-    itemPicker(){
-        allItems = new ArrayList<>();
-        //Add all subclasses to arraylist
-        allItems.add(PaperScore.class);
-        allItems.add(CD.class);
-        allItems.add(Vinyl.class);
-        allItems.add(CDPlayer.class);
-        allItems.add(RecordPlayer.class);
-        allItems.add(MP3PLAYER.class);
-        allItems.add(Stringed.class);
-        allItems.add(Guitar.class);
-        allItems.add(Bass.class);
-        allItems.add(Mandolin.class);
-        allItems.add(Wind.class);
-        allItems.add(Flute.class);
-        allItems.add(Harmonica.class);
-        allItems.add(Hat.class);
-        allItems.add(Shirt.class);
-        allItems.add(Bandana.class);
-        allItems.add(PracticeAmp.class);
-        allItems.add(Cable.class);
-        allItems.add(Strings.class);
-    }
-    public Item MakeRandomInstance(){ 
-        //generate random instance of subclass with catch exceptions
-        //Credit: // https://piazza.com/class/ky3q1sooafc1w3?cid=105     
-        Item a;
-        int pick;
+    ArrayList<Item> allItems = new ArrayList<>();
+    private Helpers h = new Helpers();
+    
+    /*private void addToInventory(Item itemToAdd){
+        this.allItems.add(itemToAdd);
+        //System.out.print(i);
+    }*/
+    //itemPicker initializes an arraylist of item types and returns 1 random item for the customer to buy or sell
+    /*private Item itemPicker(){
+        for (int i = 0; i < 1; i++){
+            Item curItem;
+            curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+            addToInventory(curItem);
+            curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+            addToInventory(curItem);
+            curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+            addToInventory(curItem);
+            curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+            addToInventory(curItem);
+            curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+            addToInventory(curItem);
+            curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+            addToInventory(curItem);
+            curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+            addToInventory(curItem);
+            curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+            addToInventory(curItem);
+            curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+            addToInventory(curItem);
+            curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
+            addToInventory(curItem);
+            curItem = new Harmonica(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
+            addToInventory(curItem);
+            curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
+            addToInventory(curItem);
+            curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
+            addToInventory(curItem);
+            curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+            addToInventory(curItem);
+            curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
+            addToInventory(curItem);
+            curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
+            addToInventory(curItem);
+            curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
+            addToInventory(curItem);
+        }
+        //generate and return rand instance
+        //System.out.print(allItems.size());
+        Random r = new Random();
+        int pick = r.nextInt(5);
+        return allItems.get(pick);
+        //return allItems.get(pick);
+    }*/
+    private Item itemPicker(){
+        int numberOfItemTypes = Item.Items.values().length;
         Random rand = new Random();
-        pick = rand.nextInt(19); //19 items total
-        Class<?> c = allItems.get(pick);
-        Class<?>[] parameterType = null;
-        Object[] initargs = null; 
-        try {
-            a = (Item) c.getDeclaredConstructor(parameterType).newInstance(initargs);
+        int enumChooser = rand.nextInt(numberOfItemTypes);
+        List<Item.Items> enumValues = Arrays.asList(Item.Items.values());; 
+        Item.Items chosenSubclass = enumValues.get(enumChooser); 
+        Item curItem;
+        switch (chosenSubclass){
+            case PAPERSCORE:
+                curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+                break;
+            case CD:
+                curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+                break;
+            case VINYL:
+                curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
+                break;
+            case CDPLAYER:
+                curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+                break;
+            case RECORDPLAYER:
+                curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+                break;
+            case MP3PLAYER:
+                curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+                break;
+            case GUITAR:
+                curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+                break;
+            case BASS:
+                curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+                break;
+            case MANDOLIN:
+                curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
+                break;
+            case FLUTE:
+                curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
+                break;
+            case HARMONICA:
+                curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
+                break;
+            case HAT:
+                curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
+                break;
+            case SHIRT:
+                curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
+                break;
+            case BANDANA:
+                curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
+                break;
+            case PRACTICEAMP:
+                curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
+                break;
+            case CABLE:
+                curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
+                break;
+            case STRINGS:
+                curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
+                break;
+            default:
+                throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
         }
-        catch (Exception err){
-            System.out.println("Whoops "+err.toString());
-            a = null;
-        }
-        return a;
+        System.out.print("Returned");
+        return curItem;
     }
-    // This routine just makes a list of random items and returns it (Cred also to the Piazza post)
-    public ArrayList<Item> MakeRandomList(int n) {
-        ArrayList<Item> rand_itemList = new ArrayList<Item>();
-        for (int i = 0; i < n; i++) {
-            rand_itemList.add(MakeRandomInstance());
-        }
-        return rand_itemList;
-    }
-    class BuyingCustomer extends Customer{
-        public Item buyItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
-            CashRegister cash;  
-            Store soldItems = soldItems.getSoldItems();
-            a = new ArrayList<>();
-            ItemToBuy = a.MakeRandomList(1); //Generate 1 random item
-            for(int i =0; i< inventory.size(); i++){
-                if (inventory.get(i) == ItemToBuy){
-                    //if the item is available to buy, find chance to pay ListPrice.
-                    Random rand = new Random();
-                    int buyPercent = rand.nextInt(100);
-                    if (buyPercent < 50){ //50% chance of buying for listprice
-                        //move item to soldItems and remove from inventory
-                        soldItems.add(inventory(i));
-                        inventory.remove(inventory(i));
-                        inventory(i).setDaySold(day); //update day sold 
-                        cash.addToRegister(inventory(i).listPrice);
-                        //Announce 
-                        String itemName = inventory(i);
-                        System.out.printf("----- %s sold %s to %d for -----\n", clerkName, itemName, customerNum);
-                    }
-                    else{
-                        //TO DO add 10% discount to list price 
-                        Random rand = new Random();
-                        int buyPercent = rand.nextInt(100);
-                        if(buyPercent < 75){
-                            double discountPrice = inventory(i).listPrice - (inventory(i).listPrice * 0.1);
-                            inventory(i).salePrice = discountPrice; 
-                            soldItems.add(inventory(i));
-                            inventory.remove(inventory(i));
-                            cash.addToRegister(discountPrice);
-                            String itemName = inventory(i);
-                            System.out.printf("%s sold a %s to Customer %d for $%d after a 10% discount ", clerkName, itemName, customerNum, discountPrice);
-                        }
-                    }
+
+    public void buyItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
+        CashRegister cash = new CashRegister(); //to store and update the register
+        Store soldItems = new Store();
+        int match =0;
+        Item a = itemPicker(); //Generate random item to buy
+        //Using a for loop to check if the item customer wants to buy is in inventory
+        for (int i =0; i < inventory.size(); i++){
+            //if a match is found, update parameters and exit
+            if (inventory.get(i) == a){
+                match =1;
+                Item itemSold = inventory.get(i);
+                //random generator to determine if customer wants to buy with 50% poss
+                Random rand = new Random();
+                int buyChance = rand.nextInt(100);
+                if (buyChance < 50){ //50% chance
+                    itemSold.setDaySold(day); //Set day sold
+                    soldItems.addToSold(itemSold); //add to sold items inventory
+                    inventory.remove(itemSold); //remove from current inventory
+                    cash.addToRegister(itemSold.getSalePrice());
+                    System.out.printf("%s sold a %s to Customer %d for $%d", clerkName, itemSold.getName(), customerNum, itemSold.getSalePrice());
+                    break; //Using breaks so item doesn't match item in inventory more than once
                 }
                 else{
-                    System.out.printf("---- Customer %d wanted to buy a %s but none were in inventory, so they left ----\n", customerNum, ItemToBuy);
+                    //add 10% discount
+                    double discountPrice = itemSold.getSalePrice() + (itemSold.getSalePrice() * 0.1);
+                    //update the cust buying chances
+                    Random rr = new Random();
+                    int buyChance2 = rand.nextInt(100);
+                    if (buyChance2 < 75){
+                        itemSold.setsalePrice(discountPrice); //Set sale price as discount price
+                        soldItems.addToSold(itemSold);
+                        inventory.remove(itemSold);
+                        cash.addToRegister(discountPrice);
+                        System.out.printf("%s sold a %s to Customer %d for $%d after a 10% discount ", clerkName, itemSold.getName(), customerNum, discountPrice);
+                        break;
+                    }
                 }
+            }
+            if (match ==0){
+                //System.out.printf("---- Customer %d wanted to buy a %s but none were in inventory, so they left ----\n", customerNum, a.getName());
             }
         }
-
     }
 
-    class SellingCustomer extends Customer{
-        public Item sellItem(String clerkName, int customerNum, int day){
-            CashRegister cash;
-            a = new Item;
-            ItemToSell = a.MakeRandomInstance(); //Generate 1 random item
-            Random rand = new Random();
-            Helpers quality;
-            condition = quality.condGen();
-            switch (condition){
-                case "poor":
-                    int sellOffer = rand.nextInt(5);
-                    break;
-                case "fair":
-                    int sellOffer = rand.nextInt(6);
-                    break;
-                case "good":
-                    int sellOffer = rand.nextInt(8);
-                    break;
-                case "very good":
-                    int sellOffer = rand.nextInt(10);
-                    break;
-                case "excellent":
-                    int sellOffer = rand.nextInt(15);
-                    break;
-            }
-            Random r = new Random();
-            int cust_prob = r.nextInt(100);
-            if (cust_prob < 50){
-                ItemToSell.setCondition(condition);
-                inventory.add(ItemToSell);
-                cash.payCustomer(sellOffer);
-                System.out.printf("%s bought a %s condition %s from Customer %d for $%d.", clerkName, condition, ItemToSell, customerNum, sellOffer );
-            }
-            else{
-                newOfferPrice = sellOffer +(sellOffer* 0.1);
-                int cust_prob = r.nextInt(100)
-                if (cust_prob < 75){
-                    ItemToSell.setCondition(condition);
-                    inventory.add(ItemToSell);
-                    cash.payCustomer(newOfferPrice);
-                    System.out.printf("%s bought a %s condition %s from Customer %d for $%d.", clerkName, condition, ItemToSell, customerNum, newOfferPrice);
-                }
+    public void sellItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
+        CashRegister cash = new CashRegister();
+        Item a = itemPicker();
+        Helpers quality = new Helpers(); //gonna need helpers to generate random conditions from condGen
+        String condition = quality.condGen(); //generate random conditions
+        a.setCondition(condition); //set condition of item
+        Random rand = new Random(); // this will be used to generate random price 
+        int sellOffer = 0; 
+        switch (condition){ //Switch condition with increasing random price range
+            case "poor":
+                sellOffer = rand.nextInt(5);
+                break;
+            case "fair":
+                sellOffer = rand.nextInt(6);
+                break;
+            case "good":
+                sellOffer = rand.nextInt(8);
+                break;
+            case "very good":
+                sellOffer = rand.nextInt(10);
+                break;
+            case "excellent":
+                sellOffer = rand.nextInt(15);
+                break;
+        }
+        //generate customer probability
+        Random r = new Random();
+        int cust_prob = r.nextInt(100);
+        if (cust_prob <50){
+            a.setDaySold(day);
+            a.setPurchasePrice(sellOffer); //set purchase price
+            //inv.addToCurrInventory(a); //add item to inventory
+            cash.payCustomer(sellOffer);
+            System.out.printf("%s bought a %s condition %s from Customer %d for $%d.", clerkName, condition, a.getName(), customerNum, sellOffer);
+        }
+        else{
+            double newPrice = sellOffer + (sellOffer * 0.1);
+            Random rr = new Random();
+            int cust_prob2 = rr.nextInt(100);
+            if (cust_prob2 < 75){
+                a.setDaySold(day);
+                a.setPurchasePrice (newPrice); 
+                // /inv.addToCurrInventory(a);
+                cash.payCustomer(newPrice);
+                System.out.printf("%s bought a %s condition %s from Customer %d for $%d with an addition of 10%.", clerkName, condition, a.getName(), customerNum, sellOffer);
             }
         }
     }
