@@ -146,7 +146,6 @@ public class Clerk {
         int custNum=0;
         int counter = 0;
         Random r = new Random();
-        int buyOrSell = r.nextInt(2);
         // 4-10 Buying customers
         // 1-4 selling customers
         int numBuyingCustomers = r.nextInt(7) + 4;
@@ -155,13 +154,13 @@ public class Clerk {
         //There will be 4-10 buying customers
         //Using the counter to generate the right amount of buying and selling customers
         //CustNum is to track the customer number that will be printed
-        while (buyOrSell == 1 && counter < numBuyingCustomers){
+        while (counter < numBuyingCustomers){
             counter ++;
             custNum ++;
             cust.buyItem(inventory, this.name, custNum, dayNum);
         }
         //1-4 selling customers
-        while(buyOrSell == 2 && counter < numSellingCustomers + numBuyingCustomers){
+        while(counter < numSellingCustomers + numBuyingCustomers ){
             counter ++;
             custNum++;
             cust.sellItem(inventory, this.name, custNum, dayNum);
