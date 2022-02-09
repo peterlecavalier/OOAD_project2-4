@@ -49,6 +49,18 @@ public abstract class Item {
         return this.purchasePrice;
     }
 
+    public int daySold(){
+        return this.daySold;
+    }
+
+    public void setsalePrice(double priceSold){
+        salePrice = priceSold;
+    }
+
+    public void setDaySold(int day){
+        daySold = day;
+    }
+
     // Lowers the list price after breaking the item
     public double lowerListPrice(){
         this.listPrice = this.listPrice - (this.listPrice * 0.2);

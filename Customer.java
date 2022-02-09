@@ -55,8 +55,9 @@ public class Customer {
     }
     class BuyingCustomer extends Customer{
 
-        public Item buyItem(ArrayList<Item> inventory, ArrayList<Item> soldItems, String clerkName, int customerNum){
-            //generate random item and find match
+        public Item buyItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
+            CashRegister cash;  
+            Store soldItems = soldItems.getSoldItems();
             a = new ArrayList<>();
             ItemToBuy = a.MakeRandomList(1); //Generate 1 random item
             for(int i =0; i< inventory.size(); i++){
@@ -68,7 +69,8 @@ public class Customer {
                         //move item to soldItems and remove from inventory
                         soldItems.add(inventory(i));
                         inventory.remove(inventory(i));
-
+                        inventory(i).setDaySold(day); //update day sold 
+                        cash.addToRegister(inventory(i).listPrice);
                         //Announce 
                         String itemName = inventory(i);
                         System.out.printf("----- %s sold %s to %d for -----\n", clerkName, itemName, customerNum);
@@ -78,7 +80,13 @@ public class Customer {
                         Random rand = new Random();
                         int buyPercent = rand.nextInt(100);
                         if(buyPercent < 75){
-                            
+                            double discountPrice = inventory(i).listPrice - (inventory(i).listPrice * 0.1);
+                            inventory(i).salePrice = discountPrice; 
+                            soldItems.add(inventory(i));
+                            inventory.remove(inventory(i));
+                            cash.addToRegister(discountPrice);
+                            String itemName = inventory(i);
+                            System.out.printf("%s sold a %s to Customer %d for $%d after a 10% discount ", clerkName, itemName, customerNum, discountPrice);
                         }
                     }
                 }
@@ -91,9 +99,10 @@ public class Customer {
     }
 
     class SellingCustomer extends Customer{
-
-        public Item sellItem(Item forSale){
-            //TO DO
+        public Item sellItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
+            a = new ArrayList<>();
+            ItemToSell = a.MakeRandomList(1); //Generate 1 random item
+            //look at the condition of the item and purchase price
         }
     }
 }

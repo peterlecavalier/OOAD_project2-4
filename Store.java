@@ -21,6 +21,10 @@ public class Store {
         this.inventory.add(itemToAdd);
     }
 
+    public ArrayList<Item> getSoldItems(){
+        return this.soldItems;
+    }
+
     
 
     private void initializeInv(){
