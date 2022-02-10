@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.List;
+//example of cohesion, where a single class is designed to do a specific task.
+//Customer handles 2 specific tasks of customer buying + customer selling, so this would be an example of high cohesion.
 public class Customer {
     ArrayList<Item> allItems = new ArrayList<>();
     private Helpers h = new Helpers();

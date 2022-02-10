@@ -2,10 +2,11 @@ package src.OOAD_project2;
 
 import java.util.List;
 import java.util.Arrays;
-
+//Polymorphism is the ability to substitute objects of matching interface for one another at run-time.
+//So all the subclass instance under class Item can use the same functionality as its superclass
 public abstract class Item {
     //instance variables
-    private String name;
+    private String name; //Name is an example of identity as this is a unique identifier that no other object instance has
     private double purchasePrice;
     private double listPrice;
     private String newOrUsed;

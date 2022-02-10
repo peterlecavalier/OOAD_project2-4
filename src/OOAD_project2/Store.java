@@ -3,6 +3,8 @@ package src.OOAD_project2;
 import java.util.ArrayList;
 import java.util.Random;
 
+//Encapsulation is the hiding of specific implementation and representation details of a class
+//The class Store has a a lot of private/hidden methods that would make it a good example of encapsulation.
 public class Store {
     private ArrayList<Item> inventory = new ArrayList<>();
     private ArrayList<Item> soldItems = new ArrayList<>();
@@ -34,12 +36,12 @@ public class Store {
     public ArrayList<Item> getSold(){
         return this.soldItems;
     }
-
+    
     private void initializeInv(){
         // This is a very long-winded way to do this,
         // but I'm not sure how else to deal with specific subclasses
         Item curItem;
-
+        
         // Add 3 of each item to the inventory (pretty self-explanatory)
         // Helper functions (h.method()) are called within constructors to randomly generate parameter values
         for (int i = 0; i < 3; i++){
@@ -79,7 +81,7 @@ public class Store {
             addToInventory(curItem);
         }
     }
-
+    
     private void initializeStaff(){
         // Make clerks and add them to the staff
         Clerk clerk1 = new Clerk("Shaggy", 20);
