@@ -1,3 +1,5 @@
+package src.OOAD_project2;
+
 import java.util.List;
 import java.util.Arrays;
 
@@ -39,8 +41,7 @@ public abstract class Item {
     // get the type of object
     public Items getType() {return null;}
 
-    //TODO - Maybe add getters/setters for vars??
-    //get name
+    // basic getters/setters
     public String getName(){
         return this.name;
     }
@@ -57,11 +58,19 @@ public abstract class Item {
         return this.purchasePrice;
     }
 
+    public String getNewUsed(){
+        return this.newOrUsed;
+    }
+
+    public String getCondition(){
+        return this.condition;
+    }
+
     public int daySold(){
         return this.daySold;
     }
 
-    public void setsalePrice(double priceSold){
+    public void setSalePrice(double priceSold){
         salePrice = priceSold;
     }
 
@@ -90,7 +99,7 @@ public abstract class Item {
             return "broken";
         }
         else{
-            this.condition = conditions.get(conditions.indexOf(this.condition));
+            this.condition = conditions.get(conditions.indexOf(this.condition) - 1);
             return this.condition;
         }
     }

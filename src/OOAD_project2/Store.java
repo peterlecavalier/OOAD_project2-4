@@ -1,3 +1,5 @@
+package src.OOAD_project2;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -16,7 +18,6 @@ public class Store {
     }
 
     // This will only be accessed with other methods
-    // 
     private void addToInventory(Item itemToAdd){
         this.inventory.add(itemToAdd);
     }
@@ -39,7 +40,8 @@ public class Store {
         // but I'm not sure how else to deal with specific subclasses
         Item curItem;
 
-        // Music
+        // Add 3 of each item to the inventory (pretty self-explanatory)
+        // Helper functions (h.method()) are called within constructors to randomly generate parameter values
         for (int i = 0; i < 3; i++){
             curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
             addToInventory(curItem);
@@ -79,6 +81,7 @@ public class Store {
     }
 
     private void initializeStaff(){
+        // Make clerks and add them to the staff
         Clerk clerk1 = new Clerk("Shaggy", 20);
         Clerk clerk2 = new Clerk("Velma", 5);
         this.staff.add(clerk1);
@@ -93,6 +96,7 @@ public class Store {
 
 
         for (int i = 1; i < days + 1; i++){
+            // 1 day out of 7 is a Sunday...
             if (i % 7 == 0){
                 System.out.println("----- Sunday! The store is closed. -----");
                 continue;
@@ -114,21 +118,36 @@ public class Store {
                 break;  
             }
 
+            // Main functionality here - all the clerk duties are called.
             clerkToday.arriveAtStore(i, this.orderedItems, this.inventory);
             clerkToday.checkRegister(register);
             //all of these below may need parameters passed at some point(?)
             // Call doInventory, and add any items that may have been ordered to the ordered items
-            this.orderedItems.addAll(clerkToday.doInventory(this.inventory));
-            clerkToday.openTheStore(this.inventory, days);
+            this.orderedItems.addAll(clerkToday.doInventory(this.inventory, this.register));
+            clerkToday.openTheStore(this.inventory, this.soldItems, this.register, i);
             clerkToday.cleanTheStore(this.inventory);
             clerkToday.leaveTheStore();
-            
-            
-
-
         }
         // Print out a summary
-        throw new UnsupportedOperationException("TODO - Print a summary after the simulation");
+        System.out.println("----- SUMMARY -----");
+        // Loop over all the inventory items
+        for(Item i : this.inventory){
+            System.out.printf("Item %s (%s) is in inventory, with value $%.2f.\n", i.getName(), i.getType(), i.getPurchasePrice());
+        }
+        // Keep track of total items sold/sale price
+        double totalSalePrice = 0.0;
+        int totalItemsSold = 0;
+        // Loop over all sold items
+        for(Item i : this.soldItems){
+            totalSalePrice += i.getSalePrice();
+            totalItemsSold ++;
+            System.out.printf("Item %s (%s) was sold on day %d for $%.2f.\n", i.getName(), i.getType(), i.daySold(), i.getSalePrice());
+        }
+        // Print final summaries
+        System.out.printf("%d items were sold for a total of $%.2f.\n", totalItemsSold, totalSalePrice);
+        System.out.printf("The register was left with $%.2f.\n", this.register.getMoneyAmt());
+        System.out.printf("$%.2f total was added to the register from the bank.\n", this.register.getMoneyFromBank());
+        System.out.println("----- END OF SIMULATION -----");
     }
 
     // Store constructor
