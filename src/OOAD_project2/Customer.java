@@ -168,7 +168,6 @@ public class Customer {
         int cust_prob = r.nextInt(100);
         if (cust_prob < 50){
             a.setPurchasePrice(sellOffer); //set purchase price
-            //inv.addToCurrInventory(a); //add item to inventory
             cash.payCustomer(sellOffer);
             System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f.\n", clerkName, a.getNewUsed(), condition, a.getName(), a.getType(), customerNum, sellOffer);
         }
@@ -179,7 +178,6 @@ public class Customer {
             if (cust_prob2 < 75){
                 a.setDaySold(day);
                 a.setPurchasePrice (newPrice); 
-                // /inv.addToCurrInventory(a);
                 cash.payCustomer(newPrice);
                 System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f after an addition of 10%%.\n", clerkName, 
                 a.getNewUsed(), condition, a.getName(), a.getType(), customerNum, sellOffer);
