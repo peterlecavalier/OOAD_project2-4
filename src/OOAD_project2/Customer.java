@@ -1,3 +1,5 @@
+package src.OOAD_project2;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Arrays;
@@ -6,12 +8,21 @@ public class Customer {
     ArrayList<Item> allItems = new ArrayList<>();
     private Helpers h = new Helpers();
 
-    private Item itemPicker(){
+    private Item.Items chooseRandomSubclass(){
+        // Chooses a random subclass from all the possible subclasses
+        // Using the Item.Items enum
+        // https://stackoverflow.com/questions/1972392/pick-a-random-value-from-an-enum
         int numberOfItemTypes = Item.Items.values().length;
         Random rand = new Random();
         int enumChooser = rand.nextInt(numberOfItemTypes);
         List<Item.Items> enumValues = Arrays.asList(Item.Items.values());; 
-        Item.Items chosenSubclass = enumValues.get(enumChooser); 
+        Item.Items chosenSubclass = enumValues.get(enumChooser);
+        return chosenSubclass;
+    }
+
+    private Item itemPicker(){
+        // Choose a random subclass, then create a new instance of that class.
+        Item.Items chosenSubclass = this.chooseRandomSubclass();
         Item curItem;
         switch (chosenSubclass){
             case PAPERSCORE:
@@ -71,99 +82,109 @@ public class Customer {
         return curItem;
     }
 
-    public void buyItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
-        CashRegister cash = new CashRegister(); //to store and update the register
-        Store soldItems = new Store();
-        int match =0;
-        //Item a = itemPicker(); //Generate random item to buy
-        //Using a for loop to check if the item customer wants to buy is in inventory
-        Random r = new Random();
-        int index = r.nextInt(inventory.size());
-        Item a = inventory.get(index);
+    public void buyItem(ArrayList<Item> inventory, CashRegister cash, ArrayList<Item> soldItems, String clerkName, int customerNum, int day){
+        Item.Items chosenSubclass = this.chooseRandomSubclass();
+        ArrayList<Integer> itemIdxs = new ArrayList<>();
+        // Get the indexes of each item that matches the type the customer wants
         for (int i =0; i < inventory.size(); i++){
-            //System.out.print(inventory.get(i).getName());
-            //if a match is found, update parameters and exit
-            if (inventory.get(i).getName() == a.getName()){
-                match =1;
-                Item itemSold = inventory.get(i);
-                //random generator to determine if customer wants to buy with 50% poss
-                Random rand = new Random();
-                int buyChance = rand.nextInt(100);
-                if (buyChance < 50){ //50% chance
+            if (chosenSubclass == inventory.get(i).getType()){
+                itemIdxs.add(i);
+            }
+        }
+        if (itemIdxs.size() > 0){
+            Random rand = new Random();
+            int chosenItemIdx = itemIdxs.get(rand.nextInt(itemIdxs.size())); //Choose a random item from the subclass
+            Item itemSold = inventory.get(chosenItemIdx);
+            //random generator to determine if customer wants to buy with 50% poss
+            
+            int buyChance = rand.nextInt(100);
+            if (buyChance < 50){ //50% chance
+                itemSold.setDaySold(day); //Set day sold
+                itemSold.setSalePrice(itemSold.getListPrice()); //Set the sale price
+                soldItems.add(itemSold); //add to sold items inventory
+                inventory.remove(chosenItemIdx); //remove from current inventory
+                cash.addToRegister(itemSold.getListPrice());
+                System.out.printf("%s sold a %s %s condition %s (%s) to Customer %d for $%.2f \n", clerkName, 
+                itemSold.getNewUsed(),itemSold.getCondition(),itemSold.getName(), itemSold.getType(), customerNum, itemSold.getListPrice());
+            }
+            else{
+                //add 10% discount
+                double discountPrice = itemSold.getListPrice() - (itemSold.getListPrice() * 0.1);
+                discountPrice = Math.round(discountPrice * 100.0) / 100.0;
+                //update the cust buying chances
+                int buyChance2 = rand.nextInt(100);
+                if (buyChance2 < 75){
                     itemSold.setDaySold(day); //Set day sold
-                    soldItems.addToSold(itemSold); //add to sold items inventory
-                    inventory.remove(itemSold); //remove from current inventory
-                    cash.addToRegister(itemSold.getListPrice());
-                    System.out.printf("%s sold a %s to Customer %d for $%f \n", clerkName, itemSold.getName(), customerNum, itemSold.getListPrice());
-                    break; //Using breaks so item doesn't match item in inventory more than once
+                    itemSold.setSalePrice(discountPrice); //Set sale price as discount price
+                    soldItems.add(itemSold);
+                    inventory.remove(itemSold);
+                    cash.addToRegister(discountPrice);
+                    System.out.printf("%s sold a %s %s condition %s (%s) to Customer %d for $%.2f after a 10%% discount \n", clerkName,
+                    itemSold.getNewUsed(),itemSold.getCondition(), itemSold.getName(), itemSold.getType(), customerNum, discountPrice);
                 }
                 else{
-                    //add 10% discount
-                    double discountPrice = itemSold.getListPrice() + (itemSold.getListPrice() * 0.1);
-                    //update the cust buying chances
-                    Random rr = new Random();
-                    int buyChance2 = rand.nextInt(100);
-                    if (buyChance2 < 75){
-                        itemSold.setsalePrice(discountPrice); //Set sale price as discount price
-                        soldItems.addToSold(itemSold);
-                        inventory.remove(itemSold);
-                        cash.addToRegister(discountPrice);
-                        System.out.printf("%s sold a %s to Customer %d for $%f after a 10%% discount \n", clerkName, itemSold.getName(), customerNum, discountPrice);
-                        break;
-                    }
+                    System.out.printf("Customer %d came in to buy a %s %s condition %s (%s) but didn't like the price, so they left.\n", customerNum, 
+                    itemSold.getNewUsed(),itemSold.getCondition(), itemSold.getName(), chosenSubclass);
                 }
             }
         }
-        if (match ==0){
-            System.out.printf("Customer %d wanted to buy a %s but none were in inventory, so they left \n", customerNum, a.getName());
+        else{
+            System.out.printf("Customer %d wanted to buy a %s but none were in inventory, so they left.\n", customerNum, chosenSubclass);
         }
     }
 
-    public void sellItem(ArrayList<Item> inventory, String clerkName, int customerNum, int day){
-        CashRegister cash = new CashRegister();
+    public void sellItem(ArrayList<Item> inventory, CashRegister cash, String clerkName, int customerNum, int day){
         Item a = itemPicker();
         Helpers quality = new Helpers(); //gonna need helpers to generate random conditions from condGen
         String condition = quality.condGen(); //generate random conditions
         a.setCondition(condition); //set condition of item
         Random rand = new Random(); // this will be used to generate random price 
-        int sellOffer = 0; 
+        double sellOffer = 0; 
         switch (condition){ //Switch condition with increasing random price range
             case "poor":
-                sellOffer = rand.nextInt(5 - 1) + 1;
+                sellOffer = 1 + rand.nextDouble() * (10 - 1);
                 break;
             case "fair":
-                sellOffer = rand.nextInt(7 - 2) + 2;
+                sellOffer = 10 + rand.nextDouble() * (20 - 10);
                 break;
             case "good":
-                sellOffer = rand.nextInt(9 - 3) + 3;
+                sellOffer = 20 + rand.nextDouble() * (30 - 20);
                 break;
             case "very good":
-                sellOffer = rand.nextInt(11 - 4) + 4;
+                sellOffer = 30 + rand.nextDouble() * (40 - 30);
                 break;
             case "excellent":
-                sellOffer = rand.nextInt(13 - 5) + 5;
+                sellOffer = 40 + rand.nextDouble() * (40 - 50);
                 break;
         }
+
+        //Round the sellOffer so it only has 2 places after the decimal
+        sellOffer = Math.round(sellOffer * 100.0) / 100.0;
+
         //generate customer probability
         Random r = new Random();
         int cust_prob = r.nextInt(100);
-        if (cust_prob <50){
-            a.setDaySold(day);
+        if (cust_prob < 50){
             a.setPurchasePrice(sellOffer); //set purchase price
             //inv.addToCurrInventory(a); //add item to inventory
             cash.payCustomer(sellOffer);
-            System.out.printf("%s bought a %s condition %s from Customer %d for $%d. \n", clerkName, condition, a.getName(), customerNum, sellOffer);
+            System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f.\n", clerkName, a.getNewUsed(), condition, a.getName(), a.getType(), customerNum, sellOffer);
         }
         else{
             double newPrice = sellOffer + (sellOffer * 0.1);
-            Random rr = new Random();
-            int cust_prob2 = rr.nextInt(100);
+            newPrice = Math.round(newPrice * 100.0) / 100.0;
+            int cust_prob2 = r.nextInt(100);
             if (cust_prob2 < 75){
                 a.setDaySold(day);
                 a.setPurchasePrice (newPrice); 
                 // /inv.addToCurrInventory(a);
                 cash.payCustomer(newPrice);
-                System.out.printf("%s bought a %s condition %s from Customer %d for $%d with an addition of 10%%. \n", clerkName, condition, a.getName(), customerNum, sellOffer);
+                System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f after an addition of 10%%.\n", clerkName, 
+                a.getNewUsed(), condition, a.getName(), a.getType(), customerNum, sellOffer);
+            }
+            else{
+                System.out.printf("Customer %d wanted to sell a %s %s condition %s (%s), but didn't like the offer. They left.\n", customerNum, 
+                a.getNewUsed(), condition, a.getName(), a.getType());
             }
         }
     }

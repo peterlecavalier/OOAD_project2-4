@@ -1,3 +1,5 @@
+package src.OOAD_project2;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.HashMap;
@@ -23,9 +25,11 @@ public class Clerk {
         if (!arrivedOrders.isEmpty()){
             for(Item i : arrivedOrders){
                 inventory.add(i);
+                String itemName = i.getName();
+                System.out.printf("Item %s (%s) arrived at the store.\n", itemName, i.getType());
             }
             // Reset arrivedOrders
-            arrivedOrders = new ArrayList<>();
+            arrivedOrders.clear();
         }
     }
 
@@ -38,13 +42,16 @@ public class Clerk {
     }
 
     private void goToBank(CashRegister register){
+        // Go to the bank
+        // Keep track of the total money added from the bank
         register.addMoneyFromBank(1000.0);
+        //... and add it to the register
         register.addToRegister(1000.0);
         double moneyInReg = register.getMoneyAmt();
         System.out.printf("%s went to the bank and put $1000 in the register. There is now $%.2f in the register.\n", this.name, moneyInReg);
     }
 
-    public ArrayList<Item> doInventory(ArrayList<Item> inventory){
+    public ArrayList<Item> doInventory(ArrayList<Item> inventory, CashRegister register){
         // HashMap implementation from here:
         // https://www.w3schools.com/java/java_hashmap.asp
         HashMap<Item.Items, Integer> subclassCounts = new HashMap<Item.Items, Integer>();
@@ -69,7 +76,7 @@ public class Clerk {
         // Call placeAnOrder for each missing inventory class
         for (Item.Items i : subclassCounts.keySet()) {
             if (subclassCounts.get(i) == 0){
-                ArrayList<Item> orderedItems = this.placeAnOrder(i);
+                ArrayList<Item> orderedItems = this.placeAnOrder(i, register);
                 newItems.addAll(orderedItems);
             }
         }
@@ -77,7 +84,7 @@ public class Clerk {
     }
 
     // Places an order for items and returns the ArrayList of items
-    public ArrayList<Item> placeAnOrder(Item.Items orderClass){
+    public ArrayList<Item> placeAnOrder(Item.Items orderClass, CashRegister register){
         ArrayList<Item> itemsInOrder = new ArrayList<>();
         for(int i = 0; i < 3; i++){
             Item curItem;
@@ -137,12 +144,15 @@ public class Clerk {
                     throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
             }
             itemsInOrder.add(curItem);
+            double purPrice = curItem.getPurchasePrice();
+            register.payCustomer(purPrice);
+            System.out.printf("%s placed an order for %s (%s) for $%.2f.\n", this.name, curItem.getName(), curItem.getType(), purPrice);
         }
         return itemsInOrder;
     }
 
-    public void openTheStore(ArrayList<Item> inventory, int dayNum){
-        Customer cust = new Customer(); //Need to check method on how to call subclass ?
+    public void openTheStore(ArrayList<Item> inventory, ArrayList<Item> soldItems, CashRegister register, int dayNum){
+        Customer cust;
         int custNum=0;
         int counter = 0;
         Random r = new Random();
@@ -157,13 +167,15 @@ public class Clerk {
         while (counter < numBuyingCustomers){
             counter ++;
             custNum ++;
-            cust.buyItem(inventory, this.name, custNum, dayNum);
+            cust = new Customer();
+            cust.buyItem(inventory, register, soldItems, this.name, custNum, dayNum);
         }
         //1-4 selling customers
-        while(counter < numSellingCustomers + numBuyingCustomers ){
+        while(counter < numSellingCustomers + numBuyingCustomers){
             counter ++;
             custNum++;
-            cust.sellItem(inventory, this.name, custNum, dayNum);
+            cust = new Customer();
+            cust.sellItem(inventory, register, this.name, custNum, dayNum);
         }
     }
 
@@ -187,14 +199,14 @@ public class Clerk {
             String newCond = itemBroken.lowerCondition();
             // If the item has been destroyed, remove it from inventory
             if (newCond == "broken"){
-                System.out.printf("Oh no! %s has broken an item! %s is now destroyed and has been removed from inventory.\n", this.name, itemBroken.getName());
-                inventory.remove(randItem);
+                System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, itemBroken.getName(), itemBroken.getType());
+                inventory.remove(randBroken);
             }
             // If not, reduce the price by 20%.
             else{
                 //Reduce price by 20%
                 double newPrice = itemBroken.lowerListPrice();
-                System.out.printf("Oh no! %s has broken an item! The price of %s has been reduced to %.2f and the condition is now %s.\n", this.name, itemBroken.getName(), newPrice, newCond);
+                System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, itemBroken.getName(), itemBroken.getType(), newPrice, newCond);
             }
             
         }

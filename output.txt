@@ -1,0 +1,811 @@
+----- Shaggy arrives at the store on day 1 -----
+Shaggy counted $0.00 in the register.
+Shaggy went to the bank and put $1000 in the register. There is now $1000.00 in the register.
+Shaggy did inventory. Total value in the store is $1443.39.
+Shaggy sold a new fair condition FBDTYULWVE (FLUTE) to Customer 1 for $2.00 
+Shaggy sold a new fair condition AOUOPIKCOE (CDPLAYER) to Customer 2 for $55.62 
+Shaggy sold a used very good condition UHVSCUAZNS (VINYL) to Customer 3 for $68.22 after a 10% discount 
+Shaggy sold a used excellent condition OQCEHVSZSR (STRINGS) to Customer 4 for $9.64 
+Shaggy bought a new good condition HEXXSRCZBL (PRACTICEAMP) from Customer 5 for $24.40.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 2 -----
+Velma counted $1111.08 in the register.
+Velma did inventory. Total value in the store is $1371.86.
+Velma sold a used very good condition HATJIBWNFI (PAPERSCORE) to Customer 1 for $63.59 after a 10% discount 
+Velma sold a used poor condition MVBQAEVOAE (MANDOLIN) to Customer 2 for $71.12 after a 10% discount 
+Velma sold a used fair condition QXSJWBWGZR (PRACTICEAMP) to Customer 3 for $77.38 
+Velma sold a new good condition XTXRHDSPPO (PRACTICEAMP) to Customer 4 for $57.60 
+Velma bought a new fair condition SZEPWCASNK (CABLE) from Customer 5 for $14.44.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 3 -----
+Velma counted $1366.33 in the register.
+Velma did inventory. Total value in the store is $1229.53.
+Velma sold a new fair condition VQIQNRPVSP (BASS) to Customer 1 for $91.52 
+Velma sold a used very good condition ZHNOXBZCEZ (FLUTE) to Customer 2 for $67.64 
+Velma sold a used excellent condition LFFFMJKHAE (MANDOLIN) to Customer 3 for $81.49 after a 10% discount 
+Velma sold a used excellent condition RIGLPWUWJX (RECORDPLAYER) to Customer 4 for $51.89 after a 10% discount 
+Velma bought a used excellent condition VKRZJOCXEN (MANDOLIN) from Customer 5 for $37.68 after an addition of 10%.
+Velma bought a used very good condition ZZNZRFMUFQ (CABLE) from Customer 6 for $34.48.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 4 -----
+Shaggy counted $1582.94 in the register.
+Shaggy did inventory. Total value in the store is $1075.85.
+Shaggy sold a used fair condition AGWIUDPRZA (BANDANA) to Customer 1 for $67.07 after a 10% discount 
+Shaggy sold a new good condition KXICJTKDMJ (RECORDPLAYER) to Customer 2 for $8.19 after a 10% discount 
+Shaggy sold a used very good condition ASMZOYOFGE (PAPERSCORE) to Customer 3 for $2.88 after a 10% discount 
+Shaggy sold a new excellent condition UJZWTROZXD (HAT) to Customer 4 for $71.24 
+Shaggy bought a used very good condition CVOQWLSVLT (CD) from Customer 5 for $37.51 after an addition of 10%.
+Customer 6 wanted to sell a new excellent condition AOULWDNTIA (SHIRT), but didn't like the offer. They left.
+Shaggy bought a new fair condition RDFBAYITBP (FLUTE) from Customer 7 for $19.48 after an addition of 10%.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 5 -----
+Shaggy counted $1669.63 in the register.
+Shaggy did inventory. Total value in the store is $996.82.
+Shaggy sold a used good condition VJPFXICYZM (MP3PLAYER) to Customer 1 for $99.34 
+Shaggy sold a new good condition QDWEOYZTOL (HAT) to Customer 2 for $39.56 after a 10% discount 
+Shaggy sold a new fair condition WUUXCIOQFZ (HARMONICA) to Customer 3 for $64.44 
+Shaggy sold a used very good condition SBACENIYCH (VINYL) to Customer 4 for $79.68 
+Shaggy sold a used poor condition PUNBPEJVDJ (GUITAR) to Customer 5 for $29.93 after a 10% discount 
+Shaggy sold a used good condition SLAYEXLDBZ (BASS) to Customer 6 for $80.32 after a 10% discount 
+Shaggy bought a used fair condition BZCDNCQXQO (BANDANA) from Customer 7 for $15.82.
+Shaggy bought a new poor condition CVLVSBIUWT (FLUTE) from Customer 8 for $4.67 after an addition of 10%.
+Shaggy bought a new good condition SCNZKADWKZ (FLUTE) from Customer 9 for $25.62 after an addition of 10%.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 6 -----
+Velma counted $2013.76 in the register.
+Velma did inventory. Total value in the store is $791.86.
+Velma sold a used good condition GXJNIYZJZF (CABLE) to Customer 1 for $49.81 after a 10% discount 
+Customer 2 came in to buy a used very good condition PXLMUAUCEH (BANDANA) but didn't like the price, so they left.
+Customer 3 came in to buy a used excellent condition TUPDIOEHTR (FLUTE) but didn't like the price, so they left.
+Velma sold a used poor condition BJETZQKWCW (CD) to Customer 4 for $55.55 after a 10% discount 
+Velma bought a used very good condition CIUSYRGULI (HAT) from Customer 5 for $38.02.
+Velma bought a new fair condition NUNSDPZEJW (CABLE) from Customer 6 for $17.80 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Sunday! The store is closed. -----
+----- Velma arrives at the store on day 8 -----
+Velma counted $2061.52 in the register.
+Velma did inventory. Total value in the store is $733.33.
+Velma sold a new very good condition ZEOOSYHCOQ (VINYL) to Customer 1 for $10.30 
+Velma sold a used good condition FVIZVAOMII (MANDOLIN) to Customer 2 for $56.00 
+Velma sold a used good condition TLWSDUWQYX (BASS) to Customer 3 for $72.20 
+Customer 4 wanted to buy a MANDOLIN but none were in inventory, so they left.
+Velma sold a used poor condition GZKZLMISJP (CD) to Customer 5 for $3.19 after a 10% discount 
+Velma bought a new good condition ZPWKVCODNL (MP3PLAYER) from Customer 6 for $20.41.
+Velma bought a used excellent condition TEDTQURGEU (CDPLAYER) from Customer 7 for $34.64.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 9 -----
+Shaggy counted $2148.16 in the register.
+Shaggy did inventory. Total value in the store is $662.31.
+Shaggy placed an order for RAMJANAHDW (BASS) for $4.09.
+Shaggy placed an order for WJSOTLUCKK (BASS) for $27.19.
+Shaggy placed an order for HUGVNFTAXZ (BASS) for $9.93.
+Shaggy placed an order for EURKDTYRRC (MANDOLIN) for $40.05.
+Shaggy placed an order for PWWOSSQUQS (MANDOLIN) for $20.66.
+Shaggy placed an order for QFPXVMWWTT (MANDOLIN) for $29.64.
+Shaggy placed an order for UELADAQSRJ (VINYL) for $11.48.
+Shaggy placed an order for YTQNGFCJXG (VINYL) for $11.86.
+Shaggy placed an order for VGGSIJVEWX (VINYL) for $36.02.
+Customer 1 came in to buy a used poor condition RELQJGBSQI (STRINGS) but didn't like the price, so they left.
+Shaggy sold a new good condition MHYPLXMRVB (MP3PLAYER) to Customer 2 for $2.03 after a 10% discount 
+Shaggy sold a new very good condition BEASTFGAKF (HAT) to Customer 3 for $97.36 
+Shaggy sold a new poor condition PTSHOGFZNQ (CD) to Customer 4 for $50.14 
+Customer 5 wanted to buy a MANDOLIN but none were in inventory, so they left.
+Shaggy sold a new good condition CXIBHWQMTO (CDPLAYER) to Customer 6 for $68.53 after a 10% discount 
+Shaggy sold a used fair condition FDRAFXSMCQ (MP3PLAYER) to Customer 7 for $77.98 
+Customer 8 came in to buy a used excellent condition QTODBRBDHB (STRINGS) but didn't like the price, so they left.
+Customer 9 wanted to buy a HAT but none were in inventory, so they left.
+Shaggy bought a used fair condition ZPRJZCYTKW (MANDOLIN) from Customer 10 for $14.37.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 10 -----
+Item RAMJANAHDW (BASS) arrived at the store.
+Item WJSOTLUCKK (BASS) arrived at the store.
+Item HUGVNFTAXZ (BASS) arrived at the store.
+Item EURKDTYRRC (MANDOLIN) arrived at the store.
+Item PWWOSSQUQS (MANDOLIN) arrived at the store.
+Item QFPXVMWWTT (MANDOLIN) arrived at the store.
+Item UELADAQSRJ (VINYL) arrived at the store.
+Item YTQNGFCJXG (VINYL) arrived at the store.
+Item VGGSIJVEWX (VINYL) arrived at the store.
+Shaggy counted $2238.91 in the register.
+Shaggy did inventory. Total value in the store is $701.29.
+Shaggy placed an order for KNCRDFJZGR (HAT) for $13.11.
+Shaggy placed an order for BGSRJZAVSD (HAT) for $22.40.
+Shaggy placed an order for GKVZVWPVZT (HAT) for $4.14.
+Shaggy placed an order for JZCUPGURZR (MP3PLAYER) for $12.75.
+Shaggy placed an order for JUGVCFCAKD (MP3PLAYER) for $33.14.
+Shaggy placed an order for SFORYXTXLD (MP3PLAYER) for $35.29.
+Shaggy placed an order for LFUVZQCGOJ (CD) for $43.92.
+Shaggy placed an order for SDAKHJLHTB (CD) for $38.74.
+Shaggy placed an order for XFWYCBJJIZ (CD) for $45.15.
+Customer 1 wanted to buy a CD but none were in inventory, so they left.
+Shaggy sold a used good condition CKAXDVVLOL (RECORDPLAYER) to Customer 2 for $87.08 
+Shaggy sold a used poor condition FOGXIKLODA (PAPERSCORE) to Customer 3 for $89.30 
+Customer 4 wanted to buy a RECORDPLAYER but none were in inventory, so they left.
+Shaggy sold a used excellent condition TUPDIOEHTR (FLUTE) to Customer 5 for $53.92 
+Customer 6 wanted to buy a PAPERSCORE but none were in inventory, so they left.
+Shaggy sold a used very good condition VGGSIJVEWX (VINYL) to Customer 7 for $64.84 after a 10% discount 
+Shaggy sold a used poor condition RTBZIZKRAW (SHIRT) to Customer 8 for $9.84 
+Shaggy sold a used poor condition WJSOTLUCKK (BASS) to Customer 9 for $54.38 
+Shaggy sold a used excellent condition QFPXVMWWTT (MANDOLIN) to Customer 10 for $59.28 
+Shaggy bought a new very good condition MZRFYQLDPE (CD) from Customer 11 for $38.14 after an addition of 10%.
+Shaggy bought a used very good condition ITJVHLTKJY (FLUTE) from Customer 12 for $32.09 after an addition of 10%.
+Shaggy is cleaning the store.
+Oh no! Shaggy has broken an item! The price of ASTSJIMERL (CABLE) has been reduced to $40.19 and the condition is now fair.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 11 -----
+Item KNCRDFJZGR (HAT) arrived at the store.
+Item BGSRJZAVSD (HAT) arrived at the store.
+Item GKVZVWPVZT (HAT) arrived at the store.
+Item JZCUPGURZR (MP3PLAYER) arrived at the store.
+Item JUGVCFCAKD (MP3PLAYER) arrived at the store.
+Item SFORYXTXLD (MP3PLAYER) arrived at the store.
+Item LFUVZQCGOJ (CD) arrived at the store.
+Item SDAKHJLHTB (CD) arrived at the store.
+Item XFWYCBJJIZ (CD) arrived at the store.
+Velma counted $2331.66 in the register.
+Velma did inventory. Total value in the store is $737.01.
+Velma placed an order for IOJHEOAOPM (RECORDPLAYER) for $29.62.
+Velma placed an order for HVOBYMZBOA (RECORDPLAYER) for $43.79.
+Velma placed an order for DAPAKFWEBS (RECORDPLAYER) for $46.18.
+Velma placed an order for BSIMXESPPT (FLUTE) for $7.04.
+Velma placed an order for MQQDWMFXQF (FLUTE) for $45.12.
+Velma placed an order for UGPOHKSGXH (FLUTE) for $21.77.
+Velma placed an order for GYONRBJXON (PAPERSCORE) for $13.96.
+Velma placed an order for TXLJXNBPGZ (PAPERSCORE) for $7.79.
+Velma placed an order for LWYRWWMMKD (PAPERSCORE) for $49.11.
+Customer 1 wanted to buy a PAPERSCORE but none were in inventory, so they left.
+Velma sold a used very good condition MEWIEDBMAW (HARMONICA) to Customer 2 for $86.52 
+Velma sold a new very good condition SDAKHJLHTB (CD) to Customer 3 for $77.48 
+Velma sold a new fair condition GYGZZXZOWF (CDPLAYER) to Customer 4 for $87.14 
+Velma sold a new poor condition BGSRJZAVSD (HAT) to Customer 5 for $44.80 
+Velma sold a new excellent condition UNSORNOBLN (SHIRT) to Customer 6 for $47.16 
+Velma sold a used fair condition PWWOSSQUQS (MANDOLIN) to Customer 7 for $37.19 after a 10% discount 
+Customer 8 wanted to buy a CDPLAYER but none were in inventory, so they left.
+Velma bought a used fair condition OQURQIQMLN (MANDOLIN) from Customer 9 for $12.82 after an addition of 10%.
+Velma bought a new poor condition IZBEIBLFYF (CABLE) from Customer 10 for $6.80.
+Velma bought a new very good condition MLCEYUPXPR (SHIRT) from Customer 11 for $37.87.
+Velma bought a new good condition SOKRWWHGKA (HAT) from Customer 12 for $26.89.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 12 -----
+Item IOJHEOAOPM (RECORDPLAYER) arrived at the store.
+Item HVOBYMZBOA (RECORDPLAYER) arrived at the store.
+Item DAPAKFWEBS (RECORDPLAYER) arrived at the store.
+Item BSIMXESPPT (FLUTE) arrived at the store.
+Item MQQDWMFXQF (FLUTE) arrived at the store.
+Item UGPOHKSGXH (FLUTE) arrived at the store.
+Item GYONRBJXON (PAPERSCORE) arrived at the store.
+Item TXLJXNBPGZ (PAPERSCORE) arrived at the store.
+Item LWYRWWMMKD (PAPERSCORE) arrived at the store.
+Shaggy counted $2361.91 in the register.
+Shaggy did inventory. Total value in the store is $809.18.
+Shaggy placed an order for LRZZJCQCKV (CDPLAYER) for $18.48.
+Shaggy placed an order for CMYQGBMBBZ (CDPLAYER) for $25.48.
+Shaggy placed an order for YEIFIVLFFN (CDPLAYER) for $23.99.
+Shaggy sold a new poor condition GYBAXIBUID (SHIRT) to Customer 1 for $69.93 after a 10% discount 
+Customer 2 wanted to buy a CDPLAYER but none were in inventory, so they left.
+Shaggy sold a new poor condition IOJHEOAOPM (RECORDPLAYER) to Customer 3 for $59.24 
+Shaggy sold a new poor condition DAPAKFWEBS (RECORDPLAYER) to Customer 4 for $83.12 after a 10% discount 
+Customer 5 came in to buy a used good condition EURKDTYRRC (MANDOLIN) but didn't like the price, so they left.
+Customer 6 came in to buy a used good condition EURKDTYRRC (MANDOLIN) but didn't like the price, so they left.
+Shaggy sold a used poor condition RELQJGBSQI (STRINGS) to Customer 7 for $72.96 
+Shaggy sold a new fair condition RAMJANAHDW (BASS) to Customer 8 for $7.36 after a 10% discount 
+Customer 9 wanted to buy a CDPLAYER but none were in inventory, so they left.
+Shaggy sold a new fair condition GKVZVWPVZT (HAT) to Customer 10 for $7.45 after a 10% discount 
+Shaggy bought a used excellent condition NLLQNXTHNI (CD) from Customer 11 for $37.90.
+Shaggy bought a new very good condition MCWCQJWVDQ (PAPERSCORE) from Customer 12 for $35.61.
+Shaggy bought a used good condition QHENQNMBVP (VINYL) from Customer 13 for $25.34.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 13 -----
+Item LRZZJCQCKV (CDPLAYER) arrived at the store.
+Item CMYQGBMBBZ (CDPLAYER) arrived at the store.
+Item YEIFIVLFFN (CDPLAYER) arrived at the store.
+Velma counted $2495.17 in the register.
+Velma did inventory. Total value in the store is $717.77.
+Velma placed an order for CNHDFLUGZR (SHIRT) for $44.47.
+Velma placed an order for KXLFSSTFMV (SHIRT) for $23.04.
+Velma placed an order for CELQOGUIMY (SHIRT) for $30.77.
+Velma sold a used good condition EURKDTYRRC (MANDOLIN) to Customer 1 for $72.09 after a 10% discount 
+Velma sold a new very good condition HVOBYMZBOA (RECORDPLAYER) to Customer 2 for $87.58 
+Velma sold a used excellent condition KNCRDFJZGR (HAT) to Customer 3 for $26.22 
+Customer 4 wanted to buy a HAT but none were in inventory, so they left.
+Velma sold a new fair condition LRZZJCQCKV (CDPLAYER) to Customer 5 for $33.26 after a 10% discount 
+Velma bought a used fair condition EGCQOUNGSH (CABLE) from Customer 6 for $14.76 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Sunday! The store is closed. -----
+----- Shaggy arrives at the store on day 15 -----
+Item CNHDFLUGZR (SHIRT) arrived at the store.
+Item KXLFSSTFMV (SHIRT) arrived at the store.
+Item CELQOGUIMY (SHIRT) arrived at the store.
+Shaggy counted $2599.80 in the register.
+Shaggy did inventory. Total value in the store is $700.62.
+Shaggy placed an order for FTYGOOPZDS (RECORDPLAYER) for $28.11.
+Shaggy placed an order for XKAQDEASLZ (RECORDPLAYER) for $48.62.
+Shaggy placed an order for HJHOUKRDCB (RECORDPLAYER) for $16.12.
+Shaggy placed an order for PPRYQVHOSJ (MANDOLIN) for $17.15.
+Shaggy placed an order for SXJRZWVMOD (MANDOLIN) for $30.13.
+Shaggy placed an order for DSDWCDYZAM (MANDOLIN) for $9.43.
+Shaggy placed an order for FERKTPWFEM (HAT) for $35.35.
+Shaggy placed an order for RTVLWXVIUX (HAT) for $8.35.
+Shaggy placed an order for SZGGETSGJD (HAT) for $20.23.
+Shaggy sold a used good condition HUGVNFTAXZ (BASS) to Customer 1 for $19.86 
+Shaggy sold a new fair condition TXLJXNBPGZ (PAPERSCORE) to Customer 2 for $14.02 after a 10% discount 
+Shaggy sold a used very good condition PXLMUAUCEH (BANDANA) to Customer 3 for $58.95 after a 10% discount 
+Shaggy sold a new fair condition YTQNGFCJXG (VINYL) to Customer 4 for $23.72 
+Shaggy sold a new good condition XFWYCBJJIZ (CD) to Customer 5 for $81.27 after a 10% discount 
+Shaggy sold a new poor condition JUGVCFCAKD (MP3PLAYER) to Customer 6 for $66.28 
+Shaggy sold a new excellent condition IMGNVDOFWK (HARMONICA) to Customer 7 for $32.18 
+Shaggy sold a new excellent condition SFORYXTXLD (MP3PLAYER) to Customer 8 for $70.58 
+Customer 9 came in to buy a used fair condition JZCUPGURZR (MP3PLAYER) but didn't like the price, so they left.
+Shaggy sold a used excellent condition GYONRBJXON (PAPERSCORE) to Customer 10 for $25.13 after a 10% discount 
+Shaggy bought a new good condition THNXCGWVWF (PAPERSCORE) from Customer 11 for $25.64.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 16 -----
+Item FTYGOOPZDS (RECORDPLAYER) arrived at the store.
+Item XKAQDEASLZ (RECORDPLAYER) arrived at the store.
+Item HJHOUKRDCB (RECORDPLAYER) arrived at the store.
+Item PPRYQVHOSJ (MANDOLIN) arrived at the store.
+Item SXJRZWVMOD (MANDOLIN) arrived at the store.
+Item DSDWCDYZAM (MANDOLIN) arrived at the store.
+Item FERKTPWFEM (HAT) arrived at the store.
+Item RTVLWXVIUX (HAT) arrived at the store.
+Item SZGGETSGJD (HAT) arrived at the store.
+Shaggy counted $2752.66 in the register.
+Shaggy did inventory. Total value in the store is $708.15.
+Shaggy placed an order for EGCBVHLPZN (BASS) for $47.33.
+Shaggy placed an order for EDKCCOBBYY (BASS) for $1.58.
+Shaggy placed an order for IHKDRNTCJK (BASS) for $19.11.
+Shaggy placed an order for NSDYMUSZPH (FLUTE) for $8.80.
+Shaggy placed an order for HKXXHPWZYA (FLUTE) for $11.30.
+Shaggy placed an order for HEEDHQOWKW (FLUTE) for $40.19.
+Shaggy sold a used fair condition LWYRWWMMKD (PAPERSCORE) to Customer 1 for $88.40 after a 10% discount 
+Shaggy sold a new excellent condition ETUMAKJOLU (BANDANA) to Customer 2 for $58.63 after a 10% discount 
+Customer 3 came in to buy a used excellent condition QTODBRBDHB (STRINGS) but didn't like the price, so they left.
+Customer 4 wanted to buy a PAPERSCORE but none were in inventory, so they left.
+Shaggy sold a new very good condition MQQDWMFXQF (FLUTE) to Customer 5 for $90.24 
+Customer 6 came in to buy a used poor condition UELADAQSRJ (VINYL) but didn't like the price, so they left.
+Customer 7 wanted to sell a used poor condition ZINQAOAVXE (CDPLAYER), but didn't like the offer. They left.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 17 -----
+Item EGCBVHLPZN (BASS) arrived at the store.
+Item EDKCCOBBYY (BASS) arrived at the store.
+Item IHKDRNTCJK (BASS) arrived at the store.
+Item NSDYMUSZPH (FLUTE) arrived at the store.
+Item HKXXHPWZYA (FLUTE) arrived at the store.
+Item HEEDHQOWKW (FLUTE) arrived at the store.
+Velma counted $2861.62 in the register.
+Velma did inventory. Total value in the store is $709.66.
+Velma placed an order for FAELORXDMH (FLUTE) for $5.89.
+Velma placed an order for WDFTPDTDFM (FLUTE) for $42.25.
+Velma placed an order for MBSGTFKUNX (FLUTE) for $12.09.
+Velma placed an order for PIDLHSVJEF (PAPERSCORE) for $47.28.
+Velma placed an order for KJFYWIJSQA (PAPERSCORE) for $5.16.
+Velma placed an order for FAFCLJMUQL (PAPERSCORE) for $31.26.
+Velma placed an order for VWIRPNKLBU (BANDANA) for $3.68.
+Velma placed an order for QQXWUFVSVG (BANDANA) for $38.09.
+Velma placed an order for DWVFEYAHCM (BANDANA) for $31.79.
+Velma sold a used fair condition XKAQDEASLZ (RECORDPLAYER) to Customer 1 for $87.52 after a 10% discount 
+Customer 2 came in to buy a new poor condition LFUVZQCGOJ (CD) but didn't like the price, so they left.
+Customer 3 wanted to buy a PAPERSCORE but none were in inventory, so they left.
+Velma sold a used excellent condition QTODBRBDHB (STRINGS) to Customer 4 for $8.38 
+Velma sold a new poor condition LFUVZQCGOJ (CD) to Customer 5 for $87.84 
+Velma sold a used excellent condition EUNWMYHPWS (CABLE) to Customer 6 for $39.01 after a 10% discount 
+Customer 7 wanted to buy a STRINGS but none were in inventory, so they left.
+Velma sold a used fair condition FTYGOOPZDS (RECORDPLAYER) to Customer 8 for $56.22 
+Customer 9 wanted to buy a STRINGS but none were in inventory, so they left.
+Velma bought a new good condition AUAAOAHVVE (CABLE) from Customer 10 for $29.61 after an addition of 10%.
+Customer 11 wanted to sell a used fair condition JAIKKVRDRL (PRACTICEAMP), but didn't like the offer. They left.
+Velma bought a used excellent condition DOQQHMNVIX (STRINGS) from Customer 12 for $39.99 after an addition of 10%.
+Velma bought a new fair condition HNXPFHPGON (PAPERSCORE) from Customer 13 for $12.61 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 18 -----
+Item FAELORXDMH (FLUTE) arrived at the store.
+Item WDFTPDTDFM (FLUTE) arrived at the store.
+Item MBSGTFKUNX (FLUTE) arrived at the store.
+Item PIDLHSVJEF (PAPERSCORE) arrived at the store.
+Item KJFYWIJSQA (PAPERSCORE) arrived at the store.
+Item FAFCLJMUQL (PAPERSCORE) arrived at the store.
+Item VWIRPNKLBU (BANDANA) arrived at the store.
+Item QQXWUFVSVG (BANDANA) arrived at the store.
+Item DWVFEYAHCM (BANDANA) arrived at the store.
+Velma counted $2832.67 in the register.
+Velma did inventory. Total value in the store is $780.64.
+Velma placed an order for UMKGESPSYQ (STRINGS) for $7.34.
+Velma placed an order for VQGZSXZRXE (STRINGS) for $29.45.
+Velma placed an order for XVTZIXEHSH (STRINGS) for $3.93.
+Velma placed an order for UGTOVHIFZR (FLUTE) for $11.34.
+Velma placed an order for OFNTIUQTQB (FLUTE) for $1.07.
+Velma placed an order for NTEEZQGTKH (FLUTE) for $40.35.
+Velma placed an order for DVPVOGZMKH (CD) for $34.36.
+Velma placed an order for MKWCUNIYIY (CD) for $36.27.
+Velma placed an order for VWGSNODMUV (CD) for $7.35.
+Customer 1 wanted to buy a HARMONICA but none were in inventory, so they left.
+Customer 2 wanted to buy a STRINGS but none were in inventory, so they left.
+Velma sold a new good condition VWIRPNKLBU (BANDANA) to Customer 3 for $7.36 
+Velma sold a new good condition EGCBVHLPZN (BASS) to Customer 4 for $94.66 
+Customer 5 wanted to buy a HARMONICA but none were in inventory, so they left.
+Velma sold a used poor condition UELADAQSRJ (VINYL) to Customer 6 for $20.66 after a 10% discount 
+Velma sold a new poor condition PIDLHSVJEF (PAPERSCORE) to Customer 7 for $94.56 
+Customer 8 came in to buy a new fair condition ASTSJIMERL (CABLE) but didn't like the price, so they left.
+Customer 9 came in to buy a new very good condition HJHOUKRDCB (RECORDPLAYER) but didn't like the price, so they left.
+Velma bought a new poor condition WPKZFGAWHT (PAPERSCORE) from Customer 10 for $2.68.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 19 -----
+Item UMKGESPSYQ (STRINGS) arrived at the store.
+Item VQGZSXZRXE (STRINGS) arrived at the store.
+Item XVTZIXEHSH (STRINGS) arrived at the store.
+Item UGTOVHIFZR (FLUTE) arrived at the store.
+Item OFNTIUQTQB (FLUTE) arrived at the store.
+Item NTEEZQGTKH (FLUTE) arrived at the store.
+Item DVPVOGZMKH (CD) arrived at the store.
+Item MKWCUNIYIY (CD) arrived at the store.
+Item VWGSNODMUV (CD) arrived at the store.
+Shaggy counted $2875.77 in the register.
+Shaggy did inventory. Total value in the store is $842.33.
+Shaggy placed an order for AFCWPKNLOJ (FLUTE) for $39.86.
+Shaggy placed an order for MLCCIKIQUZ (FLUTE) for $40.37.
+Shaggy placed an order for VOAUZXUPNY (FLUTE) for $13.02.
+Shaggy placed an order for QWTYPPGQCE (VINYL) for $30.02.
+Shaggy placed an order for AUHOVMLORZ (VINYL) for $15.88.
+Shaggy placed an order for XIKRWLCURE (VINYL) for $21.47.
+Shaggy sold a used fair condition HKXXHPWZYA (FLUTE) to Customer 1 for $22.60 
+Shaggy sold a used very good condition IGMVMJWSZD (PRACTICEAMP) to Customer 2 for $21.44 
+Customer 3 came in to buy a new excellent condition DWVFEYAHCM (BANDANA) but didn't like the price, so they left.
+Shaggy sold a used fair condition YEIFIVLFFN (CDPLAYER) to Customer 4 for $43.18 after a 10% discount 
+Customer 5 wanted to buy a VINYL but none were in inventory, so they left.
+Customer 6 wanted to buy a PRACTICEAMP but none were in inventory, so they left.
+Shaggy sold a used excellent condition XVTZIXEHSH (STRINGS) to Customer 7 for $7.86 
+Customer 8 came in to buy a new fair condition FERKTPWFEM (HAT) but didn't like the price, so they left.
+Shaggy sold a used fair condition SZGGETSGJD (HAT) to Customer 9 for $36.41 after a 10% discount 
+Shaggy sold a new excellent condition DWVFEYAHCM (BANDANA) to Customer 10 for $63.58 
+Shaggy bought a used poor condition EGYMCUDTGL (FLUTE) from Customer 11 for $8.56 after an addition of 10%.
+Shaggy bought a used poor condition TSBDSDBHRN (PAPERSCORE) from Customer 12 for $8.62.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 20 -----
+Item AFCWPKNLOJ (FLUTE) arrived at the store.
+Item MLCCIKIQUZ (FLUTE) arrived at the store.
+Item VOAUZXUPNY (FLUTE) arrived at the store.
+Item QWTYPPGQCE (VINYL) arrived at the store.
+Item AUHOVMLORZ (VINYL) arrived at the store.
+Item XIKRWLCURE (VINYL) arrived at the store.
+Velma counted $2892.18 in the register.
+Velma did inventory. Total value in the store is $900.99.
+Velma placed an order for PXJKMSWGEW (FLUTE) for $46.82.
+Velma placed an order for CHQZLHGFNC (FLUTE) for $48.03.
+Velma placed an order for OTBOGZHYDO (FLUTE) for $25.31.
+Velma placed an order for MCPZFFALQC (PRACTICEAMP) for $14.14.
+Velma placed an order for XEZZKHEPKE (PRACTICEAMP) for $11.92.
+Velma placed an order for LYBNDEPKHG (PRACTICEAMP) for $12.89.
+Customer 1 came in to buy a new good condition QWTYPPGQCE (VINYL) but didn't like the price, so they left.
+Customer 2 came in to buy a new good condition VQGZSXZRXE (STRINGS) but didn't like the price, so they left.
+Velma sold a new good condition CMYQGBMBBZ (CDPLAYER) to Customer 3 for $50.96 
+Customer 4 came in to buy a new fair condition FERKTPWFEM (HAT) but didn't like the price, so they left.
+Velma sold a used fair condition JZCUPGURZR (MP3PLAYER) to Customer 5 for $22.95 after a 10% discount 
+Customer 6 wanted to sell a used poor condition XABMKOOUSA (MP3PLAYER), but didn't like the offer. They left.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Sunday! The store is closed. -----
+----- Shaggy arrives at the store on day 22 -----
+Item PXJKMSWGEW (FLUTE) arrived at the store.
+Item CHQZLHGFNC (FLUTE) arrived at the store.
+Item OTBOGZHYDO (FLUTE) arrived at the store.
+Item MCPZFFALQC (PRACTICEAMP) arrived at the store.
+Item XEZZKHEPKE (PRACTICEAMP) arrived at the store.
+Item LYBNDEPKHG (PRACTICEAMP) arrived at the store.
+Shaggy counted $2806.98 in the register.
+Shaggy did inventory. Total value in the store is $1021.87.
+Shaggy placed an order for QTKKWPZOYR (FLUTE) for $48.84.
+Shaggy placed an order for YPHRLPVNEL (FLUTE) for $45.52.
+Shaggy placed an order for JTGXDGNVCQ (FLUTE) for $8.83.
+Shaggy placed an order for IMHIBCYOXA (CDPLAYER) for $17.66.
+Shaggy placed an order for SEAZMZLKMW (CDPLAYER) for $14.98.
+Shaggy placed an order for BXBRCCGKHM (CDPLAYER) for $7.55.
+Shaggy placed an order for MSBTUNJRKH (MP3PLAYER) for $7.89.
+Shaggy placed an order for ACHHKGQXVA (MP3PLAYER) for $5.90.
+Shaggy placed an order for KHLEWETOZK (MP3PLAYER) for $27.48.
+Shaggy sold a new good condition BSIMXESPPT (FLUTE) to Customer 1 for $14.08 
+Shaggy sold a new excellent condition BMSZMJCMPI (GUITAR) to Customer 2 for $70.78 
+Shaggy sold a used good condition VWGSNODMUV (CD) to Customer 3 for $14.70 
+Customer 4 wanted to buy a MP3PLAYER but none were in inventory, so they left.
+Shaggy sold a used fair condition NTEEZQGTKH (FLUTE) to Customer 5 for $80.70 
+Customer 6 wanted to buy a MP3PLAYER but none were in inventory, so they left.
+Shaggy sold a used good condition EDKCCOBBYY (BASS) to Customer 7 for $3.16 
+Customer 8 came in to buy a new excellent condition IHKDRNTCJK (BASS) but didn't like the price, so they left.
+Shaggy sold a new poor condition MKWCUNIYIY (CD) to Customer 9 for $72.54 
+Shaggy bought a new excellent condition UGUFFQBAIG (CABLE) from Customer 10 for $35.55.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 23 -----
+Item QTKKWPZOYR (FLUTE) arrived at the store.
+Item YPHRLPVNEL (FLUTE) arrived at the store.
+Item JTGXDGNVCQ (FLUTE) arrived at the store.
+Item IMHIBCYOXA (CDPLAYER) arrived at the store.
+Item SEAZMZLKMW (CDPLAYER) arrived at the store.
+Item BXBRCCGKHM (CDPLAYER) arrived at the store.
+Item MSBTUNJRKH (MP3PLAYER) arrived at the store.
+Item ACHHKGQXVA (MP3PLAYER) arrived at the store.
+Item KHLEWETOZK (MP3PLAYER) arrived at the store.
+Velma counted $2842.74 in the register.
+Velma did inventory. Total value in the store is $1078.54.
+Velma placed an order for FQVCLAMTOK (FLUTE) for $11.73.
+Velma placed an order for PKEFGYCYYF (FLUTE) for $14.11.
+Velma placed an order for NEUEGTUGKS (FLUTE) for $31.22.
+Velma sold a new very good condition DSDWCDYZAM (MANDOLIN) to Customer 1 for $16.97 after a 10% discount 
+Velma sold a used excellent condition PXJKMSWGEW (FLUTE) to Customer 2 for $84.28 after a 10% discount 
+Velma sold a used excellent condition DVPVOGZMKH (CD) to Customer 3 for $68.72 
+Velma sold a used excellent condition RTVLWXVIUX (HAT) to Customer 4 for $16.70 
+Velma bought a new good condition HEBEPQTBPG (CDPLAYER) from Customer 5 for $21.33.
+Customer 6 wanted to sell a used excellent condition BZVRKYZPHT (MP3PLAYER), but didn't like the offer. They left.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 24 -----
+Item FQVCLAMTOK (FLUTE) arrived at the store.
+Item PKEFGYCYYF (FLUTE) arrived at the store.
+Item NEUEGTUGKS (FLUTE) arrived at the store.
+Velma counted $2951.02 in the register.
+Velma did inventory. Total value in the store is $1036.64.
+Velma placed an order for ZMECGZGGAD (FLUTE) for $37.74.
+Velma placed an order for MIRCTUCRPR (FLUTE) for $23.06.
+Velma placed an order for VTLZXYYXOE (FLUTE) for $35.48.
+Velma placed an order for VIMDFIBOPG (CD) for $40.65.
+Velma placed an order for YXKQDNMULJ (CD) for $26.33.
+Velma placed an order for MPKXCLUNMF (CD) for $23.76.
+Customer 1 came in to buy a new very good condition KXLFSSTFMV (SHIRT) but didn't like the price, so they left.
+Velma sold a new good condition BXBRCCGKHM (CDPLAYER) to Customer 2 for $13.59 after a 10% discount 
+Customer 3 wanted to buy a HARMONICA but none were in inventory, so they left.
+Customer 4 wanted to buy a CD but none were in inventory, so they left.
+Velma sold a used very good condition PPRYQVHOSJ (MANDOLIN) to Customer 5 for $34.30 
+Velma sold a new excellent condition UMKGESPSYQ (STRINGS) to Customer 6 for $14.68 
+Velma sold a used fair condition QQXWUFVSVG (BANDANA) to Customer 7 for $76.18 
+Velma sold a new fair condition FERKTPWFEM (HAT) to Customer 8 for $63.63 after a 10% discount 
+Customer 9 wanted to buy a HARMONICA but none were in inventory, so they left.
+Velma sold a new very good condition HJHOUKRDCB (RECORDPLAYER) to Customer 10 for $29.02 after a 10% discount 
+Velma bought a used excellent condition WXNZPJZWCG (HAT) from Customer 11 for $36.38.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 25 -----
+Item ZMECGZGGAD (FLUTE) arrived at the store.
+Item MIRCTUCRPR (FLUTE) arrived at the store.
+Item VTLZXYYXOE (FLUTE) arrived at the store.
+Item VIMDFIBOPG (CD) arrived at the store.
+Item YXKQDNMULJ (CD) arrived at the store.
+Item MPKXCLUNMF (CD) arrived at the store.
+Shaggy counted $2959.02 in the register.
+Shaggy did inventory. Total value in the store is $1102.06.
+Shaggy placed an order for AHZMUNWAZB (FLUTE) for $29.72.
+Shaggy placed an order for POKFOXZOZP (FLUTE) for $40.80.
+Shaggy placed an order for PNDRKRHTNE (FLUTE) for $25.67.
+Shaggy placed an order for KCCXHXOOAF (RECORDPLAYER) for $18.79.
+Shaggy placed an order for QTYRTRLJNX (RECORDPLAYER) for $39.26.
+Shaggy placed an order for WDXNISCKPG (RECORDPLAYER) for $32.82.
+Shaggy placed an order for MYRCLRGJDR (HAT) for $23.50.
+Shaggy placed an order for VBVQJISSKE (HAT) for $45.52.
+Shaggy placed an order for QTGDQVIOPG (HAT) for $27.40.
+Shaggy placed an order for IKFEIAOZKW (BANDANA) for $2.65.
+Shaggy placed an order for ZCUWMWJDNV (BANDANA) for $10.16.
+Shaggy placed an order for AOUKYJVJBP (BANDANA) for $46.23.
+Customer 1 came in to buy a used very good condition ACHHKGQXVA (MP3PLAYER) but didn't like the price, so they left.
+Shaggy sold a new fair condition ASTSJIMERL (CABLE) to Customer 2 for $36.17 after a 10% discount 
+Customer 3 wanted to buy a RECORDPLAYER but none were in inventory, so they left.
+Shaggy sold a used fair condition OTBOGZHYDO (FLUTE) to Customer 4 for $50.62 
+Shaggy bought a used very good condition KZUSNIVARP (GUITAR) from Customer 5 for $36.37.
+Shaggy bought a new very good condition IJUUUDNXBQ (GUITAR) from Customer 6 for $36.63.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 26 -----
+Item AHZMUNWAZB (FLUTE) arrived at the store.
+Item POKFOXZOZP (FLUTE) arrived at the store.
+Item PNDRKRHTNE (FLUTE) arrived at the store.
+Item KCCXHXOOAF (RECORDPLAYER) arrived at the store.
+Item QTYRTRLJNX (RECORDPLAYER) arrived at the store.
+Item WDXNISCKPG (RECORDPLAYER) arrived at the store.
+Item MYRCLRGJDR (HAT) arrived at the store.
+Item VBVQJISSKE (HAT) arrived at the store.
+Item QTGDQVIOPG (HAT) arrived at the store.
+Item IKFEIAOZKW (BANDANA) arrived at the store.
+Item ZCUWMWJDNV (BANDANA) arrived at the store.
+Item AOUKYJVJBP (BANDANA) arrived at the store.
+Velma counted $2630.29 in the register.
+Velma did inventory. Total value in the store is $1394.15.
+Velma placed an order for BMSVPDEMCW (FLUTE) for $8.37.
+Velma placed an order for AUHIZUEGYK (FLUTE) for $23.17.
+Velma placed an order for UFTUYSNLTG (FLUTE) for $41.36.
+Velma placed an order for EERTPPENQD (CABLE) for $24.56.
+Velma placed an order for QAJUZGKQBM (CABLE) for $13.58.
+Velma placed an order for DAEYRAENZM (CABLE) for $29.72.
+Customer 1 wanted to buy a CABLE but none were in inventory, so they left.
+Velma sold a used good condition OFNTIUQTQB (FLUTE) to Customer 2 for $1.93 after a 10% discount 
+Velma sold a used fair condition MPKXCLUNMF (CD) to Customer 3 for $47.52 
+Velma sold a used fair condition MIRCTUCRPR (FLUTE) to Customer 4 for $41.51 after a 10% discount 
+Velma sold a new good condition XEZZKHEPKE (PRACTICEAMP) to Customer 5 for $21.46 after a 10% discount 
+Velma bought a new poor condition SIHPBWIGIG (CABLE) from Customer 6 for $8.89 after an addition of 10%.
+Velma bought a new very good condition KZNMXRUARF (HAT) from Customer 7 for $39.26 after an addition of 10%.
+Velma bought a used very good condition FARMVSKCFN (PRACTICEAMP) from Customer 8 for $38.75 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Shaggy arrives at the store on day 27 -----
+Item BMSVPDEMCW (FLUTE) arrived at the store.
+Item AUHIZUEGYK (FLUTE) arrived at the store.
+Item UFTUYSNLTG (FLUTE) arrived at the store.
+Item EERTPPENQD (CABLE) arrived at the store.
+Item QAJUZGKQBM (CABLE) arrived at the store.
+Item DAEYRAENZM (CABLE) arrived at the store.
+Shaggy counted $2506.35 in the register.
+Shaggy did inventory. Total value in the store is $1475.10.
+Shaggy placed an order for LSVHJLYLXP (FLUTE) for $4.47.
+Shaggy placed an order for GOLKAMQBFR (FLUTE) for $10.17.
+Shaggy placed an order for FLQIXHFOUP (FLUTE) for $20.04.
+Shaggy sold a new excellent condition IHKDRNTCJK (BASS) to Customer 1 for $38.22 
+Shaggy sold a new good condition VQGZSXZRXE (STRINGS) to Customer 2 for $58.90 
+Shaggy sold a used good condition DAEYRAENZM (CABLE) to Customer 3 for $59.44 
+Customer 4 wanted to buy a HARMONICA but none were in inventory, so they left.
+Customer 5 wanted to buy a STRINGS but none were in inventory, so they left.
+Shaggy sold a new fair condition LYBNDEPKHG (PRACTICEAMP) to Customer 6 for $23.20 after a 10% discount 
+Shaggy sold a new very good condition QTGDQVIOPG (HAT) to Customer 7 for $49.32 after a 10% discount 
+Shaggy sold a used poor condition VGCXMSHZQD (GUITAR) to Customer 8 for $52.12 
+Customer 9 wanted to buy a GUITAR but none were in inventory, so they left.
+Shaggy bought a new fair condition IQXMPCGACP (STRINGS) from Customer 10 for $19.85 after an addition of 10%.
+Shaggy is cleaning the store.
+----- Shaggy has locked up and closed the store for the night -----
+----- Sunday! The store is closed. -----
+----- Velma arrives at the store on day 29 -----
+Item LSVHJLYLXP (FLUTE) arrived at the store.
+Item GOLKAMQBFR (FLUTE) arrived at the store.
+Item FLQIXHFOUP (FLUTE) arrived at the store.
+Velma counted $2731.03 in the register.
+Velma did inventory. Total value in the store is $1365.15.
+Velma placed an order for RANDXMPJLD (STRINGS) for $17.12.
+Velma placed an order for OQETNXOPHL (STRINGS) for $3.57.
+Velma placed an order for FKHPUWTJYH (STRINGS) for $9.43.
+Velma placed an order for LDUROIIEGC (BASS) for $31.71.
+Velma placed an order for XBPTKEMYYM (BASS) for $16.93.
+Velma placed an order for DWXJGWEGRW (BASS) for $20.56.
+Velma placed an order for DSTCYLQBPR (GUITAR) for $21.51.
+Velma placed an order for JXJEBEWMRE (GUITAR) for $12.69.
+Velma placed an order for DFATBOORMQ (GUITAR) for $15.84.
+Velma placed an order for WIFOBVYAOR (FLUTE) for $35.44.
+Velma placed an order for JMVTDGMQVE (FLUTE) for $5.49.
+Velma placed an order for VCQUKKBPHX (FLUTE) for $39.83.
+Velma sold a used excellent condition CELQOGUIMY (SHIRT) to Customer 1 for $61.54 
+Velma sold a new good condition KHLEWETOZK (MP3PLAYER) to Customer 2 for $54.96 
+Customer 3 came in to buy a new good condition FAFCLJMUQL (PAPERSCORE) but didn't like the price, so they left.
+Velma sold a used fair condition SXJRZWVMOD (MANDOLIN) to Customer 4 for $60.26 
+Velma sold a used very good condition IKFEIAOZKW (BANDANA) to Customer 5 for $4.77 after a 10% discount 
+Velma sold a new very good condition VBVQJISSKE (HAT) to Customer 6 for $81.94 after a 10% discount 
+Velma sold a new fair condition SEAZMZLKMW (CDPLAYER) to Customer 7 for $29.96 
+Customer 8 came in to buy a used poor condition ZCUWMWJDNV (BANDANA) but didn't like the price, so they left.
+Customer 9 wanted to buy a MANDOLIN but none were in inventory, so they left.
+Velma bought a used fair condition YQVSSPWAIM (FLUTE) from Customer 10 for $10.79 after an addition of 10%.
+Velma bought a new fair condition XGLQQISKLY (MP3PLAYER) from Customer 11 for $11.08.
+Velma bought a used very good condition YVNAFAURTI (HAT) from Customer 12 for $34.96 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- Velma arrives at the store on day 30 -----
+Item RANDXMPJLD (STRINGS) arrived at the store.
+Item OQETNXOPHL (STRINGS) arrived at the store.
+Item FKHPUWTJYH (STRINGS) arrived at the store.
+Item LDUROIIEGC (BASS) arrived at the store.
+Item XBPTKEMYYM (BASS) arrived at the store.
+Item DWXJGWEGRW (BASS) arrived at the store.
+Item DSTCYLQBPR (GUITAR) arrived at the store.
+Item JXJEBEWMRE (GUITAR) arrived at the store.
+Item DFATBOORMQ (GUITAR) arrived at the store.
+Item WIFOBVYAOR (FLUTE) arrived at the store.
+Item JMVTDGMQVE (FLUTE) arrived at the store.
+Item VCQUKKBPHX (FLUTE) arrived at the store.
+Velma counted $2732.93 in the register.
+Velma did inventory. Total value in the store is $1443.74.
+Velma placed an order for EVDTOAZOXK (FLUTE) for $15.96.
+Velma placed an order for PBKLHOLGGE (FLUTE) for $2.49.
+Velma placed an order for RAZTLTXOTS (FLUTE) for $15.29.
+Velma placed an order for YMAZVKMAAU (MANDOLIN) for $2.17.
+Velma placed an order for QMURQSJERZ (MANDOLIN) for $49.59.
+Velma placed an order for QXGYIZPRKS (MANDOLIN) for $44.55.
+Velma sold a used good condition MSBTUNJRKH (MP3PLAYER) to Customer 1 for $15.78 
+Customer 2 came in to buy a new very good condition CNHDFLUGZR (SHIRT) but didn't like the price, so they left.
+Velma sold a new poor condition KCCXHXOOAF (RECORDPLAYER) to Customer 3 for $37.58 
+Velma sold a used good condition JMVTDGMQVE (FLUTE) to Customer 4 for $10.98 
+Velma bought a used fair condition FBFLDDMEHL (MP3PLAYER) from Customer 5 for $16.42 after an addition of 10%.
+Velma bought a new good condition AUULPDVZVA (CD) from Customer 6 for $29.86 after an addition of 10%.
+Velma is cleaning the store.
+----- Velma has locked up and closed the store for the night -----
+----- SUMMARY -----
+Item UGPOHKSGXH (FLUTE) is in inventory, with value $21.77.
+Item CNHDFLUGZR (SHIRT) is in inventory, with value $44.47.
+Item KXLFSSTFMV (SHIRT) is in inventory, with value $23.04.
+Item NSDYMUSZPH (FLUTE) is in inventory, with value $8.80.
+Item HEEDHQOWKW (FLUTE) is in inventory, with value $40.19.
+Item FAELORXDMH (FLUTE) is in inventory, with value $5.89.
+Item WDFTPDTDFM (FLUTE) is in inventory, with value $42.25.
+Item MBSGTFKUNX (FLUTE) is in inventory, with value $12.09.
+Item KJFYWIJSQA (PAPERSCORE) is in inventory, with value $5.16.
+Item FAFCLJMUQL (PAPERSCORE) is in inventory, with value $31.26.
+Item UGTOVHIFZR (FLUTE) is in inventory, with value $11.34.
+Item AFCWPKNLOJ (FLUTE) is in inventory, with value $39.86.
+Item MLCCIKIQUZ (FLUTE) is in inventory, with value $40.37.
+Item VOAUZXUPNY (FLUTE) is in inventory, with value $13.02.
+Item QWTYPPGQCE (VINYL) is in inventory, with value $30.02.
+Item AUHOVMLORZ (VINYL) is in inventory, with value $15.88.
+Item XIKRWLCURE (VINYL) is in inventory, with value $21.47.
+Item CHQZLHGFNC (FLUTE) is in inventory, with value $48.03.
+Item MCPZFFALQC (PRACTICEAMP) is in inventory, with value $14.14.
+Item QTKKWPZOYR (FLUTE) is in inventory, with value $48.84.
+Item YPHRLPVNEL (FLUTE) is in inventory, with value $45.52.
+Item JTGXDGNVCQ (FLUTE) is in inventory, with value $8.83.
+Item IMHIBCYOXA (CDPLAYER) is in inventory, with value $17.66.
+Item ACHHKGQXVA (MP3PLAYER) is in inventory, with value $5.90.
+Item FQVCLAMTOK (FLUTE) is in inventory, with value $11.73.
+Item PKEFGYCYYF (FLUTE) is in inventory, with value $14.11.
+Item NEUEGTUGKS (FLUTE) is in inventory, with value $31.22.
+Item ZMECGZGGAD (FLUTE) is in inventory, with value $37.74.
+Item VTLZXYYXOE (FLUTE) is in inventory, with value $35.48.
+Item VIMDFIBOPG (CD) is in inventory, with value $40.65.
+Item YXKQDNMULJ (CD) is in inventory, with value $26.33.
+Item AHZMUNWAZB (FLUTE) is in inventory, with value $29.72.
+Item POKFOXZOZP (FLUTE) is in inventory, with value $40.80.
+Item PNDRKRHTNE (FLUTE) is in inventory, with value $25.67.
+Item QTYRTRLJNX (RECORDPLAYER) is in inventory, with value $39.26.
+Item WDXNISCKPG (RECORDPLAYER) is in inventory, with value $32.82.
+Item MYRCLRGJDR (HAT) is in inventory, with value $23.50.
+Item ZCUWMWJDNV (BANDANA) is in inventory, with value $10.16.
+Item AOUKYJVJBP (BANDANA) is in inventory, with value $46.23.
+Item BMSVPDEMCW (FLUTE) is in inventory, with value $8.37.
+Item AUHIZUEGYK (FLUTE) is in inventory, with value $23.17.
+Item UFTUYSNLTG (FLUTE) is in inventory, with value $41.36.
+Item EERTPPENQD (CABLE) is in inventory, with value $24.56.
+Item QAJUZGKQBM (CABLE) is in inventory, with value $13.58.
+Item LSVHJLYLXP (FLUTE) is in inventory, with value $4.47.
+Item GOLKAMQBFR (FLUTE) is in inventory, with value $10.17.
+Item FLQIXHFOUP (FLUTE) is in inventory, with value $20.04.
+Item RANDXMPJLD (STRINGS) is in inventory, with value $17.12.
+Item OQETNXOPHL (STRINGS) is in inventory, with value $3.57.
+Item FKHPUWTJYH (STRINGS) is in inventory, with value $9.43.
+Item LDUROIIEGC (BASS) is in inventory, with value $31.71.
+Item XBPTKEMYYM (BASS) is in inventory, with value $16.93.
+Item DWXJGWEGRW (BASS) is in inventory, with value $20.56.
+Item DSTCYLQBPR (GUITAR) is in inventory, with value $21.51.
+Item JXJEBEWMRE (GUITAR) is in inventory, with value $12.69.
+Item DFATBOORMQ (GUITAR) is in inventory, with value $15.84.
+Item WIFOBVYAOR (FLUTE) is in inventory, with value $35.44.
+Item VCQUKKBPHX (FLUTE) is in inventory, with value $39.83.
+Item FBDTYULWVE (FLUTE) was sold on day 1 for $2.00.
+Item AOUOPIKCOE (CDPLAYER) was sold on day 1 for $55.62.
+Item UHVSCUAZNS (VINYL) was sold on day 1 for $68.22.
+Item OQCEHVSZSR (STRINGS) was sold on day 1 for $9.64.
+Item HATJIBWNFI (PAPERSCORE) was sold on day 2 for $63.59.
+Item MVBQAEVOAE (MANDOLIN) was sold on day 2 for $71.12.
+Item QXSJWBWGZR (PRACTICEAMP) was sold on day 2 for $77.38.
+Item XTXRHDSPPO (PRACTICEAMP) was sold on day 2 for $57.60.
+Item VQIQNRPVSP (BASS) was sold on day 3 for $91.52.
+Item ZHNOXBZCEZ (FLUTE) was sold on day 3 for $67.64.
+Item LFFFMJKHAE (MANDOLIN) was sold on day 3 for $81.49.
+Item RIGLPWUWJX (RECORDPLAYER) was sold on day 3 for $51.89.
+Item AGWIUDPRZA (BANDANA) was sold on day 4 for $67.07.
+Item KXICJTKDMJ (RECORDPLAYER) was sold on day 4 for $8.19.
+Item ASMZOYOFGE (PAPERSCORE) was sold on day 4 for $2.88.
+Item UJZWTROZXD (HAT) was sold on day 4 for $71.24.
+Item VJPFXICYZM (MP3PLAYER) was sold on day 5 for $99.34.
+Item QDWEOYZTOL (HAT) was sold on day 5 for $39.56.
+Item WUUXCIOQFZ (HARMONICA) was sold on day 5 for $64.44.
+Item SBACENIYCH (VINYL) was sold on day 5 for $79.68.
+Item PUNBPEJVDJ (GUITAR) was sold on day 5 for $29.93.
+Item SLAYEXLDBZ (BASS) was sold on day 5 for $80.32.
+Item GXJNIYZJZF (CABLE) was sold on day 6 for $49.81.
+Item BJETZQKWCW (CD) was sold on day 6 for $55.55.
+Item ZEOOSYHCOQ (VINYL) was sold on day 8 for $10.30.
+Item FVIZVAOMII (MANDOLIN) was sold on day 8 for $56.00.
+Item TLWSDUWQYX (BASS) was sold on day 8 for $72.20.
+Item GZKZLMISJP (CD) was sold on day 8 for $3.19.
+Item MHYPLXMRVB (MP3PLAYER) was sold on day 9 for $2.03.
+Item BEASTFGAKF (HAT) was sold on day 9 for $97.36.
+Item PTSHOGFZNQ (CD) was sold on day 9 for $50.14.
+Item CXIBHWQMTO (CDPLAYER) was sold on day 9 for $68.53.
+Item FDRAFXSMCQ (MP3PLAYER) was sold on day 9 for $77.98.
+Item CKAXDVVLOL (RECORDPLAYER) was sold on day 10 for $87.08.
+Item FOGXIKLODA (PAPERSCORE) was sold on day 10 for $89.30.
+Item TUPDIOEHTR (FLUTE) was sold on day 10 for $53.92.
+Item VGGSIJVEWX (VINYL) was sold on day 10 for $64.84.
+Item RTBZIZKRAW (SHIRT) was sold on day 10 for $9.84.
+Item WJSOTLUCKK (BASS) was sold on day 10 for $54.38.
+Item QFPXVMWWTT (MANDOLIN) was sold on day 10 for $59.28.
+Item MEWIEDBMAW (HARMONICA) was sold on day 11 for $86.52.
+Item SDAKHJLHTB (CD) was sold on day 11 for $77.48.
+Item GYGZZXZOWF (CDPLAYER) was sold on day 11 for $87.14.
+Item BGSRJZAVSD (HAT) was sold on day 11 for $44.80.
+Item UNSORNOBLN (SHIRT) was sold on day 11 for $47.16.
+Item PWWOSSQUQS (MANDOLIN) was sold on day 11 for $37.19.
+Item GYBAXIBUID (SHIRT) was sold on day 12 for $69.93.
+Item IOJHEOAOPM (RECORDPLAYER) was sold on day 12 for $59.24.
+Item DAPAKFWEBS (RECORDPLAYER) was sold on day 12 for $83.12.
+Item RELQJGBSQI (STRINGS) was sold on day 12 for $72.96.
+Item RAMJANAHDW (BASS) was sold on day 12 for $7.36.
+Item GKVZVWPVZT (HAT) was sold on day 12 for $7.45.
+Item EURKDTYRRC (MANDOLIN) was sold on day 13 for $72.09.
+Item HVOBYMZBOA (RECORDPLAYER) was sold on day 13 for $87.58.
+Item KNCRDFJZGR (HAT) was sold on day 13 for $26.22.
+Item LRZZJCQCKV (CDPLAYER) was sold on day 13 for $33.26.
+Item HUGVNFTAXZ (BASS) was sold on day 15 for $19.86.
+Item TXLJXNBPGZ (PAPERSCORE) was sold on day 15 for $14.02.
+Item PXLMUAUCEH (BANDANA) was sold on day 15 for $58.95.
+Item YTQNGFCJXG (VINYL) was sold on day 15 for $23.72.
+Item XFWYCBJJIZ (CD) was sold on day 15 for $81.27.
+Item JUGVCFCAKD (MP3PLAYER) was sold on day 15 for $66.28.
+Item IMGNVDOFWK (HARMONICA) was sold on day 15 for $32.18.
+Item SFORYXTXLD (MP3PLAYER) was sold on day 15 for $70.58.
+Item GYONRBJXON (PAPERSCORE) was sold on day 15 for $25.13.
+Item LWYRWWMMKD (PAPERSCORE) was sold on day 16 for $88.40.
+Item ETUMAKJOLU (BANDANA) was sold on day 16 for $58.63.
+Item MQQDWMFXQF (FLUTE) was sold on day 16 for $90.24.
+Item XKAQDEASLZ (RECORDPLAYER) was sold on day 17 for $87.52.
+Item QTODBRBDHB (STRINGS) was sold on day 17 for $8.38.
+Item LFUVZQCGOJ (CD) was sold on day 17 for $87.84.
+Item EUNWMYHPWS (CABLE) was sold on day 17 for $39.01.
+Item FTYGOOPZDS (RECORDPLAYER) was sold on day 17 for $56.22.
+Item VWIRPNKLBU (BANDANA) was sold on day 18 for $7.36.
+Item EGCBVHLPZN (BASS) was sold on day 18 for $94.66.
+Item UELADAQSRJ (VINYL) was sold on day 18 for $20.66.
+Item PIDLHSVJEF (PAPERSCORE) was sold on day 18 for $94.56.
+Item HKXXHPWZYA (FLUTE) was sold on day 19 for $22.60.
+Item IGMVMJWSZD (PRACTICEAMP) was sold on day 19 for $21.44.
+Item YEIFIVLFFN (CDPLAYER) was sold on day 19 for $43.18.
+Item XVTZIXEHSH (STRINGS) was sold on day 19 for $7.86.
+Item SZGGETSGJD (HAT) was sold on day 19 for $36.41.
+Item DWVFEYAHCM (BANDANA) was sold on day 19 for $63.58.
+Item CMYQGBMBBZ (CDPLAYER) was sold on day 20 for $50.96.
+Item JZCUPGURZR (MP3PLAYER) was sold on day 20 for $22.95.
+Item BSIMXESPPT (FLUTE) was sold on day 22 for $14.08.
+Item BMSZMJCMPI (GUITAR) was sold on day 22 for $70.78.
+Item VWGSNODMUV (CD) was sold on day 22 for $14.70.
+Item NTEEZQGTKH (FLUTE) was sold on day 22 for $80.70.
+Item EDKCCOBBYY (BASS) was sold on day 22 for $3.16.
+Item MKWCUNIYIY (CD) was sold on day 22 for $72.54.
+Item DSDWCDYZAM (MANDOLIN) was sold on day 23 for $16.97.
+Item PXJKMSWGEW (FLUTE) was sold on day 23 for $84.28.
+Item DVPVOGZMKH (CD) was sold on day 23 for $68.72.
+Item RTVLWXVIUX (HAT) was sold on day 23 for $16.70.
+Item BXBRCCGKHM (CDPLAYER) was sold on day 24 for $13.59.
+Item PPRYQVHOSJ (MANDOLIN) was sold on day 24 for $34.30.
+Item UMKGESPSYQ (STRINGS) was sold on day 24 for $14.68.
+Item QQXWUFVSVG (BANDANA) was sold on day 24 for $76.18.
+Item FERKTPWFEM (HAT) was sold on day 24 for $63.63.
+Item HJHOUKRDCB (RECORDPLAYER) was sold on day 24 for $29.02.
+Item ASTSJIMERL (CABLE) was sold on day 25 for $36.17.
+Item OTBOGZHYDO (FLUTE) was sold on day 25 for $50.62.
+Item OFNTIUQTQB (FLUTE) was sold on day 26 for $1.93.
+Item MPKXCLUNMF (CD) was sold on day 26 for $47.52.
+Item MIRCTUCRPR (FLUTE) was sold on day 26 for $41.51.
+Item XEZZKHEPKE (PRACTICEAMP) was sold on day 26 for $21.46.
+Item IHKDRNTCJK (BASS) was sold on day 27 for $38.22.
+Item VQGZSXZRXE (STRINGS) was sold on day 27 for $58.90.
+Item DAEYRAENZM (CABLE) was sold on day 27 for $59.44.
+Item LYBNDEPKHG (PRACTICEAMP) was sold on day 27 for $23.20.
+Item QTGDQVIOPG (HAT) was sold on day 27 for $49.32.
+Item VGCXMSHZQD (GUITAR) was sold on day 27 for $52.12.
+Item CELQOGUIMY (SHIRT) was sold on day 29 for $61.54.
+Item KHLEWETOZK (MP3PLAYER) was sold on day 29 for $54.96.
+Item SXJRZWVMOD (MANDOLIN) was sold on day 29 for $60.26.
+Item IKFEIAOZKW (BANDANA) was sold on day 29 for $4.77.
+Item VBVQJISSKE (HAT) was sold on day 29 for $81.94.
+Item SEAZMZLKMW (CDPLAYER) was sold on day 29 for $29.96.
+Item MSBTUNJRKH (MP3PLAYER) was sold on day 30 for $15.78.
+Item KCCXHXOOAF (RECORDPLAYER) was sold on day 30 for $37.58.
+Item JMVTDGMQVE (FLUTE) was sold on day 30 for $10.98.
+122 items were sold for a total of $6008.25.
+The register was left with $2616.31.
+$1000.00 total was added to the register from the bank.
+----- END OF SIMULATION -----

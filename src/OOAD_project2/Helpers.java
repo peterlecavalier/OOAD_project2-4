@@ -1,3 +1,5 @@
+package src.OOAD_project2;
+
 import java.util.Random;
 
 public class Helpers {
