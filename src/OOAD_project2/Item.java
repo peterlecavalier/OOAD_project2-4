@@ -20,8 +20,8 @@ public abstract class Item {
     modified from Bruce Montgomery's Piazza post
     https://piazza.com/class/ky3q1sooafc1w3?cid=102
     */ 
-    enum Items {PAPERSCORE, CD, VINYL, CDPLAYER, RECORDPLAYER, MP3PLAYER, GUITAR, BASS, MANDOLIN, 
-                FLUTE, HARMONICA, HAT, SHIRT, BANDANA, PRACTICEAMP, CABLE, STRINGS};
+    enum Items {PAPERSCORE, CD, VINYL, CASSETTE, CDPLAYER, RECORDPLAYER, MP3PLAYER, CASSETTEPLAYER, GUITAR, BASS, MANDOLIN, 
+                FLUTE, HARMONICA, SAXOPHONE, HAT, SHIRT, BANDANA, PRACTICEAMP, CABLE, STRINGS, GIGBAG};
 
     //Constructor 
     public Item(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -156,6 +156,14 @@ class Vinyl extends Music {
     public Items getType() {return Items.VINYL;}
 }
 
+class Cassette extends Music{
+    public Cassette(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, bandN, albumN);
+    }
+
+    // get the type of object
+    public Items getType() {return Items.CASSETTE;}
+}
 // Players sublass and its subclasses
 abstract class Player extends Item{
     public Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -187,6 +195,14 @@ class MP3Player extends Player{
     public Items getType() {return Items.MP3PLAYER;}
 }
 
+class CassettePlayer extends Player{
+    public CassettePlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
+        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    }
+
+    // get the type of object
+    public Items getType() {return Items.CASSETTEPLAYER;}
+}
 //Instruments and its subclasses
 abstract class Instrument extends Item{
     public Instrument(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -269,6 +285,13 @@ class Harmonica extends Wind{
     }
 }
 
+class Saxophone extends Wind{
+    private String type;
+    public Saxophone(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String SaxophoneType){
+        super(n, purchaseP, listP, nOrU, dayArr, cond);
+        this.type = SaxophoneType;
+    }
+}
 //Clothing subclass and its subclasses
 abstract class Clothing extends Item{
     public Clothing(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -363,5 +386,11 @@ class Strings extends Accessory{
 
     public String getStringType(){
         return this.type;
+    }
+}
+
+class gigBag extends Accessory{
+    public gigBag(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, int len){
+        super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
 }
