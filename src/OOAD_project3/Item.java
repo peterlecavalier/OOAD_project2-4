@@ -166,9 +166,19 @@ class Cassette extends Music{
 }
 // Players sublass and its subclasses
 abstract class Player extends Item{
-    public Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
+    private boolean equalized;
+
+    public Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
+        this.equalized = equal;
+}
+
+    public boolean getEqualized(){
+        return this.equalized;
     }
+
+
+
 }
 class CDPlayer extends Player{
     public CDPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -211,14 +221,20 @@ abstract class Instrument extends Item{
 }
 abstract class Stringed extends Instrument{
     private boolean electric;
+    private boolean tuned;
 
-    public Stringed(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
+    public Stringed(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec, boolean tune){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.electric = elec;
+        this.tuned = tune;
     }
 
     public boolean getElectric(){
         return this.electric;
+    }
+
+    public boolean getTuned(){
+        return this.tuned;
     }
 }
 //subclasses of Stringed instruments below 
@@ -250,8 +266,15 @@ class Mandolin extends Stringed{
 
 //Subclasses of Wind instruments start
 abstract class Wind extends Instrument{
-    public Wind(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
+    private boolean adjusted;
+
+    public Wind(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean adj){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
+        this.adjusted = adj;
+    }
+
+    public boolean getAdjusted(){
+        return this.adjusted;
     }
 }
 class Flute extends Wind{
@@ -287,10 +310,14 @@ class Harmonica extends Wind{
 
 class Saxophone extends Wind{
     private String type;
-    public Saxophone(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String SaxophoneType){
+    public Saxophone(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String saxophoneType){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
-        this.type = SaxophoneType;
+        this.type = saxophoneType;
     }
+
+    // get the type of object
+    public Items getType() {return Items.SAXOPHONE;}
+
 }
 //Clothing subclass and its subclasses
 abstract class Clothing extends Item{
@@ -393,4 +420,7 @@ class gigBag extends Accessory{
     public gigBag(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, int len){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
+
+    // get the type of object
+    public Items getType() {return Items.GIGBAG;}
 }
