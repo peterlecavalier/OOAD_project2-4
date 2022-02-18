@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package src.OOAD_project3;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -38,47 +38,14 @@ public class Store {
     }
     
     private void initializeInv(){
-        // This is a very long-winded way to do this,
-        // but I'm not sure how else to deal with specific subclasses
         Item curItem;
         
         // Add 3 of each item to the inventory (pretty self-explanatory)
-        // Helper functions (h.method()) are called within constructors to randomly generate parameter values
         for (int i = 0; i < 3; i++){
-            curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-            addToInventory(curItem);
-            curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-            addToInventory(curItem);
-            curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-            addToInventory(curItem);
-            curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-            addToInventory(curItem);
-            curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-            addToInventory(curItem);
-            curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-            addToInventory(curItem);
-            curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-            addToInventory(curItem);
-            curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-            addToInventory(curItem);
-            curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-            addToInventory(curItem);
-            curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
-            addToInventory(curItem);
-            curItem = new Harmonica(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
-            addToInventory(curItem);
-            curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-            addToInventory(curItem);
-            curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-            addToInventory(curItem);
-            curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-            addToInventory(curItem);
-            curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-            addToInventory(curItem);
-            curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-            addToInventory(curItem);
-            curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
-            addToInventory(curItem);
+            for (Item.Items x : Item.Items.values()){
+                curItem = this.h.generateNewItem(x);
+                addToInventory(curItem);
+            }
         }
     }
     
@@ -86,8 +53,11 @@ public class Store {
         // Make clerks and add them to the staff
         Clerk clerk1 = new Clerk("Shaggy", 20);
         Clerk clerk2 = new Clerk("Velma", 5);
+        // New clerk Daphne added, 15% damage chance
+        Clerk clerk3 = new Clerk("Daphne", 15);
         this.staff.add(clerk1);
         this.staff.add(clerk2);
+        this.staff.add(clerk3);
     }
 
     public void runSimulation(int days){
@@ -95,6 +65,8 @@ public class Store {
         Random rng = new Random();
         Clerk clerkToday;
         String clerkName;
+        Clerk sickClerk; // Handles a randomly sick clerk
+        String sickName;
 
 
         for (int i = 1; i < days + 1; i++){
@@ -104,14 +76,28 @@ public class Store {
                 continue;
             }
 
+            // Choose if a Clerk is sick (10% chance)
+            sickName = "";
+            if (rng.nextDouble() <= 0.1){
+                sickClerk = this.staff.get(rng.nextInt(this.staff.size()));
+                sickName = sickClerk.getName();
+                System.out.printf("----- %s is sick on day %d -----\n", sickName, i);
+            }
+
+
             // Choose a random clerk, and make sure they haven't worked the last 2 days
             while (true){
                 clerkToday = this.staff.get(rng.nextInt(this.staff.size()));
                 clerkName = clerkToday.getName();
-                // Make sure they haven't worked the last 2 days
-                if (this.schedule.size() >= 2){
+                // Make sure they aren't sick
+                if (clerkName == sickName){
+                    continue;
+                }
+                // Make sure they haven't worked the last 3 days
+                if (this.schedule.size() >= 3){
                     if (clerkName == this.schedule.get(this.schedule.size() - 1) && 
-                    clerkName == this.schedule.get(this.schedule.size() - 2)){
+                    clerkName == this.schedule.get(this.schedule.size() - 2) &&
+                    clerkName == this.schedule.get(this.schedule.size() - 3)){
                         continue;
                     }
                 }
