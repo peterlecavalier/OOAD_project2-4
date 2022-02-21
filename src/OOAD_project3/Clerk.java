@@ -138,7 +138,7 @@ public class Clerk {
         //https://stackoverflow.com/questions/38838172/percentage-using-random/38838299
         //Start a random generator 1-100 and if num lands between 1-x then item will break
         Random rand = new Random();
-        int breakItem = rand.nextInt(100);
+        double breakItem = rand.nextDouble() * 100;
         if (breakItem < this.breakPercent){ //5% or 20% for now
             //Generate random number to determine which random item to break 
             Random randItem = new Random();

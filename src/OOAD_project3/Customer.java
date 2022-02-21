@@ -44,8 +44,8 @@ public class Customer {
             Item itemSold = inventory.get(chosenItemIdx);
             //random generator to determine if customer wants to buy with 50% poss
             
-            int buyChance = rand.nextInt(100);
-            if (buyChance < 50){ //50% chance
+            double buyChance = rand.nextDouble() * 100;
+            if (buyChance < (50.0 + h.getPriceIncrease(itemSold))){ //50% chance (+ potential increase)
                 itemSold.setDaySold(day); //Set day sold
                 itemSold.setSalePrice(itemSold.getListPrice()); //Set the sale price
                 soldItems.add(itemSold); //add to sold items inventory
@@ -59,8 +59,8 @@ public class Customer {
                 double discountPrice = itemSold.getListPrice() - (itemSold.getListPrice() * 0.1);
                 discountPrice = Math.round(discountPrice * 100.0) / 100.0;
                 //update the cust buying chances
-                int buyChance2 = rand.nextInt(100);
-                if (buyChance2 < 75){
+                double buyChance2 = rand.nextDouble() * 100;
+                if (buyChance2 < (75.0 + h.getPriceIncrease(itemSold))){ // Potential price increase
                     itemSold.setDaySold(day); //Set day sold
                     itemSold.setSalePrice(discountPrice); //Set sale price as discount price
                     soldItems.add(itemSold);
@@ -115,9 +115,8 @@ public class Customer {
         sellOffer = Math.round(sellOffer * 100.0) / 100.0;
 
         //generate customer probability
-        Random r = new Random();
-        int cust_prob = r.nextInt(100);
-        if (cust_prob < 50){
+        double cust_prob = rand.nextDouble() * 100;
+        if (cust_prob < 50.0){
             a.setPurchasePrice(sellOffer); //set purchase price
             cash.payCustomer(sellOffer);
             System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f.\n", clerkName, a.getNewUsed(), condition, a.getName(), a.getType(), customerNum, sellOffer);
@@ -125,8 +124,8 @@ public class Customer {
         else{
             double newPrice = sellOffer + (sellOffer * 0.1);
             newPrice = Math.round(newPrice * 100.0) / 100.0;
-            int cust_prob2 = r.nextInt(100);
-            if (cust_prob2 < 75){
+            int cust_prob2 = rand.nextInt() * 100;
+            if (cust_prob2 < 75.0){
                 a.setDaySold(day);
                 a.setPurchasePrice (newPrice); 
                 cash.payCustomer(newPrice);

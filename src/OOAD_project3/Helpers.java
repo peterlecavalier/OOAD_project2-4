@@ -156,34 +156,34 @@ public class Helpers {
                 curItem = new Cassette(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.nameGen(), this.nameGen());
                 break;
             case CDPLAYER:
-                curItem = new CDPlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen());
+                curItem = new CDPlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), false);
                 break;
             case RECORDPLAYER:
-                curItem = new RecordPlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen());
+                curItem = new RecordPlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), false);
                 break;
             case MP3PLAYER:
-                curItem = new MP3Player(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen());
+                curItem = new MP3Player(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), false);
                 break;
             case CASSETTEPLAYER:
-                curItem = new CassettePlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen());
+                curItem = new CassettePlayer(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), false);
                 break;
             case GUITAR:
-                curItem = new Guitar(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), this.boolGen());
+                curItem = new Guitar(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), false);
                 break;
             case BASS:
-                curItem = new Bass(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), this.boolGen());
+                curItem = new Bass(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), false);
                 break;
             case MANDOLIN:
-                curItem = new Mandolin(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), this.boolGen());
+                curItem = new Mandolin(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.boolGen(), false);
                 break;
             case FLUTE:
-                curItem = new Flute(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.fluteTypeGen(), this.boolGen());
+                curItem = new Flute(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.fluteTypeGen(), false);
                 break;
             case HARMONICA:
-                curItem = new Harmonica(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.harmKeyGen(), this.boolGen());
+                curItem = new Harmonica(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.harmKeyGen(), false);
                 break;
             case SAXOPHONE:
-                curItem = new Saxophone(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.saxTypeGen(), this.boolGen());
+                curItem = new Saxophone(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.saxTypeGen(), false);
                 break;
             case HAT:
                 curItem = new Hat(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen(), this.sizeGen());
@@ -210,5 +210,26 @@ public class Helpers {
                 throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
         }
         return curItem;
+    }
+
+    public double getPriceIncrease(Item checkItem){
+        Item.Items subclass = checkItem.getType();
+        if (subclass == Item.Items.CDPLAYER || subclass == Item.Items.RECORDPLAYER || subclass == Item.Items.MP3PLAYER || subclass == Item.Items.CASSETTEPLAYER){
+            if (checkItem.getEqualized()){
+                return 0.1;
+            }
+        }
+        else if (subclass == Item.Items.GUITAR || subclass == Item.Items.BASS || subclass == Item.Items.MANDOLIN){
+            if (checkItem.getTuned()){
+                return 0.15;
+            }
+        }
+        else if (subclass == Item.Items.FLUTE || subclass == Item.Items.HARMONICA || subclass == Item.Items.SAXOPHONE){
+            if (checkItem.getAdjusted()){
+                return 0.2;
+            }
+        }
+
+        return 0.0;
     }
 }
