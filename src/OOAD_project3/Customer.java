@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package src.OOAD_project3;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -25,62 +25,7 @@ public class Customer {
     private Item itemPicker(){
         // Choose a random subclass, then create a new instance of that class.
         Item.Items chosenSubclass = this.chooseRandomSubclass();
-        Item curItem;
-        switch (chosenSubclass){
-            case PAPERSCORE:
-                curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                break;
-            case CD:
-                curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                break;
-            case VINYL:
-                curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                break;
-            case CDPLAYER:
-                curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                break;
-            case RECORDPLAYER:
-                curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                break;
-            case MP3PLAYER:
-                curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                break;
-            case GUITAR:
-                curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                break;
-            case BASS:
-                curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                break;
-            case MANDOLIN:
-                curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                break;
-            case FLUTE:
-                curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
-                break;
-            case HARMONICA:
-                curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
-                break;
-            case HAT:
-                curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-                break;
-            case SHIRT:
-                curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-                break;
-            case BANDANA:
-                curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                break;
-            case PRACTICEAMP:
-                curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-                break;
-            case CABLE:
-                curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-                break;
-            case STRINGS:
-                curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
-                break;
-            default:
-                throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
-        }
+        Item curItem = this.h.generateNewItem(chosenSubclass);
         return curItem;
     }
 
@@ -137,8 +82,7 @@ public class Customer {
 
     public void sellItem(ArrayList<Item> inventory, CashRegister cash, String clerkName, int customerNum, int day){
         Item a = itemPicker();
-        Helpers quality = new Helpers(); //gonna need helpers to generate random conditions from condGen
-        String condition = quality.condGen(); //generate random conditions
+        String condition = this.h.condGen(); //generate random conditions
         a.setCondition(condition); //set condition of item
         Random rand = new Random(); // this will be used to generate random price 
         double sellOffer = 0; 
@@ -158,6 +102,13 @@ public class Customer {
             case "excellent":
                 sellOffer = 40 + rand.nextDouble() * (40 - 50);
                 break;
+        }
+
+        if (a.getType() == Item.Items.HAT || a.getType() == Item.Items.SHIRT || a.getType() == Item.Items.BANDANA){
+            if (!this.h.checkClothing(inventory)){
+                System.out.printf("Customer %d wanted to sell a %s %s condition %s (%s), but the store does not buy clothing anymore.\n", customerNum, a.getNewUsed(), condition, a.getName(), a.getType());
+                return;
+            }
         }
 
         //Round the sellOffer so it only has 2 places after the decimal

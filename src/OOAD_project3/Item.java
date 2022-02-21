@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package src.OOAD_project3;
 
 import java.util.List;
 import java.util.Arrays;
@@ -176,29 +176,26 @@ abstract class Player extends Item{
     public boolean getEqualized(){
         return this.equalized;
     }
-
-
-
 }
 class CDPlayer extends Player{
-    public CDPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public CDPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, equal);
     }
 
     // get the type of object
     public Items getType() {return Items.CDPLAYER;}
 }
 class RecordPlayer extends Player{
-    public RecordPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public RecordPlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, equal);
     }
 
     // get the type of object
     public Items getType() {return Items.RECORDPLAYER;}
 }
 class MP3Player extends Player{
-    public MP3Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public MP3Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, equal);
     }
 
     // get the type of object
@@ -206,8 +203,8 @@ class MP3Player extends Player{
 }
 
 class CassettePlayer extends Player{
-    public CassettePlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public CassettePlayer(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, equal);
     }
 
     // get the type of object
@@ -239,24 +236,24 @@ abstract class Stringed extends Instrument{
 }
 //subclasses of Stringed instruments below 
 class Guitar extends Stringed{
-    public Guitar(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
-        super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
+    public Guitar(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec, boolean tune){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, elec, tune);
     }
 
     // get the type of object
     public Items getType() {return Items.GUITAR;}
 }
 class Bass extends Stringed{
-    public Bass(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
-        super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
+    public Bass(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec, boolean tune){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, elec, tune);
     }
 
     // get the type of object
     public Items getType() {return Items.BASS;}
 }
 class Mandolin extends Stringed{
-    public Mandolin(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec){
-        super(n, purchaseP, listP, nOrU, dayArr, cond, elec);
+    public Mandolin(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean elec, boolean tune){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, elec, tune);
     }
 
     // get the type of object
@@ -280,8 +277,8 @@ abstract class Wind extends Instrument{
 class Flute extends Wind{
     private String type;
 
-    public Flute(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String fluteType){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public Flute(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String fluteType, boolean adj){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, adj);
         this.type = fluteType;
     }
 
@@ -295,8 +292,8 @@ class Flute extends Wind{
 class Harmonica extends Wind{
     private String key;
 
-    public Harmonica(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String harmKey){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public Harmonica(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String harmKey, boolean adj){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, adj);
         this.key = harmKey;
     }
 
@@ -310,8 +307,8 @@ class Harmonica extends Wind{
 
 class Saxophone extends Wind{
     private String type;
-    public Saxophone(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String saxophoneType){
-        super(n, purchaseP, listP, nOrU, dayArr, cond);
+    public Saxophone(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String saxophoneType, boolean adj){
+        super(n, purchaseP, listP, nOrU, dayArr, cond, adj);
         this.type = saxophoneType;
     }
 
@@ -417,7 +414,7 @@ class Strings extends Accessory{
 }
 
 class gigBag extends Accessory{
-    public gigBag(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, int len){
+    public gigBag(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
     }
 

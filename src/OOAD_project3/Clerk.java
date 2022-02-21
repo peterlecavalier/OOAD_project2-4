@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package src.OOAD_project3;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -59,9 +59,9 @@ public class Clerk {
         ArrayList<Item> newItems = new ArrayList<>();
 
         // Put all item types into the hashmap with initial values 0.
-        for (Item.Items x : Item.Items.values()) {
+        for (Item.Items x : Item.Items.values()){
             subclassCounts.put(x, 0);
-          }
+        }
         
         // Increment the value for that subclass in the hashmap
         // and add to the total purchasePrices.
@@ -76,8 +76,14 @@ public class Clerk {
         // Call placeAnOrder for each missing inventory class
         for (Item.Items i : subclassCounts.keySet()) {
             if (subclassCounts.get(i) == 0){
-                ArrayList<Item> orderedItems = this.placeAnOrder(i, register);
-                newItems.addAll(orderedItems);
+                // Don't order any more clothing
+                if (i == Item.Items.HAT || i == Item.Items.SHIRT || i == Item.Items.BANDANA){
+                    continue;
+                }
+                else{
+                    ArrayList<Item> orderedItems = this.placeAnOrder(i, register);
+                    newItems.addAll(orderedItems);
+                }   
             }
         }
         return newItems;
@@ -87,62 +93,7 @@ public class Clerk {
     public ArrayList<Item> placeAnOrder(Item.Items orderClass, CashRegister register){
         ArrayList<Item> itemsInOrder = new ArrayList<>();
         for(int i = 0; i < 3; i++){
-            Item curItem;
-            switch(orderClass){
-                case PAPERSCORE:
-                    curItem = new PaperScore(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                    break;
-                case CD:
-                    curItem = new CD(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                    break;
-                case VINYL:
-                    curItem = new Vinyl(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.nameGen(), h.nameGen());
-                    break;
-                case CDPLAYER:
-                    curItem = new CDPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                    break;
-                case RECORDPLAYER:
-                    curItem = new RecordPlayer(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                    break;
-                case MP3PLAYER:
-                    curItem = new MP3Player(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                    break;
-                case GUITAR:
-                    curItem = new Guitar(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                    break;
-                case BASS:
-                    curItem = new Bass(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                    break;
-                case MANDOLIN:
-                    curItem = new Mandolin(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.boolGen());
-                    break;
-                case FLUTE:
-                    curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.fluteTypeGen());
-                    break;
-                case HARMONICA:
-                    curItem = new Flute(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.harmKeyGen());
-                    break;
-                case HAT:
-                    curItem = new Hat(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-                    break;
-                case SHIRT:
-                    curItem = new Shirt(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.sizeGen());
-                    break;
-                case BANDANA:
-                    curItem = new Bandana(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen());
-                    break;
-                case PRACTICEAMP:
-                    curItem = new PracticeAmp(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-                    break;
-                case CABLE:
-                    curItem = new Cable(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.wattLenGen());
-                    break;
-                case STRINGS:
-                    curItem = new Strings(h.nameGen(), h.purchasePriceGen(), -1.0, h.newUsedGen(), 0, h.condGen(), h.stringGen());
-                    break;
-                default:
-                    throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
-            }
+            Item curItem = this.h.generateNewItem(orderClass);
             itemsInOrder.add(curItem);
             double purPrice = curItem.getPurchasePrice();
             register.payCustomer(purPrice);
@@ -156,12 +107,12 @@ public class Clerk {
         int custNum=0;
         int counter = 0;
         Random r = new Random();
-        // 4-10 Buying customers
+        // Poisson distribution for buying customers
         // 1-4 selling customers
-        int numBuyingCustomers = r.nextInt(7) + 4;
+        int numBuyingCustomers = h.poissonDist(3) + 2;
         int numSellingCustomers = r.nextInt(4) + 1;
 
-        //There will be 4-10 buying customers
+        //There will be a Poisson distribution for buying customers
         //Using the counter to generate the right amount of buying and selling customers
         //CustNum is to track the customer number that will be printed
         while (counter < numBuyingCustomers){
