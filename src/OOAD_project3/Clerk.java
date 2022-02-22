@@ -37,7 +37,7 @@ public class Clerk {
             for(Item i : arrivedOrders){
                 inventory.add(i);
                 String itemName = i.getName();
-                System.out.printf("Item %s (%s) arrived at the store.\n", itemName, i.getType());
+                System.out.printf("Item %s (%s) arrived at the store.\n", itemName, i.getTypeStr());
             }
             // Reset arrivedOrders
             arrivedOrders.clear();
@@ -96,7 +96,7 @@ public class Clerk {
             if (tuningResult == -2){
                 continue;
             }
-            System.out.printf("%s attempted %s tuning on %s (%s):\n", this.name, this.getTuningStr(), i.getName(), i.getType());
+            System.out.printf("%s attempted %s tuning on %s (%s):\n", this.name, this.getTuningStr(), i.getName(), i.getTypeStr());
             if (tuningResult == -1){
                 // If switched from true to false
                 System.out.println("    ->Oh no! Tuning went awry - status changed from true to false.");
@@ -105,7 +105,7 @@ public class Clerk {
                     String newCond = i.lowerCondition();
                     // If the item has been destroyed, remove it from inventory
                     if (newCond == "broken"){
-                        System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, i.getName(), i.getType());
+                        System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, i.getName(), i.getTypeStr());
                         // Do in reverse order so that removing one item doesn't affect
                         // the order of other to-be-removed items
                         brokenItems.add(0, invCounter);
@@ -114,7 +114,7 @@ public class Clerk {
                     else{
                         //Reduce price by 20%
                         double newPrice = i.lowerListPrice();
-                        System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, i.getName(), i.getType(), newPrice, newCond);
+                        System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, i.getName(), i.getTypeStr(), newPrice, newCond);
                     }
                 }
             }
@@ -158,7 +158,7 @@ public class Clerk {
             itemsInOrder.add(curItem);
             double purPrice = curItem.getPurchasePrice();
             register.payCustomer(purPrice);
-            System.out.printf("%s placed an order for %s (%s) for $%.2f.\n", this.name, curItem.getName(), curItem.getType(), purPrice);
+            System.out.printf("%s placed an order for %s (%s) for $%.2f.\n", this.name, curItem.getName(), curItem.getTypeStr(), purPrice);
         }
         return itemsInOrder;
     }
@@ -208,14 +208,14 @@ public class Clerk {
             String newCond = itemBroken.lowerCondition();
             // If the item has been destroyed, remove it from inventory
             if (newCond == "broken"){
-                System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, itemBroken.getName(), itemBroken.getType());
+                System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, itemBroken.getName(), itemBroken.getTypeStr());
                 inventory.remove(randBroken);
             }
             // If not, reduce the price by 20%.
             else{
                 //Reduce price by 20%
                 double newPrice = itemBroken.lowerListPrice();
-                System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, itemBroken.getName(), itemBroken.getType(), newPrice, newCond);
+                System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, itemBroken.getName(), itemBroken.getTypeStr(), newPrice, newCond);
             }
             
         }

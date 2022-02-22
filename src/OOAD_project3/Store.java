@@ -121,7 +121,7 @@ public class Store {
         System.out.println("----- SUMMARY -----");
         // Loop over all the inventory items
         for(Item i : this.inventory){
-            System.out.printf("Item %s (%s) is in inventory, with value $%.2f.\n", i.getName(), i.getType(), i.getPurchasePrice());
+            System.out.printf("Item %s (%s) is in inventory, with value $%.2f.\n", i.getName(), i.getTypeStr(), i.getPurchasePrice());
         }
         // Keep track of total items sold/sale price
         double totalSalePrice = 0.0;
@@ -130,7 +130,7 @@ public class Store {
         for(Item i : this.soldItems){
             totalSalePrice += i.getSalePrice();
             totalItemsSold ++;
-            System.out.printf("Item %s (%s) was sold on day %d for $%.2f.\n", i.getName(), i.getType(), i.daySold(), i.getSalePrice());
+            System.out.printf("Item %s (%s) was sold on day %d for $%.2f.\n", i.getName(), i.getTypeStr(), i.daySold(), i.getSalePrice());
         }
         // Print final summaries
         System.out.printf("%d items were sold for a total of $%.2f.\n", totalItemsSold, totalSalePrice);
