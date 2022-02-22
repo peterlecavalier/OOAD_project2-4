@@ -222,4 +222,38 @@ public class Helpers {
 
         return 0.0;
     }
+
+    public Item packageItems(ArrayList<Item> inventory, Item itemSold){
+        ArrayList<Item> itemPackage = new ArrayList<Item>();
+        itemPackage.add(itemSold);
+        double probReduction = 0.0;
+
+
+        // If electric, there is a 20% chance of selling a single Gig Bag, a 25% chance of selling a
+        // single Practice Amp, a 30% chance of selling 1 or 2 Cables, and a 40% chance of selling 1 to 3 Strings.
+        if (!itemSold.getElectric()){
+            // Reduce each chance by 10% if not electric
+            probReduction = 0.10;
+        }
+        if (this.rng.nextDouble() < (0.20 - probReduction)){
+            itemSold = new AddGigBag(inventory, itemPackage);
+        }
+        if (this.rng.nextDouble() < (0.25 - probReduction)){
+            itemSold = new AddPracticeAmp(inventory, itemPackage);
+        }
+        if (this.rng.nextDouble() < (0.30 - probReduction)){
+            int numCables = this.rng.nextInt(2) + 1;
+            for (int i = 0; i < numCables; i++){
+                itemSold = new AddCable(inventory, itemPackage);
+            }
+        }
+        if (this.rng.nextDouble() < (0.40 - probReduction)){
+            int numCables = this.rng.nextInt(3) + 1;
+            for (int i = 0; i < numCables; i++){
+                itemSold = new AddStrings(inventory, itemPackage);
+            }
+        }
+
+        return itemSold;
+    }
 }
