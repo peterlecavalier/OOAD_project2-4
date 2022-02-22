@@ -51,10 +51,11 @@ public class Store {
     
     private void initializeStaff(){
         // Make clerks and add them to the staff
-        Clerk clerk1 = new Clerk("Shaggy", 20);
-        Clerk clerk2 = new Clerk("Velma", 5);
+        // Now, staff have a tuning type
+        Clerk clerk1 = new Clerk("Shaggy", 20, new HaphazardTuning());
+        Clerk clerk2 = new Clerk("Velma", 5, new ElectricTuning());
         // New clerk Daphne added, 15% damage chance
-        Clerk clerk3 = new Clerk("Daphne", 15);
+        Clerk clerk3 = new Clerk("Daphne", 15, new ManualTuning());
         this.staff.add(clerk1);
         this.staff.add(clerk2);
         this.staff.add(clerk3);
