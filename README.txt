@@ -4,6 +4,10 @@ Peter Lecavalier
 
 java version: 17.0.2
 
+To compile/run in cmd:
+javac -d bin src\OOAD_project3\*.java
+java -cp ./bin src.OOAD_project3.Main > output.txt
+
 Interpretations + assumptions: 
 - We assumed we could randomly generate the names of items.
 - We approached this problem with the assumption that items contained all the items and subclasses,
@@ -19,3 +23,4 @@ original diagram, but just updated the methods/variables with anything additiona
 with functionality. All inheritance was kept the same, but some interactions were added in the diagram 
 to keep up-to-date with how we actually implemented (note the links between Customer/Clerk, and others 
 in the bottom portion of the diagram). Since clerks are the only type of staff, we removed the Staff interface.
+

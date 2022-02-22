@@ -14,6 +14,7 @@ public abstract class Item {
     private String condition;
     private double salePrice;
     private int daySold;
+    protected boolean tunable;
 
     /*
     Method for getting the subtype of an object
@@ -67,6 +68,12 @@ public abstract class Item {
         return this.condition;
     }
 
+    // Decided to make this a protected variable
+    // to access whether or not the item can be tuned
+    public boolean getTunable(){
+        return this.tunable;
+    }
+
     public int daySold(){
         return this.daySold;
     }
@@ -103,6 +110,19 @@ public abstract class Item {
             this.condition = conditions.get(conditions.indexOf(this.condition) - 1);
             return this.condition;
         }
+    }
+
+    // Abstract methods
+    public boolean getTuningParam(){
+        throw new AbstractMethodError("Abstract method - child must implement.");
+    }
+
+    public void flipTuningParam(){
+        throw new AbstractMethodError("Abstract method - child must implement.");
+    }
+
+    public double getPriceIncrease(){
+        throw new AbstractMethodError("Abstract method - child must implement.");
     }
 }
 
@@ -171,10 +191,23 @@ abstract class Player extends Item{
     public Player(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean equal){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.equalized = equal;
-}
+        this.tunable = true;
+    }
 
     public boolean getEqualized(){
         return this.equalized;
+    }
+
+    public boolean getTuningParam(){
+        return this.equalized;
+    }
+
+    public void flipTuningParam(){
+        this.equalized = !this.equalized;
+    }
+
+    public double getPriceIncrease(){
+        return 0.1;
     }
 }
 class CDPlayer extends Player{
@@ -224,6 +257,7 @@ abstract class Stringed extends Instrument{
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.electric = elec;
         this.tuned = tune;
+        this.tunable = true;
     }
 
     public boolean getElectric(){
@@ -232,6 +266,18 @@ abstract class Stringed extends Instrument{
 
     public boolean getTuned(){
         return this.tuned;
+    }
+
+    public boolean getTuningParam(){
+        return this.tuned;
+    }
+    
+    public void flipTuningParam(){
+        this.tuned = !this.tuned;
+    }
+
+    public double getPriceIncrease(){
+        return 0.15;
     }
 }
 //subclasses of Stringed instruments below 
@@ -268,10 +314,23 @@ abstract class Wind extends Instrument{
     public Wind(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, boolean adj){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.adjusted = adj;
+        this.tunable = true;
     }
 
     public boolean getAdjusted(){
         return this.adjusted;
+    }
+
+    public boolean getTuningParam(){
+        return this.adjusted;
+    }
+
+    public void flipTuningParam(){
+        this.adjusted = !this.adjusted;
+    }
+
+    public double getPriceIncrease(){
+        return 0.2;
     }
 }
 class Flute extends Wind{

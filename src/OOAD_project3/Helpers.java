@@ -213,21 +213,11 @@ public class Helpers {
     }
 
     public double getPriceIncrease(Item checkItem){
-        Item.Items subclass = checkItem.getType();
-        if (subclass == Item.Items.CDPLAYER || subclass == Item.Items.RECORDPLAYER || subclass == Item.Items.MP3PLAYER || subclass == Item.Items.CASSETTEPLAYER){
-            if (checkItem.getEqualized()){
-                return 0.1;
-            }
-        }
-        else if (subclass == Item.Items.GUITAR || subclass == Item.Items.BASS || subclass == Item.Items.MANDOLIN){
-            if (checkItem.getTuned()){
-                return 0.15;
-            }
-        }
-        else if (subclass == Item.Items.FLUTE || subclass == Item.Items.HARMONICA || subclass == Item.Items.SAXOPHONE){
-            if (checkItem.getAdjusted()){
-                return 0.2;
-            }
+        // Gets the price increase of the item (if possible)
+        if (checkItem.getTunable()){
+            if (checkItem.getTuningParam()){
+                return checkItem.getPriceIncrease();
+            }  
         }
 
         return 0.0;

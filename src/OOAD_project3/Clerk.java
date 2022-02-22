@@ -7,15 +7,26 @@ import java.util.HashMap;
 public class Clerk {
     private String name;
     private int breakPercent;
+    private Tuning tuning;
     private Helpers h = new Helpers();
+    private Random rng = new Random();
 
-    public Clerk(String clerkName, int breakP){
+    public Clerk(String clerkName, int breakP, Tuning tuner){
         this.name = clerkName;
         this.breakPercent = breakP;
+        this.tuning = tuner;
     }
 
     public String getName(){
         return this.name;
+    }
+
+    public int tuneItem(Item tuningItem){
+        return tuning.doTuning(tuningItem);
+    }
+
+    public String getTuningStr(){
+        return tuning.getTuningTypeStr();
     }
 
     public void arriveAtStore(int dayNum, ArrayList<Item> arrivedOrders, ArrayList<Item> inventory){
@@ -73,6 +84,56 @@ public class Clerk {
 
         System.out.printf("%s did inventory. Total value in the store is $%.2f.\n", this.name, totalPrices);
 
+        // brokenItems keeps track of all items broken during tuning
+        ArrayList<Integer> brokenItems = new ArrayList<>();
+        // invCounter keeps track of item number in inventory
+        int invCounter = -1;
+
+        // Do tuning
+        for (Item i : inventory){
+            invCounter++;
+            int tuningResult = this.tuneItem(i);
+            if (tuningResult == -2){
+                continue;
+            }
+            System.out.printf("%s attempted %s tuning on %s (%s):\n", this.name, this.getTuningStr(), i.getName(), i.getType());
+            if (tuningResult == -1){
+                // If switched from true to false
+                System.out.println("    ->Oh no! Tuning went awry - status changed from true to false.");
+                if (this.rng.nextDouble() < 0.1){
+                    // Lower the condition by 1
+                    String newCond = i.lowerCondition();
+                    // If the item has been destroyed, remove it from inventory
+                    if (newCond == "broken"){
+                        System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, i.getName(), i.getType());
+                        // Do in reverse order so that removing one item doesn't affect
+                        // the order of other to-be-removed items
+                        brokenItems.add(0, invCounter);
+                    }
+                    // If not, reduce the price by 20%.
+                    else{
+                        //Reduce price by 20%
+                        double newPrice = i.lowerListPrice();
+                        System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, i.getName(), i.getType(), newPrice, newCond);
+                    }
+                }
+            }
+            else if (tuningResult == 0){
+                System.out.println("    ->Tuning status did not change from false.");
+            }
+            else if (tuningResult == 1){
+                System.out.println("    ->Tuning status did not change from true.");
+            }
+            else if (tuningResult == 2){
+                System.out.println("    ->Success! Tuning status changed from false to true.");
+            }
+        }
+
+        // Remove all broken items from tuning from the inventory
+        for (int itemIdx : brokenItems){
+            inventory.remove(itemIdx);
+        }
+
         // Call placeAnOrder for each missing inventory class
         for (Item.Items i : subclassCounts.keySet()) {
             if (subclassCounts.get(i) == 0){
@@ -106,11 +167,10 @@ public class Clerk {
         Customer cust;
         int custNum=0;
         int counter = 0;
-        Random r = new Random();
         // Poisson distribution for buying customers
         // 1-4 selling customers
         int numBuyingCustomers = h.poissonDist(3) + 2;
-        int numSellingCustomers = r.nextInt(4) + 1;
+        int numSellingCustomers = this.rng.nextInt(4) + 1;
 
         //There will be a Poisson distribution for buying customers
         //Using the counter to generate the right amount of buying and selling customers
@@ -137,12 +197,10 @@ public class Clerk {
         //Random generator based off of percentages code sourced here
         //https://stackoverflow.com/questions/38838172/percentage-using-random/38838299
         //Start a random generator 1-100 and if num lands between 1-x then item will break
-        Random rand = new Random();
-        double breakItem = rand.nextDouble() * 100;
+        double breakItem = this.rng.nextDouble() * 100;
         if (breakItem < this.breakPercent){ //5% or 20% for now
             //Generate random number to determine which random item to break 
-            Random randItem = new Random();
-            int randBroken = randItem.nextInt(inventory.size()); //index in array for broken item
+            int randBroken = this.rng.nextInt(inventory.size()); //index in array for broken item
             //get broken item... NOTE: Not sure if initialization to item works here
             Item itemBroken = inventory.get(randBroken); //itemBroken is the item that is broken
 
