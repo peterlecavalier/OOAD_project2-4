@@ -11,7 +11,7 @@ public class Store {
     private ArrayList<Clerk> staff = new ArrayList<>();
     private ArrayList<String> schedule = new ArrayList<>();
     private ArrayList<Item> orderedItems = new ArrayList<>();
-
+    
     private CashRegister register;
     private Helpers h = new Helpers();
 
