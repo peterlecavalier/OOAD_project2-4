@@ -15,6 +15,8 @@ public class Store {
     private CashRegister register;
     private Helpers h = new Helpers();
 
+    private Tracker track;
+
     public ArrayList<Item> getInventory(){
         return this.inventory;
     }
@@ -52,10 +54,10 @@ public class Store {
     private void initializeStaff(){
         // Make clerks and add them to the staff
         // Now, staff have a tuning type
-        Clerk clerk1 = new Clerk("Shaggy", 20, new HaphazardTuning());
-        Clerk clerk2 = new Clerk("Velma", 5, new ElectricTuning());
+        Clerk clerk1 = new Clerk("Shaggy", 20, new HaphazardTuning(), this.track);
+        Clerk clerk2 = new Clerk("Velma", 5, new ElectricTuning(), this.track);
         // New clerk Daphne added, 15% damage chance
-        Clerk clerk3 = new Clerk("Daphne", 15, new ManualTuning());
+        Clerk clerk3 = new Clerk("Daphne", 15, new ManualTuning(), this.track);
         this.staff.add(clerk1);
         this.staff.add(clerk2);
         this.staff.add(clerk3);
@@ -116,6 +118,7 @@ public class Store {
             clerkToday.openTheStore(this.inventory, this.soldItems, this.register, i);
             clerkToday.cleanTheStore(this.inventory);
             clerkToday.leaveTheStore();
+            this.track.printSummary(i, this.staff);
         }
         // Print out a summary
         System.out.println("----- SUMMARY -----");
@@ -141,6 +144,7 @@ public class Store {
 
     // Store constructor
     public Store(){
+        this.track = new Tracker();
         initializeInv();
         initializeStaff();
         this.register = new CashRegister();

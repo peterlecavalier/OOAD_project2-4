@@ -3,6 +3,9 @@ package src.OOAD_project3;
 import java.util.ArrayList;
 import java.util.Random;
 
+
+// Decorator here
+// PackagedItem decorates the stringed sale
 public abstract class PackagedItem extends Stringed{
     // Using similar approach to Bruce Montgomery's code
     // for decorating an Item.
