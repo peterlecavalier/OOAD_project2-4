@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter; 
 import java.io.IOException;
-
+import java.util.HashMap;
 import src.OOAD_project3.observer;
 
 import java.util.HashMap;
@@ -19,20 +19,22 @@ public class Clerk{
     private String name;
     private int breakPercent;
     private Tuning tuning;
-    private int itemsSold;
-    private int itemsPurchased;
-    private int itemsBroken; //in tuning
-    private int itemsBrokenCleaning;
-    private double moneyInRegister; 
-    private double purchasePriceValue;
-    private double moneyFromBank;
-    private int itemsInInventory;
-    private int itemsOrdered;
-    private int itemsAddedtoInventory;
     private Helpers h = new Helpers();
     private Random rng = new Random();
     private ArrayList<observer> obsList = new ArrayList<observer>();
     private int day;
+    private int itemsSold;
+    private int dmgCounter;
+
+    public void setItemsSold(int i){
+        this.itemsSold +=i;
+    }
+
+    public int getItemsSold(){
+        return this.itemsSold;
+    }
+    
+    observer o1 = new tmp();
 
     public int getDay(){
         return this.day;
@@ -60,8 +62,7 @@ public class Clerk{
     }
 
     public void arriveAtStore(int dayNum, ArrayList<Item> arrivedOrders, ArrayList<Item> inventory){
-        System.out.printf("----- %s arrives at the store on day %d -----\n", this.name, dayNum);
-        notifyObserver(); 
+        System.out.printf("----- %s arrives at the store on day %d -----\n", this.name, dayNum); 
         // Add any arrived orders to the inventory
         if (!arrivedOrders.isEmpty()){
             for(Item i : arrivedOrders){
@@ -71,6 +72,7 @@ public class Clerk{
                 setDay(dayNum);
                 logger("Item " + itemName + " arrived at the store.\n"); //Insert into logger
             }
+            notifyObserver("ArriveAtStore", this.name, arrivedOrders.size(), 0.0);
             // Reset arrivedOrders
             arrivedOrders.clear();
         }
@@ -83,8 +85,7 @@ public class Clerk{
         if (moneyInReg < 75.0){
             this.goToBank(register);
         }
-        this.moneyInRegister = moneyInReg;
-        notifyObserver(); //publish amt of money in register
+        notifyObserver("CheckRegister", this.name, 0, moneyInReg);
     }
 
     private void goToBank(CashRegister register){
@@ -94,11 +95,9 @@ public class Clerk{
         //... and add it to the register
         register.addToRegister(1000.0);
         double moneyInReg = register.getMoneyAmt();
-        //notify observer and update money in bank amt
-        this.moneyFromBank = moneyInReg;
-        notifyObserver();
         System.out.printf("%s went to the bank and put $1000 in the register. There is now $%.2f in the register.\n", this.name, moneyInReg);
         logger(this.name + " went to the bank and put $1000 in the register. There is now " + moneyInReg +" in the register.\n"); //Insert into logger
+        notifyObserver("GoToBank", this.name, 0, moneyInReg);
     }
 
     public ArrayList<Item> doInventory(ArrayList<Item> inventory, CashRegister register){
@@ -123,6 +122,7 @@ public class Clerk{
 
         System.out.printf("%s did inventory. Total value in the store is $%.2f.\n", this.name, totalPrices);
         logger(this.name + " did inventory. Total value in the store is " + totalPrices);
+        notifyObserver("DoInventory", this.name, inventory.size() ,totalPrices); //notify observer with # of items in inventory and total purchase price
         // brokenItems keeps track of all items broken during tuning
         ArrayList<Integer> brokenItems = new ArrayList<>();
         // invCounter keeps track of item number in inventory
@@ -152,7 +152,6 @@ public class Clerk{
                         // Do in reverse order so that removing one item doesn't affect
                         // the order of other to-be-removed items
                         brokenItems.add(0, invCounter);
-                        notifyObserver();
                     }
                     // If not, reduce the price by 20%.
                     else{
@@ -177,6 +176,8 @@ public class Clerk{
             }
         }
 
+        //notify observer of number of brokenItems
+        notifyObserver("DoInventory2", this.name, brokenItems.size(), 0.0);
         // Remove all broken items from tuning from the inventory
         for (int itemIdx : brokenItems){
             inventory.remove(itemIdx);
@@ -195,7 +196,6 @@ public class Clerk{
                 }   
             }
         }
-        notifyObserver();
         return newItems;
     }
 
@@ -209,8 +209,8 @@ public class Clerk{
             register.payCustomer(purPrice);
             System.out.printf("%s placed an order for %s (%s) for $%.2f.\n", this.name, curItem.getName(), curItem.getTypeStr(), purPrice);
             logger(this.name + " placed an order for " + curItem.getName() + " for " + purPrice +"\n");
-            this.purchasePriceValue = purPrice;
         }
+        notifyObserver("PlaceAnOrder", this.name, itemsInOrder.size(), 0.0);
         return itemsInOrder;
     }
 
@@ -227,12 +227,16 @@ public class Clerk{
         //There will be a Poisson distribution for buying customers
         //Using the counter to generate the right amount of buying and selling customers
         //CustNum is to track the customer number that will be printed
+        int salesCountertmp = soldItems.size(); //tmp counter to keep track of original items in soldItems arr
         while (counter < numBuyingCustomers){
             counter ++;
             custNum ++;
             cust = new Customer();
             cust.buyItem(inventory, register, soldItems, this.name, custNum, dayNum);
         }
+        int amtSold = soldItems.size() - salesCountertmp; //calculate the num of items sold
+        notifyObserver("OpenTheStoreSold", this.name, amtSold, 0.0);
+        int invTmp = inventory.size(); //hold inventory size before sell func
         //1-4 selling customers
         while(counter < numSellingCustomers + numBuyingCustomers){
             counter ++;
@@ -240,20 +244,20 @@ public class Clerk{
             cust = new Customer();
             cust.sellItem(inventory, register, this.name, custNum, dayNum);
         }
+        int amtBought = inventory.size() - invTmp; //calculate amt bought
+        notifyObserver("OpenTheStoreBought", this.name, amtBought, 0.0);
     }
 
     public void cleanTheStore(ArrayList<Item> inventory){
         // Velma has a 5% chance of breaking an item
         // Shaggy has a 20% chance of breaking an item.
         System.out.printf("%s is cleaning the store.\n", this.name);
-        logger(this.name + " is cleaning the store. \n");
+        logger(this.name + " is cleaning the store. \n");        
         //Random generator based off of percentages code sourced here
         //https://stackoverflow.com/questions/38838172/percentage-using-random/38838299
         //Start a random generator 1-100 and if num lands between 1-x then item will break
         double breakItem = this.rng.nextDouble() * 100;
         if (breakItem < this.breakPercent){ //5% or 20% for now
-            this.itemsBrokenCleaning+=1; 
-            notifyObserver();
             //Generate random number to determine which random item to break 
             int randBroken = this.rng.nextInt(inventory.size()); //index in array for broken item
             //get broken item... NOTE: Not sure if initialization to item works here
@@ -263,6 +267,7 @@ public class Clerk{
             String newCond = itemBroken.lowerCondition();
             // If the item has been destroyed, remove it from inventory
             if (newCond == "broken"){
+                dmgCounter +=1;
                 System.out.printf("Oh no! %s has broken an item! %s (%s) is now destroyed and has been removed from inventory.\n", this.name, itemBroken.getName(), itemBroken.getTypeStr());
                 logger("Oh no! "+ this.name+ " has broken an item! " + itemBroken.getName() + " is now destroyed and has been removed from inventory.\n");
                 inventory.remove(randBroken);
@@ -270,19 +275,21 @@ public class Clerk{
             // If not, reduce the price by 20%.
             else{
                 //Reduce price by 20%
+                dmgCounter +=1;
                 double newPrice = itemBroken.lowerListPrice();
                 System.out.printf("Oh no! %s has broken an item! The price of %s (%s) has been reduced to $%.2f and the condition is now %s.\n", this.name, itemBroken.getName(), itemBroken.getTypeStr(), newPrice, newCond);
                 logger("Oh no! " + this.name + " has broken an item! The price of " + itemBroken.getName() + " has been reduced to $" + newPrice + " and the condition is now " + newCond);
             }
             
         }
+        notifyObserver("CleanTheStore", this.name, dmgCounter, 0.0);
     }
 
     public void leaveTheStore(){
         //announce that the clerk is leaving the store 
         System.out.printf("----- %s has locked up and closed the store for the night -----\n", this.name);
+        notifyObserver("LeaveTheStore", this.name, 0, 0.0);
         logger("-----" +this.name + " has locked up and closed the store for the night -----\n");
-        notifyObserver();
     }
 
     //event consumer logger that writes to file
@@ -302,14 +309,17 @@ public class Clerk{
             System.out.println("Error in logging");
         }
     }
-    //subscribe observers
-    public void subscribeObserver(observer ob){
-        obsList.add(ob);
+
+    public void subscribe(observer o){
+        obsList.add(o);
     }
     //call to notify observer every time an action is updated
-    public void notifyObserver(){
-        for (observer observers : obsList) {
-            observers.update(name, itemsAddedtoInventory,moneyInRegister, moneyFromBank, itemsInInventory, purchasePriceValue,itemsBroken, itemsOrdered, itemsSold, itemsPurchased, itemsBrokenCleaning, name);
-         }
+    public void notifyObserver(String thingUpdated, String clerkUpdate, int intUpdate, double doubleUpdate){
+        //observer observers;
+        /*for (observer observers : obsList){
+            observers.update(thingUpdated, clerkUpdate,  intUpdate, doubleUpdate);
+        }*/
+        //observer o1 = new tmp();
+        o1.update(thingUpdated, clerkUpdate,  intUpdate, doubleUpdate);
     }
 }

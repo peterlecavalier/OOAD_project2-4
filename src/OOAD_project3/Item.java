@@ -123,6 +123,10 @@ public abstract class Item {
         cash.addToRegister(this.getSalePrice());
     }
 
+    public void buyThis(ArrayList<Item> inventory){
+        inventory.add(this);
+    }
+
     // Abstract methods
     public boolean getTuningParam(){
         throw new AbstractMethodError("Abstract method - child must implement.");

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.List;
+import java.util.HashMap;
 //example of cohesion, where a single class is designed to do a specific task.
 //Customer handles 2 specific tasks of customer buying + customer selling, so this would be an example of high cohesion.
 public class Customer {
@@ -32,6 +33,7 @@ public class Customer {
     public void buyItem(ArrayList<Item> inventory, CashRegister cash, ArrayList<Item> soldItems, String clerkName, int customerNum, int day){
         Item.Items chosenSubclass = this.chooseRandomSubclass();
         ArrayList<Integer> itemIdxs = new ArrayList<>();
+    
         // Get the indexes of each item that matches the type the customer wants
         for (int i =0; i < inventory.size(); i++){
             if (chosenSubclass == inventory.get(i).getType()){
@@ -52,7 +54,6 @@ public class Customer {
                 if (chosenSubclass == Item.Items.GUITAR || chosenSubclass == Item.Items.BASS || chosenSubclass == Item.Items.MANDOLIN){
                     itemSold = this.h.packageItems(inventory, itemSold);
                 }
-                
                 itemSold.setDaySold(day); //Set day sold
                 itemSold.setSalePrice(soldPrice); //Set the sale price
                 // Combined removing from inventory, adding to soldItems, and
@@ -73,7 +74,7 @@ public class Customer {
                     if (chosenSubclass == Item.Items.GUITAR || chosenSubclass == Item.Items.BASS || chosenSubclass == Item.Items.MANDOLIN){
                         itemSold = this.h.packageItems(inventory, itemSold);
                     }
-
+                    
                     itemSold.setDaySold(day); //Set day sold
                     itemSold.setSalePrice(discountPrice); //Set sale price as discount price
                     // Combined removing from inventory, adding to soldItems, and
@@ -130,6 +131,7 @@ public class Customer {
         //generate customer probability
         double cust_prob = this.rng.nextDouble() * 100;
         if (cust_prob < 50.0){
+            a.buyThis(inventory);//add to inventory
             a.setPurchasePrice(sellOffer); //set purchase price
             cash.payCustomer(sellOffer);
             System.out.printf("%s bought a %s %s condition %s (%s) from Customer %d for $%.2f.\n", clerkName, a.getNewUsed(), condition, a.getName(), a.getTypeStr(), customerNum, sellOffer);
@@ -139,6 +141,7 @@ public class Customer {
             newPrice = Math.round(newPrice * 100.0) / 100.0;
             int cust_prob2 = this.rng.nextInt() * 100;
             if (cust_prob2 < 75.0){
+                a.buyThis(inventory);//add to inventory
                 a.setDaySold(day);
                 a.setPurchasePrice (newPrice); 
                 cash.payCustomer(newPrice);
