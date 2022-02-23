@@ -21,6 +21,7 @@ package src.OOAD_project3;
 
 
 // Observer pattern implemented here
+// Using an observer pattern to gather all of the updates. Logger and tracker will extend observer to carry out their individual tasks.
 // Children Logger and Tracker extend it.
 public abstract class Observer {
     //if statements to print out the correct msg

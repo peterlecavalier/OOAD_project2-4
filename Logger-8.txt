@@ -1,0 +1,24 @@
+ ---------------------- ArriveAtStore: Shaggy has arrived at the store! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at the store! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $2208.38 in the register. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 48 of items. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total purchase price of value is $1204.21 ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 11 items broken from tuning.----------------------  
+
+ ---------------------- PlaceAnOrder: Shaggy placed an order for 3 items. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Shaggy placed an order for 3 items. ---------------------- 
+
+ ---------------------- OpenTheStore: Shaggy sold 6 items. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 2 items. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned the store and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left the store. ----------------------  
+

@@ -1,0 +1,22 @@
+ ---------------------- ArriveAtStore: Velma has arrived at the store! ---------------------- 
+
+ ---------------------- ArriveAtStore: 6 items have arrived at the store! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $2210.77 in the register. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 55 of items. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total purchase price of value is $1367.96 ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning.----------------------  
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items. ---------------------- 
+
+ ---------------------- OpenTheStore: Velma sold 3 items. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 0 items. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned the store and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left the store. ----------------------  
+

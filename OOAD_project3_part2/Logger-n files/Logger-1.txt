@@ -1,0 +1,22 @@
+ ---------------------- ArriveAtStore: Daphne has arrived at the store! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at the store! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $0.00 in the register. ---------------------- 
+
+ ---------------------- GoToBank: Daphne went to the bank. There is now $1000.00 in the register. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 63 of items. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total purchase price of value is $1616.20 ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 0 items broken from tuning.----------------------  
+
+ ---------------------- OpenTheStore: Daphne sold 4 items. ----------------------  
+
+ ---------------------- OpenTheStore: Daphne bought 3 items. ----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned the store and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left the store. ----------------------  
+
