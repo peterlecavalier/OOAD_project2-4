@@ -1,8 +1,5 @@
 package src.OOAD_project3;
 
-public class observer {
-    
-}
 /*Publish the following events:
  ArriveAtStore: Publish which clerk has arrived at the store.
  ArriveAtStore: Publish number of items added to inventory (if any).
@@ -16,7 +13,6 @@ public class observer {
  OpenTheStore: Publish the total number of items purchased.
  CleanTheStore: Publish the total number of items damaged in cleaning.
  LeaveTheStore: Publish which clerk has left the store*/
-package src.OOAD_project3;
 
 
 
