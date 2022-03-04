@@ -123,6 +123,14 @@ public class Company {
         }
         // Then, do the command version of open the store
         // TODO: Implement command version of openTheStore HERE
+        // TODO: If selecting a store, set the store to the correct one in this.stores
+        // Instantiate a command-line interface
+        // receive user input
+        // while(not exited){
+        //      receive input
+        //     execute commands
+        //      command.execute("a")
+        // }
 
         // Then, finish off the day for each store
         for (Store curStore : this.stores){
