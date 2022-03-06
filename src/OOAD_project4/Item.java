@@ -24,7 +24,7 @@ public abstract class Item {
     https://piazza.com/class/ky3q1sooafc1w3?cid=102
     */ 
     enum Items {PAPERSCORE, CD, VINYL, CASSETTE, CDPLAYER, RECORDPLAYER, MP3PLAYER, CASSETTEPLAYER, GUITAR, BASS, MANDOLIN, 
-                FLUTE, HARMONICA, SAXOPHONE, HAT, SHIRT, BANDANA, PRACTICEAMP, CABLE, STRINGS, GIGBAG};
+                FLUTE, HARMONICA, SAXOPHONE, HAT, SHIRT, BANDANA, PRACTICEAMP, CABLE, STRINGS, GIGBAG, GUITARKIT};
 
     //Constructor 
     public Item(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
@@ -80,6 +80,10 @@ public abstract class Item {
 
     public int daySold(){
         return this.daySold;
+    }
+
+    public void setDayArrived(int day){
+        this.dayArrived = day;
     }
 
     public void setSalePrice(double priceSold){
@@ -458,5 +462,12 @@ class gigBag extends Accessory{
     public gigBag(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
         super(n, purchaseP, listP, nOrU, dayArr, cond);
         this.type = Items.GIGBAG;
+    }
+}
+
+class GuitarKit extends Item{
+    public GuitarKit(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond){
+        super(n, purchaseP, listP, nOrU, dayArr, cond);
+        this.type = Items.GUITARKIT;
     }
 }

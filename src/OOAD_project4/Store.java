@@ -15,6 +15,7 @@ public class Store {
     private Helpers h = new Helpers();
 
     private Tracker track;
+    private GuitarKitFactory gkf;
 
     // name of the store
     private String name;
@@ -52,8 +53,11 @@ public class Store {
         // Add 3 of each item to the inventory (pretty self-explanatory)
         for (int i = 0; i < 3; i++){
             for (Item.Items x : Item.Items.values()){
-                curItem = this.h.generateNewItem(x);
-                addToInventory(curItem);
+                if (x != Item.Items.GUITARKIT){
+                    curItem = this.h.generateNewItem(x);
+                    addToInventory(curItem);
+                }
+                
             }
         }
     }

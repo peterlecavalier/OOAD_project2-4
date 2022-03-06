@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.List;
-import java.util.HashMap;
 //example of cohesion, where a single class is designed to do a specific task.
 //Customer handles 2 specific tasks of customer buying + customer selling, so this would be an example of high cohesion.
 public class Customer {
@@ -16,7 +15,8 @@ public class Customer {
         // Chooses a random subclass from all the possible subclasses
         // Using the Item.Items enum
         // https://stackoverflow.com/questions/1972392/pick-a-random-value-from-an-enum
-        int numberOfItemTypes = Item.Items.values().length;
+        // - 1 to account for GuitarKit
+        int numberOfItemTypes = Item.Items.values().length - 1;
         int enumChooser = this.rng.nextInt(numberOfItemTypes);
         List<Item.Items> enumValues = Arrays.asList(Item.Items.values());; 
         Item.Items chosenSubclass = enumValues.get(enumChooser);
@@ -96,9 +96,9 @@ public class Customer {
 
     public void sellItem(ArrayList<Item> inventory, CashRegister cash, String clerkName, int customerNum, int day){
         Item a = itemPicker();
+        a.setDayArrived(day);
         String condition = this.h.condGen(); //generate random conditions
         a.setCondition(condition); //set condition of item
-        Random rand = new Random(); // this will be used to generate random price 
         double sellOffer = 0; 
         switch (condition){ //Switch condition with increasing random price range
             case "poor":

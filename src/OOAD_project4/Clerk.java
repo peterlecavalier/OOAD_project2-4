@@ -2,13 +2,6 @@ package src.OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
-
-import javax.xml.crypto.KeySelector.Purpose;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter; 
-import java.io.IOException;
 import java.util.HashMap;
 
 public class Clerk{
@@ -63,6 +56,7 @@ public class Clerk{
         notifyObserver("ArriveAtStore", this.name, arrivedOrders.size(), 0.0, this.currentStoreName);
         if (!arrivedOrders.isEmpty()){
             for(Item i : arrivedOrders){
+                i.setDayArrived(dayNum);
                 inventory.add(i);
                 String itemName = i.getName();
                 System.out.printf("Item %s (%s) arrived at %s.\n", itemName, i.getTypeStr(), this.currentStoreName);
@@ -101,7 +95,10 @@ public class Clerk{
 
         // Put all item types into the hashmap with initial values 0.
         for (Item.Items x : Item.Items.values()){
-            subclassCounts.put(x, 0);
+            if (x != Item.Items.GUITARKIT){
+                subclassCounts.put(x, 0);
+            }
+            
         }
         
         // Increment the value for that subclass in the hashmap
