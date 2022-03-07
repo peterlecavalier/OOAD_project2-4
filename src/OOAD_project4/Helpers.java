@@ -206,6 +206,9 @@ public class Helpers {
             case GIGBAG:
                 curItem = new gigBag(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen());
                 break;
+            case GUITARKIT:
+                curItem = new GuitarKit(this.nameGen(), this.purchasePriceGen(), -1.0, this.newUsedGen(), 0, this.condGen());
+                break;
             default:
                 throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN PLACEANORDER");
         }
