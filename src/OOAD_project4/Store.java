@@ -93,18 +93,16 @@ public class Store {
 
     private String gkInput(){
         String inputStr;
-
-        // Initialize scanner to grab user input
-        Scanner scanner = new Scanner(System.in);
-
         // Try-except catches non-integer inputs
         while(true){
-            inputStr = scanner.next();
+            // Initialize scanner to grab user input
+            Scanner scanner = new Scanner(System.in);
+            inputStr = scanner.nextLine();
             inputStr = inputStr.toUpperCase();
+            System.out.printf("(%s)", inputStr);
 
             // Make sure the input is valid
-            if (inputStr == "A" || inputStr == "B" || inputStr == "C"){
-                scanner.close();
+            if (inputStr.equals("A") || inputStr.equals("B") || inputStr.equals("C")){
                 return inputStr;
             }
             else{

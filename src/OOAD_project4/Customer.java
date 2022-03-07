@@ -49,7 +49,7 @@ public class Customer {
             if(customerNum == 99){
                 double soldPrice = itemSold.getListPrice();
                 itemSold.setSalePrice(soldPrice); //Set the sale price
-                System.out.printf("You want to buy a %s %s condition %s \n", itemSold.getNewUsed(), itemSold.getCondition(), itemSold.getName());
+                System.out.printf("You want to buy a %s %s condition %s (%s) \n", itemSold.getNewUsed(), itemSold.getCondition(), itemSold.getName(), itemSold.getTypeStr());
                 System.out.printf("Would you like to buy it for $%.2f? \nY - yes \nN - no \n", itemSold.getSalePrice());
                 Scanner input = new Scanner(System.in); //get input
                 String userInput = input.nextLine();  
@@ -63,9 +63,9 @@ public class Customer {
                     discountPrice = Math.round(discountPrice * 100.0) / 100.0;
                     System.out.printf("%s is offering a 10%% discount and the price is now $%.2f. Would you like to buy the item? \nY - yes \nN - No \n", clerkName, discountPrice);
                     Scanner i = new Scanner(System.in); //read input again
-                    String in = i.nextLine();
+                    String in = i.nextLine().toUpperCase();
                     if (in.equals("Y")){
-                        System.out.printf("You have bought the item from %s after a discount of 10% \n", clerkName);
+                        System.out.printf("You have bought the item from %s after a discount of 10%% \n", clerkName);
                         itemSold.setDaySold(day); //Set day sold
                         itemSold.setSalePrice(discountPrice); //Set the sale price
                         itemSold.sellThis(inventory, cash, soldItems);
@@ -167,7 +167,7 @@ public class Customer {
 
         //BEGIN USER INTERACTION 
         if (customerNum == 99){
-            System.out.printf("You have a " +a.getNewUsed()+ " condition " + condition + a.getName() + " to sell to " + clerkName +"\n" );
+            System.out.printf("You have a " +a.getNewUsed()+ " " + condition + " condition " + a.getName() + " (" + a.getTypeStr() + ") to sell to " + clerkName +"\n" );
             System.out.printf("%s is offering $%.2f for the item. Would you like to sell it? \nY - yes \nN - No \n", clerkName, sellOffer);
             //get user input 
             Scanner input = new Scanner(System.in);
@@ -183,9 +183,9 @@ public class Customer {
                 newPrice = Math.round(newPrice * 100.0) / 100.0;
                 System.out.printf("%s is now offering $%.2f for the item. Would you like to sell it? \nY - yes \nN - No \n", clerkName, newPrice);
                 Scanner i = new Scanner(System.in);
-                String in = i.nextLine();
+                String in = i.nextLine().toUpperCase();
                 if (in.equals("Y")){
-                    System.out.println("You have sold the item to " + clerkName + "after an addition of 10%");
+                    System.out.println("You have sold the item to " + clerkName + " after an addition of 10%");
                     a.buyThis(inventory);
                     a.setPurchasePrice(newPrice);
                     return;

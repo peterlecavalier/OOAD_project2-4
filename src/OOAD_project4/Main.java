@@ -11,6 +11,6 @@ public class Main {
         //Example of abstraction, which is the separation of the external representation of an object’s 
         //values and logical properties from their internal implementation. runSimulation is a good example
         //because the internal workings of this function does not need to be known. 
-        fnmsCompany.runSimulation(1);
+        fnmsCompany.runSimulation(20);
     }
 }

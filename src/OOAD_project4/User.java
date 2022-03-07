@@ -22,12 +22,22 @@ public class User{
         }
     }
 
-    public void askName(String name){
-        System.out.println("The clerk's name is " + name);
+    public void askName(){
+        //check if a store has been selected yet
+        if(workingStore == null){
+            System.out.println("Whoops! Please make sure to select a store first! \n");
+            return;
+        }
+        System.out.println("The clerk's name is " + this.workingStore.getClerkName());
     }
 
     public void askTime(){
-        System.out.println("The current time is: ");
+        //check if a store has been selected yet
+        if(workingStore == null){
+            System.out.println("Whoops! Please make sure to select a store first! \n");
+            return;
+        }
+        System.out.println(this.workingStore.getClerkName() + " checks the time. It is: ");
         //using java pckge to print current time. src: https://www.javatpoint.com/java-get-current-date
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");  
         LocalDateTime now = LocalDateTime.now();  
@@ -54,8 +64,12 @@ public class User{
         workingStore.userInteraction(1, 2);
     }
 
-    public void buyGuitarKit(Store store){
-        store.guitarKitInteraction();
-        //TODO: Change this to adapt to Liz's change
+    public void buyGuitarKit(int day){
+        if(workingStore == null){
+            System.out.println("Whoops! Please make sure to select a store first! \n");
+            return;
+        }
+        System.out.print("You have selected to buy a guitar kit from the store. \n");
+        workingStore.guitarKitInteraction(day);
     }
 }

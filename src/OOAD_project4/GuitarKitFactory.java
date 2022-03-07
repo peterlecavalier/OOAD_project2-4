@@ -1,6 +1,6 @@
 package src.OOAD_project4;
 
-// Abstract Interface implemented here
+// ***Abstract Factory implemented here***
 public interface GuitarKitFactory{
 
     // Prints out the name/price of each product
