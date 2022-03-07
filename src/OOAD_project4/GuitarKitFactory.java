@@ -64,9 +64,9 @@ class NorthGuitarKitFactory implements GuitarKitFactory{
                 throw new UnsupportedOperationException("SWITCH DIDN'T WORK IN NORTHGUITARKITFACTORY");
         }
 
-        System.out.println(A.getName() + " - $" + A.getPrice());
-        System.out.println(B.getName() + " - $" + B.getPrice());
-        System.out.println(C.getName() + " - $" + C.getPrice());
+        System.out.println("    " + A.getName() + " - $" + A.getPrice());
+        System.out.println("    " + B.getName() + " - $" + B.getPrice());
+        System.out.println("    " + C.getName() + " - $" + C.getPrice());
     }
 
     @Override

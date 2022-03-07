@@ -201,7 +201,9 @@ public class Company {
                 command.executed();
             }
             if (userInput.equals("F") || userInput.equals("f")){
-                
+                buyGuitarKitcmd buyKit = new buyGuitarKitcmd(user, curStore, days + 1);
+                command.setCommand(buyKit);
+                command.executed();
             }
             if (userInput.equals("G") || userInput.equals("g")){
                 System.out.println("ending interaction");

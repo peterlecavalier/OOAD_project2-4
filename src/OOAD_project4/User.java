@@ -43,4 +43,9 @@ public class User{
         store.userInteraction(1, 2
         );
     }
+
+    public void buyGuitarKit(Store store){
+        store.guitarKitInteraction();
+        //TODO: Change this to adapt to Liz's change
+    }
 }
