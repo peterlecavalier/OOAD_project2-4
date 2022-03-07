@@ -15,7 +15,6 @@ import src.OOAD_project4.buyItemcmd;
 public class Company {
     //private ArrayList<Command> cmdList = new ArrayList<Command>(); //stores all the commands user wants and executes at end
     private ArrayList<Store> stores; 
-    private Store curStore; 
     private ArrayList<Clerk> staff = new ArrayList<>();
     private String name;
     // Schedule is now a 2D ArrayList, to manage multiple stores
@@ -26,18 +25,10 @@ public class Company {
         this.initializeStaff();
     }
 
+    //public void setCurrentStore()
+
     public void addStore(Store newStore){
         stores.add(newStore);
-    }
-
-    public void chooseStore(int i, ArrayList<Store> stores){
-        if (stores.size() > 0){
-            curStore = stores.get(i);
-        }
-    }
-
-    public Store getStore(){
-        return curStore;
     }
 
     private void initializeStaff(){
@@ -158,7 +149,7 @@ public class Company {
         User user = new User(); //reciever of request
         while(true){
             Scanner input = new Scanner(System.in);  // Create a Scanner object for input
-            System.out.println("Pick a command: \n A - select store \n B - Ask clerk name \n C - Ask clerk time \n D - Sell item to store \n E - Buy item \n F - Buy custom guitar kit \n G - End interaction");
+            System.out.println("Pick a command: \n A - Select store \n B - Ask clerk name \n C - Ask clerk time \n D - Sell item to store \n E - Buy item \n F - Buy custom guitar kit \n G - End interaction");
             String userInput = input.nextLine();  // Read user input
 
             if (userInput.equals("A") || userInput.equals("a")){
@@ -168,17 +159,9 @@ public class Company {
                 Scanner storeInput = new Scanner(System.in);
                 String storechoice = storeInput.nextLine();
                 //command pattern to execute
-                Company company = new Company();
-                selectStorecmd selectStore = new selectStorecmd(user, storechoice, company, this.stores);
-                command.setCommand(selectStore);
+                selectStorecmd selectStore = new selectStorecmd(user, storechoice, this, stores);
+                command.setCommand(selectStore); 
                 command.executed();
-                //cheesing my way thru this one for now, idk why the currStore is null when I set it in user.java
-                if (storechoice.equals("a")){
-                    chooseStore(0, stores);
-                }
-                if (storechoice.equals("b")){
-                    chooseStore(1, stores);
-                }
             }
             if (userInput.equals("B") || userInput.equals("b")){
                 askClerkNamecmd askName = new askClerkNamecmd(user, this.name); //create cmd and pass reciever to it
@@ -191,12 +174,12 @@ public class Company {
                 command.executed();
             }
             if (userInput.equals("D") || userInput.equals("d")){
-                sellItemcmd sellItem = new sellItemcmd(user, curStore);
+                sellItemcmd sellItem = new sellItemcmd(user);
                 command.setCommand(sellItem);
                 command.executed();
             }
             if (userInput.equals("E") || userInput.equals("e")){
-                buyItemcmd buyItem = new buyItemcmd(user, curStore);
+                buyItemcmd buyItem = new buyItemcmd(user);
                 command.setCommand(buyItem);
                 command.executed();
             }
@@ -204,7 +187,7 @@ public class Company {
                 
             }
             if (userInput.equals("G") || userInput.equals("g")){
-                System.out.println("ending interaction");
+                System.out.println("Ending interaction");
                 break;
             } 
         }

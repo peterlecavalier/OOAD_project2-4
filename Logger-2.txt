@@ -2134,3 +2134,291 @@
 
  ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
 
+ ---------------------- ArriveAtStore: Fred has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $1165.97 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 62 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $1787.70 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 5 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $1210.33 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 61 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1503.64 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 7 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $974.35 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 63 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1708.04 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 10 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Fred has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $1138.92 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 60 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $1519.07 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 4 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $1057.93 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 62 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1760.64 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 12 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $1210.81 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 61 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1649.40 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Daphne has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $1077.51 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 62 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $1712.85 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 3 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $1057.83 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 62 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1689.88 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $1394.00 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 57 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1671.09 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $1186.42 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 61 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1466.04 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 6 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $1159.79 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 61 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1532.43 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Daphne has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $1067.48 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 61 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $1418.91 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 4 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- CleanTheStore: Scrappy cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scrappy has left Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $1075.88 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 63 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1584.87 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $1220.20 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 58 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1504.61 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 8 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Daphne has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $1317.91 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 60 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $1519.37 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 5 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $1303.86 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 58 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1607.34 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $1317.77 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 58 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1357.73 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Fred has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $1344.05 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 56 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $1498.63 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 5 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $1164.95 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 61 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1784.80 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $1153.29 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 60 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1284.89 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 5 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $1067.75 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 62 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1373.50 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 8 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $1098.62 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 61 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1488.61 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+

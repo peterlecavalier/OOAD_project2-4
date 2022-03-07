@@ -19,16 +19,14 @@ public class Store {
         return this.inventory;
     }
 
+<<<<<<< HEAD:src/OOAD_project2/Store.java
     // This will only be accessed with other methods
+=======
+    // This will only be accessed with other methods -> example of encapsulation
+>>>>>>> 42ed9b66012e17c4317d41936ee14215dd13de26:Store.java
     private void addToInventory(Item itemToAdd){
         this.inventory.add(itemToAdd);
     }
-
-    //public add to inventory variable to modify current inventory list
-    public void addToCurrInventory(Item addItem){
-        this.inventory.add(addItem);
-    }
-
     public void addToSold(Item soldItem){
         this.inventory.add(soldItem);
     }
