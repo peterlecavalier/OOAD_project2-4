@@ -53,4 +53,9 @@ public class User{
         System.out.print("You have selected to buy an item to the store. \n");
         workingStore.userInteraction(1, 2);
     }
+
+    public void buyGuitarKit(Store store){
+        store.guitarKitInteraction();
+        //TODO: Change this to adapt to Liz's change
+    }
 }

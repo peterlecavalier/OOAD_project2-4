@@ -2,6 +2,7 @@ package src.OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 //Encapsulation is the hiding of specific implementation and representation details of a class
 //The class Store has a a lot of private/hidden methods that would make it a good example of encapsulation.
@@ -90,6 +91,63 @@ public class Store {
         this.currentClerk.openTheStore(this.inventory, this.soldItems, this.register, day, buyOrSell);
     }
 
+    private String gkInput(){
+        String inputStr;
+
+        // Initialize scanner to grab user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Try-except catches non-integer inputs
+        while(true){
+            inputStr = scanner.next();
+            inputStr = inputStr.toUpperCase();
+
+            // Make sure the input is valid
+            if (inputStr == "A" || inputStr == "B" || inputStr == "C"){
+                scanner.close();
+                return inputStr;
+            }
+            else{
+                System.out.println("Error: Incorrect input. Must be A/B/C. Please re-enter:");
+            }
+        }
+    }
+
+    public void guitarKitInteraction(int day){
+        // Get user input for all the item types
+        System.out.println("Which bridge would you like?:");
+        this.gkf.printTypes("bridge");
+        this.gkf.createBridge(this.gkInput());
+
+        System.out.println("Which knob set would you like?:");
+        this.gkf.printTypes("knobset");
+        this.gkf.createKnobSet(this.gkInput());
+
+        System.out.println("Which covers would you like?:");
+        this.gkf.printTypes("covers");
+        this.gkf.createCovers(this.gkInput());
+
+        System.out.println("Which neck would you like?:");
+        this.gkf.printTypes("neck");
+        this.gkf.createNeck(this.gkInput());
+
+        System.out.println("Which pickguard would you like?:");
+        this.gkf.printTypes("pickguard");
+        this.gkf.createPickguard(this.gkInput());
+
+        System.out.println("Which pickups would you like?:");
+        this.gkf.printTypes("pickups");
+        this.gkf.createPickups(this.gkInput());
+
+        // Form the kit
+        Item newKit = this.gkf.formKit();
+        // Set the day it was sold, add it to the soldItems
+        newKit.setDaySold(day);
+        soldItems.add(newKit);
+        System.out.printf("%s sold a %s %s condition %s (%s) to the user for $%.2f \n", this.currentClerk.getName(), 
+                newKit.getNewUsed(),newKit.getCondition(),newKit.getName(), newKit.getTypeStr(), newKit.getSalePrice());
+    }
+
     public void finishCommandDay(int day, ArrayList<Clerk> staff){
         this.currentClerk.cleanTheStore(this.inventory);
         this.currentClerk.leaveTheStore();
@@ -124,5 +182,13 @@ public class Store {
         this.track = Tracker.getInstance();
         initializeInv();
         this.register = new CashRegister();
+
+        // Set the GKF based on north or south
+        if (this.name.contains("North")){
+            this.gkf = new NorthGuitarKitFactory();
+        }
+        else{
+            this.gkf = new SouthGuitarKitFactory();
+        }
     }
 }
