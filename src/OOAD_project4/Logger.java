@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.io.IOException;
 
 public class Logger extends Observer{
-    // Lazy Instantiation Singleton
+    // ***Lazy Instantiation Singleton***
     private static Logger loggerInstance;
 
     //event consumer logger that writes to file

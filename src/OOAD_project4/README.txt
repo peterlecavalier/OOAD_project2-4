@@ -11,6 +11,8 @@ Comments / assumptions:
 - Now that there are up to 2 clerks that can be sick, we made this design decision:
     -> 10% chance of one getting sick
     -> 50% chance of a second one getting sick GIVEN that one was sick.
+- With command-line interactions, we assumed the buying/selling of an item could be randomly selected (just like with bot customers)
+
 
 
 to compile/run in cmd (from the root of this repo):

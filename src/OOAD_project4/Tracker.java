@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Tracker extends Observer{
-    // Eager Instantiation Singleton
+    // ***Eager Instantiation Singleton***
     private static Tracker trackerInstance = new Tracker();
 
     // Redesigned these so that they are 2D Hashmaps to account for 2 stores

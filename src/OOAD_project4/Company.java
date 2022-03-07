@@ -132,16 +132,6 @@ public class Company {
         for (Store curStore : this.stores){
             curStore.simulateDay(days + 1, this.staff, true);
         }
-        // Then, do the command version of open the store
-        // TODO: Implement command version of openTheStore HERE
-        // TODO: If selecting a store, set the store to the correct one in this.stores
-        // Instantiate a command-line interface
-        // receive user input
-        // while(not exited){
-        //      receive input
-        //     execute commands
-        //      command.execute("a")
-        // }
         //This is the command invoker part of the command pattern 
         
         //-> This code is referenced from class slides "L17 COMMAND pg 11"
@@ -164,7 +154,7 @@ public class Company {
                 command.executed();
             }
             if (userInput.equals("B") || userInput.equals("b")){
-                askClerkNamecmd askName = new askClerkNamecmd(user, this.name); //create cmd and pass reciever to it
+                askClerkNamecmd askName = new askClerkNamecmd(user); //create cmd and pass reciever to it
                 command.setCommand(askName); //pass cmd to invoker
                 command.executed(); //execute
             }
@@ -184,7 +174,9 @@ public class Company {
                 command.executed();
             }
             if (userInput.equals("F") || userInput.equals("f")){
-                
+                buyGuitarKitcmd buyKit = new buyGuitarKitcmd(user, days + 1);
+                command.setCommand(buyKit);
+                command.executed();
             }
             if (userInput.equals("G") || userInput.equals("g")){
                 System.out.println("Ending interaction");
