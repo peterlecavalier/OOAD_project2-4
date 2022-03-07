@@ -7,15 +7,18 @@ import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;   
 public class User{
     String name;
+    Store workingStore;
     public void selectStore(String choice, Company company, ArrayList<Store> stores){
         if (choice.equals("A") || choice.equals("a")){
-            System.out.println("You have selected the Northside FNMS store");
+            System.out.println("You have selected the Northside FNMS store \n");
+            workingStore = stores.get(0);
         }
         else if (choice.equals("B") || choice.equals("b")){
-            System.out.println("You have selected the Southside FNMS store");
+            System.out.println("You have selected the Southside FNMS store \n");
+            workingStore = stores.get(1);
         }
         else{
-            System.out.println("Error! Input not recognized.");
+            System.out.println("Error! Input not recognized. \n");
         }
     }
 
@@ -31,16 +34,23 @@ public class User{
         System.out.println(dtf.format(now));  
     }
 
-    public void sellItem(Store store){
-        //execute sell item cmd here 
+    public void sellItem(){
+        //check if a store has been selected yet
+        if(workingStore == null){
+            System.out.println("Whoops! Please make sure to select a store first! \n");
+            return;
+        }
         System.out.print("You have selected to sell an item to the store. \n");
         //Using day = 1 as a temp placeholder until I figure out 
-        store.userInteraction(1,1);
+        workingStore.userInteraction(1,1);
     }
 
-    public void buyItem(Store store){
+    public void buyItem(){
+        if(workingStore == null){
+            System.out.println("Whoops! Please make sure to select a store first! \n");
+            return;
+        }
         System.out.print("You have selected to buy an item to the store. \n");
-        store.userInteraction(1, 2
-        );
+        workingStore.userInteraction(1, 2);
     }
 }

@@ -1,4 +1,5 @@
 package src.OOAD_project4;
+import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
 public class selectStorecmd implements Command{
     User Action; 
@@ -13,13 +14,8 @@ public class selectStorecmd implements Command{
     }
     @Override
     public void execute() {
-        //why doesn't this work???? ??? 
-        /*if (choice.equals("A") || choice.equals("a")){
-            company.chooseStore(0, stores);
-        }
-        if (choice.equals("B") || choice.equals("b")){
-            company.chooseStore(1, stores);
-        }*/
+        /* workingStore = store object that user chose 
+        */
         Action.selectStore(choice, company, stores);
     }
     

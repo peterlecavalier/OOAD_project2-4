@@ -49,14 +49,14 @@ public class Customer {
             if(customerNum == 99){
                 double soldPrice = itemSold.getListPrice();
                 itemSold.setSalePrice(soldPrice); //Set the sale price
-                System.out.printf("You want to buy a %s %s condition %s", itemSold.getNewUsed(), itemSold.getCondition(), itemSold.getName());
+                System.out.printf("You want to buy a %s %s condition %s \n", itemSold.getNewUsed(), itemSold.getCondition(), itemSold.getName());
                 System.out.printf("Would you like to buy it for $%.2f? \nY - yes \nN - no \n", itemSold.getSalePrice());
                 Scanner input = new Scanner(System.in); //get input
                 String userInput = input.nextLine();  
                 if (userInput.equals("Y") || userInput.equals("y")){
                     itemSold.setDaySold(day); //Set day sold
                     itemSold.sellThis(inventory, cash, soldItems);
-                    System.out.println("You have bought the item. \n");
+                    System.out.printf("You have bought the item from %s \n", clerkName );
                 }
                 else if (userInput.equals("N") || userInput.equals("n")){
                     double discountPrice = itemSold.getListPrice() - (itemSold.getListPrice() * 0.1);
@@ -65,19 +65,19 @@ public class Customer {
                     Scanner i = new Scanner(System.in); //read input again
                     String in = i.nextLine();
                     if (in.equals("Y")){
-                        System.out.printf("You have bought the item from %s after a discount of 10%", clerkName);
+                        System.out.printf("You have bought the item from %s after a discount of 10% \n", clerkName);
                         itemSold.setDaySold(day); //Set day sold
                         itemSold.setSalePrice(discountPrice); //Set the sale price
                         itemSold.sellThis(inventory, cash, soldItems);
                         return;
                     }
                     else if (in.equals("N")){
-                        System.out.println("You did not buy the item.");
+                        System.out.println("You did not buy the item. \n" );
                         return;
                     }
                 }
                 else{
-                    System.out.println("Error! Please enter apropriate command.");
+                    System.out.println("Error! Please enter apropriate command. \n");
                 }
                 return;
             }

@@ -2,11 +2,19 @@ package src.OOAD_project2;
 
 import java.util.List;
 import java.util.Arrays;
+<<<<<<< HEAD:src/OOAD_project2/Item.java
 //Polymorphism is the ability to substitute objects of matching interface for one another at run-time.
 //So all the subclass instance under class Item can use the same functionality as its superclass
 public abstract class Item {
     //instance variables
     private String name; //Name is an example of identity as this is a unique identifier that no other object instance has
+=======
+
+//// Item class is an example of polymorphism, as the subclasses of items can all inheret from item.
+public abstract class Item {
+    //instance variables 
+    private String name;
+>>>>>>> 42ed9b66012e17c4317d41936ee14215dd13de26:Item.java
     private double purchasePrice;
     private double listPrice;
     private String newOrUsed;
@@ -42,7 +50,10 @@ public abstract class Item {
     // get the type of object
     public Items getType() {return null;}
 
+<<<<<<< HEAD:src/OOAD_project2/Item.java
     // basic getters/setters
+=======
+>>>>>>> 42ed9b66012e17c4317d41936ee14215dd13de26:Item.java
     public String getName(){
         return this.name;
     }
@@ -125,7 +136,7 @@ abstract class Music extends Item{
         return this.album;
     }
 }
-
+// Example of Inheritance, as paperscore inherits traits from superclass music
 class PaperScore extends Music {
     //constructor
     public PaperScore(String n, double purchaseP, double listP, String nOrU, int dayArr, String cond, String bandN, String albumN){

@@ -21,6 +21,9 @@ public class Store {
     private String name;
     private Clerk currentClerk;
 
+    public String getClerkName(){
+        return currentClerk.getName();
+    }
     public ArrayList<Item> getInventory(){
         return this.inventory;
     }
@@ -83,7 +86,7 @@ public class Store {
     } 
 
     //this is to be called by the command pattern for user interaction. It passes the number 1 to indicate selling
-    public void userInteraction (int day, int buyOrSell){ //buy = 0 sell = 1
+    public void userInteraction (int day, int buyOrSell){ //buy = 1 sell = 2
         this.currentClerk.openTheStore(this.inventory, this.soldItems, this.register, day, buyOrSell);
     }
 
