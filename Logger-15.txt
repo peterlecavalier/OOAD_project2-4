@@ -1,0 +1,80 @@
+ ---------------------- ArriveAtStore: Scooby has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 6 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $2865.12 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 54 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1285.39 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 8 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Scooby sold 9 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scooby bought 2 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scooby cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scooby has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $3275.28 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 52 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1246.31 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Velma sold 3 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 1 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $2998.11 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 42 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1128.44 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 7 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Shaggy sold 4 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 2 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 9 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $2602.85 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 51 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1140.54 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Velma sold 4 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 0 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Southside FNMS. ----------------------  
+

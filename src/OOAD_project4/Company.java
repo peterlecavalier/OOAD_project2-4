@@ -1,13 +1,23 @@
 package src.OOAD_project4;
 
+import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
+
+import src.OOAD_project4.askClerkNamecmd;
+import src.OOAD_project4.askClerkTimecmd;
+//import src.OOAD_project4.sellItemcmd;
+import src.OOAD_project4.buyItemcmd;
 
 // Company here is a further encapsulation of Store
 // allowing for seamless running of multiple stores
 public class Company {
-    private ArrayList<Store> stores;
+    //private ArrayList<Command> cmdList = new ArrayList<Command>(); //stores all the commands user wants and executes at end
+    private ArrayList<Store> stores; 
+    private Store curStore; 
     private ArrayList<Clerk> staff = new ArrayList<>();
+    private String name;
     // Schedule is now a 2D ArrayList, to manage multiple stores
     private ArrayList<ArrayList<String>> schedule = new ArrayList<ArrayList<String>>();
 
@@ -18,6 +28,16 @@ public class Company {
 
     public void addStore(Store newStore){
         stores.add(newStore);
+    }
+
+    public void chooseStore(int i, ArrayList<Store> stores){
+        if (stores.size() > 0){
+            curStore = stores.get(i);
+        }
+    }
+
+    public Store getStore(){
+        return curStore;
     }
 
     private void initializeStaff(){
@@ -81,7 +101,7 @@ public class Company {
                 while (true){
                     clerkToday = this.staff.get(rng.nextInt(this.staff.size()));
                     clerkName = clerkToday.getName();
-
+            
                     // Can't have the same clerk working at two stores
                     if (todaysClerks.contains(clerkName)){
                         continue;
@@ -99,7 +119,7 @@ public class Company {
                             continue;
                         }
                     }
-
+                    this.name = clerkName;
                     // Add them to todays clerks
                     todaysClerks.add(clerkName);
                     curStore.setClerkToday(clerkToday);
@@ -131,13 +151,69 @@ public class Company {
         //     execute commands
         //      command.execute("a")
         // }
+        //This is the command invoker part of the command pattern 
+        
+        //-> This code is referenced from class slides "L17 COMMAND pg 11"
+        invoker command = new invoker(); //invoker will be passed a command object that is used to make reqs
+        User user = new User(); //reciever of request
+        while(true){
+            Scanner input = new Scanner(System.in);  // Create a Scanner object for input
+            System.out.println("Pick a command: \n A - select store \n B - Ask clerk name \n C - Ask clerk time \n D - Sell item to store \n E - Buy item \n F - Buy custom guitar kit \n G - End interaction");
+            String userInput = input.nextLine();  // Read user input
 
+            if (userInput.equals("A") || userInput.equals("a")){
+                System.out.println("You have chosen to select a store. \n Which store would you like? \n");
+                System.out.println("A - Northside FNMS \nB - Southside FNMS \n");
+                //read user input 
+                Scanner storeInput = new Scanner(System.in);
+                String storechoice = storeInput.nextLine();
+                //command pattern to execute
+                Company company = new Company();
+                selectStorecmd selectStore = new selectStorecmd(user, storechoice, company, this.stores);
+                command.setCommand(selectStore);
+                command.executed();
+                //cheesing my way thru this one for now, idk why the currStore is null when I set it in user.java
+                if (storechoice.equals("a")){
+                    chooseStore(0, stores);
+                }
+                if (storechoice.equals("b")){
+                    chooseStore(1, stores);
+                }
+            }
+            if (userInput.equals("B") || userInput.equals("b")){
+                askClerkNamecmd askName = new askClerkNamecmd(user, this.name); //create cmd and pass reciever to it
+                command.setCommand(askName); //pass cmd to invoker
+                command.executed(); //execute
+            }
+            if (userInput.equals("C") || userInput.equals("c")){
+                askClerkTimecmd askTime = new askClerkTimecmd(user);
+                command.setCommand(askTime);
+                command.executed();
+            }
+            if (userInput.equals("D") || userInput.equals("d")){
+                sellItemcmd sellItem = new sellItemcmd(user, curStore);
+                command.setCommand(sellItem);
+                command.executed();
+            }
+            if (userInput.equals("E") || userInput.equals("e")){
+                buyItemcmd buyItem = new buyItemcmd(user, curStore);
+                command.setCommand(buyItem);
+                command.executed();
+            }
+            if (userInput.equals("F") || userInput.equals("f")){
+                
+            }
+            if (userInput.equals("G") || userInput.equals("g")){
+                System.out.println("ending interaction");
+                break;
+            } 
+        }
+        //execute commands 
         // Then, finish off the day for each store
         for (Store curStore : this.stores){
             curStore.finishCommandDay(days + 1, this.staff);
         }
         
-
         // Print out a summary for each store
         for (Store curStore : this.stores){
             curStore.simulationSummary();

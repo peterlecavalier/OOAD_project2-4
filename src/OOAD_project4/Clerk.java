@@ -35,6 +35,10 @@ public class Clerk{
         return this.name;
     }
 
+    public void setName(String clerkName){
+        this.name = clerkName;
+    }
+
     public int tuneItem(Item tuningItem){
         return tuning.doTuning(tuningItem);
     }
@@ -199,10 +203,24 @@ public class Clerk{
         return itemsInOrder;
     }
 
-    public void openTheStore(ArrayList<Item> inventory, ArrayList<Item> soldItems, CashRegister register, int dayNum){
+    public void openTheStore(ArrayList<Item> inventory, ArrayList<Item> soldItems, CashRegister register, int dayNum, int user){
         Customer cust;
         int custNum=0;
         int counter = 0;
+        //user variable is used to determine if user interaction is needed
+        if (user ==2){
+            Customer user_cust = new Customer();
+            //cust num being 99 will 
+            user_cust.buyItem(inventory, register, soldItems, this.name, 99, dayNum);
+            return;
+        }
+        //1 = sell
+        if (user ==1){
+            Customer user_cust = new Customer();
+            //cust num being 99 indicates that it is user interaction
+            user_cust.sellItem(inventory, register, this.name, 99, dayNum);
+            return;
+        }
         // Poisson distribution for buying customers
         // 1-4 selling customers
         int numBuyingCustomers = h.poissonDist(3) + 2;

@@ -71,11 +71,16 @@ public class Store {
         // Call doInventory, and add any items that may have been ordered to the ordered items
         this.orderedItems.addAll(this.currentClerk.doInventory(this.inventory, this.register));
         if (!cmd){
-            this.currentClerk.openTheStore(this.inventory, this.soldItems, this.register, day);
+            this.currentClerk.openTheStore(this.inventory, this.soldItems, this.register, day, 0);
             this.currentClerk.cleanTheStore(this.inventory);
             this.currentClerk.leaveTheStore();
             this.track.printSummary(day, staff, this.name);
         }
+    } 
+
+    //this is to be called by the command pattern for user interaction. It passes the number 1 to indicate selling
+    public void userInteraction (int day, int buyOrSell){ //buy = 0 sell = 1
+        this.currentClerk.openTheStore(this.inventory, this.soldItems, this.register, day, buyOrSell);
     }
 
     public void finishCommandDay(int day, ArrayList<Clerk> staff){
