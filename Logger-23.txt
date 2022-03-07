@@ -1,0 +1,86 @@
+ ---------------------- ArriveAtStore: Fred has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $3763.65 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 49 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $1041.06 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 3 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Fred placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Fred sold 1 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Fred bought 0 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Fred cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Fred has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $3699.62 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 54 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $1210.34 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Velma sold 8 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $3513.31 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 41 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1084.33 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 9 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Shaggy placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Shaggy sold 3 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 1 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Daphne has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $3297.72 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 45 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $1034.70 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 1 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Daphne placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Daphne sold 6 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Daphne bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left Southside FNMS. ----------------------  
+

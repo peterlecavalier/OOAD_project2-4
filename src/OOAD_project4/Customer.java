@@ -5,6 +5,7 @@ import java.util.Random;
 import java.util.Arrays;
 import java.util.List;
 import java.util.HashMap;
+import java.util.Scanner;
 //example of cohesion, where a single class is designed to do a specific task.
 //Customer handles 2 specific tasks of customer buying + customer selling, so this would be an example of high cohesion.
 public class Customer {
@@ -43,8 +44,44 @@ public class Customer {
         if (itemIdxs.size() > 0){
             int chosenItemIdx = itemIdxs.get(this.rng.nextInt(itemIdxs.size())); //Choose a random item from the subclass
             Item itemSold = inventory.get(chosenItemIdx);
+            //BEGIN USER INTERACTION - cust num =99 indicates user interactive
+            if(customerNum == 99){
+                double soldPrice = itemSold.getListPrice();
+                itemSold.setSalePrice(soldPrice); //Set the sale price
+                System.out.printf("You want to buy a %s %s condition %s", itemSold.getNewUsed(), itemSold.getCondition(), itemSold.getName());
+                System.out.printf("Would you like to buy it for $%.2f? \nY - yes \nN - no \n", itemSold.getSalePrice());
+                Scanner input = new Scanner(System.in); //get input
+                String userInput = input.nextLine();  
+                if (userInput.equals("Y") || userInput.equals("y")){
+                    itemSold.setDaySold(day); //Set day sold
+                    itemSold.sellThis(inventory, cash, soldItems);
+                    System.out.println("You have bought the item. \n");
+                }
+                else if (userInput.equals("N") || userInput.equals("n")){
+                    double discountPrice = itemSold.getListPrice() - (itemSold.getListPrice() * 0.1);
+                    discountPrice = Math.round(discountPrice * 100.0) / 100.0;
+                    System.out.printf("%s is offering a 10%% discount and the price is now $%.2f. Would you like to buy the item? \nY - yes \nN - No \n", clerkName, discountPrice);
+                    Scanner i = new Scanner(System.in); //read input again
+                    String in = i.nextLine();
+                    if (in.equals("Y")){
+                        System.out.printf("You have bought the item from %s after a discount of 10%", clerkName);
+                        itemSold.setDaySold(day); //Set day sold
+                        itemSold.setSalePrice(discountPrice); //Set the sale price
+                        itemSold.sellThis(inventory, cash, soldItems);
+                        return;
+                    }
+                    else if (in.equals("N")){
+                        System.out.println("You did not buy the item.");
+                        return;
+                    }
+                }
+                else{
+                    System.out.println("Error! Please enter apropriate command.");
+                }
+                return;
+            }
+            //END OF USER INTERACTION 
             //random generator to determine if customer wants to buy with 50% poss
-            
             double buyChance = this.rng.nextDouble() * 100;
             if (buyChance < (50.0 + h.getPriceIncrease(itemSold))){ //50% chance (+ potential increase)
 
@@ -100,6 +137,7 @@ public class Customer {
         a.setCondition(condition); //set condition of item
         Random rand = new Random(); // this will be used to generate random price 
         double sellOffer = 0; 
+
         switch (condition){ //Switch condition with increasing random price range
             case "poor":
                 sellOffer = 1 + this.rng.nextDouble() * (10 - 1);
@@ -119,12 +157,49 @@ public class Customer {
         }
 
         if (a.getType() == Item.Items.HAT || a.getType() == Item.Items.SHIRT || a.getType() == Item.Items.BANDANA){
+
             if (!this.h.checkClothing(inventory)){
                 System.out.printf("Customer %d wanted to sell a %s %s condition %s (%s), but the store does not buy clothing anymore.\n", customerNum, a.getNewUsed(), condition, a.getName(), a.getTypeStr());
                 return;
             }
         }
 
+        //BEGIN USER INTERACTION 
+        if (customerNum == 99){
+            System.out.printf("You have a " +a.getNewUsed()+ " condition " + condition + a.getName() + " to sell to " + clerkName +"\n" );
+            System.out.printf("%s is offering $%.2f for the item. Would you like to sell it? \nY - yes \nN - No \n", clerkName, sellOffer);
+            //get user input 
+            Scanner input = new Scanner(System.in);
+            String userInput = input.nextLine();  
+            if (userInput.equals("Y") || userInput.equals("y")){
+                //update inventory
+                System.out.println("You have sold the item to " + clerkName);
+                a.buyThis(inventory);
+                a.setPurchasePrice(sellOffer);
+            }
+            else if (userInput.equals("N") || userInput.equals("n")){
+                double newPrice = sellOffer + (sellOffer * 0.1);
+                newPrice = Math.round(newPrice * 100.0) / 100.0;
+                System.out.printf("%s is now offering $%.2f for the item. Would you like to sell it? \nY - yes \nN - No \n", clerkName, newPrice);
+                Scanner i = new Scanner(System.in);
+                String in = i.nextLine();
+                if (in.equals("Y")){
+                    System.out.println("You have sold the item to " + clerkName + "after an addition of 10%");
+                    a.buyThis(inventory);
+                    a.setPurchasePrice(newPrice);
+                    return;
+                }
+                else if (in.equals("N")){
+                    System.out.println("You did not sell the item to the store");
+                    return;
+                }
+            }
+            else{
+                System.out.println("Error! Please enter apropriate command.");
+            }
+            return;
+        }
+        //END OF USER INTERACTION 
         //Round the sellOffer so it only has 2 places after the decimal
         sellOffer = Math.round(sellOffer * 100.0) / 100.0;
 

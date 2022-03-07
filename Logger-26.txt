@@ -1,0 +1,92 @@
+ ---------------------- ArriveAtStore: Scooby has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $4009.81 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 44 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $999.85 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 8 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scooby placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scooby sold 4 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scooby bought 0 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scooby cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scooby has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Shaggy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $4299.23 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 46 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1029.94 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 11 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Shaggy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Shaggy sold 3 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Southside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Velma has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 9 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $4092.17 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 37 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $956.20 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Velma sold 6 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 3 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $3570.43 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 47 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1108.90 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scrappy sold 7 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scrappy bought 3 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scrappy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scrappy has left Southside FNMS. ----------------------  
+
