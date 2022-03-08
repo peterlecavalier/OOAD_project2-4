@@ -1,4 +1,4 @@
-NOTE: current work for Project 2 - Part 4 is in src/OOAD_project4
+NOTE: current work for Project 4 - Part 2 is in src/OOAD_project4
 
 Team members:
 Elizabeth Shan
