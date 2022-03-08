@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -93,13 +93,13 @@ public class Clerk{
     public ArrayList<Item> doInventory(ArrayList<Item> inventory, CashRegister register){
         // HashMap implementation from here:
         // https://www.w3schools.com/java/java_hashmap.asp
-        HashMap<Item.Items, Integer> subclassCounts = new HashMap<Item.Items, Integer>();
+        HashMap<ItemTypes, Integer> subclassCounts = new HashMap<ItemTypes, Integer>();
         double totalPrices = 0;
         ArrayList<Item> newItems = new ArrayList<>();
 
         // Put all item types into the hashmap with initial values 0.
-        for (Item.Items x : Item.Items.values()){
-            if (x != Item.Items.GUITARKIT){
+        for (ItemTypes x : ItemTypes.values()){
+            if (x != ItemTypes.GUITARKIT){
                 subclassCounts.put(x, 0);
             }
             
@@ -171,10 +171,10 @@ public class Clerk{
         }
 
         // Call placeAnOrder for each missing inventory class
-        for (Item.Items i : subclassCounts.keySet()) {
+        for (ItemTypes i : subclassCounts.keySet()) {
             if (subclassCounts.get(i) == 0){
                 // Don't order any more clothing
-                if (i == Item.Items.HAT || i == Item.Items.SHIRT || i == Item.Items.BANDANA){
+                if (i == ItemTypes.HAT || i == ItemTypes.SHIRT || i == ItemTypes.BANDANA){
                     continue;
                 }
                 else{
@@ -187,7 +187,7 @@ public class Clerk{
     }
 
     // Places an order for items and returns the ArrayList of items
-    public ArrayList<Item> placeAnOrder(Item.Items orderClass, CashRegister register){
+    public ArrayList<Item> placeAnOrder(ItemTypes orderClass, CashRegister register){
         ArrayList<Item> itemsInOrder = new ArrayList<>();
         for(int i = 0; i < 3; i++){
             Item curItem = this.h.generateNewItem(orderClass);

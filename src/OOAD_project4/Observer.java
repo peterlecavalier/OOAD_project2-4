@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 /*Publish the following events:
  ArriveAtStore: Publish which clerk has arrived at the store.

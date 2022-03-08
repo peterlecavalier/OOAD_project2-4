@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
 public class selectStorecmd implements Command{

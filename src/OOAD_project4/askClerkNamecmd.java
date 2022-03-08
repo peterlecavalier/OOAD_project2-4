@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 public class askClerkNamecmd implements Command{
     User Action; 
@@ -8,7 +8,7 @@ public class askClerkNamecmd implements Command{
     }
     @Override
     public void execute() {
-        System.out.println("You asked for clerk's name.");
+        //System.out.println("You asked for clerk's name.");
         Action.askName();
     }
     

@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -19,7 +19,7 @@ public abstract class PackagedItem extends Stringed{
         this.inventory = inventory;
     }
 
-    public void FindPackageItem(Item.Items subclass){
+    public void FindPackageItem(ItemTypes subclass){
         ArrayList<Integer> itemIdxs = new ArrayList<>();
         Item addingItem = null;
         // Get the indexes of each item that matches the type
@@ -113,27 +113,27 @@ public abstract class PackagedItem extends Stringed{
 class AddGigBag extends PackagedItem{
     AddGigBag(ArrayList<Item> inventory, ArrayList<Item> list) {
         super(inventory, list);
-        FindPackageItem(Item.Items.GIGBAG);
+        FindPackageItem(ItemTypes.GIGBAG);
     }
 }
 
 class AddPracticeAmp extends PackagedItem{
     AddPracticeAmp(ArrayList<Item> inventory, ArrayList<Item> list) {
         super(inventory, list);
-        FindPackageItem(Item.Items.PRACTICEAMP);
+        FindPackageItem(ItemTypes.PRACTICEAMP);
     }
 }
 
 class AddCable extends PackagedItem{
     AddCable(ArrayList<Item> inventory, ArrayList<Item> list) {
         super(inventory, list);
-        FindPackageItem(Item.Items.CABLE);
+        FindPackageItem(ItemTypes.CABLE);
     }
 }
 
 class AddStrings extends PackagedItem{
     AddStrings(ArrayList<Item> inventory, ArrayList<Item> list) {
         super(inventory, list);
-        FindPackageItem(Item.Items.STRINGS);
+        FindPackageItem(ItemTypes.STRINGS);
     }
 }
