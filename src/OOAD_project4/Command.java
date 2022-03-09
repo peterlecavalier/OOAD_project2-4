@@ -1,5 +1,5 @@
 //command interface 
-package src.OOAD_project4;
+package OOAD_project4;
 
 // ***Main Command interface**
 // All files/classes with "cmd" in them implement this interface

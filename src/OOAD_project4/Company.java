@@ -1,14 +1,14 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import src.OOAD_project4.askClerkNamecmd;
-import src.OOAD_project4.askClerkTimecmd;
-//import src.OOAD_project4.sellItemcmd;
-import src.OOAD_project4.buyItemcmd;
+import OOAD_project4.askClerkNamecmd;
+import OOAD_project4.askClerkTimecmd;
+//import OOAD_project4.sellItemcmd;
+import OOAD_project4.buyItemcmd;
 
 // Company here is a further encapsulation of Store
 // allowing for seamless running of multiple stores

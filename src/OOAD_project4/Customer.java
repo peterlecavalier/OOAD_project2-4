@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -13,27 +13,27 @@ public class Customer {
     private Helpers h = new Helpers();
     private Random rng = new Random();
 
-    private Item.Items chooseRandomSubclass(){
+    private ItemTypes chooseRandomSubclass(){
         // Chooses a random subclass from all the possible subclasses
-        // Using the Item.Items enum
+        // Using the ItemTypes enum
         // https://stackoverflow.com/questions/1972392/pick-a-random-value-from-an-enum
         // - 1 to account for GuitarKit
-        int numberOfItemTypes = Item.Items.values().length - 1;
+        int numberOfItemTypes = ItemTypes.values().length - 1;
         int enumChooser = this.rng.nextInt(numberOfItemTypes);
-        List<Item.Items> enumValues = Arrays.asList(Item.Items.values());; 
-        Item.Items chosenSubclass = enumValues.get(enumChooser);
+        List<ItemTypes> enumValues = Arrays.asList(ItemTypes.values());; 
+        ItemTypes chosenSubclass = enumValues.get(enumChooser);
         return chosenSubclass;
     }
 
     private Item itemPicker(){
         // Choose a random subclass, then create a new instance of that class.
-        Item.Items chosenSubclass = this.chooseRandomSubclass();
+        ItemTypes chosenSubclass = this.chooseRandomSubclass();
         Item curItem = this.h.generateNewItem(chosenSubclass);
         return curItem;
     }
 
     public void buyItem(ArrayList<Item> inventory, CashRegister cash, ArrayList<Item> soldItems, String clerkName, int customerNum, int day){
-        Item.Items chosenSubclass = this.chooseRandomSubclass();
+        ItemTypes chosenSubclass = this.chooseRandomSubclass();
         ArrayList<Integer> itemIdxs = new ArrayList<>();
     
         // Get the indexes of each item that matches the type the customer wants
@@ -89,7 +89,7 @@ public class Customer {
                 double soldPrice = itemSold.getListPrice();
 
                 // Package potential items if a stringed instr.
-                if (chosenSubclass == Item.Items.GUITAR || chosenSubclass == Item.Items.BASS || chosenSubclass == Item.Items.MANDOLIN){
+                if (chosenSubclass == ItemTypes.GUITAR || chosenSubclass == ItemTypes.BASS || chosenSubclass == ItemTypes.MANDOLIN){
                     itemSold = this.h.packageItems(inventory, itemSold);
                 }
                 itemSold.setDaySold(day); //Set day sold
@@ -109,7 +109,7 @@ public class Customer {
                 if (buyChance2 < (75.0 + h.getPriceIncrease(itemSold))){ // Potential price increase
 
                     // Package potential items if a stringed instr.
-                    if (chosenSubclass == Item.Items.GUITAR || chosenSubclass == Item.Items.BASS || chosenSubclass == Item.Items.MANDOLIN){
+                    if (chosenSubclass == ItemTypes.GUITAR || chosenSubclass == ItemTypes.BASS || chosenSubclass == ItemTypes.MANDOLIN){
                         itemSold = this.h.packageItems(inventory, itemSold);
                     }
                     
@@ -157,7 +157,7 @@ public class Customer {
                 break;
         }
 
-        if (a.getType() == Item.Items.HAT || a.getType() == Item.Items.SHIRT || a.getType() == Item.Items.BANDANA){
+        if (a.getType() == ItemTypes.HAT || a.getType() == ItemTypes.SHIRT || a.getType() == ItemTypes.BANDANA){
 
             if (!this.h.checkClothing(inventory)){
                 System.out.printf("Customer %d wanted to sell a %s %s condition %s (%s), but the store does not buy clothing anymore.\n", customerNum, a.getNewUsed(), condition, a.getName(), a.getTypeStr());

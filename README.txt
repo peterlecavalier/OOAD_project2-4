@@ -1,4 +1,5 @@
 NOTE: current work for Project 4 - Part 2 is in src/OOAD_project4
+	-> everything needed for the submission is in there (code + tests + UML diagram)
 
 Team members:
 Elizabeth Shan
@@ -19,4 +20,4 @@ Comments / assumptions:
 
 to compile/run in cmd (from the root of this repo):
 javac -d bin src\OOAD_project4\*.java
-java -cp ./bin src.OOAD_project4.Main
+java -cp ./bin OOAD_project4.Main

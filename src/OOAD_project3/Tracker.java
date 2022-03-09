@@ -1,4 +1,4 @@
-package src.OOAD_project3;
+package OOAD_project3;
 
 import java.util.ArrayList;
 // Import the HashMap class

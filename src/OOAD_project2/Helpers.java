@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package OOAD_project2;
 
 import java.util.Random;
 

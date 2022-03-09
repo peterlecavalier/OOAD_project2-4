@@ -17,4 +17,4 @@ Comments / assumptions:
 
 to compile/run in cmd (from the root of this repo):
 javac -d bin src\OOAD_project4\*.java
-java -cp ./bin src.OOAD_project4.Main > output.txt
+java -cp ./bin OOAD_project4.Main

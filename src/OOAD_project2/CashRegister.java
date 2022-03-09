@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package OOAD_project2;
 
 public class CashRegister {
     private double moneyAmt;

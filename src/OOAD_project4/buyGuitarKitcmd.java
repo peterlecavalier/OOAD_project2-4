@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 public class buyGuitarKitcmd implements Command{
     User action;

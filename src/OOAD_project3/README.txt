@@ -13,4 +13,4 @@ Comments / assumptions:
 
 to compile/run in cmd:
 javac -d bin src\OOAD_project3\*.java
-java -cp ./bin src.OOAD_project3.Main > output.txt
+java -cp ./bin OOAD_project3.Main > output.txt

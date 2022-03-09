@@ -1,5 +1,5 @@
 //code base referenced from class slides
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 public class invoker {

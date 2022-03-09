@@ -7,7 +7,7 @@ java version: 17.0.2
 
 To compile/run in cmd:
 javac -d bin src\OOAD_project3\*.java
-java -cp ./bin src.OOAD_project3.Main > output.txt
+java -cp ./bin OOAD_project3.Main > output.txt
 
 Interpretations + assumptions: 
 - We assumed we could randomly generate the names of items.

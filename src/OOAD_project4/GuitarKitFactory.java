@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 // ***Abstract Factory implemented here***
 public interface GuitarKitFactory{
@@ -204,7 +204,7 @@ class NorthGuitarKitFactory implements GuitarKitFactory{
         System.out.printf("    Total price: $%.2f\n", totalPrice);
 
         // Make a new GuitarKit object
-        Item gk = h.generateNewItem(Item.Items.GUITARKIT);
+        Item gk = h.generateNewItem(ItemTypes.GUITARKIT);
         gk.setSalePrice(totalPrice);
         return gk;
         // Change variables
@@ -409,7 +409,7 @@ class SouthGuitarKitFactory implements GuitarKitFactory{
         System.out.printf("    Total price: $%.2f\n", totalPrice);
 
         // Make a new GuitarKit object
-        Item gk = h.generateNewItem(Item.Items.GUITARKIT);
+        Item gk = h.generateNewItem(ItemTypes.GUITARKIT);
         gk.setSalePrice(totalPrice);
         return gk;
         // Change variables

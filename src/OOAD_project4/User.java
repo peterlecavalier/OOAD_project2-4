@@ -1,5 +1,5 @@
 //requests class for command - this is the reciever of the commands
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -25,7 +25,7 @@ public class User{
     public void askName(){
         //check if a store has been selected yet
         if(workingStore == null){
-            System.out.println("Whoops! Please make sure to select a store first! \n");
+            System.out.println("Whoops! Please make sure to select a store first!");
             return;
         }
         System.out.println("The clerk's name is " + this.workingStore.getClerkName());

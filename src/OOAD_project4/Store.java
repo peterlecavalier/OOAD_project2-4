@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -56,8 +56,8 @@ public class Store {
         
         // Add 3 of each item to the inventory (pretty self-explanatory)
         for (int i = 0; i < 3; i++){
-            for (Item.Items x : Item.Items.values()){
-                if (x != Item.Items.GUITARKIT){
+            for (ItemTypes x : ItemTypes.values()){
+                if (x != ItemTypes.GUITARKIT){
                     curItem = this.h.generateNewItem(x);
                     addToInventory(curItem);
                 }
@@ -74,7 +74,7 @@ public class Store {
         // Main functionality here - all the clerk duties are called.
         this.currentClerk.setStoreName(this.name);
         this.currentClerk.arriveAtStore(day, this.orderedItems, this.inventory);
-        this.currentClerk.checkRegister(register);
+        this.currentClerk.checkRegister(this.register);
         //all of these below may need parameters passed at some point(?)
         // Call doInventory, and add any items that may have been ordered to the ordered items
         this.orderedItems.addAll(this.currentClerk.doInventory(this.inventory, this.register));
@@ -141,7 +141,9 @@ public class Store {
         Item newKit = this.gkf.formKit();
         // Set the day it was sold, add it to the soldItems
         newKit.setDaySold(day);
-        soldItems.add(newKit);
+        // "sell" the item
+        newKit.sellThis(this.inventory, this.register, this.soldItems);
+        
         System.out.printf("%s sold a %s %s condition %s (%s) to the user for $%.2f \n", this.currentClerk.getName(), 
                 newKit.getNewUsed(),newKit.getCondition(),newKit.getName(), newKit.getTypeStr(), newKit.getSalePrice());
     }

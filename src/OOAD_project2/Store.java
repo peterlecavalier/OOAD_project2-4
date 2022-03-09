@@ -1,4 +1,4 @@
-package src.OOAD_project2;
+package OOAD_project2;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -19,11 +19,7 @@ public class Store {
         return this.inventory;
     }
 
-<<<<<<< HEAD:src/OOAD_project2/Store.java
-    // This will only be accessed with other methods
-=======
     // This will only be accessed with other methods -> example of encapsulation
->>>>>>> 42ed9b66012e17c4317d41936ee14215dd13de26:Store.java
     private void addToInventory(Item itemToAdd){
         this.inventory.add(itemToAdd);
     }

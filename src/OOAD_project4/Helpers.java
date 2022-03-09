@@ -1,4 +1,4 @@
-package src.OOAD_project4;
+package OOAD_project4;
 
 import java.util.Random;
 import java.util.ArrayList;
@@ -113,10 +113,10 @@ public class Helpers {
         // Checks if there's any clothing in the inventory
         // Returns true if there's any clothing in the inv,
         // false if there isn't
-        Item.Items curType;
+        ItemTypes curType;
         for (Item i : inventory){
             curType = i.getType();
-            if(curType == Item.Items.HAT || curType == Item.Items.SHIRT || curType == Item.Items.BANDANA){
+            if(curType == ItemTypes.HAT || curType == ItemTypes.SHIRT || curType == ItemTypes.BANDANA){
                 return true;
             }
         }
@@ -139,7 +139,7 @@ public class Helpers {
         return k - 1;
     }
 
-    public Item generateNewItem(Item.Items subclass){
+    public Item generateNewItem(ItemTypes subclass){
         // Generates a new item based off the given subclass
         Item curItem;
         switch(subclass){
