@@ -7,7 +7,7 @@ public class askClerkTimecmd implements Command{
     }
     @Override
     public void execute() {
-        System.out.println("You asked the clerk for the time.");
+        //System.out.println("You asked the clerk for the time.");
         action.askTime();
     }
     
