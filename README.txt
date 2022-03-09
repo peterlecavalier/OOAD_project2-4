@@ -1,4 +1,5 @@
 NOTE: current work for Project 4 - Part 2 is in src/OOAD_project4
+	-> everything needed for the submission is in there (code + tests + UML diagram)
 
 Team members:
 Elizabeth Shan
