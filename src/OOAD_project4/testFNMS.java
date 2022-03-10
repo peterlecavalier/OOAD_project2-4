@@ -101,5 +101,4 @@ public class testFNMS{
         invoker.executed();
         assertEquals("Whoops! Please make sure to select a store first!", outputStreamCaptor.toString().trim());
     }
-
 }
