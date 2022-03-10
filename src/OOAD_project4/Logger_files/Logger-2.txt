@@ -1,0 +1,40 @@
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $1379.36 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 56 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $1327.12 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 10 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Shaggy sold 4 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 4 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Fred has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $996.14 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 63 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $1467.05 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 8 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Fred sold 5 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Fred bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Fred cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Fred has left Southside FNMS. ----------------------  
+

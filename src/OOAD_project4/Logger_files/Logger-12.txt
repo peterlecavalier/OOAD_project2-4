@@ -1,0 +1,46 @@
+ ---------------------- ArriveAtStore: Daphne has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $2881.36 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 42 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $979.49 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 4 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Daphne placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Daphne placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Daphne sold 8 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Daphne bought 0 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned Northside FNMS and damaged 1 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 6 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $2297.84 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 50 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1082.89 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scrappy sold 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scrappy bought 0 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scrappy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scrappy has left Southside FNMS. ----------------------  
+

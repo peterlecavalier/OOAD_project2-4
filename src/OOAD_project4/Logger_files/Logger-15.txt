@@ -1,0 +1,44 @@
+ ---------------------- ArriveAtStore: Velma has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $3392.42 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 38 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $888.26 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Velma sold 5 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 2 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $2475.21 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 47 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $1056.01 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scrappy sold 11 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scrappy bought 4 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scrappy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scrappy has left Southside FNMS. ----------------------  
+

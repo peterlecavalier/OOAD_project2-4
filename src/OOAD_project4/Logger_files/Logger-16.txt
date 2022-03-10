@@ -1,0 +1,48 @@
+ ---------------------- ArriveAtStore: Scooby has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $3513.31 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 38 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $912.20 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 11 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scooby placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scooby sold 9 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scooby bought 2 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scooby cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scooby has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scrappy has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scrappy counted $2779.74 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 43 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scrappy did inventory. The total value is $978.25 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scrappy did inventory. There are 0 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Scrappy placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Scrappy sold 1 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scrappy bought 3 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scrappy cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scrappy has left Southside FNMS. ----------------------  
+

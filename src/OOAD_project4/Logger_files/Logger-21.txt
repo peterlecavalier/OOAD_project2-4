@@ -1,0 +1,38 @@
+ ---------------------- ArriveAtStore: Fred has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Fred counted $4124.57 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 39 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Fred did inventory. The total value is $857.79 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Fred did inventory. There are 2 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Fred placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- PlaceAnOrder: Fred placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $3182.97 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 51 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1130.12 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 8 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Scooby placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- CleanTheStore: Fred cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Fred has left Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scooby cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scooby has left Southside FNMS. ----------------------  
+

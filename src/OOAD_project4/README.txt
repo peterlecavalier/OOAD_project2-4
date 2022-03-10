@@ -15,6 +15,11 @@ Comments / assumptions:
 
 
 
-to compile/run in cmd (from the root of this repo):
-javac -d bin src\OOAD_project4\*.java
+to compile in cmd (from the root of this repo):
+javac -d bin -cp "lib\hamcrest-core-1.3.jar;lib\junit-4.13.2.jar" src\OOAD_project4\*.java
+
+to run:
 java -cp ./bin OOAD_project4.Main
+
+to test:
+java -cp lib\hamcrest-core-1.3.jar;lib/junit-4.13.2.jar;./bin org.junit.runner.JUnitCore OOAD_project4.testFNMS

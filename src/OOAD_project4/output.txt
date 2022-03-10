@@ -1,0 +1,3177 @@
+----- Scooby arrives at Northside FNMS on day 1 -----
+Scooby counted $0.00 in the register at Northside FNMS.
+Scooby went to the bank and put $1000 in the register. There is now $1000.00 in the register at Northside FNMS.
+Scooby did inventory. Total value in Northside FNMS is $1525.25.
+Scooby attempted Haphazard tuning on OOICBQBXHK (cdplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on IYZXRQKZOJ (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on OGOFMVATDF (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on MXOKQOOORJ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on KIDZTOVZKB (guitar):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on VPTNVJQLHT (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on BOZZUYUMCC (flute):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on QMCTLTLLCS (harmonica):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on JOHIISCKNX (cdplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on NOGVITHAAN (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on OQCKLDABZC (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on MXZJVNPMGC (guitar):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on QDHRCOIDDP (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on MOJAIDKZFW (flute):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on CNWEOGLKFG (harmonica):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on ORPORXTTAY (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on OXBGAPOFRZ (cassetteplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on NMHIJRNORJ (bass):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on MIHQTXWSOK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on FJIVCDVIKO (flute):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on JDFFNZJHVE (harmonica):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from false.
+Scooby sold a new very good condition XJGPPCPFRL (bandana) to Customer 1 for $87.28
+Scooby sold a used excellent condition CNWEOGLKFG (harmonica) to Customer 2 for $61.42
+Scooby sold a used good condition LKPPGSKKBJ (hat) to Customer 3 for $55.02
+Scooby sold a used excellent condition RZNFOUBRSI (gigbag) to Customer 4 for $75.67 after a 10% discount
+Scooby sold a new poor condition FJIVCDVIKO (flute) to Customer 5 for $49.14 after a 10% discount
+Scooby sold a new poor condition BRKYGNBPUJ (shirt) to Customer 6 for $23.52
+Scooby sold a new good condition JOHIISCKNX (cdplayer) to Customer 7 for $27.31 after a 10% discount
+Customer 8 wanted to sell a used good condition AQGOESDELJ (bandana), but didn't like the offer. They left.
+Scooby is cleaning Northside FNMS.
+----- Scooby has locked up and closed Northside FNMS for the night -----
+Tracker - Day 1 (Northside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 0 items sold, 0 items purchased, 0 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 1 -----
+Scrappy counted $0.00 in the register at Southside FNMS.
+Scrappy went to the bank and put $1000 in the register. There is now $1000.00 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $1436.09.
+Scrappy attempted Electric tuning on BLWEEWIGOS (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on TUOBNNCLJU (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on CFSWYEYCOM (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MLHEFNARAQ (bass):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on UUAOIUYORB (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on EZNSDRRTXQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on IIZTUPNLWX (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on QLMSIQWUUO (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on QMADZQHGNS (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on INZSOTNIJQ (bass):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on HMKQGSLAQG (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ZJICKSTJTR (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YDVWJFGAKF (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on QCVLXULZBX (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on HPTWELFERU (saxophone):
+    ->Success! Tuning status changed from false to true.
+Customer 1 came in to buy a new very good condition QKYRUZPXNF (gigbag) but didn't like the price, so they left.
+Scrappy sold a used poor condition SNHECKPNAE (bandana) to Customer 2 for $28.78 after a 10% discount
+Scrappy sold a used very good condition OIUYGJFOEX (cable) to Customer 3 for $28.62
+Customer 4 wanted to sell a new excellent condition CMBQTCSZSG (gigbag), but didn't like the offer. They left.
+Scrappy bought a used good condition FWEGEMNGAJ (saxophone) from Customer 5 for $25.88.
+Scrappy bought a new excellent condition PUJLQCDDWU (cassette) from Customer 6 for $35.38.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 1 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 0 items sold, 0 items purchased, 0 items damaged
+Scooby - 0 items sold, 0 items purchased, 0 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Shaggy arrives at Northside FNMS on day 2 -----
+Shaggy counted $1379.36 in the register at Northside FNMS.
+Shaggy did inventory. Total value in Northside FNMS is $1327.12.
+Shaggy attempted Haphazard tuning on OOICBQBXHK (cdplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on IYZXRQKZOJ (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on OGOFMVATDF (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on MXOKQOOORJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on KIDZTOVZKB (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on VPTNVJQLHT (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on BOZZUYUMCC (flute):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on QMCTLTLLCS (harmonica):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on NOGVITHAAN (recordplayer):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on OQCKLDABZC (cassetteplayer):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on MXZJVNPMGC (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Shaggy has broken an item! The price of MXZJVNPMGC (guitar) has been reduced to $61.26 and the condition is now very good.
+Shaggy attempted Haphazard tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on MOJAIDKZFW (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on ORPORXTTAY (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on OXBGAPOFRZ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on NMHIJRNORJ (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Shaggy has broken an item! The price of NMHIJRNORJ (bass) has been reduced to $25.89 and the condition is now good.
+Shaggy attempted Haphazard tuning on MIHQTXWSOK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on JDFFNZJHVE (harmonica):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from false.
+Customer 1 came in to buy a new excellent condition FLAKIHPNZS (cd) but didn't like the price, so they left.
+Shaggy sold a used poor condition JDFFNZJHVE (harmonica) to Customer 2 for $78.70 after a 10% discount
+Shaggy sold a used poor condition GKBNAUPYRH (gigbag) to Customer 3 for $94.40
+Shaggy sold a used poor condition RWMUMFDXDI (paperscore) to Customer 4 for $23.16
+Shaggy sold a new good condition VGEAFPFWWK (shirt) to Customer 5 for $88.45 after a 10% discount
+Shaggy bought a new fair condition DCSSLZHDDG (cable) from Customer 6 for $10.88.
+Shaggy bought a new excellent condition IQMZJORQLM (saxophone) from Customer 7 for $35.84.
+Shaggy bought a used good condition AXORNMSUOS (cable) from Customer 8 for $24.16 after an addition of 10%.
+Shaggy bought a new very good condition OMBNZMYBGX (recordplayer) from Customer 9 for $31.94 after an addition of 10%.
+Shaggy is cleaning Northside FNMS.
+----- Shaggy has locked up and closed Northside FNMS for the night -----
+Tracker - Day 2 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 0 items sold, 0 items purchased, 0 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Fred arrives at Southside FNMS on day 2 -----
+Fred counted $996.14 in the register at Southside FNMS.
+Fred did inventory. Total value in Southside FNMS is $1467.05.
+Fred attempted Manual tuning on BLWEEWIGOS (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on TUOBNNCLJU (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on CFSWYEYCOM (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on JYCXWPLJKO (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MLHEFNARAQ (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on LLEMQNUWCL (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on UUAOIUYORB (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on EZNSDRRTXQ (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on IIZTUPNLWX (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QLMSIQWUUO (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QMADZQHGNS (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on INZSOTNIJQ (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on HMKQGSLAQG (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on UOGKYWYTKW (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ZJICKSTJTR (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on YDVWJFGAKF (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KKGAHXARNQ (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QCVLXULZBX (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on HPTWELFERU (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Fred has broken an item! The price of HPTWELFERU (saxophone) has been reduced to $23.17 and the condition is now good.
+Fred attempted Manual tuning on FWEGEMNGAJ (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred sold a used very good condition QLMSIQWUUO (mp3player) to Customer 1 for $26.22
+Fred sold a new very good condition QKYRUZPXNF (gigbag) to Customer 2 for $28.62
+Fred sold a new very good condition JSXTQJRFDC (strings) to Customer 3 for $71.24 after a 10% discount
+Fred sold a used good condition EAFLCTULPO (practiceamp) to Customer 4 for $48.12
+Fred sold a used good condition HMKQGSLAQG (saxophone) to Customer 5 for $53.72
+Fred bought a used fair condition NPYVEUFGSO (strings) from Customer 6 for $15.83.
+Fred bought a used poor condition MKTCNWMXND (paperscore) from Customer 7 for $1.79 after an addition of 10%.
+Fred is cleaning Southside FNMS.
+----- Fred has locked up and closed Southside FNMS for the night -----
+Tracker - Day 2 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 0 items sold, 0 items purchased, 0 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Fred arrives at Northside FNMS on day 3 -----
+Fred counted $1555.64 in the register at Northside FNMS.
+Fred did inventory. Total value in Northside FNMS is $1283.91.
+Fred attempted Manual tuning on OOICBQBXHK (cdplayer):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on IYZXRQKZOJ (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on OGOFMVATDF (mp3player):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on MXOKQOOORJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KIDZTOVZKB (guitar):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on VPTNVJQLHT (mandolin):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on BOZZUYUMCC (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QMCTLTLLCS (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on NOGVITHAAN (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OQCKLDABZC (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MXZJVNPMGC (guitar):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MOJAIDKZFW (flute):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on ORPORXTTAY (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on OXBGAPOFRZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on NMHIJRNORJ (bass):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on MIHQTXWSOK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on IQMZJORQLM (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on OMBNZMYBGX (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Fred sold a new fair condition MXOKQOOORJ (cassetteplayer) to Customer 1 for $40.56
+Fred sold a new fair condition BOZZUYUMCC (flute) to Customer 2 for $17.34
+Fred sold a used very good condition TJNNIXDHWL (cd) to Customer 3 for $72.40 after a 10% discount
+Fred sold a used very good condition OOICBQBXHK (cdplayer) to Customer 4 for $60.08
+Fred sold a new very good condition AJJKNUGRXS (paperscore) to Customer 5 for $88.72
+Fred sold a used good condition GBEDWALXTR (hat) to Customer 6 for $43.85 after a 10% discount
+Fred bought a used very good condition EEQJYLHRBJ (strings) from Customer 7 for $38.57 after an addition of 10%.
+Fred bought a used very good condition UGJFDZPXPB (cdplayer) from Customer 8 for $33.30.
+Customer 9 wanted to sell a new excellent condition YBOTYKBCCB (mp3player), but didn't like the offer. They left.
+Customer 10 wanted to sell a new excellent condition QDTIHPYPCN (practiceamp), but didn't like the offer. They left.
+Fred is cleaning Northside FNMS.
+----- Fred has locked up and closed Northside FNMS for the night -----
+Tracker - Day 3 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 6 items sold, 2 items purchased, 2 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Scooby arrives at Southside FNMS on day 3 -----
+Scooby counted $1206.26 in the register at Southside FNMS.
+Scooby did inventory. Total value in Southside FNMS is $1366.93.
+Scooby attempted Haphazard tuning on BLWEEWIGOS (cdplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on TUOBNNCLJU (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on CFSWYEYCOM (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on VXQKDGGBAW (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on MLHEFNARAQ (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! The price of MLHEFNARAQ (bass) has been reduced to $52.06 and the condition is now good.
+Scooby attempted Haphazard tuning on LLEMQNUWCL (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UUAOIUYORB (saxophone):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on EZNSDRRTXQ (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on IIZTUPNLWX (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on QMADZQHGNS (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on INZSOTNIJQ (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ZFGHNNOCLE (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on BVJHNBLBCD (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OFZCUGZJMD (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on UOGKYWYTKW (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on VQDLVGCCFX (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZJICKSTJTR (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on YDVWJFGAKF (guitar):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on SDMDKTAENX (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on QCVLXULZBX (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on HPTWELFERU (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on FWEGEMNGAJ (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby sold a used excellent condition IIZTUPNLWX (recordplayer) to Customer 1 for $51.50
+Scooby sold a new excellent condition PUJLQCDDWU (cassette) to Customer 2 for $7.06
+Scooby sold a new fair condition NTVDEWOPKC (bandana) to Customer 3 for $42.26
+Scooby sold a used fair condition TUOBNNCLJU (recordplayer) to Customer 4 for $19.24 after a 10% discount
+Scooby bought a new excellent condition HYEUSBIGYV (cable) from Customer 5 for $38.09 after an addition of 10%.
+Scooby bought a used good condition CCKDQBTOZW (vinyl) from Customer 6 for $28.25.
+Scooby is cleaning Southside FNMS.
+----- Scooby has locked up and closed Southside FNMS for the night -----
+Tracker - Day 3 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 4 items sold, 2 items purchased, 15 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Fred arrives at Northside FNMS on day 4 -----
+Fred counted $1802.86 in the register at Northside FNMS.
+Fred did inventory. Total value in Northside FNMS is $1191.71.
+Fred attempted Manual tuning on IYZXRQKZOJ (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on OGOFMVATDF (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on VPTNVJQLHT (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QMCTLTLLCS (harmonica):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on DBBWOULDTM (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on NOGVITHAAN (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OQCKLDABZC (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on YNHGONRWEW (bass):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MOJAIDKZFW (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ORPORXTTAY (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OXBGAPOFRZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ULXKLURDXV (guitar):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on NMHIJRNORJ (bass):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on IQMZJORQLM (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OMBNZMYBGX (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on UGJFDZPXPB (cdplayer):
+    ->Tuning status did not change from false.
+Fred sold a used good condition OXBGAPOFRZ (cassetteplayer) to Customer 1 for $37.78 after a 10% discount
+Fred sold a used poor condition QZKTPJFHXH (cable) to Customer 2 for $24.43 after a 10% discount
+Fred sold a used fair condition YGRQYCMOIH (shirt) to Customer 3 for $51.86
+Fred sold a new excellent condition HFPKKGPGWU (cassette) to Customer 4 for $67.32
+Fred sold a new fair condition NOGVITHAAN (recordplayer) to Customer 5 for $25.52
+Fred sold a new good condition CTIYUYXZYQ (bandana) to Customer 6 for $49.38
+Fred sold a used fair condition WIKTKRLHRC (vinyl) to Customer 7 for $9.10
+Fred bought a used good condition BYNKAWHBDY (guitar) from Customer 8 for $25.88.
+Fred is cleaning Northside FNMS.
+----- Fred has locked up and closed Northside FNMS for the night -----
+Tracker - Day 4 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Velma arrives at Southside FNMS on day 4 -----
+Velma counted $1256.17 in the register at Southside FNMS.
+Velma did inventory. Total value in Southside FNMS is $1344.13.
+Velma attempted Electric tuning on BLWEEWIGOS (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on CFSWYEYCOM (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on MLHEFNARAQ (bass):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UUAOIUYORB (saxophone):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on EZNSDRRTXQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QMADZQHGNS (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on INZSOTNIJQ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on ZJICKSTJTR (mp3player):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on YDVWJFGAKF (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on SDMDKTAENX (flute):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on QCVLXULZBX (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HPTWELFERU (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on FWEGEMNGAJ (saxophone):
+    ->Success! Tuning status changed from false to true.
+Customer 1 came in to buy a new poor condition OFZCUGZJMD (harmonica) but didn't like the price, so they left.
+Velma sold a new good condition IWZZFFGUWP (cassette) to Customer 2 for $35.10 after a 10% discount
+Velma sold a used fair condition ZJICKSTJTR (mp3player) to Customer 3 for $61.61 after a 10% discount
+Velma sold a used fair condition ITYWQDTSBY (strings) to Customer 4 for $13.02
+Velma sold a new good condition INZSOTNIJQ w/ NPYVEUFGSO (bass w/ strings) to Customer 5 for $100.83 after a 10% discount
+Customer 6 wanted to sell a used good condition YHHDSNUDQT (cd), but didn't like the offer. They left.
+Velma bought a used good condition XKFMZSNNXE (harmonica) from Customer 7 for $22.59 after an addition of 10%.
+Velma is cleaning Southside FNMS.
+----- Velma has locked up and closed Southside FNMS for the night -----
+Tracker - Day 4 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 4 items sold, 2 items purchased, 15 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Daphne arrives at Northside FNMS on day 5 -----
+Daphne counted $2042.37 in the register at Northside FNMS.
+Daphne did inventory. Total value in Northside FNMS is $1081.44.
+Daphne attempted Manual tuning on IYZXRQKZOJ (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OGOFMVATDF (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on VPTNVJQLHT (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on QMCTLTLLCS (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OQCKLDABZC (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YNHGONRWEW (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on QDHRCOIDDP (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on MOJAIDKZFW (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ORPORXTTAY (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on NMHIJRNORJ (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on IQMZJORQLM (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on OMBNZMYBGX (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on UGJFDZPXPB (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on BYNKAWHBDY (guitar):
+    ->Tuning status did not change from false.
+Customer 1 came in to buy a used fair condition LZJZWLXGAD (gigbag) but didn't like the price, so they left.
+Daphne sold a new good condition EKCNQMXJWU (hat) to Customer 2 for $38.21 after a 10% discount
+Daphne sold a new excellent condition IQMZJORQLM (saxophone) to Customer 3 for $21.42
+Daphne sold a used fair condition LZJZWLXGAD (gigbag) to Customer 4 for $48.55 after a 10% discount
+Daphne sold a used poor condition QMCTLTLLCS (harmonica) to Customer 5 for $52.58
+Daphne sold a used excellent condition VVOJGZOUCN (cable) to Customer 6 for $91.88
+Daphne bought a new fair condition VZBYTGETPE (harmonica) from Customer 7 for $17.07.
+Daphne bought a used poor condition CAMPSLMKPI (gigbag) from Customer 8 for $8.34.
+Daphne bought a new poor condition SRGTTJZWLZ (mp3player) from Customer 9 for $1.24.
+Daphne bought a used fair condition UUXKSVIMUK (mandolin) from Customer 10 for $18.40 after an addition of 10%.
+Daphne is cleaning Northside FNMS.
+----- Daphne has locked up and closed Northside FNMS for the night -----
+Tracker - Day 5 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 0 items sold, 0 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Velma arrives at Southside FNMS on day 5 -----
+Velma counted $1441.88 in the register at Southside FNMS.
+Velma did inventory. Total value in Southside FNMS is $1285.24.
+Velma attempted Electric tuning on BLWEEWIGOS (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on CFSWYEYCOM (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MLHEFNARAQ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UUAOIUYORB (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on EZNSDRRTXQ (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QMADZQHGNS (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on YDVWJFGAKF (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QCVLXULZBX (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HPTWELFERU (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on FWEGEMNGAJ (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on XKFMZSNNXE (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma sold a new good condition MLHEFNARAQ (bass) to Customer 1 for $46.86 after a 10% discount
+Customer 2 came in to buy a new very good condition LLEMQNUWCL (mandolin) but didn't like the price, so they left.
+Velma sold a used poor condition BLWEEWIGOS (cdplayer) to Customer 3 for $86.00
+Velma sold a used fair condition QMADZQHGNS (guitar) to Customer 4 for $48.56 after a 10% discount
+Velma sold a used fair condition QCVLXULZBX (harmonica) to Customer 5 for $91.76
+Velma sold a new poor condition GLMFVJWRJH (hat) to Customer 6 for $57.51 after a 10% discount
+Velma bought a new good condition SEEMTRZTQS (paperscore) from Customer 7 for $26.66.
+Velma is cleaning Southside FNMS.
+----- Velma has locked up and closed Southside FNMS for the night -----
+Tracker - Day 5 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 10 items sold, 2 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 4 items sold, 2 items purchased, 15 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Velma arrives at Northside FNMS on day 6 -----
+Velma counted $2248.12 in the register at Northside FNMS.
+Velma did inventory. Total value in Northside FNMS is $972.06.
+Velma attempted Electric tuning on IYZXRQKZOJ (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OGOFMVATDF (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on VPTNVJQLHT (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OQCKLDABZC (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on YNHGONRWEW (bass):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on QDHRCOIDDP (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on MOJAIDKZFW (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ORPORXTTAY (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on NMHIJRNORJ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OMBNZMYBGX (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UGJFDZPXPB (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BYNKAWHBDY (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on VZBYTGETPE (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on SRGTTJZWLZ (mp3player):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on UUXKSVIMUK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma sold a used poor condition OQCKLDABZC (cassetteplayer) to Customer 1 for $64.92
+Velma sold a used good condition NMHIJRNORJ w/ EMBATTNCUJ/EEQJYLHRBJ/LXWCTOTWGK (bass w/ strings/strings/strings) to Customer 2 for $182.44 after a 10% discount
+Customer 3 wanted to buy a hat but none were in inventory, so they left.
+Velma bought a used very good condition QXQESSDTEO (flute) from Customer 4 for $37.38.
+Customer 5 wanted to sell a new poor condition DLDBMGONPR (mandolin), but didn't like the offer. They left.
+Velma is cleaning Northside FNMS.
+----- Velma has locked up and closed Northside FNMS for the night -----
+Tracker - Day 6 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 7 items sold, 0 items purchased, 0 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Scooby arrives at Southside FNMS on day 6 -----
+Scooby counted $1745.91 in the register at Southside FNMS.
+Scooby did inventory. Total value in Southside FNMS is $1131.55.
+Scooby attempted Haphazard tuning on CFSWYEYCOM (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on VXQKDGGBAW (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on RWOCCDXSWV (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZBGVDEABYR (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on UUAOIUYORB (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on EZNSDRRTXQ (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PCWLFXFVMK (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZFGHNNOCLE (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on BVJHNBLBCD (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UOGKYWYTKW (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on YDVWJFGAKF (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KKGAHXARNQ (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on SDMDKTAENX (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on HPTWELFERU (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on FWEGEMNGAJ (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on XKFMZSNNXE (harmonica):
+    ->Tuning status did not change from true.
+Scooby sold a new poor condition VKOWCOJNBB (cable) to Customer 1 for $19.40
+Scooby sold a new excellent condition EZNSDRRTXQ (cdplayer) to Customer 2 for $6.98
+Scooby sold a new excellent condition HYEUSBIGYV (cable) to Customer 3 for $92.02
+Scooby bought a used excellent condition UIMBUINJYU (vinyl) from Customer 4 for $35.92.
+Scooby bought a used good condition NIJBCKWSZV (bass) from Customer 5 for $26.18.
+Scooby is cleaning Southside FNMS.
+----- Scooby has locked up and closed Southside FNMS for the night -----
+Tracker - Day 6 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 10 items sold, 2 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 2 items sold, 2 items purchased, 0 items damaged
+----- Sunday! The stores are closed. -----
+----- Scooby arrives at Northside FNMS on day 8 -----
+Scooby counted $2458.10 in the register at Northside FNMS.
+Scooby did inventory. Total value in Northside FNMS is $882.24.
+Scooby attempted Haphazard tuning on IYZXRQKZOJ (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OGOFMVATDF (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on KIDZTOVZKB (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on VPTNVJQLHT (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on YNHGONRWEW (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on MOJAIDKZFW (flute):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ORPORXTTAY (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ULXKLURDXV (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OMBNZMYBGX (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on UGJFDZPXPB (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on BYNKAWHBDY (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on VZBYTGETPE (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on SRGTTJZWLZ (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on UUXKSVIMUK (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on QXQESSDTEO (flute):
+    ->Success! Tuning status changed from false to true.
+Scooby placed an order for MHLPAWECYI (cassetteplayer) for $42.94.
+Scooby placed an order for OZIFETUBBZ (cassetteplayer) for $48.22.
+Scooby placed an order for YPWTDUKZJX (cassetteplayer) for $38.96.
+Scooby sold a new very good condition OMBNZMYBGX (recordplayer) to Customer 1 for $66.60
+Customer 2 wanted to buy a hat but none were in inventory, so they left.
+Customer 3 came in to buy a new good condition IYZXRQKZOJ (recordplayer) but didn't like the price, so they left.
+Scooby sold a new fair condition VZBYTGETPE (harmonica) to Customer 4 for $82.80
+Scooby sold a new very good condition YAVEDHWPEH (cassette) to Customer 5 for $9.34 after a 10% discount
+Scooby bought a used fair condition MKAROPKEFR (bass) from Customer 6 for $15.43.
+Scooby bought a new excellent condition VJZDKQQAIT (cd) from Customer 7 for $32.76.
+Scooby is cleaning Northside FNMS.
+----- Scooby has locked up and closed Northside FNMS for the night -----
+Tracker - Day 8 (Northside FNMS) :
+Shaggy - 4 items sold, 4 items purchased, 10 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 8 -----
+Scrappy counted $1802.21 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $1138.56.
+Scrappy attempted Electric tuning on CFSWYEYCOM (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on UUAOIUYORB (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YDVWJFGAKF (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on HPTWELFERU (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on FWEGEMNGAJ (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on XKFMZSNNXE (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Success! Tuning status changed from false to true.
+Scrappy sold a used fair condition MZDRHYKKYT (cd) to Customer 1 for $90.08
+Customer 2 came in to buy a used very good condition UUAOIUYORB (saxophone) but didn't like the price, so they left.
+Scrappy sold a used fair condition CFSWYEYCOM (mp3player) to Customer 3 for $24.76
+Customer 4 wanted to buy a mp3player but none were in inventory, so they left.
+Scrappy bought a new very good condition VVDQACJVBY (cable) from Customer 5 for $37.33.
+Scrappy bought a new fair condition ZOOKGQSPEJ (mp3player) from Customer 6 for $15.11 after an addition of 10%.
+Scrappy bought a used good condition VVGWIKYGZG (cable) from Customer 7 for $28.30.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 8 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 10 items sold, 2 items purchased, 0 items damaged
+Daphne - 0 items sold, 0 items purchased, 0 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 4 items sold, 5 items purchased, 0 items damaged
+----- Scooby is sick on day 9 -----
+----- Fred is also sick on day 9 -----
+----- Shaggy arrives at Northside FNMS on day 9 -----
+Item MHLPAWECYI (cassetteplayer) arrived at Northside FNMS.
+Item OZIFETUBBZ (cassetteplayer) arrived at Northside FNMS.
+Item YPWTDUKZJX (cassetteplayer) arrived at Northside FNMS.
+Shaggy counted $2438.53 in the register at Northside FNMS.
+Shaggy did inventory. Total value in Northside FNMS is $1003.16.
+Shaggy attempted Haphazard tuning on IYZXRQKZOJ (recordplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on OGOFMVATDF (mp3player):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on VPTNVJQLHT (mandolin):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on DBBWOULDTM (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on MXZJVNPMGC (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on YNHGONRWEW (bass):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on QDHRCOIDDP (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on MOJAIDKZFW (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on ORPORXTTAY (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on ULXKLURDXV (guitar):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on UGJFDZPXPB (cdplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on BYNKAWHBDY (guitar):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on SRGTTJZWLZ (mp3player):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on UUXKSVIMUK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on QXQESSDTEO (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on MKAROPKEFR (bass):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on MHLPAWECYI (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on OZIFETUBBZ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on YPWTDUKZJX (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy placed an order for QSJZMCOHVZ (harmonica) for $30.20.
+Shaggy placed an order for KPPZGHZPOT (harmonica) for $26.78.
+Shaggy placed an order for MAKQGVAYYR (harmonica) for $42.72.
+Shaggy sold a new poor condition OGOFMVATDF (mp3player) to Customer 1 for $17.68
+Shaggy sold a used fair condition ORPORXTTAY (cdplayer) to Customer 2 for $26.95 after a 10% discount
+Shaggy sold a new fair condition GEMZLRIVOF (paperscore) to Customer 3 for $84.52
+Shaggy sold a used good condition ABICUTXEWU (strings) to Customer 4 for $50.83 after a 10% discount
+Shaggy sold a used good condition AXORNMSUOS (cable) to Customer 5 for $25.60
+Shaggy bought a used very good condition SGUSDTARWA (hat) from Customer 6 for $30.97.
+Customer 7 wanted to sell a used good condition UDAQARAJZQ (recordplayer), but didn't like the offer. They left.
+Shaggy is cleaning Northside FNMS.
+----- Shaggy has locked up and closed Northside FNMS for the night -----
+Tracker - Day 9 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 0 items sold, 0 items purchased, 0 items damaged
+----- Daphne arrives at Southside FNMS on day 9 -----
+Daphne counted $1834.80 in the register at Southside FNMS.
+Daphne did inventory. Total value in Southside FNMS is $1163.39.
+Daphne attempted Manual tuning on JYCXWPLJKO (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on LLEMQNUWCL (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on UUAOIUYORB (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on UOGKYWYTKW (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on VQDLVGCCFX (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YDVWJFGAKF (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on HPTWELFERU (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on FWEGEMNGAJ (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on XKFMZSNNXE (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZOOKGQSPEJ (mp3player):
+    ->Success! Tuning status changed from false to true.
+Daphne sold a new good condition FAZDGZWOZA (shirt) to Customer 1 for $79.85 after a 10% discount
+Daphne sold a new fair condition WDFCGCXSHJ (gigbag) to Customer 2 for $94.08
+Daphne sold a new poor condition KVWWOUXCSN (strings) to Customer 3 for $26.22
+Daphne bought a new fair condition VXQJJUTAVG (strings) from Customer 4 for $10.75.
+Customer 5 wanted to sell a used excellent condition QVROTVBSOM (strings), but didn't like the offer. They left.
+Daphne is cleaning Southside FNMS.
+----- Daphne has locked up and closed Southside FNMS for the night -----
+Tracker - Day 9 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 10 items sold, 2 items purchased, 0 items damaged
+Daphne - 3 items sold, 1 items purchased, 6 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 4 items sold, 5 items purchased, 0 items damaged
+----- Daphne is sick on day 10 -----
+----- Scrappy arrives at Northside FNMS on day 10 -----
+Item QSJZMCOHVZ (harmonica) arrived at Northside FNMS.
+Item KPPZGHZPOT (harmonica) arrived at Northside FNMS.
+Item MAKQGVAYYR (harmonica) arrived at Northside FNMS.
+Scrappy counted $2513.44 in the register at Northside FNMS.
+Scrappy did inventory. Total value in Northside FNMS is $1012.94.
+Scrappy attempted Electric tuning on IYZXRQKZOJ (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on KIDZTOVZKB (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on LAPWPAPHQF (bass):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on VPTNVJQLHT (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on DBBWOULDTM (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on XILXORYJAV (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MXZJVNPMGC (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on QDHRCOIDDP (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MOJAIDKZFW (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on HIICFRNTSH (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on TMMRSLVJLS (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ETJAGXIKJD (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on UGJFDZPXPB (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on BYNKAWHBDY (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on SRGTTJZWLZ (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on UUXKSVIMUK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on QXQESSDTEO (flute):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MKAROPKEFR (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on MHLPAWECYI (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on YPWTDUKZJX (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on QSJZMCOHVZ (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on KPPZGHZPOT (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MAKQGVAYYR (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy placed an order for CMNUWKVMGO (strings) for $17.35.
+Scrappy placed an order for EJUEIQJFIN (strings) for $2.92.
+Scrappy placed an order for EAFMAAVLDT (strings) for $26.91.
+Scrappy placed an order for UZMKDLMADO (paperscore) for $14.59.
+Scrappy placed an order for YQQZZYRBSA (paperscore) for $48.71.
+Scrappy placed an order for RZPLQRLUMC (paperscore) for $3.42.
+Scrappy sold a used very good condition UGJFDZPXPB (cdplayer) to Customer 1 for $80.17 after a 10% discount
+Customer 2 wanted to buy a cdplayer but none were in inventory, so they left.
+Scrappy sold a new good condition IYZXRQKZOJ (recordplayer) to Customer 3 for $70.11 after a 10% discount
+Customer 4 came in to buy a new fair condition HSTXKTOCOO (vinyl) but didn't like the price, so they left.
+Scrappy sold a new excellent condition YPWTDUKZJX (cassetteplayer) to Customer 5 for $77.92
+Scrappy bought a used good condition GOVEUSOPZV (vinyl) from Customer 6 for $27.94.
+Scrappy is cleaning Northside FNMS.
+----- Scrappy has locked up and closed Northside FNMS for the night -----
+Tracker - Day 10 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 13 items sold, 3 items purchased, 3 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Velma arrives at Southside FNMS on day 10 -----
+Velma counted $2024.20 in the register at Southside FNMS.
+Velma did inventory. Total value in Southside FNMS is $1069.63.
+Velma attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UUAOIUYORB (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on YDVWJFGAKF (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HPTWELFERU (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on FWEGEMNGAJ (saxophone):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on XKFMZSNNXE (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ZOOKGQSPEJ (mp3player):
+    ->Tuning status did not change from true.
+Velma sold a used very good condition UUAOIUYORB (saxophone) to Customer 1 for $76.50 after a 10% discount
+Velma sold a new very good condition WKIXUOQMMM (bandana) to Customer 2 for $81.81 after a 10% discount 
+Customer 3 came in to buy a used good condition HPTWELFERU (saxophone) but didn't like the price, so they left.
+Velma sold a used fair condition YDVWJFGAKF w/ VVGWIKYGZG/VXQJJUTAVG (guitar w/ cable/strings) to Customer 4 for $231.12 after a 10% discount
+Velma sold a used good condition HPTWELFERU (saxophone) to Customer 5 for $23.17
+Velma sold a used good condition FWEGEMNGAJ (saxophone) to Customer 6 for $36.34 after a 10% discount
+Velma bought a new good condition IIMCSIBLMO (cd) from Customer 7 for $24.91 after an addition of 10%.
+Velma bought a used good condition GAXPSXFXEL (cassetteplayer) from Customer 8 for $23.90.
+Velma is cleaning Southside FNMS.
+Oh no! Velma has broken an item! The price of ZFGHNNOCLE (mandolin) has been reduced to $66.90 and the condition is now poor.
+----- Velma has locked up and closed Southside FNMS for the night -----
+Tracker - Day 10 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 3 items sold, 1 items purchased, 6 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 4 items sold, 5 items purchased, 0 items damaged
+----- Fred arrives at Northside FNMS on day 11 -----
+Item CMNUWKVMGO (strings) arrived at Northside FNMS.
+Item EJUEIQJFIN (strings) arrived at Northside FNMS.
+Item EAFMAAVLDT (strings) arrived at Northside FNMS.
+Item UZMKDLMADO (paperscore) arrived at Northside FNMS.
+Item YQQZZYRBSA (paperscore) arrived at Northside FNMS.
+Item RZPLQRLUMC (paperscore) arrived at Northside FNMS.
+Fred counted $2599.80 in the register at Northside FNMS.
+Fred did inventory. Total value in Northside FNMS is $1043.57.
+Fred attempted Manual tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on VPTNVJQLHT (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MOJAIDKZFW (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ULXKLURDXV (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MIHQTXWSOK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on BYNKAWHBDY (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on SRGTTJZWLZ (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on UUXKSVIMUK (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QXQESSDTEO (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MKAROPKEFR (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MHLPAWECYI (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KPPZGHZPOT (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on MAKQGVAYYR (harmonica):
+    ->Tuning status did not change from true.
+Fred placed an order for KGZENJCJFC (cdplayer) for $11.02.
+Fred placed an order for KNUFPPYFRE (cdplayer) for $30.23.
+Fred placed an order for UXCHDWVLRQ (cdplayer) for $9.28.
+Fred sold a used good condition ULXKLURDXV w/ CAMPSLMKPI/DCSSLZHDDG/MVMYLCVAMV (guitar w/ gigbag/cable/cable) to Customer 1 for $204.46
+Fred sold a new poor condition EJUEIQJFIN (strings) to Customer 2 for $5.84
+Fred sold a used good condition KPPZGHZPOT (harmonica) to Customer 3 for $53.56
+Fred sold a used very good condition QXQESSDTEO (flute) to Customer 4 for $89.62
+Fred sold a used very good condition MOJAIDKZFW (flute) to Customer 5 for $12.02 after a 10% discount
+Fred bought a used excellent condition WNCPWJRSSL (flute) from Customer 6 for $33.41.
+Fred is cleaning Northside FNMS.
+----- Fred has locked up and closed Northside FNMS for the night -----
+Tracker - Day 11 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 5 items sold, 4 items purchased, 5 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 11 -----
+Scrappy counted $2421.84 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $923.68.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on XKFMZSNNXE (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZOOKGQSPEJ (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on GAXPSXFXEL (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy placed an order for URYNXNGEWN (saxophone) for $14.79.
+Scrappy placed an order for XSUTLBMYKP (saxophone) for $34.80.
+Scrappy placed an order for YIYRRLPVFN (saxophone) for $20.83.
+Scrappy placed an order for VZFOGLSFDS (strings) for $38.36.
+Scrappy placed an order for NLEBCWYNVN (strings) for $26.78.
+Scrappy placed an order for KAYNHWHTSY (strings) for $16.02.
+Scrappy sold a new fair condition ZOOKGQSPEJ (mp3player) to Customer 1 for $48.52
+Scrappy sold a used good condition XKFMZSNNXE (harmonica) to Customer 2 for $28.16
+Scrappy bought a used good condition HPULCDVBTI (shirt) from Customer 3 for $24.40.
+Scrappy bought a new poor condition DPIMOPMQLQ (strings) from Customer 4 for $6.18.
+Scrappy bought a used fair condition UEDZGBETZY (gigbag) from Customer 5 for $18.52.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 11 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 3 items sold, 1 items purchased, 6 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 6 items sold, 14 items purchased, 0 items damaged
+----- Daphne arrives at Northside FNMS on day 12 -----
+Item KGZENJCJFC (cdplayer) arrived at Northside FNMS.
+Item KNUFPPYFRE (cdplayer) arrived at Northside FNMS.
+Item UXCHDWVLRQ (cdplayer) arrived at Northside FNMS.
+Daphne counted $2881.36 in the register at Northside FNMS.
+Daphne did inventory. Total value in Northside FNMS is $979.49.
+Daphne attempted Manual tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on VPTNVJQLHT (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on DBBWOULDTM (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on MIHQTXWSOK (mandolin):
+    ->Tuning status did not change from false.
+Daphne attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on BYNKAWHBDY (guitar):
+    ->Tuning status did not change from false.
+Daphne attempted Manual tuning on SRGTTJZWLZ (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on UUXKSVIMUK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on MKAROPKEFR (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on MHLPAWECYI (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on MAKQGVAYYR (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on WNCPWJRSSL (flute):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on KGZENJCJFC (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on KNUFPPYFRE (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on UXCHDWVLRQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne placed an order for JUGHRLVUAV (gigbag) for $14.63.
+Daphne placed an order for VVMMQUPUET (gigbag) for $6.27.
+Daphne placed an order for XAJEYLOQPY (gigbag) for $12.59.
+Daphne placed an order for RZKGCJQUSV (cable) for $43.42.
+Daphne placed an order for QNNQKFMCIK (cable) for $15.95.
+Daphne placed an order for AIKZMTMUMH (cable) for $22.28.
+Daphne sold a new fair condition CMNUWKVMGO (strings) to Customer 1 for $34.70
+Daphne sold a used very good condition IGKVPGKEVX (vinyl) to Customer 2 for $3.32
+Daphne sold a used fair condition MHLPAWECYI (cassetteplayer) to Customer 3 for $85.88
+Daphne sold a used excellent condition EKDAGDLESE (cd) to Customer 4 for $50.81 after a 10% discount
+Daphne sold a new very good condition YQQZZYRBSA (paperscore) to Customer 5 for $97.42
+Daphne sold a used very good condition VPTNVJQLHT w/ JHLWBEGRUU/EAFMAAVLDT (mandolin w/ practiceamp/strings) to Customer 6 for $145.52
+Customer 7 wanted to sell a new excellent condition VFITIHNKVC (recordplayer), but didn't like the offer. They left.
+Customer 8 wanted to sell a new poor condition JECBIBBBIN (flute), but didn't like the offer. They left.
+Daphne is cleaning Northside FNMS.
+Oh no! Daphne has broken an item! DBBWOULDTM (saxophone) is now destroyed and has been removed from inventory.
+----- Daphne has locked up and closed Northside FNMS for the night -----
+Tracker - Day 12 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 5 items sold, 1 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 12 -----
+Item URYNXNGEWN (saxophone) arrived at Southside FNMS.
+Item XSUTLBMYKP (saxophone) arrived at Southside FNMS.
+Item YIYRRLPVFN (saxophone) arrived at Southside FNMS.
+Item VZFOGLSFDS (strings) arrived at Southside FNMS.
+Item NLEBCWYNVN (strings) arrived at Southside FNMS.
+Item KAYNHWHTSY (strings) arrived at Southside FNMS.
+Scrappy counted $2297.84 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $1082.89.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZBGVDEABYR (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OFZCUGZJMD (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on UOGKYWYTKW (cdplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on GAXPSXFXEL (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on URYNXNGEWN (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on XSUTLBMYKP (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YIYRRLPVFN (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy placed an order for PFDDAMAQPR (mp3player) for $44.68.
+Scrappy placed an order for SXTOMCURKP (mp3player) for $7.42.
+Scrappy placed an order for KJPHAGNTOW (mp3player) for $20.69.
+Scrappy sold a new poor condition OFZCUGZJMD (harmonica) to Customer 1 for $14.86
+Customer 2 wanted to buy a mp3player but none were in inventory, so they left.
+Scrappy sold a used poor condition MKTCNWMXND (paperscore) to Customer 3 for $11.92
+Customer 4 wanted to buy a mp3player but none were in inventory, so they left.
+Customer 5 wanted to sell a used poor condition QDCNYBXJEZ (mp3player), but didn't like the offer. They left.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 12 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 3 items sold, 1 items purchased, 6 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 8 items sold, 17 items purchased, 0 items damaged
+----- Velma arrives at Northside FNMS on day 13 -----
+Item JUGHRLVUAV (gigbag) arrived at Northside FNMS.
+Item VVMMQUPUET (gigbag) arrived at Northside FNMS.
+Item XAJEYLOQPY (gigbag) arrived at Northside FNMS.
+Item RZKGCJQUSV (cable) arrived at Northside FNMS.
+Item QNNQKFMCIK (cable) arrived at Northside FNMS.
+Item AIKZMTMUMH (cable) arrived at Northside FNMS.
+Velma counted $3183.87 in the register at Northside FNMS.
+Velma did inventory. Total value in Northside FNMS is $865.23.
+Velma attempted Electric tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on YNHGONRWEW (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MIHQTXWSOK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BYNKAWHBDY (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on SRGTTJZWLZ (mp3player):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on UUXKSVIMUK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on MKAROPKEFR (bass):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MAKQGVAYYR (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on WNCPWJRSSL (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UXCHDWVLRQ (cdplayer):
+    ->Tuning status did not change from true.
+Velma placed an order for HMVIANFTZX (strings) for $21.07.
+Velma placed an order for ICRQQEKCYJ (strings) for $39.56.
+Velma placed an order for CHGQPQSLJX (strings) for $25.18.
+Velma sold a used excellent condition JUGHRLVUAV (gigbag) to Customer 1 for $29.26
+Velma sold a new very good condition YNHGONRWEW w/ XAJEYLOQPY (bass w/ gigbag) to Customer 2 for $92.62 
+Velma sold a used fair condition MKAROPKEFR w/ (bass w/) to Customer 3 for $51.86 after a 10% discount
+Velma sold a new fair condition MIHQTXWSOK w/ VVMMQUPUET (mandolin w/ gigbag) to Customer 4 for $33.26
+Customer 5 came in to buy a used poor condition OZIFETUBBZ (cassetteplayer) but didn't like the price, so they left.
+Customer 6 wanted to buy a strings but none were in inventory, so they left.
+Velma sold a new poor condition SRGTTJZWLZ (mp3player) to Customer 7 for $90.54
+Velma sold a used good condition ABDEKDXHSH (practiceamp) to Customer 8 for $56.56
+Velma bought a new fair condition QENZRUSRSS (mandolin) from Customer 9 for $15.11.
+Velma bought a new poor condition GPVBIXHIRS (cassetteplayer) from Customer 10 for $3.56.
+Velma bought a new very good condition ZIGBVQDNQO (flute) from Customer 11 for $31.93 after an addition of 10%.
+Velma bought a used poor condition XBOABOIQRK (practiceamp) from Customer 12 for $5.95.
+Velma is cleaning Northside FNMS.
+----- Velma has locked up and closed Northside FNMS for the night -----
+Tracker - Day 13 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 13 items sold, 8 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Daphne arrives at Southside FNMS on day 13 -----
+Item PFDDAMAQPR (mp3player) arrived at Southside FNMS.
+Item SXTOMCURKP (mp3player) arrived at Southside FNMS.
+Item KJPHAGNTOW (mp3player) arrived at Southside FNMS.
+Daphne counted $2251.83 in the register at Southside FNMS.
+Daphne did inventory. Total value in Southside FNMS is $1146.28.
+Daphne attempted Manual tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on RWOCCDXSWV (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZBGVDEABYR (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on BVJHNBLBCD (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on UOGKYWYTKW (cdplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on GAXPSXFXEL (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on XSUTLBMYKP (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Daphne has broken an item! The price of XSUTLBMYKP (saxophone) has been reduced to $55.68 and the condition is now fair.
+Daphne attempted Manual tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from false.
+Daphne attempted Manual tuning on SXTOMCURKP (mp3player):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on KJPHAGNTOW (mp3player):
+    ->Success! Tuning status changed from false to true.
+Daphne sold a used fair condition ATRGNJXVWD (cd) to Customer 1 for $8.33 after a 10% discount
+Daphne sold a used very good condition WMMGBOUPSY (shirt) to Customer 2 for $6.62 after a 10% discount
+Daphne sold a used good condition UOGKYWYTKW (cdplayer) to Customer 3 for $66.42
+Customer 4 wanted to buy a cdplayer but none were in inventory, so they left.
+Customer 5 came in to buy a new good condition IIMCSIBLMO (cd) but didn't like the price, so they left.
+Daphne sold a new excellent condition ZBGVDEABYR (harmonica) to Customer 6 for $43.94
+Daphne sold a used very good condition BVJHNBLBCD (flute) to Customer 7 for $53.78
+Daphne sold a used fair condition RWOCCDXSWV (flute) to Customer 8 for $88.80
+Customer 9 wanted to buy a bandana but none were in inventory, so they left.
+Daphne bought a used poor condition NHPSBVDLLE (harmonica) from Customer 10 for $8.59.
+Daphne bought a new very good condition HCYNZFZVSS (vinyl) from Customer 11 for $35.92.
+Daphne is cleaning Southside FNMS.
+----- Daphne has locked up and closed Southside FNMS for the night -----
+Tracker - Day 13 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 9 items sold, 3 items purchased, 9 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 8 items sold, 17 items purchased, 0 items damaged
+----- Sunday! The stores are closed. -----
+----- Velma arrives at Northside FNMS on day 15 -----
+Item HMVIANFTZX (strings) arrived at Northside FNMS.
+Item ICRQQEKCYJ (strings) arrived at Northside FNMS.
+Item CHGQPQSLJX (strings) arrived at Northside FNMS.
+Velma counted $3392.42 in the register at Northside FNMS.
+Velma did inventory. Total value in Northside FNMS is $888.26.
+Velma attempted Electric tuning on KIDZTOVZKB (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MXZJVNPMGC (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QDHRCOIDDP (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on BYNKAWHBDY (guitar):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UUXKSVIMUK (mandolin):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on MAKQGVAYYR (harmonica):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on WNCPWJRSSL (flute):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UXCHDWVLRQ (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on QENZRUSRSS (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on GPVBIXHIRS (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on ZIGBVQDNQO (flute):
+    ->Success! Tuning status changed from false to true.
+Velma placed an order for MWEFZIPGVF (gigbag) for $18.89.
+Velma placed an order for XLOTNVODYJ (gigbag) for $35.41.
+Velma placed an order for UDTROJYMVQ (gigbag) for $28.39.
+Velma sold a new poor condition GPVBIXHIRS (cassetteplayer) to Customer 1 for $86.74 after a 10% discount
+Velma sold a used fair condition ICVRKUAJOU (cassette) to Customer 2 for $13.60
+Customer 3 wanted to buy a gigbag but none were in inventory, so they left.
+Velma sold a used good condition BYNKAWHBDY w/ QNNQKFMCIK/AIKZMTMUMH (guitar w/ cable/cable) to Customer 4 for $118.96 after a 10% discount
+Velma bought a used poor condition UFMMUOXJYC (practiceamp) from Customer 5 for $9.45.
+Velma bought a used poor condition UMASNZCLQN (shirt) from Customer 6 for $5.70 after an addition of 10%.
+Customer 7 wanted to sell a new very good condition MPJSOJKDDS (saxophone), but didn't like the offer. They left.
+Velma is cleaning Northside FNMS.
+----- Velma has locked up and closed Northside FNMS for the night -----
+Tracker - Day 15 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 18 items sold, 13 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 10 items sold, 5 items purchased, 10 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 15 -----
+Scrappy counted $2475.21 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $1056.01.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VXQKDGGBAW (guitar):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on VQDLVGCCFX (recordplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on OCKLLLNJXZ (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on GAXPSXFXEL (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on XSUTLBMYKP (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PFDDAMAQPR (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on SXTOMCURKP (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KJPHAGNTOW (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NHPSBVDLLE (harmonica):
+    ->Success! Tuning status changed from false to true.
+Scrappy placed an order for FXYKRTEAFR (cdplayer) for $1.02.
+Scrappy placed an order for LXURQLSCFP (cdplayer) for $35.98.
+Scrappy placed an order for SPZUZYJQZQ (cdplayer) for $22.78.
+Scrappy sold a new good condition QMJVZDKBAI (shirt) to Customer 1 for $19.57 after a 10% discount
+Scrappy sold a new excellent condition VQDLVGCCFX (recordplayer) to Customer 2 for $34.97 after a 10% discount
+Scrappy sold a used good condition OCKLLLNJXZ w/ VZFOGLSFDS/DPIMOPMQLQ/KAYNHWHTSY (bass w/ strings/strings/strings) to Customer 3 for $178.56
+Scrappy sold a new excellent condition VXQKDGGBAW w/ OPFPZLCVPO/VVDQACJVBY/JGQYOIKLMI (guitar w/ gigbag/cable/cable) to Customer 4 for $157.88
+Scrappy sold a new good condition NLEBCWYNVN (strings) to Customer 5 for $53.56
+Scrappy bought a new very good condition RZDTYPJWGO (hat) from Customer 6 for $37.90.
+Scrappy bought a used fair condition BZDVOPPWEP (vinyl) from Customer 7 for $15.84.
+Scrappy bought a new poor condition FGIVPCTBFB (cassette) from Customer 8 for $1.95 after an addition of 10%.
+Scrappy bought a new good condition AJTBSCQUIZ (cable) from Customer 9 for $24.34.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 15 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 9 items sold, 3 items purchased, 9 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 19 items sold, 24 items purchased, 0 items damaged
+----- Scooby arrives at Northside FNMS on day 16 -----
+Item MWEFZIPGVF (gigbag) arrived at Northside FNMS.
+Item XLOTNVODYJ (gigbag) arrived at Northside FNMS.
+Item UDTROJYMVQ (gigbag) arrived at Northside FNMS.
+Scooby counted $3513.31 in the register at Northside FNMS.
+Scooby did inventory. Total value in Northside FNMS is $912.20.
+Scooby attempted Haphazard tuning on KIDZTOVZKB (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on MXZJVNPMGC (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on QDHRCOIDDP (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! The price of RULEYELQJO (recordplayer) has been reduced to $79.74 and the condition is now good.
+Scooby attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UUXKSVIMUK (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on MAKQGVAYYR (harmonica):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on WNCPWJRSSL (flute):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UXCHDWVLRQ (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on QENZRUSRSS (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZIGBVQDNQO (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby placed an order for BLQYXOSGDL (cassette) for $36.01.
+Scooby placed an order for PSPLHKNNIF (cassette) for $30.09.
+Scooby placed an order for OIFZKLBEUD (cassette) for $13.09.
+Customer 1 came in to buy a used very good condition UZMKDLMADO (paperscore) but didn't like the price, so they left.
+Scooby sold a used excellent condition KIDZTOVZKB (guitar) to Customer 2 for $38.14 after a 10% discount
+Scooby sold a used poor condition XBOABOIQRK (practiceamp) to Customer 3 for $95.94
+Scooby sold a used poor condition QDHRCOIDDP w/ ICRQQEKCYJ/CHGQPQSLJX (mandolin w/ strings/strings) to Customer 4 for $134.92 after a 10% discount
+Scooby sold a used very good condition MXZJVNPMGC w/ XLOTNVODYJ/RZKGCJQUSV (guitar w/ gigbag/cable) to Customer 5 for $218.92
+Customer 6 came in to buy a new very good condition ZIGBVQDNQO (flute) but didn't like the price, so they left.
+Scooby sold a new very good condition ZIGBVQDNQO (flute) to Customer 7 for $50.06
+Customer 8 wanted to sell a new excellent condition IWDKQKJPCH (cd), but didn't like the offer. They left.
+Scooby bought a used poor condition RTJZNAVCOV (flute) from Customer 9 for $1.94 after an addition of 10%.
+Scooby bought a new poor condition CIPYHBCDQX (shirt) from Customer 10 for $9.04 after an addition of 10%.
+Scooby is cleaning Northside FNMS.
+----- Scooby has locked up and closed Northside FNMS for the night -----
+Tracker - Day 16 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 18 items sold, 13 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 19 items sold, 10 items purchased, 21 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 16 -----
+Item FXYKRTEAFR (cdplayer) arrived at Southside FNMS.
+Item LXURQLSCFP (cdplayer) arrived at Southside FNMS.
+Item SPZUZYJQZQ (cdplayer) arrived at Southside FNMS.
+Scrappy counted $2779.74 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $978.25.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on GAXPSXFXEL (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on XSUTLBMYKP (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SXTOMCURKP (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KJPHAGNTOW (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NHPSBVDLLE (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on FXYKRTEAFR (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on LXURQLSCFP (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on SPZUZYJQZQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy placed an order for SNCMOYCTBL (strings) for $9.36.
+Scrappy placed an order for QGXJAJFLQQ (strings) for $11.77.
+Scrappy placed an order for FEWTXENUQH (strings) for $28.21.
+Scrappy placed an order for YYBFVGPXGY (recordplayer) for $9.09.
+Scrappy placed an order for FWNDGNJPSE (recordplayer) for $25.33.
+Scrappy placed an order for ADRQJFOYWZ (recordplayer) for $11.42.
+Scrappy placed an order for UHGGETXLLK (guitar) for $30.16.
+Scrappy placed an order for YOZBEAYDAH (guitar) for $41.53.
+Scrappy placed an order for MNXQPCWWSN (guitar) for $49.86.
+Customer 1 wanted to buy a strings but none were in inventory, so they left.
+Scrappy sold a new excellent condition SXTOMCURKP (mp3player) to Customer 2 for $14.84
+Scrappy bought a new fair condition ANNZDXVLKY (bandana) from Customer 3 for $13.21.
+Scrappy bought a new excellent condition PYIGTAJXTO (mandolin) from Customer 4 for $34.07.
+Scrappy bought a used good condition ELIZXSXNFQ (hat) from Customer 5 for $28.74.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 16 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 9 items sold, 3 items purchased, 9 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 20 items sold, 36 items purchased, 0 items damaged
+----- Scooby arrives at Northside FNMS on day 17 -----
+Item BLQYXOSGDL (cassette) arrived at Northside FNMS.
+Item PSPLHKNNIF (cassette) arrived at Northside FNMS.
+Item OIFZKLBEUD (cassette) arrived at Northside FNMS.
+Scooby counted $3960.03 in the register at Northside FNMS.
+Scooby did inventory. Total value in Northside FNMS is $756.32.
+Scooby attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UUXKSVIMUK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on OZIFETUBBZ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on QSJZMCOHVZ (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on MAKQGVAYYR (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on WNCPWJRSSL (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on UXCHDWVLRQ (cdplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on QENZRUSRSS (mandolin):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on RTJZNAVCOV (flute):
+    ->Tuning status did not change from false.
+Scooby placed an order for LXHIVVSWZH (guitar) for $24.63.
+Scooby placed an order for XCZMPVOJKI (guitar) for $40.83.
+Scooby placed an order for JRQUIIBASY (guitar) for $46.75.
+Scooby placed an order for XMRTFLCTRZ (cable) for $30.89.
+Scooby placed an order for VXJPUOPGIA (cable) for $44.16.
+Scooby placed an order for BZFJKSNMMR (cable) for $1.39.
+Scooby sold a new fair condition QENZRUSRSS (mandolin) to Customer 1 for $30.56 after a 10% discount
+Scooby sold a used poor condition OZIFETUBBZ (cassetteplayer) to Customer 2 for $96.44
+Customer 3 wanted to buy a cassetteplayer but none were in inventory, so they left.
+Scooby sold a used very good condition SGUSDTARWA (hat) to Customer 4 for $69.86 after a 10% discount
+Customer 5 wanted to sell a new poor condition MMDYCCPKKM (bass), but didn't like the offer. They left.
+Scooby bought a new very good condition JQGVGPKRDJ (bass) from Customer 6 for $35.86 after an addition of 10%.
+Scooby bought a used fair condition GQDRYRPOVC (cable) from Customer 7 for $10.24.
+Scooby bought a new poor condition ANNMBOQGIJ (saxophone) from Customer 8 for $8.28.
+Scooby is cleaning Northside FNMS.
+----- Scooby has locked up and closed Northside FNMS for the night -----
+Tracker - Day 17 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 18 items sold, 13 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 22 items sold, 19 items purchased, 25 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scrappy arrives at Southside FNMS on day 17 -----
+Item SNCMOYCTBL (strings) arrived at Southside FNMS.
+Item QGXJAJFLQQ (strings) arrived at Southside FNMS.
+Item FEWTXENUQH (strings) arrived at Southside FNMS.
+Item YYBFVGPXGY (recordplayer) arrived at Southside FNMS.
+Item FWNDGNJPSE (recordplayer) arrived at Southside FNMS.
+Item ADRQJFOYWZ (recordplayer) arrived at Southside FNMS.
+Item UHGGETXLLK (guitar) arrived at Southside FNMS.
+Item YOZBEAYDAH (guitar) arrived at Southside FNMS.
+Item MNXQPCWWSN (guitar) arrived at Southside FNMS.
+Scrappy counted $2501.83 in the register at Southside FNMS.
+Scrappy did inventory. Total value in Southside FNMS is $1263.58.
+Scrappy attempted Electric tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LLEMQNUWCL (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SDMDKTAENX (flute):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on GAXPSXFXEL (cassetteplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on XSUTLBMYKP (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on KJPHAGNTOW (mp3player):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on NHPSBVDLLE (harmonica):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on FXYKRTEAFR (cdplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on LXURQLSCFP (cdplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on SPZUZYJQZQ (cdplayer):
+    ->Tuning status did not change from true.
+Scrappy attempted Electric tuning on PYIGTAJXTO (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YYBFVGPXGY (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on FWNDGNJPSE (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on ADRQJFOYWZ (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on UHGGETXLLK (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on YOZBEAYDAH (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy attempted Electric tuning on MNXQPCWWSN (guitar):
+    ->Success! Tuning status changed from false to true.
+Scrappy sold a new good condition FEWTXENUQH (strings) to Customer 1 for $56.42
+Scrappy sold a new fair condition SDMDKTAENX (flute) to Customer 2 for $13.18 after a 10% discount
+Scrappy sold a used good condition HPULCDVBTI (shirt) to Customer 3 for $94.64
+Scrappy sold a used fair condition SNCMOYCTBL (strings) to Customer 4 for $18.72
+Scrappy sold a new very good condition LLEMQNUWCL (mandolin) to Customer 5 for $48.29 after a 10% discount
+Scrappy sold a new excellent condition MNXQPCWWSN (guitar) to Customer 6 for $89.75 after a 10% discount
+Customer 7 wanted to buy a flute but none were in inventory, so they left.
+Scrappy bought a new poor condition LYYZOEYVZU (bass) from Customer 8 for $5.08.
+Scrappy bought a new good condition EAMVZVQQZO (recordplayer) from Customer 9 for $26.70 after an addition of 10%.
+Scrappy bought a used good condition SLJRJCJXFT (recordplayer) from Customer 10 for $28.33.
+Scrappy bought a new excellent condition ESAFINWXLG (hat) from Customer 11 for $32.19.
+Scrappy is cleaning Southside FNMS.
+----- Scrappy has locked up and closed Southside FNMS for the night -----
+Tracker - Day 17 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 9 items sold, 3 items purchased, 9 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 26 items sold, 40 items purchased, 0 items damaged
+----- Shaggy is sick on day 18 -----
+----- Fred is also sick on day 18 -----
+----- Velma arrives at Northside FNMS on day 18 -----
+Item LXHIVVSWZH (guitar) arrived at Northside FNMS.
+Item XCZMPVOJKI (guitar) arrived at Northside FNMS.
+Item JRQUIIBASY (guitar) arrived at Northside FNMS.
+Item XMRTFLCTRZ (cable) arrived at Northside FNMS.
+Item VXJPUOPGIA (cable) arrived at Northside FNMS.
+Item BZFJKSNMMR (cable) arrived at Northside FNMS.
+Velma counted $3910.27 in the register at Northside FNMS.
+Velma did inventory. Total value in Northside FNMS is $908.64.
+Velma attempted Electric tuning on LAPWPAPHQF (bass):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on XILXORYJAV (mp3player):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on RULEYELQJO (recordplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on TMMRSLVJLS (mp3player):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UUXKSVIMUK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on QSJZMCOHVZ (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on MAKQGVAYYR (harmonica):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on WNCPWJRSSL (flute):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from true.
+Velma attempted Electric tuning on UXCHDWVLRQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on RTJZNAVCOV (flute):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on JQGVGPKRDJ (bass):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on ANNMBOQGIJ (saxophone):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on LXHIVVSWZH (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on XCZMPVOJKI (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma attempted Electric tuning on JRQUIIBASY (guitar):
+    ->Success! Tuning status changed from false to true.
+Velma placed an order for IDNEWUSBKK (cassetteplayer) for $25.22.
+Velma placed an order for DRSVUYSZRV (cassetteplayer) for $7.78.
+Velma placed an order for ERIXMKZKVK (cassetteplayer) for $9.71.
+Customer 1 wanted to buy a cassetteplayer but none were in inventory, so they left.
+Customer 2 wanted to buy a hat but none were in inventory, so they left.
+Velma sold a new excellent condition FLAKIHPNZS (cd) to Customer 3 for $19.86
+Velma sold a new excellent condition MAKQGVAYYR (harmonica) to Customer 4 for $85.44
+Velma bought a new good condition ADXDVPEULM (paperscore) from Customer 5 for $25.37 after an addition of 10%.
+Velma bought a new very good condition OJUVIHZRKO (practiceamp) from Customer 6 for $39.72.
+Velma bought a used good condition EAFZEJWQBT (cdplayer) from Customer 7 for $20.42.
+Velma is cleaning Northside FNMS.
+----- Velma has locked up and closed Northside FNMS for the night -----
+Tracker - Day 18 (Northside FNMS) :
+Shaggy - 9 items sold, 8 items purchased, 21 items damaged
+Velma - 20 items sold, 19 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 22 items sold, 19 items purchased, 25 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Daphne arrives at Southside FNMS on day 18 -----
+Daphne counted $2727.86 in the register at Southside FNMS.
+Daphne did inventory. Total value in Southside FNMS is $1212.57.
+Daphne attempted Manual tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on GAXPSXFXEL (cassetteplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on XSUTLBMYKP (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on KJPHAGNTOW (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on NHPSBVDLLE (harmonica):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on FXYKRTEAFR (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on LXURQLSCFP (cdplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on SPZUZYJQZQ (cdplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on PYIGTAJXTO (mandolin):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YYBFVGPXGY (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Daphne attempted Manual tuning on FWNDGNJPSE (recordplayer):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on ADRQJFOYWZ (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Daphne has broken an item! The price of ADRQJFOYWZ (recordplayer) has been reduced to $18.27 and the condition is now good.
+Daphne attempted Manual tuning on UHGGETXLLK (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on YOZBEAYDAH (guitar):
+    ->Tuning status did not change from true.
+Daphne attempted Manual tuning on LYYZOEYVZU (bass):
+    ->Tuning status did not change from false.
+Daphne attempted Manual tuning on EAMVZVQQZO (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne attempted Manual tuning on SLJRJCJXFT (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Daphne placed an order for JUHAQTRCMI (flute) for $32.29.
+Daphne placed an order for FIRGAEIFGV (flute) for $23.62.
+Daphne placed an order for ZXQYPHIGYL (flute) for $19.28.
+Daphne sold a new excellent condition ESAFINWXLG (hat) to Customer 1 for $46.06
+Customer 2 wanted to buy a flute but none were in inventory, so they left.
+Daphne sold a new fair condition ANNZDXVLKY (bandana) to Customer 3 for $83.34
+Customer 4 wanted to buy a flute but none were in inventory, so they left.
+Customer 5 came in to buy a new good condition AJTBSCQUIZ (cable) but didn't like the price, so they left.
+Daphne bought a used very good condition VMMEPHYYLK (saxophone) from Customer 6 for $32.19.
+Daphne bought a used very good condition EYPUGDZGMA (gigbag) from Customer 7 for $39.40.
+Daphne is cleaning Southside FNMS.
+----- Daphne has locked up and closed Southside FNMS for the night -----
+Tracker - Day 18 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 11 items sold, 8 items purchased, 14 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 7 items sold, 4 items purchased, 29 items damaged
+Scrappy - 26 items sold, 40 items purchased, 0 items damaged
+----- Shaggy arrives at Northside FNMS on day 19 -----
+Item IDNEWUSBKK (cassetteplayer) arrived at Northside FNMS.
+Item DRSVUYSZRV (cassetteplayer) arrived at Northside FNMS.
+Item ERIXMKZKVK (cassetteplayer) arrived at Northside FNMS.
+Shaggy counted $3884.81 in the register at Northside FNMS.
+Shaggy did inventory. Total value in Northside FNMS is $986.75.
+Shaggy attempted Haphazard tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on XILXORYJAV (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on RULEYELQJO (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on TMMRSLVJLS (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on ETJAGXIKJD (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on UUXKSVIMUK (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on WNCPWJRSSL (flute):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on KNUFPPYFRE (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on UXCHDWVLRQ (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on RTJZNAVCOV (flute):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on JQGVGPKRDJ (bass):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on ANNMBOQGIJ (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on LXHIVVSWZH (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Shaggy attempted Haphazard tuning on XCZMPVOJKI (guitar):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on JRQUIIBASY (guitar):
+    ->Tuning status did not change from true.
+Shaggy attempted Haphazard tuning on EAFZEJWQBT (cdplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on IDNEWUSBKK (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Shaggy attempted Haphazard tuning on DRSVUYSZRV (cassetteplayer):
+    ->Tuning status did not change from false.
+Shaggy attempted Haphazard tuning on ERIXMKZKVK (cassetteplayer):
+    ->Tuning status did not change from false.
+Shaggy sold a used good condition GOVEUSOPZV (vinyl) to Customer 1 for $10.92
+Shaggy sold a used fair condition VXJPUOPGIA (cable) to Customer 2 for $88.32
+Shaggy sold a new poor condition ANNMBOQGIJ (saxophone) to Customer 3 for $36.41 after a 10% discount
+Shaggy sold a new very good condition JQGVGPKRDJ w/ HMVIANFTZX (bass w/ strings) to Customer 4 for $79.33 after a 10% discount
+Shaggy bought a new excellent condition AKIMSZVTQL (mp3player) from Customer 5 for $30.96.
+Customer 6 wanted to sell a new very good condition ADAJZBRLKD (cd), but didn't like the offer. They left.
+Shaggy is cleaning Northside FNMS.
+----- Shaggy has locked up and closed Northside FNMS for the night -----
+Tracker - Day 19 (Northside FNMS) :
+Shaggy - 14 items sold, 9 items purchased, 30 items damaged
+Velma - 20 items sold, 19 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 21 items sold, 7 items purchased, 7 items damaged
+Scooby - 22 items sold, 19 items purchased, 25 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scooby arrives at Southside FNMS on day 19 -----
+Item JUHAQTRCMI (flute) arrived at Southside FNMS.
+Item FIRGAEIFGV (flute) arrived at Southside FNMS.
+Item ZXQYPHIGYL (flute) arrived at Southside FNMS.
+Scooby counted $2710.48 in the register at Southside FNMS.
+Scooby did inventory. Total value in Southside FNMS is $1313.95.
+Scooby attempted Haphazard tuning on JYCXWPLJKO (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PCWLFXFVMK (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZFGHNNOCLE (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on GAXPSXFXEL (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on URYNXNGEWN (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on XSUTLBMYKP (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KJPHAGNTOW (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on NHPSBVDLLE (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! NHPSBVDLLE (harmonica) is now destroyed and has been removed from inventory.
+Scooby attempted Haphazard tuning on FXYKRTEAFR (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on LXURQLSCFP (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on SPZUZYJQZQ (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PYIGTAJXTO (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on YYBFVGPXGY (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on FWNDGNJPSE (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ADRQJFOYWZ (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on UHGGETXLLK (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on YOZBEAYDAH (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on LYYZOEYVZU (bass):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on EAMVZVQQZO (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on SLJRJCJXFT (recordplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on VMMEPHYYLK (saxophone):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on JUHAQTRCMI (flute):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on FIRGAEIFGV (flute):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on ZXQYPHIGYL (flute):
+    ->Success! Tuning status changed from false to true.
+Scooby sold a new good condition SEEMTRZTQS (paperscore) to Customer 1 for $27.13 after a 10% discount
+Customer 2 came in to buy a new very good condition YOZBEAYDAH (guitar) but didn't like the price, so they left.
+Scooby sold a new very good condition HCYNZFZVSS (vinyl) to Customer 3 for $87.38
+Scooby sold a used fair condition UEDZGBETZY (gigbag) to Customer 4 for $37.02
+Scooby sold a new excellent condition LXURQLSCFP (cdplayer) to Customer 5 for $71.96
+Scooby sold a new poor condition FGIVPCTBFB (cassette) to Customer 6 for $71.02
+Scooby bought a used fair condition GWNDLQOGNJ (bandana) from Customer 7 for $13.14.
+Customer 8 wanted to sell a new fair condition YZREJBVIKC (flute), but didn't like the offer. They left.
+Scooby bought a used good condition DKYMLNSZND (mp3player) from Customer 9 for $21.22.
+Scooby is cleaning Southside FNMS.
+----- Scooby has locked up and closed Southside FNMS for the night -----
+Tracker - Day 19 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 11 items sold, 8 items purchased, 14 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 12 items sold, 6 items purchased, 41 items damaged
+Scrappy - 26 items sold, 40 items purchased, 0 items damaged
+----- Fred arrives at Northside FNMS on day 20 -----
+Fred counted $4068.83 in the register at Northside FNMS.
+Fred did inventory. Total value in Northside FNMS is $876.81.
+Fred attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on RULEYELQJO (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on TMMRSLVJLS (mp3player):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on UUXKSVIMUK (mandolin):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on QSJZMCOHVZ (harmonica):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on WNCPWJRSSL (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KNUFPPYFRE (cdplayer):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on UXCHDWVLRQ (cdplayer):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on RTJZNAVCOV (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on LXHIVVSWZH (guitar):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on XCZMPVOJKI (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on JRQUIIBASY (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on EAFZEJWQBT (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on IDNEWUSBKK (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on DRSVUYSZRV (cassetteplayer):
+    ->Tuning status did not change from false.
+Fred attempted Manual tuning on ERIXMKZKVK (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on AKIMSZVTQL (mp3player):
+    ->Success! Tuning status changed from false to true.
+Fred placed an order for AOFHMAAUYC (strings) for $6.15.
+Fred placed an order for MYXKHHVDBA (strings) for $22.00.
+Fred placed an order for GACJUVHTZK (strings) for $11.90.
+Fred sold a new excellent condition DRSVUYSZRV (cassetteplayer) to Customer 1 for $14.00 after a 10% discount
+Fred sold a used good condition RULEYELQJO (recordplayer) to Customer 2 for $71.77 after a 10% discount 
+Fred sold a used good condition TMMRSLVJLS (mp3player) to Customer 3 for $6.88 after a 10% discount
+Fred sold a new good condition RZPLQRLUMC (paperscore) to Customer 4 for $6.16 after a 10% discount
+Fred sold a used excellent condition WNCPWJRSSL (flute) to Customer 5 for $12.60 after a 10% discount
+Fred sold a new fair condition HSTXKTOCOO (vinyl) to Customer 6 for $47.16
+Customer 7 wanted to sell a used fair condition QDYQBFJRLP (vinyl), but didn't like the offer. They left.
+Fred bought a new good condition MWTQXTIWEN (paperscore) from Customer 8 for $25.73.
+Fred bought a new very good condition FDZOLKPIDE (cassette) from Customer 9 for $33.68 after an addition of 10%.
+Customer 10 wanted to sell a used poor condition ENDIPGDBBP (bass), but didn't like the offer. They left.
+Fred is cleaning Northside FNMS.
+----- Fred has locked up and closed Northside FNMS for the night -----
+Tracker - Day 20 (Northside FNMS) :
+Shaggy - 14 items sold, 9 items purchased, 30 items damaged
+Velma - 20 items sold, 19 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 27 items sold, 12 items purchased, 8 items damaged
+Scooby - 22 items sold, 19 items purchased, 25 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+----- Scooby arrives at Southside FNMS on day 20 -----
+Scooby counted $2970.63 in the register at Southside FNMS.
+Scooby did inventory. Total value in Southside FNMS is $1220.49.
+Scooby attempted Haphazard tuning on JYCXWPLJKO (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on PCWLFXFVMK (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on ZFGHNNOCLE (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on KKGAHXARNQ (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on GAXPSXFXEL (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on URYNXNGEWN (saxophone):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on XSUTLBMYKP (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on YIYRRLPVFN (saxophone):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PFDDAMAQPR (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on KJPHAGNTOW (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on FXYKRTEAFR (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on SPZUZYJQZQ (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on PYIGTAJXTO (mandolin):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on YYBFVGPXGY (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on FWNDGNJPSE (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on ADRQJFOYWZ (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on UHGGETXLLK (guitar):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on YOZBEAYDAH (guitar):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on LYYZOEYVZU (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on EAMVZVQQZO (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on SLJRJCJXFT (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on VMMEPHYYLK (saxophone):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on JUHAQTRCMI (flute):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on FIRGAEIFGV (flute):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ZXQYPHIGYL (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on DKYMLNSZND (mp3player):
+    ->Tuning status did not change from false.
+Scooby placed an order for HVMGIXBSSY (harmonica) for $4.96.
+Scooby placed an order for PWJPAUTJRM (harmonica) for $27.15.
+Scooby placed an order for HFMPMYDBLR (harmonica) for $15.18.
+Customer 1 came in to buy a new good condition SPZUZYJQZQ (cdplayer) but didn't like the price, so they left.
+Scooby sold a used fair condition URYNXNGEWN (saxophone) to Customer 2 for $26.62 after a 10% discount
+Scooby sold a new fair condition XSUTLBMYKP (saxophone) to Customer 3 for $55.68
+Scooby sold a new good condition EAMVZVQQZO (recordplayer) to Customer 4 for $12.24
+Scooby sold a new excellent condition PYIGTAJXTO w/ EYPUGDZGMA (mandolin w/ gigbag) to Customer 5 for $143.06
+Customer 6 wanted to buy a gigbag but none were in inventory, so they left.
+Scooby sold a used very good condition XGVQUNTOXT (practiceamp) to Customer 7 for $73.60
+Scooby bought a new poor condition WAYFPWIWWA (paperscore) from Customer 8 for $1.32.
+Scooby bought a new fair condition VRJLGZWITZ (paperscore) from Customer 9 for $15.14.
+Scooby bought a used excellent condition OFRSHITCIA (cassetteplayer) from Customer 10 for $31.92 after an addition of 10%.
+Scooby is cleaning Southside FNMS.
+Oh no! Scooby has broken an item! The price of FXYKRTEAFR (cdplayer) has been reduced to $1.63 and the condition is now fair.
+----- Scooby has locked up and closed Southside FNMS for the night -----
+Tracker - Day 20 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 11 items sold, 8 items purchased, 14 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 18 items sold, 12 items purchased, 44 items damaged
+Scrappy - 26 items sold, 40 items purchased, 0 items damaged
+----- Fred arrives at Northside FNMS on day 21 -----
+Item AOFHMAAUYC (strings) arrived at Northside FNMS.
+Item MYXKHHVDBA (strings) arrived at Northside FNMS.
+Item GACJUVHTZK (strings) arrived at Northside FNMS.
+Fred counted $4124.57 in the register at Northside FNMS.
+Fred did inventory. Total value in Northside FNMS is $857.79.
+Fred attempted Manual tuning on LAPWPAPHQF (bass):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XILXORYJAV (mp3player):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on HIICFRNTSH (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ETJAGXIKJD (saxophone):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on UUXKSVIMUK (mandolin):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on QSJZMCOHVZ (harmonica):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on KGZENJCJFC (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on KNUFPPYFRE (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on UXCHDWVLRQ (cdplayer):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on RTJZNAVCOV (flute):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on LXHIVVSWZH (guitar):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on XCZMPVOJKI (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Fred attempted Manual tuning on JRQUIIBASY (guitar):
+    ->Success! Tuning status changed from false to true.
+Fred attempted Manual tuning on EAFZEJWQBT (cdplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on IDNEWUSBKK (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on ERIXMKZKVK (cassetteplayer):
+    ->Tuning status did not change from true.
+Fred attempted Manual tuning on AKIMSZVTQL (mp3player):
+    ->Tuning status did not change from true.
+Fred placed an order for DUFVPPHTAY (vinyl) for $21.16.
+Fred placed an order for TGJZICWBXY (vinyl) for $37.90.
+Fred placed an order for QGFUGQSQLF (vinyl) for $18.02.
+Fred placed an order for BOSKAAKNAP (recordplayer) for $42.11.
+Fred placed an order for RYHUVRDZOE (recordplayer) for $28.52.
+Fred placed an order for TPWUJVRUBL (recordplayer) for $15.26.
+----- Scooby arrives at Southside FNMS on day 21 -----
+Item HVMGIXBSSY (harmonica) arrived at Southside FNMS.
+Item PWJPAUTJRM (harmonica) arrived at Southside FNMS.
+Item HFMPMYDBLR (harmonica) arrived at Southside FNMS.
+Scooby counted $3182.97 in the register at Southside FNMS.
+Scooby did inventory. Total value in Southside FNMS is $1130.12.
+Scooby attempted Haphazard tuning on JYCXWPLJKO (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on PCWLFXFVMK (cassetteplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on ZFGHNNOCLE (mandolin):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on BEMWJVOXCJ (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on KKGAHXARNQ (mandolin):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on NIJBCKWSZV (bass):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on GAXPSXFXEL (cassetteplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on YIYRRLPVFN (saxophone):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on PFDDAMAQPR (mp3player):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! The price of PFDDAMAQPR (mp3player) has been reduced to $71.49 and the condition is now good.
+Scooby attempted Haphazard tuning on KJPHAGNTOW (mp3player):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on FXYKRTEAFR (cdplayer):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! The price of FXYKRTEAFR (cdplayer) has been reduced to $1.31 and the condition is now poor.
+Scooby attempted Haphazard tuning on SPZUZYJQZQ (cdplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on YYBFVGPXGY (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on FWNDGNJPSE (recordplayer):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on ADRQJFOYWZ (recordplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on UHGGETXLLK (guitar):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! The price of UHGGETXLLK (guitar) has been reduced to $48.26 and the condition is now very good.
+Scooby attempted Haphazard tuning on YOZBEAYDAH (guitar):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on LYYZOEYVZU (bass):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Oh no! Scooby has broken an item! LYYZOEYVZU (bass) is now destroyed and has been removed from inventory.
+Scooby attempted Haphazard tuning on SLJRJCJXFT (recordplayer):
+    ->Tuning status did not change from true.
+Scooby attempted Haphazard tuning on VMMEPHYYLK (saxophone):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on JUHAQTRCMI (flute):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on FIRGAEIFGV (flute):
+    ->Oh no! Tuning went awry - status changed from true to false.
+Scooby attempted Haphazard tuning on ZXQYPHIGYL (flute):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on DKYMLNSZND (mp3player):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on OFRSHITCIA (cassetteplayer):
+    ->Success! Tuning status changed from false to true.
+Scooby attempted Haphazard tuning on HVMGIXBSSY (harmonica):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on PWJPAUTJRM (harmonica):
+    ->Tuning status did not change from false.
+Scooby attempted Haphazard tuning on HFMPMYDBLR (harmonica):
+    ->Tuning status did not change from false.
+Scooby placed an order for BTHIHOCPVT (gigbag) for $34.82.
+Scooby placed an order for FBZAXCGGLT (gigbag) for $35.51.
+Scooby placed an order for PLBIZCBMNV (gigbag) for $15.69.
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+b
+Whoops! Please make sure to select a store first!
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+a
+You have chosen to select a store.
+ Which store would you like?
+
+A - Northside FNMS
+B - Southside FNMS
+
+a
+You have selected the Northside FNMS store
+
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+b
+The clerk's name is Fred
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+a
+You have chosen to select a store.
+ Which store would you like?
+
+A - Northside FNMS
+B - Southside FNMS
+
+b
+You have selected the Southside FNMS store
+
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+b
+The clerk's name is Scooby
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+c
+Scooby checks the time. It is:
+19:09:12
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+d
+You have selected to sell an item to the store.
+You have a new fair condition GVWEPARCJO (paperscore) to sell to Scooby
+Scooby is offering $19.14 for the item. Would you like to sell it?
+Y - yes
+N - No
+n
+Scooby is now offering $21.05 for the item. Would you like to sell it?
+Y - yes
+N - No
+y
+You have sold the item to Scooby after an addition of 10%
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+e
+You have selected to buy an item to the store.
+You want to buy a used good condition YIYRRLPVFN (saxophone)
+Would you like to buy it for $41.66?
+Y - yes
+N - no
+y
+You have bought the item from Scooby
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+f
+You have selected to buy a guitar kit from the store.
+Which bridge would you like?:
+South Bridge A - $20.0
+South Bridge B - $30.0
+South Bridge C - $40.0
+b
+Which knob set would you like?:
+South KnobSet A - $20.0
+South KnobSet B - $30.0
+South KnobSet C - $40.0
+c
+Which covers would you like?:
+South Covers A - $40.0
+South Covers B - $75.0
+South Covers C - $100.0
+b
+Which neck would you like?:
+South Neck A - $100.0
+South Neck B - $150.0
+South Neck C - $200.0
+c
+Which pickguard would you like?:
+South Pickguard A - $20.0
+South Pickguard B - $30.0
+South Pickguard C - $40.0
+a
+Which pickups would you like?:
+South Pickups A - $50.0
+South Pickups B - $100.0
+South Pickups C - $150.0
+b
+Here are the items in your kit:
+South Bridge B - $30.0
+South KnobSet C - $40.0
+South Covers B - $75.0
+South Neck C - $200.0
+South Pickguard A - $20.0
+South Pickups B - $100.0
+    Total price: $465.00
+Scooby sold a new good condition IUEBWWFROG (guitarkit) to the user for $465.00
+Pick a command:
+ A - Select store
+ B - Ask clerk name
+ C - Ask clerk time
+ D - Sell item to store
+ E - Buy item
+ F - Buy custom guitar kit
+ G - End interaction
+g
+Ending interaction
+Fred is cleaning Northside FNMS.
+----- Fred has locked up and closed Northside FNMS for the night -----
+Tracker - Day 21 (Northside FNMS) :
+Shaggy - 14 items sold, 9 items purchased, 30 items damaged
+Velma - 20 items sold, 19 items purchased, 0 items damaged
+Daphne - 13 items sold, 10 items purchased, 10 items damaged
+Fred - 27 items sold, 18 items purchased, 10 items damaged
+Scooby - 22 items sold, 19 items purchased, 25 items damaged
+Scrappy - 3 items sold, 7 items purchased, 0 items damaged
+Scooby is cleaning Southside FNMS.
+----- Scooby has locked up and closed Southside FNMS for the night -----
+Tracker - Day 21 (Southside FNMS) :
+Shaggy - 0 items sold, 0 items purchased, 0 items damaged
+Velma - 17 items sold, 4 items purchased, 1 items damaged
+Daphne - 11 items sold, 8 items purchased, 14 items damaged
+Fred - 5 items sold, 2 items purchased, 8 items damaged
+Scooby - 18 items sold, 15 items purchased, 52 items damaged
+Scrappy - 26 items sold, 40 items purchased, 0 items damaged
+----- SUMMARY (Northside FNMS) -----
+Item LAPWPAPHQF (bass) is in inventory, with value $7.81.
+Item XILXORYJAV (mp3player) is in inventory, with value $19.04.
+Item HIICFRNTSH (saxophone) is in inventory, with value $41.38.
+Item ETJAGXIKJD (saxophone) is in inventory, with value $26.46.
+Item GQQYQCEDGW (bandana) is in inventory, with value $3.04.
+Item HPSCRBAFJM (practiceamp) is in inventory, with value $45.98.
+Item UUXKSVIMUK (mandolin) is in inventory, with value $20.24.
+Item VJZDKQQAIT (cd) is in inventory, with value $32.76.
+Item QSJZMCOHVZ (harmonica) is in inventory, with value $30.20.
+Item UZMKDLMADO (paperscore) is in inventory, with value $14.59.
+Item KGZENJCJFC (cdplayer) is in inventory, with value $11.02.
+Item KNUFPPYFRE (cdplayer) is in inventory, with value $30.23.
+Item UXCHDWVLRQ (cdplayer) is in inventory, with value $9.28.
+Item UFMMUOXJYC (practiceamp) is in inventory, with value $9.45.
+Item UMASNZCLQN (shirt) is in inventory, with value $6.27.
+Item MWEFZIPGVF (gigbag) is in inventory, with value $18.89.
+Item UDTROJYMVQ (gigbag) is in inventory, with value $28.39.
+Item RTJZNAVCOV (flute) is in inventory, with value $2.13.
+Item CIPYHBCDQX (shirt) is in inventory, with value $9.94.
+Item BLQYXOSGDL (cassette) is in inventory, with value $36.01.
+Item PSPLHKNNIF (cassette) is in inventory, with value $30.09.
+Item OIFZKLBEUD (cassette) is in inventory, with value $13.09.
+Item GQDRYRPOVC (cable) is in inventory, with value $10.24.
+Item LXHIVVSWZH (guitar) is in inventory, with value $24.63.
+Item XCZMPVOJKI (guitar) is in inventory, with value $40.83.
+Item JRQUIIBASY (guitar) is in inventory, with value $46.75.
+Item XMRTFLCTRZ (cable) is in inventory, with value $30.89.
+Item BZFJKSNMMR (cable) is in inventory, with value $1.39.
+Item ADXDVPEULM (paperscore) is in inventory, with value $27.91.
+Item OJUVIHZRKO (practiceamp) is in inventory, with value $39.72.
+Item EAFZEJWQBT (cdplayer) is in inventory, with value $20.42.
+Item IDNEWUSBKK (cassetteplayer) is in inventory, with value $25.22.
+Item ERIXMKZKVK (cassetteplayer) is in inventory, with value $9.71.
+Item AKIMSZVTQL (mp3player) is in inventory, with value $30.96.
+Item MWTQXTIWEN (paperscore) is in inventory, with value $25.73.
+Item FDZOLKPIDE (cassette) is in inventory, with value $37.05.
+Item AOFHMAAUYC (strings) is in inventory, with value $6.15.
+Item MYXKHHVDBA (strings) is in inventory, with value $22.00.
+Item GACJUVHTZK (strings) is in inventory, with value $11.90.
+Item XJGPPCPFRL (bandana) was sold on day 1 for $87.28.
+Item CNWEOGLKFG (harmonica) was sold on day 1 for $61.42.
+Item LKPPGSKKBJ (hat) was sold on day 1 for $55.02.
+Item RZNFOUBRSI (gigbag) was sold on day 1 for $75.67.
+Item FJIVCDVIKO (flute) was sold on day 1 for $49.14.
+Item BRKYGNBPUJ (shirt) was sold on day 1 for $23.52.
+Item JOHIISCKNX (cdplayer) was sold on day 1 for $27.31.
+Item JDFFNZJHVE (harmonica) was sold on day 2 for $78.70.
+Item GKBNAUPYRH (gigbag) was sold on day 2 for $94.40.
+Item RWMUMFDXDI (paperscore) was sold on day 2 for $23.16.
+Item VGEAFPFWWK (shirt) was sold on day 2 for $88.45.
+Item MXOKQOOORJ (cassetteplayer) was sold on day 3 for $40.56.
+Item BOZZUYUMCC (flute) was sold on day 3 for $17.34.
+Item TJNNIXDHWL (cd) was sold on day 3 for $72.40.
+Item OOICBQBXHK (cdplayer) was sold on day 3 for $60.08.
+Item AJJKNUGRXS (paperscore) was sold on day 3 for $88.72.
+Item GBEDWALXTR (hat) was sold on day 3 for $43.85.
+Item OXBGAPOFRZ (cassetteplayer) was sold on day 4 for $37.78.
+Item QZKTPJFHXH (cable) was sold on day 4 for $24.43.
+Item YGRQYCMOIH (shirt) was sold on day 4 for $51.86.
+Item HFPKKGPGWU (cassette) was sold on day 4 for $67.32.
+Item NOGVITHAAN (recordplayer) was sold on day 4 for $25.52.
+Item CTIYUYXZYQ (bandana) was sold on day 4 for $49.38.
+Item WIKTKRLHRC (vinyl) was sold on day 4 for $9.10.
+Item EKCNQMXJWU (hat) was sold on day 5 for $38.21.
+Item IQMZJORQLM (saxophone) was sold on day 5 for $21.42.
+Item LZJZWLXGAD (gigbag) was sold on day 5 for $48.55.
+Item QMCTLTLLCS (harmonica) was sold on day 5 for $52.58.
+Item VVOJGZOUCN (cable) was sold on day 5 for $91.88.
+Item OQCKLDABZC (cassetteplayer) was sold on day 6 for $64.92.
+Item NMHIJRNORJ (bass) was sold on day 6 for $23.30.
+Item EMBATTNCUJ (strings) was sold on day 6 for $30.92.
+Item EEQJYLHRBJ (strings) was sold on day 6 for $86.88.
+Item LXWCTOTWGK (strings) was sold on day 6 for $41.34.
+Item OMBNZMYBGX (recordplayer) was sold on day 8 for $66.60.
+Item VZBYTGETPE (harmonica) was sold on day 8 for $82.80.
+Item YAVEDHWPEH (cassette) was sold on day 8 for $9.34.
+Item OGOFMVATDF (mp3player) was sold on day 9 for $17.68.
+Item ORPORXTTAY (cdplayer) was sold on day 9 for $26.95.
+Item GEMZLRIVOF (paperscore) was sold on day 9 for $84.52.
+Item ABICUTXEWU (strings) was sold on day 9 for $50.83.
+Item AXORNMSUOS (cable) was sold on day 9 for $25.60.
+Item UGJFDZPXPB (cdplayer) was sold on day 10 for $80.17.
+Item IYZXRQKZOJ (recordplayer) was sold on day 10 for $70.11.
+Item YPWTDUKZJX (cassetteplayer) was sold on day 10 for $77.92.
+Item ULXKLURDXV (guitar) was sold on day 11 for $68.00.
+Item CAMPSLMKPI (gigbag) was sold on day 11 for $51.24.
+Item DCSSLZHDDG (cable) was sold on day 11 for $43.14.
+Item MVMYLCVAMV (cable) was sold on day 11 for $42.08.
+Item EJUEIQJFIN (strings) was sold on day 11 for $5.84.
+Item KPPZGHZPOT (harmonica) was sold on day 11 for $53.56.
+Item QXQESSDTEO (flute) was sold on day 11 for $89.62.
+Item MOJAIDKZFW (flute) was sold on day 11 for $12.02.
+Item CMNUWKVMGO (strings) was sold on day 12 for $34.70.
+Item IGKVPGKEVX (vinyl) was sold on day 12 for $3.32.
+Item MHLPAWECYI (cassetteplayer) was sold on day 12 for $85.88.
+Item EKDAGDLESE (cd) was sold on day 12 for $50.81.
+Item YQQZZYRBSA (paperscore) was sold on day 12 for $97.42.
+Item VPTNVJQLHT (mandolin) was sold on day 12 for $66.20.
+Item JHLWBEGRUU (practiceamp) was sold on day 12 for $25.50.
+Item EAFMAAVLDT (strings) was sold on day 12 for $53.82.
+Item JUGHRLVUAV (gigbag) was sold on day 13 for $29.26.
+Item YNHGONRWEW (bass) was sold on day 13 for $67.44.
+Item XAJEYLOQPY (gigbag) was sold on day 13 for $25.18.
+Item MKAROPKEFR (bass) was sold on day 13 for $51.86.
+Item MIHQTXWSOK (mandolin) was sold on day 13 for $20.72.
+Item VVMMQUPUET (gigbag) was sold on day 13 for $12.54.
+Item SRGTTJZWLZ (mp3player) was sold on day 13 for $90.54.
+Item ABDEKDXHSH (practiceamp) was sold on day 13 for $56.56.
+Item GPVBIXHIRS (cassetteplayer) was sold on day 15 for $86.74.
+Item ICVRKUAJOU (cassette) was sold on day 15 for $13.60.
+Item BYNKAWHBDY (guitar) was sold on day 15 for $42.50.
+Item QNNQKFMCIK (cable) was sold on day 15 for $31.90.
+Item AIKZMTMUMH (cable) was sold on day 15 for $44.56.
+Item KIDZTOVZKB (guitar) was sold on day 16 for $38.14.
+Item XBOABOIQRK (practiceamp) was sold on day 16 for $95.94.
+Item QDHRCOIDDP (mandolin) was sold on day 16 for $5.44.
+Item ICRQQEKCYJ (strings) was sold on day 16 for $79.12.
+Item CHGQPQSLJX (strings) was sold on day 16 for $50.36.
+Item MXZJVNPMGC (guitar) was sold on day 16 for $61.26.
+Item XLOTNVODYJ (gigbag) was sold on day 16 for $70.82.
+Item RZKGCJQUSV (cable) was sold on day 16 for $86.84.
+Item ZIGBVQDNQO (flute) was sold on day 16 for $50.06.
+Item QENZRUSRSS (mandolin) was sold on day 17 for $30.56.
+Item OZIFETUBBZ (cassetteplayer) was sold on day 17 for $96.44.
+Item SGUSDTARWA (hat) was sold on day 17 for $69.86.
+Item FLAKIHPNZS (cd) was sold on day 18 for $19.86.
+Item MAKQGVAYYR (harmonica) was sold on day 18 for $85.44.
+Item GOVEUSOPZV (vinyl) was sold on day 19 for $10.92.
+Item VXJPUOPGIA (cable) was sold on day 19 for $88.32.
+Item ANNMBOQGIJ (saxophone) was sold on day 19 for $36.41.
+Item JQGVGPKRDJ (bass) was sold on day 19 for $37.19.
+Item HMVIANFTZX (strings) was sold on day 19 for $42.14.
+Item DRSVUYSZRV (cassetteplayer) was sold on day 20 for $14.00.
+Item RULEYELQJO (recordplayer) was sold on day 20 for $71.77.
+Item TMMRSLVJLS (mp3player) was sold on day 20 for $6.88.
+Item RZPLQRLUMC (paperscore) was sold on day 20 for $6.16.
+Item WNCPWJRSSL (flute) was sold on day 20 for $12.60.
+Item HSTXKTOCOO (vinyl) was sold on day 20 for $47.16.
+99 items were sold for a total of $4915.17.
+The register was left with $3961.60.
+$1000.00 total was added to the register from the bank.
+----- SUMMARY (Southside FNMS) -----
+Item JFYDTGZAHX (paperscore) is in inventory, with value $48.64.
+Item UZGNSAIHBO (cd) is in inventory, with value $12.34.
+Item WMUMVCPHYF (vinyl) is in inventory, with value $14.04.
+Item JYCXWPLJKO (cassetteplayer) is in inventory, with value $21.33.
+Item BYUYHFCRJH (hat) is in inventory, with value $36.45.
+Item YNMHTROIJT (practiceamp) is in inventory, with value $33.49.
+Item MNQOMBDBES (paperscore) is in inventory, with value $13.98.
+Item OPDIZPHMFY (vinyl) is in inventory, with value $13.12.
+Item MCXAXHJZWW (cassette) is in inventory, with value $27.46.
+Item PCWLFXFVMK (cassetteplayer) is in inventory, with value $25.87.
+Item ZFGHNNOCLE (mandolin) is in inventory, with value $41.81.
+Item FILJXWXSAP (paperscore) is in inventory, with value $13.12.
+Item OOZNOFYFCE (vinyl) is in inventory, with value $1.72.
+Item FYMDEMJGDN (cassette) is in inventory, with value $2.91.
+Item BEMWJVOXCJ (cassetteplayer) is in inventory, with value $24.07.
+Item KKGAHXARNQ (mandolin) is in inventory, with value $18.11.
+Item WMOKOWNPTL (hat) is in inventory, with value $19.88.
+Item CCKDQBTOZW (vinyl) is in inventory, with value $28.25.
+Item UIMBUINJYU (vinyl) is in inventory, with value $35.92.
+Item NIJBCKWSZV (bass) is in inventory, with value $26.18.
+Item IIMCSIBLMO (cd) is in inventory, with value $27.40.
+Item GAXPSXFXEL (cassetteplayer) is in inventory, with value $23.90.
+Item PFDDAMAQPR (mp3player) is in inventory, with value $44.68.
+Item KJPHAGNTOW (mp3player) is in inventory, with value $20.69.
+Item RZDTYPJWGO (hat) is in inventory, with value $37.90.
+Item BZDVOPPWEP (vinyl) is in inventory, with value $15.84.
+Item AJTBSCQUIZ (cable) is in inventory, with value $24.34.
+Item FXYKRTEAFR (cdplayer) is in inventory, with value $1.02.
+Item SPZUZYJQZQ (cdplayer) is in inventory, with value $22.78.
+Item ELIZXSXNFQ (hat) is in inventory, with value $28.74.
+Item QGXJAJFLQQ (strings) is in inventory, with value $11.77.
+Item YYBFVGPXGY (recordplayer) is in inventory, with value $9.09.
+Item FWNDGNJPSE (recordplayer) is in inventory, with value $25.33.
+Item ADRQJFOYWZ (recordplayer) is in inventory, with value $11.42.
+Item UHGGETXLLK (guitar) is in inventory, with value $30.16.
+Item YOZBEAYDAH (guitar) is in inventory, with value $41.53.
+Item SLJRJCJXFT (recordplayer) is in inventory, with value $28.33.
+Item VMMEPHYYLK (saxophone) is in inventory, with value $32.19.
+Item JUHAQTRCMI (flute) is in inventory, with value $32.29.
+Item FIRGAEIFGV (flute) is in inventory, with value $23.62.
+Item ZXQYPHIGYL (flute) is in inventory, with value $19.28.
+Item GWNDLQOGNJ (bandana) is in inventory, with value $13.14.
+Item DKYMLNSZND (mp3player) is in inventory, with value $21.22.
+Item WAYFPWIWWA (paperscore) is in inventory, with value $1.32.
+Item VRJLGZWITZ (paperscore) is in inventory, with value $15.14.
+Item OFRSHITCIA (cassetteplayer) is in inventory, with value $35.11.
+Item HVMGIXBSSY (harmonica) is in inventory, with value $4.96.
+Item PWJPAUTJRM (harmonica) is in inventory, with value $27.15.
+Item HFMPMYDBLR (harmonica) is in inventory, with value $15.18.
+Item GVWEPARCJO (paperscore) is in inventory, with value $21.05.
+Item SNHECKPNAE (bandana) was sold on day 1 for $28.78.
+Item OIUYGJFOEX (cable) was sold on day 1 for $28.62.
+Item QLMSIQWUUO (mp3player) was sold on day 2 for $26.22.
+Item QKYRUZPXNF (gigbag) was sold on day 2 for $28.62.
+Item JSXTQJRFDC (strings) was sold on day 2 for $71.24.
+Item EAFLCTULPO (practiceamp) was sold on day 2 for $48.12.
+Item HMKQGSLAQG (saxophone) was sold on day 2 for $53.72.
+Item IIZTUPNLWX (recordplayer) was sold on day 3 for $51.50.
+Item PUJLQCDDWU (cassette) was sold on day 3 for $7.06.
+Item NTVDEWOPKC (bandana) was sold on day 3 for $42.26.
+Item TUOBNNCLJU (recordplayer) was sold on day 3 for $19.24.
+Item IWZZFFGUWP (cassette) was sold on day 4 for $35.10.
+Item ZJICKSTJTR (mp3player) was sold on day 4 for $61.61.
+Item ITYWQDTSBY (strings) was sold on day 4 for $13.02.
+Item INZSOTNIJQ (bass) was sold on day 4 for $13.81.
+Item NPYVEUFGSO (strings) was sold on day 4 for $87.02.
+Item MLHEFNARAQ (bass) was sold on day 5 for $46.86.
+Item BLWEEWIGOS (cdplayer) was sold on day 5 for $86.00.
+Item QMADZQHGNS (guitar) was sold on day 5 for $48.56.
+Item QCVLXULZBX (harmonica) was sold on day 5 for $91.76.
+Item GLMFVJWRJH (hat) was sold on day 5 for $57.51.
+Item VKOWCOJNBB (cable) was sold on day 6 for $19.40.
+Item EZNSDRRTXQ (cdplayer) was sold on day 6 for $6.98.
+Item HYEUSBIGYV (cable) was sold on day 6 for $92.02.
+Item MZDRHYKKYT (cd) was sold on day 8 for $90.08.
+Item CFSWYEYCOM (mp3player) was sold on day 8 for $24.76.
+Item FAZDGZWOZA (shirt) was sold on day 9 for $79.85.
+Item WDFCGCXSHJ (gigbag) was sold on day 9 for $94.08.
+Item KVWWOUXCSN (strings) was sold on day 9 for $26.22.
+Item UUAOIUYORB (saxophone) was sold on day 10 for $76.50.
+Item WKIXUOQMMM (bandana) was sold on day 10 for $81.81.
+Item YDVWJFGAKF (guitar) was sold on day 10 for $53.80.
+Item VVGWIKYGZG (cable) was sold on day 10 for $86.46.
+Item VXQJJUTAVG (strings) was sold on day 10 for $90.86.
+Item HPTWELFERU (saxophone) was sold on day 10 for $23.17.
+Item FWEGEMNGAJ (saxophone) was sold on day 10 for $36.34.
+Item ZOOKGQSPEJ (mp3player) was sold on day 11 for $48.52.
+Item XKFMZSNNXE (harmonica) was sold on day 11 for $28.16.
+Item OFZCUGZJMD (harmonica) was sold on day 12 for $14.86.
+Item MKTCNWMXND (paperscore) was sold on day 12 for $11.92.
+Item ATRGNJXVWD (cd) was sold on day 13 for $8.33.
+Item WMMGBOUPSY (shirt) was sold on day 13 for $6.62.
+Item UOGKYWYTKW (cdplayer) was sold on day 13 for $66.42.
+Item ZBGVDEABYR (harmonica) was sold on day 13 for $43.94.
+Item BVJHNBLBCD (flute) was sold on day 13 for $53.78.
+Item RWOCCDXSWV (flute) was sold on day 13 for $88.80.
+Item QMJVZDKBAI (shirt) was sold on day 15 for $19.57.
+Item VQDLVGCCFX (recordplayer) was sold on day 15 for $34.97.
+Item OCKLLLNJXZ (bass) was sold on day 15 for $31.78.
+Item VZFOGLSFDS (strings) was sold on day 15 for $76.72.
+Item DPIMOPMQLQ (strings) was sold on day 15 for $38.02.
+Item KAYNHWHTSY (strings) was sold on day 15 for $32.04.
+Item VXQKDGGBAW (guitar) was sold on day 15 for $74.60.
+Item OPFPZLCVPO (gigbag) was sold on day 15 for $14.06.
+Item VVDQACJVBY (cable) was sold on day 15 for $64.06.
+Item JGQYOIKLMI (cable) was sold on day 15 for $5.16.
+Item NLEBCWYNVN (strings) was sold on day 15 for $53.56.
+Item SXTOMCURKP (mp3player) was sold on day 16 for $14.84.
+Item FEWTXENUQH (strings) was sold on day 17 for $56.42.
+Item SDMDKTAENX (flute) was sold on day 17 for $13.18.
+Item HPULCDVBTI (shirt) was sold on day 17 for $94.64.
+Item SNCMOYCTBL (strings) was sold on day 17 for $18.72.
+Item LLEMQNUWCL (mandolin) was sold on day 17 for $48.29.
+Item MNXQPCWWSN (guitar) was sold on day 17 for $89.75.
+Item ESAFINWXLG (hat) was sold on day 18 for $46.06.
+Item ANNZDXVLKY (bandana) was sold on day 18 for $83.34.
+Item SEEMTRZTQS (paperscore) was sold on day 19 for $27.13.
+Item HCYNZFZVSS (vinyl) was sold on day 19 for $87.38.
+Item UEDZGBETZY (gigbag) was sold on day 19 for $37.02.
+Item LXURQLSCFP (cdplayer) was sold on day 19 for $71.96.
+Item FGIVPCTBFB (cassette) was sold on day 19 for $71.02.
+Item URYNXNGEWN (saxophone) was sold on day 20 for $26.62.
+Item XSUTLBMYKP (saxophone) was sold on day 20 for $55.68.
+Item EAMVZVQQZO (recordplayer) was sold on day 20 for $12.24.
+Item PYIGTAJXTO (mandolin) was sold on day 20 for $60.12.
+Item EYPUGDZGMA (gigbag) was sold on day 20 for $82.94.
+Item XGVQUNTOXT (practiceamp) was sold on day 20 for $73.60.
+Item YIYRRLPVFN (saxophone) was sold on day 1 for $41.66.
+Item IUEBWWFROG (guitarkit) was sold on day 21 for $465.00.
+79 items were sold for a total of $4222.46.
+The register was left with $3603.61.
+$1000.00 total was added to the register from the bank.
+----- END OF SIMULATION -----

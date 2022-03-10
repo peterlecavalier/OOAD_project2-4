@@ -99,7 +99,6 @@ public class Store {
             Scanner scanner = new Scanner(System.in);
             inputStr = scanner.nextLine();
             inputStr = inputStr.toUpperCase();
-            System.out.printf("(%s)", inputStr);
 
             // Make sure the input is valid
             if (inputStr.equals("A") || inputStr.equals("B") || inputStr.equals("C")){

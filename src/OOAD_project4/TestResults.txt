@@ -1,0 +1,60 @@
+testSelectStoreA is starting
+testSelectStoreA succeeded!
+testSelectStoreA finished
+
+testSelectStoreB is starting
+testSelectStoreB succeeded!
+testSelectStoreB finished
+
+testCheckClothingFalse is starting
+testCheckClothingFalse succeeded!
+testCheckClothingFalse finished
+
+testAskTime is starting
+testAskTime succeeded!
+testAskTime finished
+
+testNorthBridge is starting
+testNorthBridge succeeded!
+testNorthBridge finished
+
+testLeaveStore is starting
+testLeaveStore succeeded!
+testLeaveStore finished
+
+testSelectStoreInvalidInput is starting
+testSelectStoreInvalidInput succeeded!
+testSelectStoreInvalidInput finished
+
+testBuyItem is starting
+testBuyItem succeeded!
+testBuyItem finished
+
+testGenNewItem is starting
+testGenNewItem succeeded!
+testGenNewItem finished
+
+testWattLenGen is starting
+testWattLenGen succeeded!
+testWattLenGen finished
+
+testClerkGetName is starting
+testClerkGetName succeeded!
+testClerkGetName finished
+
+testGenCondition is starting
+testGenCondition succeeded!
+testGenCondition finished
+
+testAskClerkName is starting
+testAskClerkName succeeded!
+testAskClerkName finished
+
+testObserverArrival is starting
+testObserverArrival succeeded!
+testObserverArrival finished
+
+testSouthBridge is starting
+testSouthBridge succeeded!
+testSouthBridge finished
+
