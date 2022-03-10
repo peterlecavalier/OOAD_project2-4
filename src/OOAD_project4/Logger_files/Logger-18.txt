@@ -1,0 +1,44 @@
+ ---------------------- ArriveAtStore: Velma has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 6 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Velma counted $3910.27 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 40 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Velma did inventory. The total value is $908.64 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Velma did inventory. There are 0 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Velma placed an order for 3 items at Northside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Velma sold 2 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Velma bought 3 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Velma cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Velma has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Daphne has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 0 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Daphne counted $2727.86 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 52 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Daphne did inventory. The total value is $1212.57 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Daphne did inventory. There are 5 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- PlaceAnOrder: Daphne placed an order for 3 items at Southside FNMS. ---------------------- 
+
+ ---------------------- OpenTheStore: Daphne sold 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Daphne bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Daphne cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Daphne has left Southside FNMS. ----------------------  
+

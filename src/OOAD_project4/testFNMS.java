@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Rule;
 
-import java.beans.Transient;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -54,7 +54,8 @@ public class testFNMS{
         stores.add(southStore);
     }
 
-    
+    @Rule
+    public LogTestResults logResults = new LogTestResults();
 
     @Before
     public void setUp() {

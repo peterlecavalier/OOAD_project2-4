@@ -1,0 +1,40 @@
+ ---------------------- ArriveAtStore: Shaggy has arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Northside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Shaggy counted $3884.81 in the register at Northside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 44 items at Northside FNMS. ----------------------
+
+ ---------------------- DoInventory: Shaggy did inventory. The total value is $986.75 at Northside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Shaggy did inventory. There are 9 items broken from tuning at Northside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Shaggy sold 5 items at Northside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Shaggy bought 1 items at Northside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Shaggy cleaned Northside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Shaggy has left Northside FNMS. ----------------------  
+
+ ---------------------- ArriveAtStore: Scooby has arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- ArriveAtStore: 3 items have arrived at Southside FNMS! ---------------------- 
+
+ ---------------------- CheckRegister: Scooby counted $2710.48 in the register at Southside FNMS. ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 55 items at Southside FNMS. ----------------------
+
+ ---------------------- DoInventory: Scooby did inventory. The total value is $1313.95 at Southside FNMS ---------------------- 
+
+ ---------------------- DoInventory: Scooby did inventory. There are 12 items broken from tuning at Southside FNMS.----------------------  
+
+ ---------------------- OpenTheStore: Scooby sold 5 items at Southside FNMS. ----------------------  
+
+ ---------------------- OpenTheStore: Scooby bought 2 items at Southside FNMS. ----------------------  
+
+ ---------------------- CleanTheStore: Scooby cleaned Southside FNMS and damaged 0 items. ----------------------  
+
+ ---------------------- LeaveTheStore: Scooby has left Southside FNMS. ----------------------  
+
