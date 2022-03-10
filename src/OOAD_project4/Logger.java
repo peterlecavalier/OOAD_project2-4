@@ -29,7 +29,7 @@ public class Logger extends Observer{
         File log = new File("Logger-" + this.dayNum + ".txt");
         try{
             if(log.exists() == false){
-                System.out.println("Creating new file");
+                //System.out.println("Creating new file");
                 log.createNewFile();
             }
             PrintWriter writer = new PrintWriter(new FileWriter(log, true)); //create file called Logger-n.txt
