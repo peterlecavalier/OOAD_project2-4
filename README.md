@@ -85,3 +85,6 @@ The `home.hbs` file acts as the body of `index.html`.
 Postgresql will be used as the database. The cu class api will be used for getting class information. The backend server will use nodejs and be hosted on heroku. The frontend will be written in html, javascript, and css.
 
 ![Architecture Diagram](./assets/architecture.png)
+"# the-planeteers" 
+"# the-planeteers" 
+"# lizzzshan" 
